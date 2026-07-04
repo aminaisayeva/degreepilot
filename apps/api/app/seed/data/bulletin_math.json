@@ -1,6 +1,6 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
-  "scraped_at": "2026-07-04T14:14:07Z",
+  "scraped_at": "2026-07-04T14:20:49Z",
   "courses": [
     {
       "code": "MATH UN1003",
@@ -30,13 +30,13 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
     },
     {
       "code": "MATH BC1110",
       "subject": "MATH",
       "number": "BC1110",
-      "title": " Discrete Probability",
+      "title": "Discrete Probability",
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "This introductory-level course teaches students the basic concepts of probability and statistics, and the logic of probabilistic reasoning. The course is designed for students with no prior knowledge in probability or statistics, its only prerequisite is basic algebra. We will discuss axioms of probability, random variables, useful distributions, law of large numbers and central limit theorem, confidence intervals, discrete-time Markov chains, Brownian motion, introduction to inference and hypothesis testing",
@@ -46,10 +46,10 @@
       "code": "MATH BC1113",
       "subject": "MATH",
       "number": "BC1113",
-      "title": " Discrete Probability-DISC",
+      "title": "Discrete Probability-DISC",
       "points_min": 0.0,
       "points_max": 0.0,
-      "description": "Required discussion section for MATH BC1110",
+      "description": "Required discussion section for MATH BC1110",
       "prereq_text": ""
     },
     {
@@ -60,7 +60,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
     },
     {
       "code": "MATH UN1202",
@@ -70,7 +70,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102 , MATH V1201 , or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102 , MATH V1201 , or the equivalent."
     },
     {
       "code": "MATH UN1205",
@@ -80,7 +80,7 @@
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 )"
+      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 )"
     },
     {
       "code": "MATH UN1207",
@@ -109,7 +109,7 @@
       "title": "Accelerated Multivariable CALC-REC",
       "points_min": 0.0,
       "points_max": 0.0,
-      "description": "Recitation section for MATH UN1205 - Accelerated Multivariable Calculus. Students must register for both UN1205 and UN1215",
+      "description": "Recitation section for MATH UN1205 - Accelerated Multivariable Calculus. Students must register for both UN1205 and UN1215",
       "prereq_text": ""
     },
     {
@@ -119,7 +119,7 @@
       "title": "Honors Mathematics A-REC",
       "points_min": 0.0,
       "points_max": 0.0,
-      "description": "Recitation section for MATH UN1207 Honors Math A. Students must register for both UN1207 and UN1217",
+      "description": "Recitation section for MATH UN1207 Honors Math A. Students must register for both UN1207 and UN1217",
       "prereq_text": ""
     },
     {
@@ -129,7 +129,7 @@
       "title": "Honors Mathematics B-REC",
       "points_min": 0.0,
       "points_max": 0.0,
-      "description": "Recitation section for MATH UN1208 Honors Math B. Students must register for both UN1208 and UN1218",
+      "description": "Recitation section for MATH UN1208 Honors Math B. Students must register for both UN1208 and UN1218",
       "prereq_text": ""
     },
     {
@@ -186,10 +186,10 @@
       "code": "MATH UN2015",
       "subject": "MATH",
       "number": "UN2015",
-      "title": " Linear Algebra and Probability",
+      "title": "Linear Algebra and Probability",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "Linear algebra with a focus on probability and statistics. The course covers the standard linear algebra topics: systems of linear equations, matrices, determinants, vector spaces, bases, dimension, eigenvalues and eigenvectors, the Spectral Theorem and singular value decompositions. It also teaches applications of linear algebra to probability, statistics and dynamical systems giving a background sufficient for higher level courses in probability and statistics. The topics covered in the probability theory part include conditional probability, discrete and continuous random variables, probability distributions and the limit theorems, as well as Markov chains, curve fitting, regression, and pattern analysis. The course contains applications to life sciences, chemistry, and environmental life sciences. No a priori background in the life sciences is assumed. This course is best suited for students who wish to focus on applications and practical approaches to problem solving. It is recommended to students majoring in engineering, technology, life sciences, social sciences, and economics. Math majors, joint majors, and math concentrators must take MATH UN2010 Linear Algebra or MATH UN1207 Honors Math A, which focus on linear algebra concepts and foundations that are needed for upper-level math courses. MATH UN2015 (Linear Algebra and Probability) does NOT replace MATH UN2010 (Linear Algebra) as prerequisite requirements of math courses. Students may not receive full credit for both courses MATH UN2010 and MATH UN2015 . Students who have taken MATH UN2015 and consider taking higher level Math courses should contact a major advisor to discuss alternative pathways",
+      "description": "Linear algebra with a focus on probability and statistics. The course covers the standard linear algebra topics: systems of linear equations, matrices, determinants, vector spaces, bases, dimension, eigenvalues and eigenvectors, the Spectral Theorem and singular value decompositions. It also teaches applications of linear algebra to probability, statistics and dynamical systems giving a background sufficient for higher level courses in probability and statistics. The topics covered in the probability theory part include conditional probability, discrete and continuous random variables, probability distributions and the limit theorems, as well as Markov chains, curve fitting, regression, and pattern analysis. The course contains applications to life sciences, chemistry, and environmental life sciences. No a priori background in the life sciences is assumed. This course is best suited for students who wish to focus on applications and practical approaches to problem solving. It is recommended to students majoring in engineering, technology, life sciences, social sciences, and economics. Math majors, joint majors, and math concentrators must take MATH UN2010 Linear Algebra or MATH UN1207 Honors Math A, which focus on linear algebra concepts and foundations that are needed for upper-level math courses. MATH UN2015 (Linear Algebra and Probability) does NOT replace MATH UN2010 (Linear Algebra) as prerequisite requirements of math courses. Students may not receive full credit for both courses MATH UN2010 and MATH UN2015 . Students who have taken MATH UN2015 and consider taking higher level Math courses should contact a major advisor to discuss alternative pathways",
       "prereq_text": ""
     },
     {
@@ -200,7 +200,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent."
     },
     {
       "code": "MATH UN2500",
@@ -210,7 +210,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent and MATH V2010 ."
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent and MATH V2010 ."
     },
     {
       "code": "MATH UN3007",
@@ -220,7 +220,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 . An elementary course in functions of a complex variable."
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 . An elementary course in functions of a complex variable."
     },
     {
       "code": "MATH UN3020",
@@ -240,7 +240,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH V1101, MATH V1102, MATH V1201 and MATH V2010 ."
+      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH V1101, MATH V1102, MATH V1201 and MATH V2010 ."
     },
     {
       "code": "MATH UN3028",
@@ -250,7 +250,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN3027 and MATH UN2010 MATH V3027 and MATH V2010 or the equivalent"
+      "prereq_text": "Prerequisites: MATH UN3027 and MATH UN2010 MATH V3027 and MATH V2010 or the equivalent"
     },
     {
       "code": "MATH UN3050",
@@ -260,7 +260,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH UN1102 and MATH UN1201 ) or ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH UN2010 MATH V1102, MATH V1201 (or MATH V1101, MATH V1102, MATH V1201 ), MATH V2010 . Recommended: MATH V3027 (or MATH V2030 ) and SIEO W3600 ."
+      "prereq_text": "Prerequisites: ( MATH UN1102 and MATH UN1201 ) or ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH UN2010 MATH V1102, MATH V1201 (or MATH V1101, MATH V1102, MATH V1201 ), MATH V2010 . Recommended: MATH V3027 (or MATH V2030 ) and SIEO W3600 ."
     },
     {
       "code": "MATH UN3386",
@@ -270,7 +270,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Local and global differential geometry of submanifolds of Euclidiean 3-space. Frenet formulas for curves. Various types of curvatures for curves and surfaces and their relations. The Gauss-Bonnet theorem.",
-      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent."
     },
     {
       "code": "MATH UN3902",
@@ -309,7 +309,7 @@
       "title": "Senior Thesis In Mathematics I",
       "points_min": 4.0,
       "points_max": 4.0,
-      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
+      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
       "prereq_text": ""
     },
     {
@@ -319,7 +319,7 @@
       "title": "Senior Thesis In Mathematics II",
       "points_min": 2.0,
       "points_max": 2.0,
-      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
+      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
       "prereq_text": ""
     },
     {
@@ -330,7 +330,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN3007 MATH V3007 ."
+      "prereq_text": "Prerequisites: MATH UN3007 MATH V3007 ."
     },
     {
       "code": "MATH GU4032",
@@ -350,7 +350,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
     },
     {
       "code": "MATH GU4042",
@@ -360,7 +360,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
     },
     {
       "code": "MATH GU4043",
@@ -370,7 +370,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH GU4041 and MATH GU4042 MATH W4041-MATH W4042 or the equivalent."
+      "prereq_text": "Prerequisites: MATH GU4041 and MATH GU4042 MATH W4041-MATH W4042 or the equivalent."
     },
     {
       "code": "MATH GU4044",
@@ -380,7 +380,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 MATH V2010 and MATH W4041 or the equivalent."
+      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 MATH V2010 and MATH W4041 or the equivalent."
     },
     {
       "code": "MATH GU4045",
@@ -390,7 +390,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH GU4041 and MATH GU4042 ) and MATH UN3007 MATH W4041 , MATH W4042 and MATH V3007 ."
+      "prereq_text": "Prerequisites: ( MATH GU4041 and MATH GU4042 ) and MATH UN3007 MATH W4041 , MATH W4042 and MATH V3007 ."
     },
     {
       "code": "MATH GU4051",
@@ -400,7 +400,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH UN1202 and MATH UN2010 ) and MATH V1202, MATH V2010, and rudiments of group theory (e.g., MATH W4041 ). MATH V1208 or MATH W4061 is recommended, but not required."
+      "prereq_text": "Prerequisites: ( MATH UN1202 and MATH UN2010 ) and MATH V1202, MATH V2010, and rudiments of group theory (e.g., MATH W4041 ). MATH V1208 or MATH W4061 is recommended, but not required."
     },
     {
       "code": "MATH GU4052",
@@ -420,7 +420,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 and MATH GU4051 MATH V2010 , MATH W4041 , MATH W4051 ."
+      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 and MATH GU4051 MATH V2010 , MATH W4041 , MATH W4051 ."
     },
     {
       "code": "MATH GU4061",
@@ -430,7 +430,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
     },
     {
       "code": "MATH GU4062",
@@ -440,7 +440,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
     },
     {
       "code": "MATH GU4065",
@@ -450,7 +450,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH UN1207 and MATH UN1208 ) or MATH GU4061 MATH V1207 and MATH V1208 or MATH W4061 ."
+      "prereq_text": "Prerequisites: ( MATH UN1207 and MATH UN1208 ) or MATH GU4061 MATH V1207 and MATH V1208 or MATH W4061 ."
     },
     {
       "code": "MATH GU4081",
@@ -460,7 +460,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( MATH GU4051 or MATH GU4061 ) and MATH UN2010 MATH W4051 or MATH W4061 and MATH V2010 ."
+      "prereq_text": "Prerequisites: ( MATH GU4051 or MATH GU4061 ) and MATH UN2010 MATH W4051 or MATH W4061 and MATH V2010 ."
     },
     {
       "code": "MATH GU4155",
@@ -470,7 +470,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: MATH GU4061 or MATH UN3007 MATH W4061 or MATH V3007 ."
+      "prereq_text": "Prerequisites: MATH GU4061 or MATH UN3007 MATH W4061 or MATH V3007 ."
     },
     {
       "code": "MATH GU4156",
@@ -516,267 +516,490 @@
   "courselists": [
     {
       "header": "",
+      "section": "Guidance for First-Year Students",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN1202": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA",
+        "MATH UN1207": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "",
+      "section": "Major in Mathematics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208",
-        "MATH GU4041",
-        "MATH GU4042",
-        "MATH GU4061",
-        "MATH GU4062",
-        "MATH UN3951"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208",
+        "MATH GU4041",
+        "MATH GU4042",
+        "MATH GU4061",
+        "MATH GU4062",
+        "MATH UN3951"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1202": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA 1",
+        "MATH UN1207": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH GU4041": "INTRO MODERN ALGEBRA I",
+        "MATH GU4042": "INTRO MODERN ALGEBRA II",
+        "MATH GU4061": "INTRO MODERN ANALYSIS I 2",
+        "MATH GU4062": "INTRO MODERN ANALYSIS II 2",
+        "MATH UN3951": "UNDERGRADUATE SEMINARS I 3"
+      }
     },
     {
       "header": "",
+      "section": "Major in Applied Mathematics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208",
-        "MATH UN2500",
-        "MATH GU4032",
-        "MATH GU4061",
-        "APMA E4901",
-        "APMA E4903"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208",
+        "MATH UN2500",
+        "MATH GU4032",
+        "MATH GU4061",
+        "APMA E4901",
+        "APMA E4903"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1202": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA 1",
+        "MATH UN1207": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN2500": "ANALYSIS AND OPTIMIZATION",
+        "MATH GU4032": "FOURIER ANALYSIS",
+        "MATH GU4061": "INTRO MODERN ANALYSIS I",
+        "APMA E4901": "SEM-PROBLEMS IN APPLIED MATH (junior year)",
+        "APMA E4903": "SEM-PROBLEMS IN APPLIED MATH (senior year)"
+      }
     },
     {
       "header": "TRACK A",
+      "section": "Major in Applied Mathematics",
       "codes": [
-        "MATH UN2500",
-        "MATH UN2030",
-        "MATH UN3007",
-        "MATH UN3028",
-        "MATH GU4032",
-        "MATH GU4061",
-        "MATH GU4062",
-        "APMA E4100",
-        "APMA E4101",
-        "APMA E4150",
-        "APMA E4300",
-        "APMA E4301",
-        "APMA E6301",
-        "APMA E6302"
-      ]
+        "MATH UN2500",
+        "MATH UN2030",
+        "MATH UN3007",
+        "MATH UN3028",
+        "MATH GU4032",
+        "MATH GU4061",
+        "MATH GU4062",
+        "APMA E4100",
+        "APMA E4101",
+        "APMA E4150",
+        "APMA E4300",
+        "APMA E4301",
+        "APMA E6301",
+        "APMA E6302"
+      ],
+      "titles": {
+        "MATH UN2500": "ANALYSIS AND OPTIMIZATION",
+        "MATH UN2030": "ORDINARY DIFFERENTIAL EQUATIONS",
+        "MATH UN3007": "COMPLEX VARIABLES",
+        "MATH UN3028": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "MATH GU4032": "FOURIER ANALYSIS",
+        "MATH GU4061": "INTRO MODERN ANALYSIS I",
+        "MATH GU4062": "INTRO MODERN ANALYSIS II",
+        "APMA E4100": "Applied Analysis",
+        "APMA E4101": "APPL MATH III:DYNAMICAL SYSTMS",
+        "APMA E4150": "APPLIED FUNCTIONAL ANALYSIS",
+        "APMA E4300": "COMPUT MATH:INTRO-NUMERCL METH",
+        "APMA E4301": "NUMERICAL METHODS/PDE'S",
+        "APMA E6301": "ANALYTIC METHODS FOR PDE'S",
+        "APMA E6302": "NUMERICAL ANALYSIS OF PDE'S"
+      }
     },
     {
       "header": "TRACK B",
+      "section": "Major in Applied Mathematics",
       "codes": [
-        "COMS W3203",
-        "COMS W3261",
-        "COMS W4231",
-        "COMS W4261",
-        "MATH UN3050",
-        "MATH GU4155",
-        "MATH GU4156",
-        "IEOR E3106",
-        "APMA E4008",
-        "APMA E4306",
-        "ECON GU4415"
-      ]
+        "COMS W3203",
+        "COMS W3261",
+        "COMS W4231",
+        "COMS W4261",
+        "MATH UN3050",
+        "MATH GU4155",
+        "MATH GU4156",
+        "IEOR E3106",
+        "APMA E4008",
+        "APMA E4306",
+        "ECON GU4415"
+      ],
+      "titles": {
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "COMS W4231": "ANALYSIS OF ALGORITHMS I",
+        "COMS W4261": "INTRO TO CRYPTOGRAPHY",
+        "MATH UN3050": "DISCRETE TIME MODELS IN FINANC",
+        "MATH GU4155": "PROBABILITY THEORY",
+        "MATH GU4156": "ADVANCED PROBABILITY THEORY",
+        "IEOR E3106": "STOCHASTIC SYSTEMS AND APPLICATIONS",
+        "APMA E4008": "Advanced and Applied Linear Algebra",
+        "APMA E4306": "Applied Stochastic Analysis",
+        "ECON GU4415": "GAME THEORY"
+      }
     },
     {
       "header": "Computer Science",
+      "section": "Major in Computer Science–Mathematics",
       "codes": [
-        "COMS W1004",
-        "COMS W3134",
-        "COMS W3157",
-        "COMS W3203",
-        "COMS W3261",
-        "CSEE W3827"
-      ]
+        "COMS W1004",
+        "COMS W3134",
+        "COMS W3157",
+        "COMS W3203",
+        "COMS W3261",
+        "CSEE W3827"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W3134": "Data Structures in Java",
+        "COMS W3157": "ADVANCED PROGRAMMING",
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "CSEE W3827": "FUNDAMENTALS OF COMPUTER SYSTS"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Major in Computer Science–Mathematics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1202": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA 1",
+        "MATH UN1207": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "CALCULUS I and CALCULUS II and HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "Undergraduate seminar requirement",
+      "section": "Major in Computer Science–Mathematics",
       "codes": [
-        "MATH UN3951"
-      ]
+        "MATH UN3951"
+      ],
+      "titles": {
+        "MATH UN3951": "UNDERGRADUATE SEMINARS I"
+      }
     },
     {
       "header": "Algebra Requirement",
+      "section": "Major in Computer Science–Mathematics",
       "codes": [
-        "MATH GU4041"
-      ]
+        "MATH GU4041"
+      ],
+      "titles": {
+        "MATH GU4041": "INTRO MODERN ALGEBRA I"
+      }
     },
     {
       "header": "Electives",
+      "section": "Major in Computer Science–Mathematics",
       "codes": [
-        "MATH BC2006",
-        "MATH UN2030",
-        "MATH UN2500",
-        "MATH UN3007",
-        "MATH UN3020",
-        "MATH UN3025",
-        "MATH UN3028",
-        "MATH UN3386",
-        "MATH GU4032",
-        "MATH GU4042",
-        "MATH GU4051",
-        "MATH GU4053",
-        "MATH GU4061",
-        "MATH GU4062",
-        "COMS W4111",
-        "COMS W4113",
-        "COMS W4115",
-        "COMS W4118",
-        "COMS W4119",
-        "COMS W4152",
-        "COMS W4156",
-        "COMS W4160",
-        "COMS W4167",
-        "COMS W4170",
-        "COMS W4181",
-        "CSOR E4231",
-        "COMS W4236",
-        "COMS W4701",
-        "COMS W4705",
-        "COMS W4731",
-        "COMS W4733",
-        "CBMF W4761",
-        "COMS W4771",
-        "CSEE W4824",
-        "CSEE W4868"
-      ]
+        "MATH BC2006",
+        "MATH UN2030",
+        "MATH UN2500",
+        "MATH UN3007",
+        "MATH UN3020",
+        "MATH UN3025",
+        "MATH UN3028",
+        "MATH UN3386",
+        "MATH GU4032",
+        "MATH GU4042",
+        "MATH GU4051",
+        "MATH GU4053",
+        "MATH GU4061",
+        "MATH GU4062",
+        "COMS W4111",
+        "COMS W4113",
+        "COMS W4115",
+        "COMS W4118",
+        "COMS W4119",
+        "COMS W4152",
+        "COMS W4156",
+        "COMS W4160",
+        "COMS W4167",
+        "COMS W4170",
+        "COMS W4181",
+        "CSOR E4231",
+        "COMS W4236",
+        "COMS W4701",
+        "COMS W4705",
+        "COMS W4731",
+        "COMS W4733",
+        "CBMF W4761",
+        "COMS W4771",
+        "CSEE W4824",
+        "CSEE W4868"
+      ],
+      "titles": {
+        "MATH BC2006": "COMBINATORICS",
+        "MATH UN2030": "ORDINARY DIFFERENTIAL EQUATIONS",
+        "MATH UN2500": "ANALYSIS AND OPTIMIZATION",
+        "MATH UN3007": "COMPLEX VARIABLES",
+        "MATH UN3020": "NUMBER THEORY AND CRYPTOGRAPHY",
+        "MATH UN3025": "MAKING, BREAKING CODES",
+        "MATH UN3028": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "MATH UN3386": "DIFFERENTIAL GEOMETRY",
+        "MATH GU4032": "FOURIER ANALYSIS",
+        "MATH GU4042": "INTRO MODERN ALGEBRA II",
+        "MATH GU4051": "TOPOLOGY",
+        "MATH GU4053": "INTRO TO ALGEBRAIC TOPOLOGY",
+        "MATH GU4061": "INTRO MODERN ANALYSIS I",
+        "MATH GU4062": "INTRO MODERN ANALYSIS II",
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4113": "FUND-LARGE-SCALE DIST SYSTEMS",
+        "COMS W4115": "PROGRAMMING LANG ＆ TRANSLATORS",
+        "COMS W4118": "OPERATING SYSTEMS I",
+        "COMS W4119": "COMPUTER NETWORKS",
+        "COMS W4152": "Engineering Software-as-a-Service",
+        "COMS W4156": "Advanced Software Engineering",
+        "COMS W4160": "COMPUTER GRAPHICS",
+        "COMS W4167": "COMPUTER ANIMATION",
+        "COMS W4170": "USER INTERFACE DESIGN",
+        "COMS W4181": "SECURITY I",
+        "CSOR E4231": "ANALYSIS OF ALGORITHMS I",
+        "COMS W4236": "INTRO-COMPUTATIONAL COMPLEXITY",
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE",
+        "COMS W4705": "NATURAL LANGUAGE PROCESSING",
+        "COMS W4731": "Computer Vision I: First Principles",
+        "COMS W4733": "COMPUTATIONAL ASPECTS OF ROBOTICS",
+        "CBMF W4761": "COMPUTATIONAL GENOMICS",
+        "COMS W4771": "MACHINE LEARNING",
+        "CSEE W4824": "COMPUTER ARCHITECTURE",
+        "CSEE W4868": "SYSTEM-ON-CHIP PLATFORMS"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010",
-        "MATH UN2500",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2500",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN2500": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA and ANALYSIS AND OPTIMIZATION 1",
+        "MATH UN1207": "HONORS MATHEMATICS A and HONORS MATHEMATICS B and ANALYSIS AND OPTIMIZATION (with approval from the adviser)",
+        "MATH UN1208": "HONORS MATHEMATICS A and HONORS MATHEMATICS B and ANALYSIS AND OPTIMIZATION (with approval from the adviser)"
+      }
     },
     {
       "header": "Introductory Course",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "STAT UN1201"
-      ]
+        "STAT UN1201"
+      ],
+      "titles": {
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS"
+      }
     },
     {
       "header": "Required Courses",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4207",
-        "STAT GU4262",
-        "STAT GU4264",
-        "STAT GU4265"
-      ]
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ],
+      "titles": {
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4207": "ELEMENTARY STOCHASTIC PROCESS",
+        "STAT GU4262": "Stochastic Processes for Finance",
+        "STAT GU4264": "STOCHASTC PROCSSES-APPLICTNS I",
+        "STAT GU4265": "STOCHASTIC METHODS IN FINANCE"
+      }
     },
     {
       "header": "Computer Science",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "COMS W1004",
-        "COMS W1005",
-        "ENGI E1006",
-        "COMS W1007"
-      ]
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI"
+      }
     },
     {
       "header": "Multivariable Calculus & Linear Algebra",
+      "section": "Minor in Mathematics",
       "codes": [
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN2015",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1202": "CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN2010": "CALCULUS IV and LINEAR ALGEBRA",
+        "MATH UN2015": "CALCULUS IV and Linear Algebra and Probability",
+        "MATH UN1205": "ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA",
+        "MATH UN1207": "HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "Multivariable Calculus & Linear Algebra",
+      "section": "Minor in Mathematical Probability",
       "codes": [
-        "MATH UN1201",
-        "MATH UN2010",
-        "MATH UN2015",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1201": "CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN2010": "CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN2015": "CALCULUS III and Linear Algebra and Probability",
+        "MATH UN1205": "ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA",
+        "MATH UN1207": "HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "Probability Theory",
+      "section": "Minor in Mathematical Probability",
       "codes": [
-        "MATH GU4155"
-      ]
+        "MATH GU4155"
+      ],
+      "titles": {
+        "MATH GU4155": "PROBABILITY THEORY"
+      }
     },
     {
       "header": "Approved Mathematics Electives",
+      "section": "Minor in Mathematical Probability",
       "codes": [
-        "MATH UN2030",
-        "MATH UN2500",
-        "MATH UN3028",
-        "MATH UN3050",
-        "MATH GU4061",
-        "MATH GU4062",
-        "MATH GU4156"
-      ]
+        "MATH UN2030",
+        "MATH UN2500",
+        "MATH UN3028",
+        "MATH UN3050",
+        "MATH GU4061",
+        "MATH GU4062",
+        "MATH GU4156"
+      ],
+      "titles": {
+        "MATH UN2030": "ORDINARY DIFFERENTIAL EQUATIONS",
+        "MATH UN2500": "ANALYSIS AND OPTIMIZATION",
+        "MATH UN3028": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "MATH UN3050": "DISCRETE TIME MODELS IN FINANC",
+        "MATH GU4061": "INTRO MODERN ANALYSIS I",
+        "MATH GU4062": "INTRO MODERN ANALYSIS II",
+        "MATH GU4156": "ADVANCED PROBABILITY THEORY"
+      }
     },
     {
       "header": "Approved Cognate Electives",
+      "section": "Minor in Mathematical Probability",
       "codes": [
-        "COMS W3203",
-        "IEOR E3106",
-        "PHIL GU4561",
-        "PHYS GU4023",
-        "STAT GU4204",
-        "STAT GU4207",
-        "STAT GU4262",
-        "STAT GU4264"
-      ]
+        "COMS W3203",
+        "IEOR E3106",
+        "PHIL GU4561",
+        "PHYS GU4023",
+        "STAT GU4204",
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264"
+      ],
+      "titles": {
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "IEOR E3106": "STOCHASTIC SYSTEMS AND APPLICATIONS",
+        "PHIL GU4561": "PROBABILITY ＆ DECISION THEORY",
+        "PHYS GU4023": "THERMAL ＆ STATISTICAL PHYSICS",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4207": "ELEMENTARY STOCHASTIC PROCESS",
+        "STAT GU4262": "Stochastic Processes for Finance",
+        "STAT GU4264": "STOCHASTC PROCSSES-APPLICTNS I"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Concentration in Mathematics",
       "codes": [
-        "MATH UN1201",
-        "MATH UN1202",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1201": "CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1202": "CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN2010": "CALCULUS III and CALCULUS IV and LINEAR ALGEBRA 1",
+        "MATH UN1205": "ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA 1",
+        "MATH UN1207": "HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     }
   ],
   "error": null

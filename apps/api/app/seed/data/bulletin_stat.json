@@ -1,6 +1,6 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/",
-  "scraped_at": "2026-07-04T14:14:07Z",
+  "scraped_at": "2026-07-04T14:20:49Z",
   "courses": [
     {
       "code": "STAT UN1001",
@@ -66,7 +66,7 @@
       "code": "STAT UN2102",
       "subject": "STAT",
       "number": "UN2102",
-      "title": " Applied Statistical Computing",
+      "title": "Applied Statistical Computing",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
@@ -90,7 +90,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT UN2103 is strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
+      "prereq_text": "Prerequisites: STAT UN2103 is strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
     },
     {
       "code": "STAT UN3105",
@@ -100,7 +100,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: At least one, and preferably both, of STAT UN2103 and UN2104 are strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
+      "prereq_text": "Prerequisites: At least one, and preferably both, of STAT UN2103 and UN2104 are strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
     },
     {
       "code": "STAT UN3106",
@@ -110,7 +110,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT UN2103 . Students without programming experience in R might find STAT UN2102 very helpful."
+      "prereq_text": "Prerequisites: STAT UN2103 . Students without programming experience in R might find STAT UN2102 very helpful."
     },
     {
       "code": "STAT GU4221",
@@ -130,7 +130,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "CC/GS: Partial Fulfillment of Science Requirement",
-      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
+      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
     },
     {
       "code": "STAT GU4223",
@@ -140,7 +140,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
     },
     {
       "code": "STAT GU4224",
@@ -150,7 +150,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
+      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
     },
     {
       "code": "STAT GU4231",
@@ -160,7 +160,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
     },
     {
       "code": "STAT GU4232",
@@ -170,13 +170,13 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "CC/GS: Partial Fulfillment of Science Requirement",
-      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
     },
     {
       "code": "STAT GU4233",
       "subject": "STAT",
       "number": "GU4233",
-      "title": " Multilevel Models",
+      "title": "Multilevel Models",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Theory and practice, including model-checking, for random and mixed-effects models (also called hierarchical, multi-level models). Extensive use of the computer to analyse data.",
@@ -200,7 +200,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: STAT GU4206 ."
+      "prereq_text": "Prerequisites: STAT GU4206 ."
     },
     {
       "code": "STAT GU4261",
@@ -236,220 +236,389 @@
   "courselists": [
     {
       "header": "",
+      "section": "Major in Statistics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010",
-        "COMS W1004",
-        "ENGI E1006",
-        "STAT UN2102",
-        "STAT UN1201",
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4206",
-        "STAT GU4207"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "COMS W1004",
+        "ENGI E1006",
+        "STAT UN2102",
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT GU4207"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I",
+        "MATH UN1102": "CALCULUS II",
+        "MATH UN1201": "CALCULUS III",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "STAT UN2102": "Applied Statistical Computing",
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4206": "STAT COMP ＆ INTRO DATA SCIENCE",
+        "STAT GU4207": "ELEMENTARY STOCHASTIC PROCESS"
+      }
     },
     {
       "header": "Mathematical Prerequisites",
+      "section": "Major in Data Science",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I",
+        "MATH UN1102": "CALCULUS II",
+        "MATH UN1201": "CALCULUS III",
+        "MATH UN2010": "LINEAR ALGEBRA"
+      }
     },
     {
       "header": "Statistics Required Courses",
+      "section": "Major in Data Science",
       "codes": [
-        "STAT UN1201",
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4241"
-      ]
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4241"
+      ],
+      "titles": {
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4241": "STATISTICAL MACHINE LEARNING"
+      }
     },
     {
       "header": "Statistics Electives",
+      "section": "Major in Data Science",
       "codes": [
-        "STAT UN3106",
-        "STAT GU4206",
-        "STAT GU4243",
-        "STAT GU4224",
-        "STAT GU4242"
-      ]
+        "STAT UN3106",
+        "STAT GU4206",
+        "STAT GU4243",
+        "STAT GU4224",
+        "STAT GU4242"
+      ],
+      "titles": {
+        "STAT UN3106": "APPLIED MACHINE LEARNING",
+        "STAT GU4206": "STAT COMP ＆ INTRO DATA SCIENCE",
+        "STAT GU4224": "BAYESIAN STATISTICS",
+        "STAT GU4242": "ADVANCED MACHINE LEARNING"
+      }
     },
     {
       "header": "Computer Science Introductory Courses",
+      "section": "Major in Data Science",
       "codes": [
-        "COMS W1004",
-        "COMS W1005",
-        "ENGI E1006",
-        "COMS W1007",
-        "COMS W3134",
-        "COMS W3136",
-        "COMS W3137"
-      ]
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007",
+        "COMS W3134",
+        "COMS W3136",
+        "COMS W3137"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "COMS W3134": "Data Structures in Java",
+        "COMS W3136": "ESSENTIAL DATA STRUCTURES",
+        "COMS W3137": "HONORS DATA STRUCTURES ＆ ALGOL"
+      }
     },
     {
       "header": "Computer Science Required Courses",
+      "section": "Major in Data Science",
       "codes": [
-        "COMS W3203",
-        "CSOR W4231"
-      ]
+        "COMS W3203",
+        "CSOR W4231"
+      ],
+      "titles": {
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "CSOR W4231": "ANALYSIS OF ALGORITHMS I"
+      }
     },
     {
       "header": "Computer Science Electives",
+      "section": "Major in Data Science",
       "codes": [
-        "COMS W3261",
-        "COMS W4236",
-        "COMS W4252",
-        "COMS W4111",
-        "COMS W4130"
-      ]
+        "COMS W3261",
+        "COMS W4236",
+        "COMS W4252",
+        "COMS W4111",
+        "COMS W4130"
+      ],
+      "titles": {
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "COMS W4236": "INTRO-COMPUTATIONAL COMPLEXITY",
+        "COMS W4252": "INTRO-COMPUTATIONAL LEARN THRY",
+        "COMS W4111": "INTRODUCTION TO DATABASES"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Major in Economics-Statistics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN1102": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN1201": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN2010": "CALCULUS I and CALCULUS II and CALCULUS III and LINEAR ALGEBRA",
+        "MATH UN1205": "CALCULUS I and CALCULUS II and ACCELERATED MULTIVARIABLE CALC and LINEAR ALGEBRA",
+        "MATH UN1207": "HONORS MATHEMATICS A and HONORS MATHEMATICS B",
+        "MATH UN1208": "HONORS MATHEMATICS A and HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "Statistics",
+      "section": "Major in Economics-Statistics",
       "codes": [
-        "STAT UN1201",
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205"
-      ]
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205"
+      ],
+      "titles": {
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS"
+      }
     },
     {
       "header": "Computer Science",
+      "section": "Major in Economics-Statistics",
       "codes": [
-        "COMS W1004",
-        "COMS W1005",
-        "COMS W1007",
-        "ENGI E1006",
-        "STAT UN2102"
-      ]
+        "COMS W1004",
+        "COMS W1005",
+        "COMS W1007",
+        "ENGI E1006",
+        "STAT UN2102"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "STAT UN2102": "Applied Statistical Computing"
+      }
     },
     {
       "header": "Seminar",
+      "section": "Major in Economics-Statistics",
       "codes": [
-        "ECON GU4918"
-      ]
+        "ECON GU4918"
+      ],
+      "titles": {
+        "ECON GU4918": "SEMINAR IN ECONOMETRICS"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010",
-        "MATH UN2500",
-        "MATH UN1205",
-        "MATH UN1207",
-        "MATH UN1208"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2500",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I",
+        "MATH UN1102": "CALCULUS II",
+        "MATH UN1201": "CALCULUS III",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "MATH UN2500": "ANALYSIS AND OPTIMIZATION",
+        "MATH UN1205": "ACCELERATED MULTIVARIABLE CALC",
+        "MATH UN1207": "HONORS MATHEMATICS A",
+        "MATH UN1208": "HONORS MATHEMATICS B"
+      }
     },
     {
       "header": "Statistics required courses",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "STAT UN1201",
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205"
-      ]
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205"
+      ],
+      "titles": {
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS"
+      }
     },
     {
       "header": "And select one of the following courses:",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "STAT GU4207",
-        "STAT GU4262",
-        "STAT GU4264",
-        "STAT GU4265"
-      ]
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ],
+      "titles": {
+        "STAT GU4207": "ELEMENTARY STOCHASTIC PROCESS",
+        "STAT GU4262": "Stochastic Processes for Finance",
+        "STAT GU4264": "STOCHASTC PROCSSES-APPLICTNS I",
+        "STAT GU4265": "STOCHASTIC METHODS IN FINANCE"
+      }
     },
     {
       "header": "Computer Science",
+      "section": "Major in Mathematics-Statistics",
       "codes": [
-        "COMS W1004",
-        "COMS W1005",
-        "ENGI E1006",
-        "COMS W1007"
-      ]
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI"
+      }
     },
     {
       "header": "Political Science",
+      "section": "Major in Political Science–Statistics",
       "codes": [
-        "POLS UN1201",
-        "POLS UN1501",
-        "POLS UN1601",
-        "POLS UN1101",
-        "POLS GU4710",
-        "POLS GU4712"
-      ]
+        "POLS UN1201",
+        "POLS UN1501",
+        "POLS UN1601",
+        "POLS UN1101",
+        "POLS GU4710",
+        "POLS GU4712"
+      ],
+      "titles": {
+        "POLS UN1201": "INTRO TO AMERICAN POLITICS",
+        "POLS UN1501": "INTRO TO COMPARATIVE POLITICS",
+        "POLS UN1601": "INTERNATIONAL POLITICS",
+        "POLS UN1101": "POLITICAL THEORY I",
+        "POLS GU4710": "PRINC OF QUANT POL RESEARCH 1",
+        "POLS GU4712": "PRINC OF QUANT POL RESEARCH 2"
+      }
     },
     {
       "header": "Statistics",
+      "section": "Major in Political Science–Statistics",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN2010",
-        "STAT UN1201",
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4206",
-        "STAT UN1101",
-        "STAT UN2102",
-        "STAT UN2103",
-        "STAT UN2104",
-        "STAT UN3105",
-        "STAT UN3106"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN2010",
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT UN1101",
+        "STAT UN2102",
+        "STAT UN2103",
+        "STAT UN2104",
+        "STAT UN3105",
+        "STAT UN3106"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I",
+        "MATH UN1102": "CALCULUS II",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4206": "STAT COMP ＆ INTRO DATA SCIENCE",
+        "STAT UN1101": "INTRODUCTION TO STATISTICS",
+        "STAT UN2102": "Applied Statistical Computing",
+        "STAT UN2103": "APPLIED LINEAR REG ANALYSIS",
+        "STAT UN2104": "APPL CATEGORICAL DATA ANALYSIS",
+        "STAT UN3105": "APPLIED STATISTICAL METHODS",
+        "STAT UN3106": "APPLIED MACHINE LEARNING"
+      }
     },
     {
       "header": "",
+      "section": "Foundation Courses",
       "codes": [
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4206",
-        "STAT GU4207"
-      ]
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT GU4207"
+      ],
+      "titles": {
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4206": "STAT COMP ＆ INTRO DATA SCIENCE",
+        "STAT GU4207": "ELEMENTARY STOCHASTIC PROCESS"
+      }
     },
     {
       "header": "",
+      "section": "Actuarial Sciences Courses",
       "codes": [
-        "STAT GU4281",
-        "STAT GU4282"
-      ]
+        "STAT GU4281",
+        "STAT GU4282"
+      ],
+      "titles": {
+        "STAT GU4281": "Theory of Interest",
+        "STAT GU4282": "Linear Regression and Time Series Methods"
+      }
     },
     {
       "header": "",
+      "section": "Advanced Data Science Courses",
       "codes": [
-        "STAT GU4241",
-        "STAT GU4242",
-        "STAT GU4243",
-        "STAT GU4702"
-      ]
+        "STAT GU4241",
+        "STAT GU4242",
+        "STAT GU4243",
+        "STAT GU4702"
+      ],
+      "titles": {
+        "STAT GU4241": "STATISTICAL MACHINE LEARNING",
+        "STAT GU4242": "ADVANCED MACHINE LEARNING",
+        "STAT GU4702": "Exploratory Data Analysis and Visualization"
+      }
     },
     {
       "header": "",
+      "section": "Advanced Stochastic Processes Courses",
       "codes": [
-        "STAT GU4262",
-        "STAT GU4264",
-        "STAT GU4265"
-      ]
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ],
+      "titles": {
+        "STAT GU4262": "Stochastic Processes for Finance",
+        "STAT GU4264": "STOCHASTC PROCSSES-APPLICTNS I",
+        "STAT GU4265": "STOCHASTIC METHODS IN FINANCE"
+      }
     }
   ],
   "error": null

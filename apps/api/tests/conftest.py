@@ -22,10 +22,15 @@ def engine_mem():
 
 @pytest.fixture
 def session(engine_mem):
+    from app.seed.expand import expand_dynamic_requirements
+
     with Session(engine_mem) as s:
         for spec in CS_AND_ECON_COURSES:
             s.add(Course(**spec))
-        for program, reqs in PROGRAMS.items():
+        # Expand _dynamic markers against the curated-only catalog so tests
+        # keep their historical, deterministic candidate pools.
+        programs = expand_dynamic_requirements(PROGRAMS, CS_AND_ECON_COURSES)
+        for program, reqs in programs.items():
             for spec in reqs:
                 s.add(Requirement(program=program, **spec))
         s.commit()

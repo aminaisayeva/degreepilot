@@ -29,7 +29,10 @@ CORE_COURSES: list[dict] = [
         "workload_level": 2,
         "offered_terms": ["Fall", "Spring"],
         "prerequisites": [],
-        "categories": ["core_frontiers_science", "core_science"],
+        # Deliberately NOT tagged core_science: the Science Requirement is
+        # "two courses *beyond* Frontiers", and that requirement now expands
+        # from the core_science category at seed time.
+        "categories": ["core_frontiers_science"],
         "career_tags": [],
     },
     {

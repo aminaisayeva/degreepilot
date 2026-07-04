@@ -1,12 +1,12 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/music-humanities/",
-  "scraped_at": "2026-07-04T14:14:08Z",
+  "scraped_at": "2026-07-04T14:20:49Z",
   "courses": [
     {
       "code": "HUMA UN1123",
       "subject": "HUMA",
       "number": "UN1123",
-      "title": " Music Humanities",
+      "title": "Music Humanities",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Analysis and discussion of representative works from the Middle Ages to the present",

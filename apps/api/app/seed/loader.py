@@ -41,11 +41,23 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
     return out
 
 
+# Bulletin courselists we adopt wholesale into requirements. Codes on these
+# lists that no scraped subject page covers get synthesized into the catalog
+# from the list row itself (code + title). Tuples: (snapshot slug, section
+# prefix or None for all lists in the snapshot, category to apply or None).
+ADOPTED_LISTS: list[tuple[str, str | None, str | None]] = [
+    ("cs", "Area Foundation", None),
+    ("core_science", None, "core_science"),
+    ("core_globalcore", None, "core_global"),
+]
+
+
 @dataclass
 class Snapshots:
     bulletin: dict[str, dict] = field(default_factory=dict)
     directory: dict[str, dict] = field(default_factory=dict)
     courselists: dict[str, list[dict]] = field(default_factory=dict)
+    list_sources: dict[str, str | None] = field(default_factory=dict)
 
 
 def load_snapshots(data_dir: Path | None = None) -> Snapshots:
@@ -57,6 +69,7 @@ def load_snapshots(data_dir: Path | None = None) -> Snapshots:
         payload = json.loads(path.read_text())
         slug = path.stem.removeprefix("bulletin_")
         snaps.courselists[slug] = payload.get("courselists") or []
+        snaps.list_sources[slug] = payload.get("source_url")
         for c in payload.get("courses") or []:
             code = c["code"]
             if code not in snaps.bulletin:
@@ -141,4 +154,52 @@ def build_catalog(data_dir: Path | None = None) -> tuple[list[dict], dict[str, d
             "scraped_at": (bull or {}).get("scraped_at"),
             "bulletin_prereq_text": (bull or {}).get("prereq_text", ""),
         }
+
+    _apply_adopted_lists(snaps, courses, provenance)
     return courses, provenance
+
+
+_TITLE_MARKER_RE = re.compile(r"\s*\(\*+\)\s*$")
+
+
+def _apply_adopted_lists(
+    snaps: Snapshots, courses: list[dict], provenance: dict[str, dict]
+) -> None:
+    from app.services.sync.syncer import _pretty_title
+
+    by_code = {c["code"]: c for c in courses}
+    for slug, section_prefix, category in ADOPTED_LISTS:
+        for cl in snaps.courselists.get(slug, []):
+            if section_prefix and not cl.get("section", "").startswith(section_prefix):
+                continue
+            for code in cl.get("codes", []):
+                existing = by_code.get(code)
+                if existing is not None:
+                    if category and category not in existing["categories"]:
+                        existing["categories"].append(category)
+                    continue
+                raw_title = cl.get("titles", {}).get(code, code)
+                raw_title = _TITLE_MARKER_RE.sub("", raw_title)
+                title = raw_title
+                if title and not any(ch.islower() for ch in title):
+                    title = _pretty_title(title)
+                spec = {
+                    "code": code,
+                    "title": title,
+                    "department": code.split()[0],
+                    "credits": 3.0,
+                    "description": "",
+                    "workload_level": 3,
+                    "offered_terms": [],
+                    "prerequisites": [],
+                    "categories": [category] if category else [],
+                    "career_tags": [],
+                }
+                courses.append(spec)
+                by_code[code] = spec
+                provenance[code] = {
+                    "origin": "bulletin_list",
+                    "source_url": snaps.list_sources.get(slug),
+                    "scraped_at": None,
+                    "bulletin_prereq_text": "",
+                }

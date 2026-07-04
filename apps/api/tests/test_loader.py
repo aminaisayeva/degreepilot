@@ -66,6 +66,51 @@ def test_directory_only_course_inserted_prettified(tmp_path):
     assert prov["COMS W8888"]["origin"] == "directory"
 
 
+def _synth_snapshots(tmp_path: Path) -> Path:
+    data = tmp_path / "data"
+    _write(data, "bulletin_cs.json", {
+        "source_url": "https://bulletin.test/cs", "scraped_at": "2026-07-04T00:00:00Z",
+        "error": None,
+        "courses": [],
+        "courselists": [
+            {"header": "", "section": "Area Foundation Courses (9 to 12 points):",
+             "codes": ["CSOR E4231"], "titles": {"CSOR E4231": "ANALYSIS OF ALGORITHMS I"}},
+        ],
+    })
+    _write(data, "bulletin_core_science.json", {
+        "source_url": "https://bulletin.test/science", "scraped_at": "2026-07-04T00:00:00Z",
+        "error": None,
+        "courses": [],
+        "courselists": [
+            {"header": "Astronomy", "section": "", "codes": ["ASTR UN1403", "EESC UN2100"],
+             "titles": {"ASTR UN1403": "EARTH, MOON, AND PLANETS (*)",
+                        "EESC UN2100": "EARTH'S ENVIRONMENTAL SYSTEMS"}},
+        ],
+    })
+    return data
+
+
+def test_adopted_list_codes_synthesized_with_titles(tmp_path):
+    courses, prov = build_catalog(data_dir=_synth_snapshots(tmp_path))
+    by_code = {c["code"]: c for c in courses}
+    c = by_code["CSOR E4231"]
+    assert c["title"] == "Analysis of Algorithms I"
+    assert c["department"] == "CSOR"
+    assert prov["CSOR E4231"]["origin"] == "bulletin_list"
+    assert prov["CSOR E4231"]["source_url"] == "https://bulletin.test/cs"
+
+
+def test_approved_science_list_gets_category_even_for_curated(tmp_path):
+    courses, _ = build_catalog(data_dir=_synth_snapshots(tmp_path))
+    by_code = {c["code"]: c for c in courses}
+    # synthesized new course carries the mapped category
+    assert "core_science" in by_code["EESC UN2100"]["categories"]
+    # curated ASTR UN1403 keeps its curated category (already core_science)
+    assert "core_science" in by_code["ASTR UN1403"]["categories"]
+    # marker suffix "(*)" is stripped from synthesized titles
+    assert by_code["EESC UN2100"]["title"] == "Earth's Environmental Systems"
+
+
 def test_derived_categories():
     assert "cs_elective_eligible" in derive_categories("COMS W4771", "COMS", 4771, 3)
     assert "ms_grad_eligible" in derive_categories("COMS W4771", "COMS", 4771, 3)

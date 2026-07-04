@@ -14,6 +14,7 @@ This means a sync run never deletes curated metadata; it only:
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta
 
 from sqlmodel import Session, select
@@ -145,24 +146,46 @@ def is_stale(
 _ACRONYMS = {
     "AI", "ML", "NLP", "OS", "CS", "OOP", "UI", "UX", "API", "SQL", "GPU",
     "CPU", "IO", "HCI", "VR", "AR", "IR", "DB", "CV", "PL", "SE", "DS",
-    "I", "II", "III", "IV", "PROG",
+    "I", "II", "III", "IV",
+}
+
+# Words kept lowercase in Title Case (unless they open the title).
+_SMALL_WORDS = {
+    "a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on",
+    "or", "the", "to", "via", "with",
 }
 
 
 def _pretty_title(s: str) -> str:
     """Directory titles are SHOUTY ALL-CAPS. Render them in Title Case while
-    preserving common CS acronyms (AI, ML, NLP, SQL, ...)."""
+    preserving common CS acronyms (AI, ML, NLP, SQL, ...) and keeping small
+    words (of, and, in, ...) lowercase. Hyphen/slash-joined words are
+    capitalized per part ("Intro-Comput Sci/Prog")."""
 
-    def cap(word: str) -> str:
+    def cap_core(core: str, first: bool) -> str:
+        if core.upper() in _ACRONYMS:
+            return core.upper()
+        if not first and core.lower() in _SMALL_WORDS:
+            return core.lower()
+        return core.capitalize()
+
+    def cap(word: str, first: bool) -> str:
         if not word:
             return word
         # Strip trailing punctuation we want to keep attached
         core = word.rstrip(",.;:")
         tail = word[len(core):]
-        if core.upper() in _ACRONYMS:
-            return core.upper() + tail
-        if not core.isalpha():
+        if not core:
             return word
-        return core.capitalize() + tail
+        # Capitalize each alphabetic part around -, /, ( etc.
+        parts = re.split(r"([^A-Za-z']+)", core)
+        out = []
+        for i, part in enumerate(parts):
+            if part and re.match(r"[A-Za-z']", part):
+                out.append(cap_core(part, first and i == 0))
+            else:
+                out.append(part)
+        return "".join(out) + tail
 
-    return " ".join(cap(w) for w in s.split())
+    words = s.split()
+    return " ".join(cap(w, i == 0) for i, w in enumerate(words))

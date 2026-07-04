@@ -1,12 +1,12 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/literature-humanities/",
-  "scraped_at": "2026-07-04T14:14:07Z",
+  "scraped_at": "2026-07-04T14:20:49Z",
   "courses": [
     {
       "code": "HUMA CC1001",
       "subject": "HUMA",
       "number": "CC1001",
-      "title": " Literature Humanities I",
+      "title": "Literature Humanities I",
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "In Literature Humanities, students make sense of literary texts together, on paper and in discussion. We read significant and challenging books that require collective exploration in a seminar setting to be best understood and appreciated, books that enable us to ask questions about literature and how it works, about our place in histories and traditions, about ourselves as beings and members of a society. We read with and against the grain of canon and tradition, and we pursue understanding together, in a shared classroom community, to learn not only how to be better readers and writers but also how to be in intellectual community with one another. Over the course of the semester, students become acquainted with specific works of literature; they become aware of those works’ relations to one another; and they become conversant in the questions those works ask and the questions they make it possible for us to ask",
@@ -16,7 +16,7 @@
       "code": "HUMA CC1002",
       "subject": "HUMA",
       "number": "CC1002",
-      "title": " Literature Humanities II",
+      "title": "Literature Humanities II",
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "In Literature Humanities, students make sense of literary texts together, on paper and in discussion. We read significant and challenging books that require collective exploration in a seminar setting to be best understood and appreciated, books that enable us to ask questions about literature and how it works, about our place in histories and traditions, about ourselves as beings and members of a society. We read with and against the grain of canon and tradition, and we pursue understanding together, in a shared classroom community, to learn not only how to be better readers and writers but also how to be in intellectual community with one another. Over the course of the semester, students become acquainted with specific works of literature; they become aware of those works’ relations to one another; and they become conversant in the questions those works ask and the questions they make it possible for us to ask",

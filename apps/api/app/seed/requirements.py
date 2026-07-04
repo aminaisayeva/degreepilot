@@ -80,7 +80,10 @@ CC_CORE_REQS: list[dict] = [
     {
         "name": "Science Requirement (2 beyond Frontiers)",
         "type": RequirementType.N_OF,
+        # Expanded at seed time to the full approved list scraped from the
+        # bulletin's science-requirement page (category: core_science).
         "courses": ["BIOL UN2005", "CHEM UN1403", "PHYS UN1401", "ASTR UN1403"],
+        "_dynamic": "core_science",
         "count_required": 2,
         "credits_required": 6,
         "display_order": 80,
@@ -89,7 +92,10 @@ CC_CORE_REQS: list[dict] = [
     {
         "name": "Global Core (pick 2)",
         "type": RequirementType.N_OF,
+        # Expanded at seed time to the full approved list scraped from the
+        # bulletin's global-core-requirement page (category: core_global).
         "courses": ["AHUM UN1399", "AHUM UN1400", "HIST UN2702"],
+        "_dynamic": "core_global",
         "count_required": 2,
         "credits_required": 6,
         "display_order": 90,
@@ -182,20 +188,30 @@ CS_MAJOR_REQS: list[dict] = [
     {
         "name": "Area Foundation Courses (pick 3)",
         "type": RequirementType.N_OF,
+        # Full list from the CC bulletin "Area Foundation Courses (9 to 12
+        # points)" table (scraped 2026-07-04).
         "courses": [
             "COMS W4111",
+            "COMS W4113",
             "COMS W4115",
             "COMS W4118",
             "COMS W4119",
+            "COMS W4152",
             "COMS W4156",
+            "COMS W4160",
+            "COMS W4167",
             "COMS W4170",
             "COMS W4181",
-            "COMS W4231",
+            "CSOR E4231",
             "COMS W4236",
             "COMS W4701",
             "COMS W4705",
             "COMS W4731",
+            "COMS W4733",
+            "CBMF W4761",
             "COMS W4771",
+            "CSEE W4824",
+            "CSEE W4868",
         ],
         "count_required": 3,
         "credits_required": 9,
@@ -205,6 +221,8 @@ CS_MAJOR_REQS: list[dict] = [
     {
         "name": "Computer Science Electives (3000+)",
         "type": RequirementType.N_OF,
+        # Hand-picked preferred head; expanded at seed time to every COMS/CSEE
+        # 3000+ course worth ≥3 points in the catalog.
         "courses": [
             "COMS W4111",
             "COMS W4115",
@@ -221,6 +239,7 @@ CS_MAJOR_REQS: list[dict] = [
             "COMS W4771",
             "COMS W4774",
         ],
+        "_dynamic": "cs_elective_eligible",
         "count_required": 3,
         "credits_required": 9,
         "display_order": 110,
@@ -287,12 +306,15 @@ ECON_CONCENTRATION_REQS: list[dict] = [
     {
         "name": "Economics Electives (3000+, pick 3)",
         "type": RequirementType.N_OF,
+        # Hand-picked preferred head; expanded at seed time to every ECON
+        # 3000+ course in the catalog.
         "courses": [
             "ECON UN3025",
             "ECON GU4280",
             "ECON GU4370",
             "ECON GU4918",
         ],
+        "_dynamic": "econ_elective_3000",
         "count_required": 3,
         "credits_required": 9,
         "display_order": 80,
@@ -354,6 +376,8 @@ MS_CS_REQS: list[dict] = [
     {
         "name": "Graduate Electives (pick 3)",
         "type": RequirementType.N_OF,
+        # Hand-picked preferred head; expanded at seed time to every COMS/CSEE
+        # 4000+ course in the catalog.
         "courses": [
             "COMS E6998",
             "COMS W4156",
@@ -363,6 +387,7 @@ MS_CS_REQS: list[dict] = [
             "COMS W4731",
             "COMS W4774",
         ],
+        "_dynamic": "ms_grad_eligible",
         "count_required": 3,
         "credits_required": 9,
         "display_order": 50,

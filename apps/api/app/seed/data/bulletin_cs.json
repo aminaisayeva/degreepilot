@@ -1,6 +1,6 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/computer-science/",
-  "scraped_at": "2026-07-04T14:14:06Z",
+  "scraped_at": "2026-07-04T14:20:48Z",
   "courses": [
     {
       "code": "COMS W3998",
@@ -99,7 +99,7 @@
       "title": "Computing In Context",
       "points_min": 4.0,
       "points_max": 4.0,
-      "description": "Introduction to elementary computing concepts and Python programming with domain-specific applications. Shared CS concepts and Python programming lectures with track-specific sections. Track themes will vary but may include computing for the social sciences, computing for economics and finance, digital humanities, and more. Intended for nonmajors. Students may only receive credit for one of ENGI E1006 or COMS W1002",
+      "description": "Introduction to elementary computing concepts and Python programming with domain-specific applications. Shared CS concepts and Python programming lectures with track-specific sections. Track themes will vary but may include computing for the social sciences, computing for economics and finance, digital humanities, and more. Intended for nonmajors. Students may only receive credit for one of ENGI E1006 or COMS W1002",
       "prereq_text": ""
     },
     {
@@ -176,21 +176,21 @@
       "code": "COMS W2132",
       "subject": "COMS",
       "number": "W2132",
-      "title": " Intermediate Computing in Python",
+      "title": "Intermediate Computing in Python",
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "Essential data structures and algorithms in Python with practical software development skills, applications in a variety of areas including biology, natural language processing, data science and others.",
-      "prereq_text": "Prerequisites: ( ENGI E1006 ) or ( COMS W1002 ) or equivalent prior programming background in Python."
+      "prereq_text": "Prerequisites: ( ENGI E1006 ) or ( COMS W1002 ) or equivalent prior programming background in Python."
     },
     {
       "code": "COMS W2702",
       "subject": "COMS",
       "number": "W2702",
-      "title": " AI in Context",
+      "title": "AI in Context",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "An interdisciplinary introduction to the history, development and modern application of artificial intelligence in a variety of contexts. Context subjects and teaching staff will vary by semester.",
-      "prereq_text": "Prerequisites: STAT UN1201 or equivalent is strongly recommended."
+      "prereq_text": "Prerequisites: STAT UN1201 or equivalent is strongly recommended."
     },
     {
       "code": "COMS W3011",
@@ -226,11 +226,11 @@
       "code": "COMS W3107",
       "subject": "COMS",
       "number": "W3107",
-      "title": " Clean Object-Oriented Design",
+      "title": "Clean Object-Oriented Design",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "A course in designing, documenting, coding, and testing robust computer software, according to object-oriented design patterns and clean coding practices. Taught in Java.Object-oriented design principles include: use cases; CRC; UML; javadoc; patterns (adapter, builder, command, composite, decorator, facade, factory, iterator, lazy evaluation, observer, singleton, strategy, template, visitor); design by contract; loop invariants; interfaces and inheritance hierarchies; anonymous classes and null objects; graphical widgets; events and listeners; Java's Object class; generic types; reflection; timers, threads, and locks.",
-      "prereq_text": "Prerequisites: COMS W1004 or permission of instructor. May not take for credit if already received credit for COMS W1007"
+      "prereq_text": "Prerequisites: COMS W1004 or permission of instructor. May not take for credit if already received credit for COMS W1007"
     },
     {
       "code": "COMS W3123",
@@ -246,21 +246,21 @@
       "code": "COMS W3132",
       "subject": "COMS",
       "number": "W3132",
-      "title": " Intermediate Computing in Python",
+      "title": "Intermediate Computing in Python",
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "",
-      "prereq_text": "Prerequisites: ENGI E1006 OR COMS W1002 ; or equivalent Python programming experience. Intermediate interdisciplinary course in computing intended for non-CS majors."
+      "prereq_text": "Prerequisites: ENGI E1006 OR COMS W1002 ; or equivalent Python programming experience. Intermediate interdisciplinary course in computing intended for non-CS majors."
     },
     {
       "code": "COMS W3134",
       "subject": "COMS",
       "number": "W3134",
-      "title": " Data Structures in Java",
+      "title": "Data Structures in Java",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "Data types and structures: arrays, stacks, singly and doubly linked lists, queues, trees, sets, and graphs. Programming techniques for processing such structures: sorting and searching, hashing, garbage collection. Storage management. Rudiments of the analysis of algorithms. Taught in Java. Note: Due to significant overlap, students may receive credit for only one of the following three courses: COMS W3134 , COMS W3136 , COMS W3137 .",
-      "prereq_text": "Prerequisites: ( COMS W1004 ) or COMS W1004 ; Knowledge of Java"
+      "description": "Data types and structures: arrays, stacks, singly and doubly linked lists, queues, trees, sets, and graphs. Programming techniques for processing such structures: sorting and searching, hashing, garbage collection. Storage management. Rudiments of the analysis of algorithms. Taught in Java. Note: Due to significant overlap, students may receive credit for only one of the following three courses: COMS W3134 , COMS W3136 , COMS W3137 .",
+      "prereq_text": "Prerequisites: ( COMS W1004 ) or COMS W1004 ; Knowledge of Java"
     },
     {
       "code": "COMS W3136",
@@ -270,7 +270,7 @@
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W1004 ) or ( COMS W1005 ) or (COMS W1007) or ( ENGI E1006 ) COMS W1005 OR COMS W1007 OR ENGI E1006 OR COMS W1004"
+      "prereq_text": "Prerequisites: ( COMS W1004 ) or ( COMS W1005 ) or (COMS W1007) or ( ENGI E1006 ) COMS W1005 OR COMS W1007 OR ENGI E1006 OR COMS W1004"
     },
     {
       "code": "COMS W3137",
@@ -280,7 +280,7 @@
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W1004 ) or (COMS W1007) COMS W1004 OR COMS W1007"
+      "prereq_text": "Prerequisites: ( COMS W1004 ) or (COMS W1007) COMS W1004 OR COMS W1007"
     },
     {
       "code": "COMS W3157",
@@ -290,7 +290,7 @@
       "points_min": 4.0,
       "points_max": 4.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3137 ) COMS W3134 OR COMS W3137"
+      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3137 ) COMS W3134 OR COMS W3137"
     },
     {
       "code": "COMS W3202",
@@ -390,7 +390,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Regular languages: deterministic and non-deterministic finite automata, regular expressions. Context-free languages: context-free grammars, push-down automata. Turing machines, the Chomsky hierarchy, and the Church-Turing thesis. Introduction to Complexity Theory and NP-Completeness.",
-      "prereq_text": "Prerequisites: ( COMS W3203 )"
+      "prereq_text": "Prerequisites: ( COMS W3203 )"
     },
     {
       "code": "COMS W3410",
@@ -406,17 +406,17 @@
       "code": "COMS W3770",
       "subject": "COMS",
       "number": "W3770",
-      "title": " Mathematics for Machine Learning",
+      "title": "Mathematics for Machine Learning",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Mathematical foundations of machine learning: Linear algebra, multivariable calculus, and probability and statistics. Comprehensive review and additional treatment of relevant topics used in the analysis and design of machine learning models. Preliminary exposure to core algorithms such as linear regression, gradient descent, principal component analysis, low-rank approximations, and kernel methods.",
-      "prereq_text": "Prerequisites: ( MATH UN2010 or MATH UN2015 or APMA E2101 or APMA E3101 or COMS W3251 ) and ( MATH UN1201 or MATH UN1205 or APMA E2000 ) and ( STAT UN1201 or MATH UN2015 or IEOR E3658 ) Familiarity with mathematical proof writing"
+      "prereq_text": "Prerequisites: ( MATH UN2010 or MATH UN2015 or APMA E2101 or APMA E3101 or COMS W3251 ) and ( MATH UN1201 or MATH UN1205 or APMA E2000 ) and ( STAT UN1201 or MATH UN2015 or IEOR E3658 ) Familiarity with mathematical proof writing"
     },
     {
       "code": "COMS E3899",
       "subject": "COMS",
       "number": "E3899",
-      "title": " Research Training",
+      "title": "Research Training",
       "points_min": 0.0,
       "points_max": 0.0,
       "description": "Research training course. Recommended in preparation for laboratory related research",
@@ -466,7 +466,7 @@
       "code": "COMS E3999",
       "subject": "COMS",
       "number": "E3999",
-      "title": " Fieldwork",
+      "title": "Fieldwork",
       "points_min": 1.0,
       "points_max": 1.0,
       "description": "May be repeated for credit, but no more than 3 total points may be used toward the 128-credit degree requirement. Only for SEAS computer science undergraduate students who include relevant off-campus work experience as part of their approved program of study. Final report and letter of evaluation required. May not be used as a technical or non-technical elective. May not be taken for pass/fail credit or audited.",
@@ -490,7 +490,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "The fundamentals of database design and application development using databases: entity-relationship modeling, logical design of relational databases, relational data definition and manipulation languages, SQL, XML, query processing, physical database tuning, transaction processing, security. Programming projects are required.",
-      "prereq_text": "Prerequisites: ( COMS W3134 ) and ( COMS W3136 ) and ( COMS W3137 ) COMS W3134 , COMS W3136 , or COMS W3136 ; or instructor's permission"
+      "prereq_text": "Prerequisites: ( COMS W3134 ) and ( COMS W3136 ) and ( COMS W3137 ) COMS W3134 , COMS W3136 , or COMS W3136 ; or instructor's permission"
     },
     {
       "code": "COMS W4112",
@@ -500,7 +500,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W4111 ) and COMS W4111 ; fluency in Java or C++. CSEE W3827 is recommended."
+      "prereq_text": "Prerequisites: ( COMS W4111 ) and COMS W4111 ; fluency in Java or C++. CSEE W3827 is recommended."
     },
     {
       "code": "COMS W4113",
@@ -510,7 +510,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and ( COMS W3157 or COMS W4118 or CSEE W4119 ) COMS W3134 , W3136 , or W3137 . COMS W3157 or good working knowledge of C and C++. COMS W4118 or CSEE W4119 ."
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and ( COMS W3157 or COMS W4118 or CSEE W4119 ) COMS W3134 , W3136 , or W3137 . COMS W3157 or good working knowledge of C and C++. COMS W4118 or CSEE W4119 ."
     },
     {
       "code": "COMS W4114",
@@ -540,7 +540,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Modern programming languages and compiler design. Imperative, object-oriented, declarative, functional, and scripting languages. Language syntax, control structures, data types, procedures and parameters, binding, scope, run-time organization, and exception handling. Implementation of language translation tools including compilers and interpreters. Lexical, syntactic and semantic analysis; code generation; introduction to code optimization. Teams implement a language and its compiler.",
-      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) or ( COMS W3261 and CSEE W3827 ) Or the instructor's permission"
+      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) or ( COMS W3261 and CSEE W3827 ) Or the instructor's permission"
     },
     {
       "code": "COMS W4118",
@@ -550,7 +550,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( CSEE W3827 ) and CSEE W3827 ; Knowledge of C and programming tools as covered in COMS COMS W3136 , COMS W3157 , or COMS W3101 , or the instructor's permission."
+      "prereq_text": "Prerequisites: ( CSEE W3827 ) and CSEE W3827 ; Knowledge of C and programming tools as covered in COMS COMS W3136 , COMS W3157 , or COMS W3101 , or the instructor's permission."
     },
     {
       "code": "COMS W4119",
@@ -570,7 +570,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: CSOR W4246 OR STAT W4203; or equivalent as approved by faculty advisor. background in Computer System Organization and good working knowledge of C/C++"
+      "prereq_text": "Prerequisites: CSOR W4246 OR STAT W4203; or equivalent as approved by faculty advisor. background in Computer System Organization and good working knowledge of C/C++"
     },
     {
       "code": "COMS W4125",
@@ -586,7 +586,7 @@
       "code": "COMS W4137",
       "subject": "COMS",
       "number": "W4137",
-      "title": " From Algorithmic Thinking to Development",
+      "title": "From Algorithmic Thinking to Development",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Algorithmic problem-solving and coding skills needed to devise solutions to interview questions for software engineering positions. Solutions are implemented in Python, Java, C, and C . Approaches include brute-force, hashing, sorting, transform-and-conquer, greedy, and dynamic programming. Focus on experimentation and team work",
@@ -596,31 +596,31 @@
       "code": "COMS W4152",
       "subject": "COMS",
       "number": "W4152",
-      "title": " Engineering Software-as-a-Service",
+      "title": "Engineering Software-as-a-Service",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: COMS W3134 AND COMS W3157 AND CSEE W3827"
+      "prereq_text": "Prerequisites: COMS W3134 AND COMS W3157 AND CSEE W3827"
     },
     {
       "code": "COMS W4153",
       "subject": "COMS",
       "number": "W4153",
-      "title": " Cloud Computing",
+      "title": "Cloud Computing",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: COMS W4111"
+      "prereq_text": "Prerequisites: COMS W4111"
     },
     {
       "code": "COMS W4156",
       "subject": "COMS",
       "number": "W4156",
-      "title": " Advanced Software Engineering",
+      "title": "Advanced Software Engineering",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Software lifecycle using frameworks, libraries and services. Major emphasis on software testing. Centers on a team project.",
-      "prereq_text": "Prerequisites: ( COMS W3157 )"
+      "prereq_text": "Prerequisites: ( COMS W3157 )"
     },
     {
       "code": "COMS W4160",
@@ -630,7 +630,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137 ; Strong programming background and some mathematical familiarity including linear algebra is required."
+      "prereq_text": "Prerequisites: ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137 ; Strong programming background and some mathematical familiarity including linear algebra is required."
     },
     {
       "code": "COMS W4162",
@@ -640,7 +640,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "A second course in computer graphics covering more advanced topics including image and signal processing, geometric modeling with meshes, advanced image synthesis including ray tracing and global illumination, and other topics as time permits. Emphasis will be placed both on implementation of systems and important mathematical and geometric concepts such as Fourier analysis, mesh algorithms and subdivision, and Monte Carlo sampling for rendering. Note: Course will be taught every two years.",
-      "prereq_text": "Prerequisites: ( COMS W4160 ) or COMS W4160"
+      "prereq_text": "Prerequisites: ( COMS W4160 ) or COMS W4160"
     },
     {
       "code": "COMS W4165",
@@ -650,7 +650,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: COMS W3137 , COMS W3251 recommended, and a good working knowledge of UNIX and C. Intended for graduate students and advanced undergraduates."
+      "prereq_text": "Prerequisites: COMS W3137 , COMS W3251 recommended, and a good working knowledge of UNIX and C. Intended for graduate students and advanced undergraduates."
     },
     {
       "code": "COMS W4167",
@@ -670,7 +670,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "CC/GS: Partial Fulfillment of Science Requirement",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137"
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137"
     },
     {
       "code": "COMS W4172",
@@ -680,7 +680,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "CC/GS: Partial Fulfillment of Science Requirement",
-      "prereq_text": "Prerequisites: ( COMS W4160 ) or ( COMS W4170 ) or COMS W4160 OR COMS W4170 ; Or instructor's permission"
+      "prereq_text": "Prerequisites: ( COMS W4160 ) or ( COMS W4170 ) or COMS W4160 OR COMS W4170 ; Or instructor's permission"
     },
     {
       "code": "COMS W4181",
@@ -690,7 +690,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Introduction to security. Threat models. Operating system security features. Vulnerabilities and tools. Firewalls, virtual private networks, viruses. Mobile and app security. Usable security. Note: May not earn credit for both W4181 and W4180 or W4187.",
-      "prereq_text": "Prerequisites: COMS W3157 ; or equivalent."
+      "prereq_text": "Prerequisites: COMS W3157 ; or equivalent."
     },
     {
       "code": "COMS W4182",
@@ -700,7 +700,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Advanced security. Centralized, distributed, and cloud system security. Cryptographic protocol design choices. Hardware and software security techniques. Security testing and fuzzing. Blockchain. Human security issues. Note: May not earn credit for both W4182 and W4180 or W4187.",
-      "prereq_text": "Prerequisites: COMS W4118 AND COMS W4181 AND CSEE W4119"
+      "prereq_text": "Prerequisites: COMS W4118 AND COMS W4181 AND CSEE W4119"
     },
     {
       "code": "COMS W4186",
@@ -710,7 +710,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Hands-on analysis of malware. How hackers package and hide malware and viruses to evade analysis. Disassemblers, debuggers, and other tools for reverse engineering. Deep study of Windows Internals and x86 assembly.",
-      "prereq_text": "Prerequisites: COMS W3157 AND CSEE W3827 ; or equivalent."
+      "prereq_text": "Prerequisites: COMS W3157 AND CSEE W3827 ; or equivalent."
     },
     {
       "code": "COMS W4203",
@@ -720,23 +720,23 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "General introduction to graph theory. Isomorphism testing, algebraic specification, symmetries, spanning trees, traversability, planarity, drawings on higher-order surfaces, colorings, extremal graphs, random graphs, graphical measurement, directed graphs, Burnside-Polya counting, voltage graph theory.",
-      "prereq_text": "Prerequisites: ( COMS W3203 ) COMS W3203"
+      "prereq_text": "Prerequisites: ( COMS W3203 ) COMS W3203"
     },
     {
       "code": "COMS W4205",
       "subject": "COMS",
       "number": "W4205",
-      "title": " Combinatorial Theory",
+      "title": "Combinatorial Theory",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Sequences and recursions, calculus of finite differences and sums, elementary number theory, permutation group structures, binomial coefficients, Stilling numbers, harmonic numbers, generating functions.",
-      "prereq_text": "Prerequisites: ( COMS W3203 ) and course in calculus."
+      "prereq_text": "Prerequisites: ( COMS W3203 ) and course in calculus."
     },
     {
       "code": "COMS W4223",
       "subject": "COMS",
       "number": "W4223",
-      "title": " Networks, Crowds, and the Web",
+      "title": "Networks, Crowds, and the Web",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
@@ -756,11 +756,11 @@
       "code": "COMS W4232",
       "subject": "COMS",
       "number": "W4232",
-      "title": " Advanced Algorithms",
+      "title": "Advanced Algorithms",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Prerequisite: Analysis of Algorithms (COMS W4231).",
-      "prereq_text": "Prerequisites: see notes re: points COMS W4231"
+      "prereq_text": "Prerequisites: see notes re: points COMS W4231"
     },
     {
       "code": "COMS W4236",
@@ -770,7 +770,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3261 ) COMS W3261"
+      "prereq_text": "Prerequisites: ( COMS W3261 ) COMS W3261"
     },
     {
       "code": "COMS W4241",
@@ -800,7 +800,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Possibilities and limitations of performing learning by computational agents. Topics include computational models of learning, polynomial time learnability, learning from examples and learning from queries to oracles. Computational and statistical limitations of learning. Applications to Boolean functions, geometric functions, automata.",
-      "prereq_text": "Prerequisites: ( CSOR W4231 ) or ( COMS W4236 ) or ( COMS W3203 ) or ( COMS W3261 )"
+      "prereq_text": "Prerequisites: ( CSOR W4231 ) or ( COMS W4236 ) or ( COMS W3203 ) or ( COMS W3261 )"
     },
     {
       "code": "COMS W4261",
@@ -810,7 +810,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: COMS W3261 OR CSOR W4231 ; Comfort with basic discrete math and probability. Recommended: COMS W3261 or CSOR W4231 ."
+      "prereq_text": "Prerequisites: COMS W3261 OR CSOR W4231 ; Comfort with basic discrete math and probability. Recommended: COMS W3261 or CSOR W4231 ."
     },
     {
       "code": "COMS W4281",
@@ -826,7 +826,7 @@
       "code": "COMS W4295",
       "subject": "COMS",
       "number": "W4295",
-      "title": " Topics in Theoretical Computer Science",
+      "title": "Topics in Theoretical Computer Science",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Selected topics in theoretical computer science. Content and prerequisites vary between sections and semesters. May be repeated for credit. Check \"topics courses\" webpage on the department website for more information on each section",
@@ -836,7 +836,7 @@
       "code": "COMS W4419",
       "subject": "COMS",
       "number": "W4419",
-      "title": " Internet Technology, Economics, and Policy",
+      "title": "Internet Technology, Economics, and Policy",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
@@ -850,7 +850,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Hands-on introduction to solving open-ended computational problems. Emphasis on creativity, cooperation, and collaboration. Projects spanning a variety of areas within computer science, typically requiring the development of computer programs. Generalization of solutions to broader problems, and specialization of complex problems to make them manageable. Team-oriented projects, student presentations, and in-class participation required.",
-      "prereq_text": "Prerequisites: ( COMS W3134 and COMS W3136 ) or ( COMS W3137 and CSEE W3827 )"
+      "prereq_text": "Prerequisites: ( COMS W3134 and COMS W3136 ) or ( COMS W3137 and CSEE W3827 )"
     },
     {
       "code": "COMS W4460",
@@ -860,7 +860,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Team project centered course focused on principles of planning, creating, and growing a technology venture. Topics include: identifying and analyzing opportunities created by technology paradigm shifts, designing innovative products, protecting intellectual property, engineering innovative business models.",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) Or instructor's permission"
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) Or instructor's permission"
     },
     {
       "code": "COMS W4701",
@@ -870,7 +870,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "CC/GS: Partial Fulfillment of Science Requirement",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and COMS W3134 OR COMS W3136 OR COMS W3137 ; Any course on probability"
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and COMS W3134 OR COMS W3136 OR COMS W3137 ; Any course on probability"
     },
     {
       "code": "COMS W4705",
@@ -880,27 +880,27 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Computational approaches to the analysis, understanding, and generation of natural language text at scale. Emphasis on machine learning techniques for NLP, including deep learning and large language models. Applications may include information extraction, sentiment analysis, question answering, summarization, machine translation, and conversational AI. Discussion of datasets, benchmarking and evaluation, interpretability, and ethical considerations. Due to significant overlap in content, only one of COMS 4705 or Barnard COMS 3705BC may be taken for credit.",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) or Python programming experience, probability theory, and linear algebra recommended. Some previous or concurrent exposure to AI and machine learning is benefici Some previous or concurrent exposure to AI or Machine Learning is recommended but not required."
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) or Python programming experience, probability theory, and linear algebra recommended. Some previous or concurrent exposure to AI and machine learning is benefici Some previous or concurrent exposure to AI or Machine Learning is recommended but not required."
     },
     {
       "code": "COMS W4706",
       "subject": "COMS",
       "number": "W4706",
-      "title": " Spoken Language Processing",
+      "title": "Spoken Language Processing",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Computational approaches to speech generation and understanding. Topics include speech recognition and understanding, speech analysis for computational linguistics research, and speech synthesis. Speech applications including dialogue systems, data mining, summarization, and translation. Exercises involve data analysis and building a small text-to-speech system.",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) or COMS W3134 , W3136 , or W3137 ; or the instructor's permission."
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) or COMS W3134 , W3136 , or W3137 ; or the instructor's permission."
     },
     {
       "code": "COMS W4710",
       "subject": "COMS",
       "number": "W4710",
-      "title": " Ethical and Responsible AI",
+      "title": "Ethical and Responsible AI",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Principles of Ethical Artificial Intelligence across technical and societal dimensions. Combines technical AI and machine learning implementations and ethical analysis. Students will learn to build, audit, and mitigate ethical risks in AI systems using tools like fairness libraries, explainability frameworks, and privacy-preserving techniques. Emphasizes coding, algorithmic critique, and real-world cases. Topics include: foundations of AI ethics, fairness, interpretability, explainability, accountability, privacy, robustness, alignment, safety, and societal benefit. Assessments include coding projects, bias auditing assignments, and ethical analysis papers.",
-      "prereq_text": "Prerequisites: ( COMS W2132 ) or ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) or ( IEOR E2000 ) Programming proficiency in Python. Basic knowledge of probability theory and statistics. Familiarity with machine learning recommended."
+      "prereq_text": "Prerequisites: ( COMS W2132 ) or ( COMS W3134 ) or ( COMS W3136 ) or ( COMS W3137 ) or ( IEOR E2000 ) Programming proficiency in Python. Basic knowledge of probability theory and statistics. Familiarity with machine learning recommended."
     },
     {
       "code": "COMS W4721",
@@ -916,17 +916,17 @@
       "code": "COMS W4725",
       "subject": "COMS",
       "number": "W4725",
-      "title": " Knowledge representation and reasoning",
+      "title": "Knowledge representation and reasoning",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "General aspects of knowledge representation (KR). The two fundamental paradigms (semantic networks and frames) and illustrative systems. Topics include hybrid systems, time, action/plans, defaults, abduction, and case-based reasoning. Throughout the course particular attention is paid to design trade-offs between language expressiveness and reasoning complexity, and issues relating to the use of KR systems in larger applications.",
-      "prereq_text": "Prerequisites: ( COMS W4701 )"
+      "prereq_text": "Prerequisites: ( COMS W4701 )"
     },
     {
       "code": "COMS W4726",
       "subject": "COMS",
       "number": "W4726",
-      "title": " Deep Learning for Data Science",
+      "title": "Deep Learning for Data Science",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Introductory course in deep learning covering core architectures (perceptrons, MLPs, CNNs, U-Nets, RNNs, transformers), training methods (supervised/adversarial loss, autoencoders, diffusion, RL), and key topics (regularization, optimization); includes hands-on implementation in PyTorch with coding, experiments, and paper reviews; students learn to design, build, train, and evaluate deep networks and engage with current research.",
@@ -936,7 +936,7 @@
       "code": "COMS W4731",
       "subject": "COMS",
       "number": "W4731",
-      "title": " Computer Vision I: First Principles",
+      "title": "Computer Vision I: First Principles",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
@@ -946,11 +946,11 @@
       "code": "COMS W4732",
       "subject": "COMS",
       "number": "W4732",
-      "title": " Computer Vision II: Learning",
+      "title": "Computer Vision II: Learning",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: COMS W4731 ; Fundamentals of calculus, linear algebra, and Python programming. Students without any of these prerequisites are advised to contact the instructor prior to taking the course."
+      "prereq_text": "Prerequisites: COMS W4731 ; Fundamentals of calculus, linear algebra, and Python programming. Students without any of these prerequisites are advised to contact the instructor prior to taking the course."
     },
     {
       "code": "COMS W4733",
@@ -960,7 +960,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Introduction to fundamental problems and algorithms in robotics. Topics include configuration spaces, motion and sensor models, search and sampling-based planning, state estimation, localization and mapping, perception, and learning.",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and ( COMS W3251 or MATH UN2010 or APMA E2101 or APMA E3101 or MATH UN2015 ) and ( STAT GU4001 or IEOR E3658 or STAT UN1201 or MATH UN2015 ) Proficiency in Python or a similar programming language."
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) and ( COMS W3251 or MATH UN2010 or APMA E2101 or APMA E3101 or MATH UN2015 ) and ( STAT GU4001 or IEOR E3658 or STAT UN1201 or MATH UN2015 ) Proficiency in Python or a similar programming language."
     },
     {
       "code": "COMS W4735",
@@ -970,7 +970,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137"
+      "prereq_text": "Prerequisites: ( COMS W3134 or COMS W3136 or COMS W3137 ) COMS W3134 OR COMS W3136 OR COMS W3137"
     },
     {
       "code": "COMS W4737",
@@ -979,24 +979,24 @@
       "title": "Biometrics",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "In this course. we will explore the latest advances in biometrics as well as the machine learning techniques behind them. Students will learn how these technologies work and how they are sometimes defeated. Grading will be based on homework assignments and a final project. There will be no midterm or final exam. This course shares lectures with COMS E6737 . Students taking COMS E6737 are required to complete additional homework problems and undertake a more rigorous final project. Students will only be allowed to earn credit for COMS W4737 or COMS E6737 and not both.",
+      "description": "In this course. we will explore the latest advances in biometrics as well as the machine learning techniques behind them. Students will learn how these technologies work and how they are sometimes defeated. Grading will be based on homework assignments and a final project. There will be no midterm or final exam. This course shares lectures with COMS E6737 . Students taking COMS E6737 are required to complete additional homework problems and undertake a more rigorous final project. Students will only be allowed to earn credit for COMS W4737 or COMS E6737 and not both.",
       "prereq_text": "Prerequisites: a background at the sophomore level in computer science, engineering, or like discipline."
     },
     {
       "code": "COMS W4762",
       "subject": "COMS",
       "number": "W4762",
-      "title": " Machine Learning for Functional Genomics",
+      "title": "Machine Learning for Functional Genomics",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "This course will introduce modern probabilistic machine learning methods using applications in data analysis tasks from functional genomics, where massively-parallel sequencing is used to measure the state of cells: e.g. what genes are being expressed, what regions of DNA (“chromatin”) are active (“open”) or bound by specific proteins.",
-      "prereq_text": "Prerequisites: Proficiency in a high level programming language Python/R/Julia. An introductory machine learning class such as COMS W4771 Machine Learning will be helpful but is not required."
+      "prereq_text": "Prerequisites: Proficiency in a high level programming language Python/R/Julia. An introductory machine learning class such as COMS W4771 Machine Learning will be helpful but is not required."
     },
     {
       "code": "COMS E4762",
       "subject": "COMS",
       "number": "E4762",
-      "title": " Machine Learning for Functional Genomics",
+      "title": "Machine Learning for Functional Genomics",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "This course will introduce modern probabilistic machine learning methods using applications in data analysis tasks from functional genomics, where massively-parallel sequencing is used to measure the state of cells: e.g. what genes are being expressed, what regions of DNA (“chromatin”) are active (“open”) or bound by specific proteins",
@@ -1010,7 +1010,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Basic statistical principles and algorithmic paradigms of supervised machine learning. Prerequisites: Multivariable calculus (e.g. MATH1201 or MATH1205 or APMA2000), linear algebra (e.g. COMS3251 or MATH2010 or MATH2015), probability (e.g. STAT1201 or STAT4001 or IEOR3658 or MATH2015), discrete math (COMS3203), and general mathematical maturity. Programming and algorithm analysis (e.g. COMS 3134). COMS 3770 is recommended for students who wish to refresh their math background.",
-      "prereq_text": "Prerequisites: ( MATH UN1201 or MATH UN1205 or APMA E2000 ) and ( COMS W3251 or MATH UN2010 or MATH UN2015 ) and ( STAT UN1201 or STAT GU4001 or IEOR E3658 or MATH UN2015 ) and COMS W3203 and COMS W3134 General mathematical maturity. COMS W3770 is recommended for students who wish to refresh their math background."
+      "prereq_text": "Prerequisites: ( MATH UN1201 or MATH UN1205 or APMA E2000 ) and ( COMS W3251 or MATH UN2010 or MATH UN2015 ) and ( STAT UN1201 or STAT GU4001 or IEOR E3658 or MATH UN2015 ) and COMS W3203 and COMS W3134 General mathematical maturity. COMS W3770 is recommended for students who wish to refresh their math background."
     },
     {
       "code": "COMS W4772",
@@ -1020,23 +1020,23 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W4771 ) or COMS W4771 ; Instructor's permission; knowledge of linear algebra & introductory probability or statistics is required."
+      "prereq_text": "Prerequisites: ( COMS W4771 ) or COMS W4771 ; Instructor's permission; knowledge of linear algebra & introductory probability or statistics is required."
     },
     {
       "code": "COMS W4773",
       "subject": "COMS",
       "number": "W4773",
-      "title": " Machine Learning Theory",
+      "title": "Machine Learning Theory",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Core topics from unsupervised learning such as clustering, dimensionality reduction and density estimation will be studied in detail. Topics in clustering: k-means clustering, hierarchical clustering, spectral clustering, clustering with various forms of feedback, good initialization techniques and convergence analysis of various clustering procedures. Topics in dimensionality reduction: linear techniques such as PCA, ICA, Factor Analysis, Random Projections, non-linear techniques such as LLE, IsoMap, Laplacian Eigenmaps, tSNE, and study of embeddings of general metric spaces, what sorts of theoretical guarantees can one provide about such techniques. Miscellaneous topics: design and analysis of data structures for fast Nearest Neighbor search such as Cover Trees and LSH. Algorithms will be implemented in either Matlab or Python.",
-      "prereq_text": "Prerequisites: COMS W4771"
+      "prereq_text": "Prerequisites: COMS W4771"
     },
     {
       "code": "COMS E4773",
       "subject": "COMS",
       "number": "E4773",
-      "title": " Machine Learning Theory",
+      "title": "Machine Learning Theory",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Theoretical study of algorithms for machine learning and high-dimensional data analysis. Topics include high-dimensional probability, theory of generalization and statistical learning, online learning and optimization, spectral analysis",
@@ -1046,51 +1046,51 @@
       "code": "COMS W4774",
       "subject": "COMS",
       "number": "W4774",
-      "title": " Unsupervised Learning",
+      "title": "Unsupervised Learning",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Core topics from unsupervised learning such as clustering, dimensionality reduction and density estimation will be studied in detail. Topics in clustering: k-means clustering, hierarchical clustering, spectral clustering, clustering with various forms of feedback, good initialization techniques and convergence analysis of various clustering procedures. Topics in dimensionality reduction: linear techniques such as PCA, ICA, Factor Analysis, Random Projections, non-linear techniques such as LLE, IsoMap, Laplacian Eigenmaps, tSNE, and study of embeddings of general metric spaces, what sorts of theoretical guarantees can one provide about such techniques. Miscellaneous topics: design and analysis of datastructures for fast Nearest Neighbor search such as Cover Trees and LSH. Algorithms will be implemented in either Matlab or Python.",
-      "prereq_text": "Prerequisites: COMS W4771 Background in probability and statistics, linear algebra, and multivariate calculus. Ability to program in a high-level language, and familiarity with basic algorithm design and coding principles"
+      "prereq_text": "Prerequisites: COMS W4771 Background in probability and statistics, linear algebra, and multivariate calculus. Ability to program in a high-level language, and familiarity with basic algorithm design and coding principles"
     },
     {
       "code": "COMS W4775",
       "subject": "COMS",
       "number": "W4775",
-      "title": " Causal Inference",
+      "title": "Causal Inference",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Causal Inference theory and applications. The theoretical topics include the 3-layer causal hierarchy, causal bayesian networks, structural learning, the identification problem and the do-calculus, linear identifiability, bounding, and counterfactual analysis. The applied part includes intersection with statistics, the empirical-data sciences (social and health), and AI and ML.",
-      "prereq_text": "Prerequisites: COMS W4771 Discrete Math, Calculus, Statistics basic probability, modeling, experimental design, Some programming experience"
+      "prereq_text": "Prerequisites: COMS W4771 Discrete Math, Calculus, Statistics basic probability, modeling, experimental design, Some programming experience"
     },
     {
       "code": "COMS E4775",
       "subject": "COMS",
       "number": "E4775",
-      "title": " Causal Inference",
+      "title": "Causal Inference",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "Causal Inference theory and applications. The theoretical topics include the 3-layer causal hierarchy,  causal bayesian networks, structural learning, the identification problem and the do-calculus, linear identifiability, bounding, and counterfactual analysis. The applied part includes intersection with statistics, the empirical-data sciences (social and health), and AI and ML.",
+      "description": "Causal Inference theory and applications. The theoretical topics include the 3-layer causal hierarchy,  causal bayesian networks, structural learning, the identification problem and the do-calculus, linear identifiability, bounding, and counterfactual analysis. The applied part includes intersection with statistics, the empirical-data sciences (social and health), and AI and ML.",
       "prereq_text": "Prerequisites: (COMS4711W) and"
     },
     {
       "code": "COMS W4776",
       "subject": "COMS",
       "number": "W4776",
-      "title": " Machine Learning for Data Science",
+      "title": "Machine Learning for Data Science",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "Introduction to machine learning, emphasis on data science. Topics include least square methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines kernel methods. Emphasizes methods and problems relevant to big data. Students may not receive credit for both COMS W4771 and W4776.",
-      "prereq_text": "Prerequisites: ( STAT GU4001 or IEOR E4150 ) and SIEO W3600 or W4150 or equivalent."
+      "description": "Introduction to machine learning, emphasis on data science. Topics include least square methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines kernel methods. Emphasizes methods and problems relevant to big data. Students may not receive credit for both COMS W4771 and W4776.",
+      "prereq_text": "Prerequisites: ( STAT GU4001 or IEOR E4150 ) and SIEO W3600 or W4150 or equivalent."
     },
     {
       "code": "COMS E4776",
       "subject": "COMS",
       "number": "E4776",
-      "title": " Neural Networks ＆ Deep Learning",
+      "title": "Neural Networks ＆ Deep Learning",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Foundational concepts, methods, applications, and recent advances in neural network algorithms.",
-      "prereq_text": "Prerequisites: ( COMS W4771 ) and ( COMS W3251 or MATH UN2010 or MATH UN2015 ) and ( STAT UN1201 or STAT GU4001 or STAT GU4203 or IEOR E3658 or MATH UN2015 )"
+      "prereq_text": "Prerequisites: ( COMS W4771 ) and ( COMS W3251 or MATH UN2010 or MATH UN2015 ) and ( STAT UN1201 or STAT GU4001 or STAT GU4203 or IEOR E3658 or MATH UN2015 )"
     },
     {
       "code": "COMS W4824",
@@ -1126,7 +1126,7 @@
       "code": "COMS E4899",
       "subject": "COMS",
       "number": "E4899",
-      "title": " Research Training",
+      "title": "Research Training",
       "points_min": 0.0,
       "points_max": 0.0,
       "description": "Research training course. Recommended in preparation for laboratory related research",
@@ -1136,7 +1136,7 @@
       "code": "COMS W4901",
       "subject": "COMS",
       "number": "W4901",
-      "title": " Projects in Computer Science",
+      "title": "Projects in Computer Science",
       "points_min": 1.0,
       "points_max": 3.0,
       "description": "A second-level independent project involving laboratory work, computer programming, analytical investigation, or engineering design. May be repeated for credit, but not for a total of more than 3 points of degree credit. Consult the department for section assignment.",
@@ -1156,11 +1156,11 @@
       "code": "COMS W4975",
       "subject": "COMS",
       "number": "W4975",
-      "title": " Topics in Natural Language Processing",
+      "title": "Topics in Natural Language Processing",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "Selected topics in Natural Language Processing. Content and prerequisites vary between sections and semesters. May be repeated for credit. Check the \"topics courses\" webpage on the department website for more information on each section.",
-      "prereq_text": "Prerequisites: ( COMS W4705 )"
+      "prereq_text": "Prerequisites: ( COMS W4705 )"
     },
     {
       "code": "COMS E4995",
@@ -1186,10 +1186,10 @@
       "code": "COMS W4996",
       "subject": "COMS",
       "number": "W4996",
-      "title": " Special topics in computer science, II",
+      "title": "Special topics in computer science, II",
       "points_min": 3.0,
       "points_max": 3.0,
-      "description": "A continuation of COMS W4995 when the special topic extends over two terms.",
+      "description": "A continuation of COMS W4995 when the special topic extends over two terms.",
       "prereq_text": "Prerequisites: Instructor's permission."
     },
     {
@@ -1230,7 +1230,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: Background in Computer System Organization and good working knowledge of C/C++. CSOR W4246 Algorithms for Data Science, STAT W4203 Probability Theory, or equivalent as approved by faculty advisor."
+      "prereq_text": "Prerequisites: Background in Computer System Organization and good working knowledge of C/C++. CSOR W4246 Algorithms for Data Science, STAT W4203 Probability Theory, or equivalent as approved by faculty advisor."
     },
     {
       "code": "CSEE W4140",
@@ -1240,17 +1240,17 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( CSEE W4119 ) or CSEE W4119 ; or equivalent."
+      "prereq_text": "Prerequisites: ( CSEE W4119 ) or CSEE W4119 ; or equivalent."
     },
     {
       "code": "CSEE W4823",
       "subject": "CSEE",
       "number": "W4823",
-      "title": " Advanced Logic Design",
+      "title": "Advanced Logic Design",
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "An introduction to modern digital system design. Advanced topics in digital logic: controller synthesis (Mealy and Moore machines); adders and multipliers; structured logic blocks (PLDs, PALs, ROMs); iterative circuits. Modern design methodology: register transfer level modelling (RTL); algorithmic state machines (ASMs); introduction to hardware description languages (VHDL or Verilog); system-level modelling and simulation; design examples.",
-      "prereq_text": "Prerequisites: ( CSEE W3827 ) or CSEE W3827 ; Or a half semester introduction to digital logic, or the equivalent."
+      "prereq_text": "Prerequisites: ( CSEE W3827 ) or CSEE W3827 ; Or a half semester introduction to digital logic, or the equivalent."
     },
     {
       "code": "CSEE W4824",
@@ -1260,7 +1260,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( CSEE W3827 ) or CSEE W3827"
+      "prereq_text": "Prerequisites: ( CSEE W3827 ) or CSEE W3827"
     },
     {
       "code": "CSEE W4840",
@@ -1270,7 +1270,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( CSEE W4823 ) CSEE W4823"
+      "prereq_text": "Prerequisites: ( CSEE W4823 ) CSEE W4823"
     },
     {
       "code": "CSEE W4868",
@@ -1280,7 +1280,7 @@
       "points_min": 3.0,
       "points_max": 3.0,
       "description": "",
-      "prereq_text": "Prerequisites: ( COMS W3157 ) and ( CSEE W3827 ) COMS W3157 AND CSEE W3827"
+      "prereq_text": "Prerequisites: ( COMS W3157 ) and ( CSEE W3827 ) COMS W3157 AND CSEE W3827"
     },
     {
       "code": "CBMF W4761",
@@ -1296,247 +1296,444 @@
   "courselists": [
     {
       "header": "Calculus Requirement: Select one of the following courses:",
+      "section": "Mathematics Requirement (6-11 points)",
       "codes": [
-        "MATH UN1201",
-        "MATH UN1205",
-        "APMA E2000"
-      ]
+        "MATH UN1201",
+        "MATH UN1205",
+        "APMA E2000"
+      ],
+      "titles": {
+        "MATH UN1201": "CALCULUS III",
+        "MATH UN1205": "ACCELERATED MULTIVARIABLE CALC",
+        "APMA E2000": "MULTV. CALC. FOR ENGI ＆ APP SCI"
+      }
     },
     {
       "header": "Linear Algebra Requirement: Select one of the following courses:",
+      "section": "Mathematics Requirement (6-11 points)",
       "codes": [
-        "COMS W3251",
-        "MATH UN2010",
-        "MATH UN2015",
-        "MATH UN2020",
-        "APMA E2101",
-        "APMA E3101"
-      ]
+        "COMS W3251",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH UN2020",
+        "APMA E2101",
+        "APMA E3101"
+      ],
+      "titles": {
+        "COMS W3251": "COMPUTATIONAL LINEAR ALGEBRA (recommended)",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "MATH UN2015": "Linear Algebra and Probability",
+        "MATH UN2020": "Honors Linear Algebra",
+        "APMA E2101": "INTRO TO APPLIED MATHEMATICS",
+        "APMA E3101": "APPLIED MATH I: LINEAR ALGEBRA"
+      }
     },
     {
       "header": "Probability / Statistics Requirement: Select one of the following courses:",
+      "section": "Mathematics Requirement (6-11 points)",
       "codes": [
-        "MATH UN2015",
-        "IEOR E3658",
-        "STAT UN1201",
-        "STAT GU4001"
-      ]
+        "MATH UN2015",
+        "IEOR E3658",
+        "STAT UN1201",
+        "STAT GU4001"
+      ],
+      "titles": {
+        "MATH UN2015": "Linear Algebra and Probability",
+        "IEOR E3658": "PROBABILITY FOR ENGINEERS",
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4001": "INTRODUCTION TO PROBABILITY AND STATISTICS"
+      }
     },
     {
       "header": "",
+      "section": "Pre-intro course (Optional, 3-4 points)",
       "codes": [
-        "ENGI E1006"
-      ]
+        "ENGI E1006"
+      ],
+      "titles": {
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI (recommended but not required)"
+      }
     },
     {
       "header": "First Year",
+      "section": "Computer Science Core (20-21 points):",
       "codes": [
-        "COMS W1004"
-      ]
+        "COMS W1004"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA"
+      }
     },
     {
       "header": "Sophomore Year",
+      "section": "Computer Science Core (20-21 points):",
       "codes": [
-        "COMS W3134",
-        "COMS W3157",
-        "COMS W3203"
-      ]
+        "COMS W3134",
+        "COMS W3157",
+        "COMS W3203"
+      ],
+      "titles": {
+        "COMS W3134": "Data Structures in Java",
+        "COMS W3157": "ADVANCED PROGRAMMING",
+        "COMS W3203": "DISCRETE MATHEMATICS"
+      }
     },
     {
       "header": "Junior and Senior Year",
+      "section": "Computer Science Core (20-21 points):",
       "codes": [
-        "COMS W3261",
-        "CSEE W3827"
-      ]
+        "COMS W3261",
+        "CSEE W3827"
+      ],
+      "titles": {
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "CSEE W3827": "FUNDAMENTALS OF COMPUTER SYSTS"
+      }
     },
     {
       "header": "",
+      "section": "Area Foundation Courses (9 to 12 points):",
       "codes": [
-        "COMS W4111",
-        "COMS W4113",
-        "COMS W4115",
-        "COMS W4118",
-        "COMS W4119",
-        "COMS W4152",
-        "COMS W4156",
-        "COMS W4160",
-        "COMS W4167",
-        "COMS W4170",
-        "COMS W4181",
-        "CSOR E4231",
-        "COMS W4236",
-        "COMS W4701",
-        "COMS W4705",
-        "COMS W4731",
-        "COMS W4733",
-        "CBMF W4761",
-        "COMS W4771",
-        "CSEE W4824",
-        "CSEE W4868"
-      ]
+        "COMS W4111",
+        "COMS W4113",
+        "COMS W4115",
+        "COMS W4118",
+        "COMS W4119",
+        "COMS W4152",
+        "COMS W4156",
+        "COMS W4160",
+        "COMS W4167",
+        "COMS W4170",
+        "COMS W4181",
+        "CSOR E4231",
+        "COMS W4236",
+        "COMS W4701",
+        "COMS W4705",
+        "COMS W4731",
+        "COMS W4733",
+        "CBMF W4761",
+        "COMS W4771",
+        "CSEE W4824",
+        "CSEE W4868"
+      ],
+      "titles": {
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4113": "FUND-LARGE-SCALE DIST SYSTEMS",
+        "COMS W4115": "PROGRAMMING LANG ＆ TRANSLATORS",
+        "COMS W4118": "OPERATING SYSTEMS I",
+        "COMS W4119": "COMPUTER NETWORKS",
+        "COMS W4152": "Engineering Software-as-a-Service",
+        "COMS W4156": "Advanced Software Engineering",
+        "COMS W4160": "COMPUTER GRAPHICS",
+        "COMS W4167": "COMPUTER ANIMATION",
+        "COMS W4170": "USER INTERFACE DESIGN",
+        "COMS W4181": "SECURITY I",
+        "CSOR E4231": "ANALYSIS OF ALGORITHMS I",
+        "COMS W4236": "INTRO-COMPUTATIONAL COMPLEXITY",
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE",
+        "COMS W4705": "NATURAL LANGUAGE PROCESSING",
+        "COMS W4731": "Computer Vision I: First Principles",
+        "COMS W4733": "COMPUTATIONAL ASPECTS OF ROBOTICS",
+        "CBMF W4761": "COMPUTATIONAL GENOMICS",
+        "COMS W4771": "MACHINE LEARNING",
+        "CSEE W4824": "COMPUTER ARCHITECTURE",
+        "CSEE W4868": "SYSTEM-ON-CHIP PLATFORMS"
+      }
     },
     {
       "header": "",
+      "section": "Core Requirement",
       "codes": [
-        "COMS W1001",
-        "COMS W1004",
-        "COMS W3107",
-        "COMS W3134",
-        "STAT GU4001"
-      ]
+        "COMS W1001",
+        "COMS W1004",
+        "COMS W3107",
+        "COMS W3134",
+        "STAT GU4001"
+      ],
+      "titles": {
+        "COMS W1001": "INTRO TO INFORMATION SCIENCE",
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W3107": "Clean Object-Oriented Design",
+        "COMS W3134": "Data Structures in Java",
+        "STAT GU4001": "INTRODUCTION TO PROBABILITY AND STATISTICS"
+      }
     },
     {
       "header": "",
+      "section": "Information Science and Contemporary Society",
       "codes": [
-        "COMS W4111",
-        "COMS W4170",
-        "COMS W4701",
-        "COMS W3410",
-        "SOCI UN3010",
-        "SOCI UN3960"
-      ]
+        "COMS W4111",
+        "COMS W4170",
+        "COMS W4701",
+        "COMS W3410",
+        "SOCI UN3010",
+        "SOCI UN3960"
+      ],
+      "titles": {
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4170": "USER INTERFACE DESIGN",
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE",
+        "COMS W3410": "COMPUTERS AND SOCIETY",
+        "SOCI UN3010": "METHODS FOR SOCIAL RESEARCH",
+        "SOCI UN3960": "SEMINAR - PROBLEMS OF LAW ＆ SOCIETY"
+      }
     },
     {
       "header": "",
+      "section": "Information Science and the Economy",
       "codes": [
-        "COMS W4111",
-        "COMS W4701",
-        "COMS W4771",
-        "ECON UN3412",
-        "ECON UN3025",
-        "ECON UN3265"
-      ]
+        "COMS W4111",
+        "COMS W4701",
+        "COMS W4771",
+        "ECON UN3412",
+        "ECON UN3025",
+        "ECON UN3265"
+      ],
+      "titles": {
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE",
+        "COMS W4771": "MACHINE LEARNING",
+        "ECON UN3412": "INTRODUCTION TO ECONOMETRICS",
+        "ECON UN3025": "FINANCIAL ECONOMICS",
+        "ECON UN3265": "MONEY AND BANKING"
+      }
     },
     {
       "header": "",
+      "section": "Information Science and Health Sciences",
       "codes": [
-        "COMS W4111",
-        "COMS W4170",
-        "COMS W4701",
-        "BINF G4001",
-        "BIOL W4037",
+        "COMS W4111",
+        "COMS W4170",
+        "COMS W4701",
+        "BINF G4001",
+        "BIOL W4037",
         "ECBM E3060/E4060"
-      ]
+      ],
+      "titles": {
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4170": "USER INTERFACE DESIGN",
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE",
+        "BIOL W4037": "Bioinformatics of Gene Expression"
+      }
     },
     {
       "header": "Prerequisites (15 points)",
+      "section": "Major in Data Science",
       "codes": [
-        "MATH UN1101",
-        "MATH UN1102",
-        "MATH UN1201",
-        "MATH UN2010",
-        "STAT UN1201"
-      ]
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "STAT UN1201"
+      ],
+      "titles": {
+        "MATH UN1101": "CALCULUS I",
+        "MATH UN1102": "CALCULUS II",
+        "MATH UN1201": "CALCULUS III",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS"
+      }
     },
     {
       "header": "Statistics (12 points)",
+      "section": "Major in Data Science",
       "codes": [
-        "STAT GU4203",
-        "STAT GU4204",
-        "STAT GU4205",
-        "STAT GU4241"
-      ]
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4241"
+      ],
+      "titles": {
+        "STAT GU4203": "PROBABILITY THEORY",
+        "STAT GU4204": "STATISTICAL INFERENCE",
+        "STAT GU4205": "LINEAR REGRESSION MODELS",
+        "STAT GU4241": "STATISTICAL MACHINE LEARNING"
+      }
     },
     {
       "header": "Computer Science (12 points)",
+      "section": "Major in Data Science",
       "codes": [
-        "COMS W1004",
-        "COMS W1005",
-        "COMS W1007",
-        "ENGI E1006",
-        "COMS W3134",
-        "COMS W3136",
-        "COMS W3137",
-        "COMS W3203",
-        "CSOR W4231"
-      ]
+        "COMS W1004",
+        "COMS W1005",
+        "COMS W1007",
+        "ENGI E1006",
+        "COMS W3134",
+        "COMS W3136",
+        "COMS W3137",
+        "COMS W3203",
+        "CSOR W4231"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "COMS W3134": "Data Structures in Java",
+        "COMS W3136": "ESSENTIAL DATA STRUCTURES",
+        "COMS W3137": "HONORS DATA STRUCTURES ＆ ALGOL",
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "CSOR W4231": "ANALYSIS OF ALGORITHMS I"
+      }
     },
     {
       "header": "Electives (15 points)",
+      "section": "Major in Data Science",
       "codes": [
-        "STAT UN3106",
-        "STAT GU4206",
-        "STAT GU4224",
-        "STAT GU4243",
-        "STAT Q4242",
-        "COMS W3261",
-        "COMS W4111",
-        "COMS W4236",
-        "COMS W4252"
-      ]
+        "STAT UN3106",
+        "STAT GU4206",
+        "STAT GU4224",
+        "STAT GU4243",
+        "STAT Q4242",
+        "COMS W3261",
+        "COMS W4111",
+        "COMS W4236",
+        "COMS W4252"
+      ],
+      "titles": {
+        "STAT UN3106": "APPLIED MACHINE LEARNING",
+        "STAT GU4206": "STAT COMP ＆ INTRO DATA SCIENCE",
+        "STAT GU4224": "BAYESIAN STATISTICS",
+        "STAT Q4242": "Advanced Machine Learning",
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "COMS W4111": "INTRODUCTION TO DATABASES",
+        "COMS W4236": "INTRO-COMPUTATIONAL COMPLEXITY",
+        "COMS W4252": "INTRO-COMPUTATIONAL LEARN THRY"
+      }
     },
     {
       "header": "",
+      "section": "Minor in Artificial Intelligence",
       "codes": [
-        "MATH UN2015",
-        "ENGI E1006",
-        "COMS W2132",
-        "IEOR E2000"
-      ]
+        "MATH UN2015",
+        "ENGI E1006",
+        "COMS W2132",
+        "IEOR E2000"
+      ],
+      "titles": {
+        "MATH UN2015": "Linear Algebra and Probability",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "COMS W2132": "Intermediate Computing in Python",
+        "IEOR E2000": "Data Engineering with Python"
+      }
     },
     {
       "header": "",
+      "section": "AI Requirement:",
       "codes": [
-        "COMS W4701"
-      ]
+        "COMS W4701"
+      ],
+      "titles": {
+        "COMS W4701": "ARTIFICIAL INTELLIGENCE"
+      }
     },
     {
       "header": "",
+      "section": "Ethics Requirement:",
       "codes": [
-        "COMS W4710",
-        "COMS W2702",
-        "PSYC GU4836",
-        "ORCS E4201",
-        "COMS BC3420"
-      ]
+        "COMS W4710",
+        "COMS W2702",
+        "PSYC GU4836",
+        "ORCS E4201",
+        "COMS BC3420"
+      ],
+      "titles": {
+        "COMS W4710": "Ethical and Responsible AI",
+        "COMS W2702": "AI in Context",
+        "PSYC GU4836": "Machine Intelligence",
+        "ORCS E4201": "Policy for Privacy Technologies",
+        "COMS BC3420": "PRIVACY IN A NETWORKED WORLD"
+      }
     },
     {
       "header": "",
+      "section": "AI Elective:",
       "codes": [
-        "BMEN E4460",
-        "BMEN E4470",
-        "BMEN E4480",
-        "CBMF W4761",
-        "CHEN E4180",
-        "CIEN E4253",
-        "CIEN E4256",
-        "EAEE E4000",
-        "ECBM E4040",
-        "EECS E4764",
-        "ELEN E4720",
-        "ELEN E4730",
-        "IEOR E4212",
-        "IEOR E4540",
-        "MECE E4520",
-        "MECE E4602",
-        "ORCS E4200",
-        "ORCS E4529",
-        "POLS GU4728",
-        "STAT GU4241",
-        "STAT GU4242",
-        "STAT GU4243",
-        "STAT GU4244"
-      ]
+        "BMEN E4460",
+        "BMEN E4470",
+        "BMEN E4480",
+        "CBMF W4761",
+        "CHEN E4180",
+        "CIEN E4253",
+        "CIEN E4256",
+        "EAEE E4000",
+        "ECBM E4040",
+        "EECS E4764",
+        "ELEN E4720",
+        "ELEN E4730",
+        "IEOR E4212",
+        "IEOR E4540",
+        "MECE E4520",
+        "MECE E4602",
+        "ORCS E4200",
+        "ORCS E4529",
+        "POLS GU4728",
+        "STAT GU4241",
+        "STAT GU4242",
+        "STAT GU4243",
+        "STAT GU4244"
+      ],
+      "titles": {
+        "BMEN E4460": "Deep Learning in Biomedical Imaging",
+        "BMEN E4470": "Deep Learning for Biomedical Signal Processing",
+        "BMEN E4480": "Statistical machine learning for genomics",
+        "CBMF W4761": "COMPUTATIONAL GENOMICS",
+        "CHEN E4180": "Machine Learning for Biomolecular and Cellular Applications",
+        "CIEN E4253": "COMP SOLID MECHANICS WITH AI",
+        "CIEN E4256": "Applied Machine Learning in Civil Engineering",
+        "EAEE E4000": "Machine learning for environmental engineering and science",
+        "ECBM E4040": "NEURAL NETWRKS ＆ DEEP LEARNING",
+        "EECS E4764": "Artificial Intelligence of Things (AIoT)",
+        "ELEN E4720": "Machine Learning for Signals, Information and Data",
+        "ELEN E4730": "Quantum Optimization and Machine Learning",
+        "IEOR E4212": "Data Analytics ＆ Machine Learning for OR",
+        "IEOR E4540": "DATA MINING",
+        "MECE E4520": "DATA SCIENCE FOR MECHANICAL SYSTEMS",
+        "MECE E4602": "INTRODUCTION TO ROBOTICS",
+        "ORCS E4200": "Data-driven Decision Modeling",
+        "ORCS E4529": "Reinforcement Learning",
+        "POLS GU4728": "Machine Learning ＆ AI for the Social Sciences",
+        "STAT GU4241": "STATISTICAL MACHINE LEARNING",
+        "STAT GU4242": "ADVANCED MACHINE LEARNING",
+        "STAT GU4244": "Unsupervised Learning"
+      }
     },
     {
       "header": "",
+      "section": "Concentration in Computer Science",
       "codes": [
-        "COMS W1004",
-        "COMS W3134",
-        "COMS W3157",
-        "COMS W3203",
-        "COMS W3261",
-        "CSEE W3827",
-        "COMS W3251",
-        "MATH UN2010",
-        "MATH UN2015",
-        "MATH V2020",
-        "APMA E2101",
-        "APMA E3101",
-        "IEOR E3658",
-        "STAT UN1201",
-        "STAT GU4001"
-      ]
+        "COMS W1004",
+        "COMS W3134",
+        "COMS W3157",
+        "COMS W3203",
+        "COMS W3261",
+        "CSEE W3827",
+        "COMS W3251",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH V2020",
+        "APMA E2101",
+        "APMA E3101",
+        "IEOR E3658",
+        "STAT UN1201",
+        "STAT GU4001"
+      ],
+      "titles": {
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W3134": "Data Structures in Java",
+        "COMS W3157": "ADVANCED PROGRAMMING",
+        "COMS W3203": "DISCRETE MATHEMATICS",
+        "COMS W3261": "COMPUTER SCIENCE THEORY",
+        "CSEE W3827": "FUNDAMENTALS OF COMPUTER SYSTS (or any 3 point 4000-level computer science course)",
+        "COMS W3251": "COMPUTATIONAL LINEAR ALGEBRA",
+        "MATH UN2010": "LINEAR ALGEBRA",
+        "MATH UN2015": "Linear Algebra and Probability",
+        "MATH V2020": "Honors Linear Algebra",
+        "APMA E2101": "INTRO TO APPLIED MATHEMATICS",
+        "APMA E3101": "APPLIED MATH I: LINEAR ALGEBRA",
+        "IEOR E3658": "PROBABILITY FOR ENGINEERS",
+        "STAT UN1201": "CALC-BASED INTRO TO STATISTICS",
+        "STAT GU4001": "INTRODUCTION TO PROBABILITY AND STATISTICS"
+      }
     }
   ],
   "error": null

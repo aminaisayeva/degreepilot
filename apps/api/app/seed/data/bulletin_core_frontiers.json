@@ -1,6 +1,6 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/frontiers-science/",
-  "scraped_at": "2026-07-04T14:14:08Z",
+  "scraped_at": "2026-07-04T14:20:50Z",
   "courses": [
     {
       "code": "SCNC CC1000",
@@ -16,14 +16,23 @@
   "courselists": [
     {
       "header": "",
+      "section": "Registration Procedure",
       "codes": [
-        "CHEM UN2045",
-        "CHEM UN2046",
-        "PHYS UN1601",
-        "PHYS UN1602",
-        "PHYS UN2801",
-        "PHYS UN2802"
-      ]
+        "CHEM UN2045",
+        "CHEM UN2046",
+        "PHYS UN1601",
+        "PHYS UN1602",
+        "PHYS UN2801",
+        "PHYS UN2802"
+      ],
+      "titles": {
+        "CHEM UN2045": "INTENSVE ORGANIC CHEMISTRY and INTENSVE ORG CHEM-FOR 1ST YEAR (formerly CHEM W3045 - CHEM W3046 )",
+        "CHEM UN2046": "INTENSVE ORGANIC CHEMISTRY and INTENSVE ORG CHEM-FOR 1ST YEAR (formerly CHEM W3045 - CHEM W3046 )",
+        "PHYS UN1601": "PHYSICS I:MECHANICS/RELATIVITY and PHYSICS II: THERMO, ELEC ＆ MAG",
+        "PHYS UN1602": "PHYSICS I:MECHANICS/RELATIVITY and PHYSICS II: THERMO, ELEC ＆ MAG",
+        "PHYS UN2801": "ACCELERATED PHYSICS I and ACCELERATED PHYSICS II",
+        "PHYS UN2802": "ACCELERATED PHYSICS I and ACCELERATED PHYSICS II"
+      }
     }
   ],
   "error": null

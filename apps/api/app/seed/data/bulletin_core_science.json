@@ -1,263 +1,472 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/science-requirement/",
-  "scraped_at": "2026-07-04T14:14:08Z",
+  "scraped_at": "2026-07-04T14:20:50Z",
   "courses": [],
   "courselists": [
     {
       "header": "Astronomy",
+      "section": "Science B",
       "codes": [
-        "ASTR UN1234",
-        "ASTR UN1403",
-        "ASTR UN1404",
-        "ASTR UN1420",
-        "ASTR UN1453",
-        "ASTR UN1610",
-        "ASTR BC1753",
-        "ASTR BC1754",
-        "ASTR UN1836"
-      ]
+        "ASTR UN1234",
+        "ASTR UN1403",
+        "ASTR UN1404",
+        "ASTR UN1420",
+        "ASTR UN1453",
+        "ASTR UN1610",
+        "ASTR BC1753",
+        "ASTR BC1754",
+        "ASTR UN1836"
+      ],
+      "titles": {
+        "ASTR UN1234": "UNIVERSAL TIMEKEEPER (*)",
+        "ASTR UN1403": "EARTH, MOON, AND PLANETS (*)",
+        "ASTR UN1404": "STARS, GALAXIES ＆ COSMOLOGY (*)",
+        "ASTR UN1420": "Galaxies and Cosmology (*)",
+        "ASTR UN1453": "ANOTHER EARTH (*)",
+        "ASTR UN1610": "THEOR-UNIVERS:BABYLON-BIG BANG",
+        "ASTR BC1753": "LIFE IN THE UNIVERSE (*)",
+        "ASTR BC1754": "Stars, Galaxies, and Cosmology (*)",
+        "ASTR UN1836": "STARS AND ATOMS (*)"
+      }
     },
     {
       "header": "Biology",
+      "section": "Science B",
       "codes": [
-        "BIOL UN1130",
-        "BIOL UN2300"
-      ]
+        "BIOL UN1130",
+        "BIOL UN2300"
+      ],
+      "titles": {
+        "BIOL UN1130": "GENES AND DEVELOPMENT (*)",
+        "BIOL UN2300": "Interpreting Scientific Evidence (*)"
+      }
     },
     {
       "header": "Chemistry",
+      "section": "Science B",
       "codes": [
-        "CHEM UN1403",
-        "CHEM UN1404",
-        "CHEM UN1500",
-        "CHEM UN1604",
-        "CHEM UN1507",
-        "CHEM UN2045",
-        "CHEM UN2046",
-        "CHEM UN2443",
-        "CHEM UN2444",
-        "SCNC UN1800",
-        "SCNC UN1900"
-      ]
+        "CHEM UN1403",
+        "CHEM UN1404",
+        "CHEM UN1500",
+        "CHEM UN1604",
+        "CHEM UN1507",
+        "CHEM UN2045",
+        "CHEM UN2046",
+        "CHEM UN2443",
+        "CHEM UN2444",
+        "SCNC UN1800",
+        "SCNC UN1900"
+      ],
+      "titles": {
+        "CHEM UN1403": "GENERAL CHEMISTRY I-LECTURES (*)",
+        "CHEM UN1404": "GENERAL CHEMISTRY II-LECTURES (*)",
+        "CHEM UN1500": "GENERAL CHEMISTRY LABORATORY (*)",
+        "CHEM UN1604": "2ND TERM GEN CHEM (INTENSIVE) (*)",
+        "CHEM UN1507": "INTENSVE GENERAL CHEMISTRY-LAB (*)",
+        "CHEM UN2045": "INTENSVE ORGANIC CHEMISTRY",
+        "CHEM UN2046": "INTENSVE ORG CHEM-FOR 1ST YEAR",
+        "CHEM UN2443": "ORGANIC CHEMISTRY I-LECTURES",
+        "CHEM UN2444": "ORGANIC CHEMSTRY II-LECTURES",
+        "SCNC UN1800": "ENERGY ＆ ENERGY CONSERVATION (* this course is offered through the Chemistry department)",
+        "SCNC UN1900": "Water (*this course is offered through the Chemistry department)"
+      }
     },
     {
       "header": "Earth and Environmental Sciences",
+      "section": "Science B",
       "codes": [
-        "EESC UN1001",
-        "EESC UN1003",
-        "EESC S1004",
-        "EESC UN1009",
-        "EESC UN1011",
-        "EESC UN1030",
-        "EESC UN1053",
-        "EESC UN1201",
-        "EESC UN1401",
-        "EESC UN1411",
-        "EESC UN1600",
-        "EESC UN2100",
-        "EESC UN2200",
-        "EESC UN2300",
-        "EESC UN2330"
-      ]
+        "EESC UN1001",
+        "EESC UN1003",
+        "EESC S1004",
+        "EESC UN1009",
+        "EESC UN1011",
+        "EESC UN1030",
+        "EESC UN1053",
+        "EESC UN1201",
+        "EESC UN1401",
+        "EESC UN1411",
+        "EESC UN1600",
+        "EESC UN2100",
+        "EESC UN2200",
+        "EESC UN2300",
+        "EESC UN2330"
+      ],
+      "titles": {
+        "EESC UN1001": "DINOSAURS AND HISTORY OF LIFE (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1003": "Climate and Society: Case Studies (*)",
+        "EESC S1004": "Dinosaurs and the History of Life (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1009": "GLOBAL WARMING FOR GLOBAL LEADERS (*)",
+        "EESC UN1011": "Earth: Origin, Evolution, Processes, Future (* students will only receive credit for one of these courses: 1011, 1411)",
+        "EESC UN1030": "OCEANOGRAPHY (*)",
+        "EESC UN1053": "Planet Earth (*)",
+        "EESC UN1201": "Environmental Risks and Disasters (*)",
+        "EESC UN1401": "DINOSAUR ＆ HISTORY OF LIFE-LEC (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1411": "Earth: Origin, Evolution, Processes, Future: Lectures (* students will only receive credit for one of these courses: 1011, 1411)",
+        "EESC UN1600": "EARTH RESOURCES ＆ SUSTAIN DEV (*)",
+        "EESC UN2100": "EARTH'S ENVIRO SYST: CLIM SYST",
+        "EESC UN2200": "EARTH'S ENVIRONMENTAL SYSTEMS: THE SOLID EARTH",
+        "EESC UN2300": "EARTH'S ENVIRO SYST: LIFE SYST",
+        "EESC UN2330": "SCIENCE FOR SUSTAINABLE DEVPT"
+      }
     },
     {
       "header": "Ecology, Evolution, and Environmental Biology",
+      "section": "Science B",
       "codes": [
-        "EEEB UN1001",
-        "EEEB UN1010",
-        "EEEB UN1011",
-        "EEEB S1115Q",
-        "EEEB UN3087",
-        "EEEB UN2001",
-        "EEEB UN2002",
-        "EEEB OC2201",
-        "FSEB UN1020"
-      ]
+        "EEEB UN1001",
+        "EEEB UN1010",
+        "EEEB UN1011",
+        "EEEB S1115Q",
+        "EEEB UN3087",
+        "EEEB UN2001",
+        "EEEB UN2002",
+        "EEEB OC2201",
+        "FSEB UN1020"
+      ],
+      "titles": {
+        "EEEB UN1001": "Biodiversity (*)",
+        "EEEB UN1010": "HUMAN ORIGINS ＆ EVOLUTION (*)",
+        "EEEB UN1011": "BEHAVIOR BIOL-LIVING PRIMATES (*)",
+        "EEEB S1115Q": "The Life Aquatic (*)",
+        "EEEB UN3087": "Biodiversity and CONSERVATION BIOLOGY (*)",
+        "EEEB UN2001": "ENVIRONMENTAL BIOLOGY I",
+        "EEEB UN2002": "ENVIRONMENTAL BIOLOGY II",
+        "EEEB OC2201": "Venice Ecology and Sustainability",
+        "FSEB UN1020": "Food and the Body (* this course is offered through the Ecology, Evolution, and Environmental Biology department)"
+      }
     },
     {
       "header": "Physics",
+      "section": "Science B",
       "codes": [
-        "PHYS UN1001",
-        "PHYS UN1018",
-        "PHYS UN1111",
-        "PHYS UN1201",
-        "PHYS UN1202",
-        "PHYS UN1401",
-        "PHYS UN1402",
-        "PHYS UN1403",
-        "PHYS UN1601",
-        "PHYS UN1602",
-        "PHYS UN2801"
-      ]
+        "PHYS UN1001",
+        "PHYS UN1018",
+        "PHYS UN1111",
+        "PHYS UN1201",
+        "PHYS UN1202",
+        "PHYS UN1401",
+        "PHYS UN1402",
+        "PHYS UN1403",
+        "PHYS UN1601",
+        "PHYS UN1602",
+        "PHYS UN2801"
+      ],
+      "titles": {
+        "PHYS UN1001": "PHYSICS FOR POETS (*)",
+        "PHYS UN1018": "WEAPONS OF MASS DESTRUCTION (*)",
+        "PHYS UN1111": "ORIGINS AND MEANING (*)",
+        "PHYS UN1201": "GENERAL PHYSICS I",
+        "PHYS UN1202": "GENERAL PHYSICS II",
+        "PHYS UN1401": "INTRO TO MECHANICS ＆ THERMO",
+        "PHYS UN1402": "INTRO ELEC/MAGNETSM ＆ OPTCS",
+        "PHYS UN1403": "INTRO-CLASSCL ＆ QUANTUM WAVES",
+        "PHYS UN1601": "PHYSICS I:MECHANICS/RELATIVITY",
+        "PHYS UN1602": "PHYSICS II: THERMO, ELEC ＆ MAG",
+        "PHYS UN2801": "ACCELERATED PHYSICS I"
+      }
     },
     {
       "header": "Psychology",
+      "section": "Science B",
       "codes": [
-        "PSYC UN1001",
-        "PSYC UN1010",
-        "PSYC UN1021"
-      ]
+        "PSYC UN1001",
+        "PSYC UN1010",
+        "PSYC UN1021"
+      ],
+      "titles": {
+        "PSYC UN1001": "THE SCIENCE OF PSYCHOLOGY (*)",
+        "PSYC UN1010": "Mind, Brain and Behavior (*)",
+        "PSYC UN1021": "Science of Psychology: Explorations and Applications (*)"
+      }
     },
     {
       "header": "Astronomy",
+      "section": "Science C",
       "codes": [
-        "ASTR UN1234",
-        "ASTR UN1403",
-        "ASTR UN1404",
-        "ASTR UN1420",
-        "ASTR UN1453",
-        "ASTR BC1753",
-        "ASTR BC1754",
-        "ASTR UN1836"
-      ]
+        "ASTR UN1234",
+        "ASTR UN1403",
+        "ASTR UN1404",
+        "ASTR UN1420",
+        "ASTR UN1453",
+        "ASTR BC1753",
+        "ASTR BC1754",
+        "ASTR UN1836"
+      ],
+      "titles": {
+        "ASTR UN1234": "UNIVERSAL TIMEKEEPER (*)",
+        "ASTR UN1403": "EARTH, MOON, AND PLANETS (*)",
+        "ASTR UN1404": "STARS, GALAXIES ＆ COSMOLOGY (*)",
+        "ASTR UN1420": "Galaxies and Cosmology (*)",
+        "ASTR UN1453": "ANOTHER EARTH (*)",
+        "ASTR BC1753": "LIFE IN THE UNIVERSE (*)",
+        "ASTR BC1754": "Stars, Galaxies, and Cosmology (*)",
+        "ASTR UN1836": "STARS AND ATOMS (*)"
+      }
     },
     {
       "header": "Biology",
+      "section": "Science C",
       "codes": [
-        "BIOL UN1130",
-        "BIOL UN2300"
-      ]
+        "BIOL UN1130",
+        "BIOL UN2300"
+      ],
+      "titles": {
+        "BIOL UN1130": "GENES AND DEVELOPMENT (*)",
+        "BIOL UN2300": "Interpreting Scientific Evidence (*)"
+      }
     },
     {
       "header": "Chemistry",
+      "section": "Science C",
       "codes": [
-        "CHEM UN1403",
-        "CHEM UN1404",
-        "CHEM UN1500",
-        "CHEM UN1604",
-        "CHEM UN1507",
-        "CHEM UN2045",
-        "CHEM UN2046",
-        "CHEM UN2443",
-        "CHEM UN2444",
-        "SCNC UN1800",
-        "SCNC UN1900"
-      ]
+        "CHEM UN1403",
+        "CHEM UN1404",
+        "CHEM UN1500",
+        "CHEM UN1604",
+        "CHEM UN1507",
+        "CHEM UN2045",
+        "CHEM UN2046",
+        "CHEM UN2443",
+        "CHEM UN2444",
+        "SCNC UN1800",
+        "SCNC UN1900"
+      ],
+      "titles": {
+        "CHEM UN1403": "GENERAL CHEMISTRY I-LECTURES (*)",
+        "CHEM UN1404": "GENERAL CHEMISTRY II-LECTURES (*)",
+        "CHEM UN1500": "GENERAL CHEMISTRY LABORATORY (*)",
+        "CHEM UN1604": "2ND TERM GEN CHEM (INTENSIVE) (*)",
+        "CHEM UN1507": "INTENSVE GENERAL CHEMISTRY-LAB (*)",
+        "CHEM UN2045": "INTENSVE ORGANIC CHEMISTRY",
+        "CHEM UN2046": "INTENSVE ORG CHEM-FOR 1ST YEAR",
+        "CHEM UN2443": "ORGANIC CHEMISTRY I-LECTURES",
+        "CHEM UN2444": "ORGANIC CHEMSTRY II-LECTURES",
+        "SCNC UN1800": "ENERGY ＆ ENERGY CONSERVATION (* this course is offered through the Chemistry department)",
+        "SCNC UN1900": "Water (*this course is offered through the Chemistry department)"
+      }
     },
     {
       "header": "Computer Science",
+      "section": "Science C",
       "codes": [
-        "COMS W1001",
-        "COMS W1002",
-        "COMS W1004",
-        "COMS W1005",
-        "ENGI E1006",
-        "COMS W1007",
-        "COMS W2132",
-        "COMS W2702"
-      ]
+        "COMS W1001",
+        "COMS W1002",
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007",
+        "COMS W2132",
+        "COMS W2702"
+      ],
+      "titles": {
+        "COMS W1001": "INTRO TO INFORMATION SCIENCE (*)",
+        "COMS W1002": "COMPUTING IN CONTEXT (*)",
+        "COMS W1004": "PROGRAMMING IN JAVA",
+        "COMS W1005": "INTRO-COMPUT SCI/PROG-MATLAB",
+        "ENGI E1006": "INTRO TO COMP FOR ENG/APP SCI",
+        "COMS W2132": "Intermediate Computing in Python",
+        "COMS W2702": "AI in Context"
+      }
     },
     {
       "header": "Earth and Environmental Engineering",
+      "section": "Science C",
       "codes": [
-        "EAEE E2100"
-      ]
+        "EAEE E2100"
+      ],
+      "titles": {
+        "EAEE E2100": "A BETTER PLANET BY DESIGN (*)"
+      }
     },
     {
       "header": "Earth and Environmental Sciences",
+      "section": "Science C",
       "codes": [
-        "EESC UN1001",
-        "EESC UN1003",
-        "EESC S1004",
-        "EESC UN1009",
-        "EESC UN1011",
-        "EESC UN1030",
-        "EESC UN1053",
-        "EESC UN1201",
-        "EESC UN1401",
-        "EESC UN1411",
-        "EESC UN1600",
-        "EESC UN2100",
-        "EESC UN2200",
-        "EESC UN2300",
-        "EESC UN2330"
-      ]
+        "EESC UN1001",
+        "EESC UN1003",
+        "EESC S1004",
+        "EESC UN1009",
+        "EESC UN1011",
+        "EESC UN1030",
+        "EESC UN1053",
+        "EESC UN1201",
+        "EESC UN1401",
+        "EESC UN1411",
+        "EESC UN1600",
+        "EESC UN2100",
+        "EESC UN2200",
+        "EESC UN2300",
+        "EESC UN2330"
+      ],
+      "titles": {
+        "EESC UN1001": "DINOSAURS AND HISTORY OF LIFE (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1003": "Climate and Society: Case Studies (*)",
+        "EESC S1004": "Dinosaurs and the History of Life (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1009": "GLOBAL WARMING FOR GLOBAL LEADERS (*)",
+        "EESC UN1011": "Earth: Origin, Evolution, Processes, Future (* students will only receive credit for one of these courses: 1011, 1411)",
+        "EESC UN1030": "OCEANOGRAPHY (*)",
+        "EESC UN1053": "Planet Earth (*)",
+        "EESC UN1201": "Environmental Risks and Disasters (*)",
+        "EESC UN1401": "DINOSAUR ＆ HISTORY OF LIFE-LEC (* students will only receive credit for one of these courses: 1001, 1004, 1401)",
+        "EESC UN1411": "Earth: Origin, Evolution, Processes, Future: Lectures (* students will only receive credit for one of these courses: 1011, 1411)",
+        "EESC UN1600": "EARTH RESOURCES ＆ SUSTAIN DEV (*)",
+        "EESC UN2100": "EARTH'S ENVIRO SYST: CLIM SYST",
+        "EESC UN2200": "EARTH'S ENVIRONMENTAL SYSTEMS: THE SOLID EARTH",
+        "EESC UN2300": "EARTH'S ENVIRO SYST: LIFE SYST",
+        "EESC UN2330": "SCIENCE FOR SUSTAINABLE DEVPT"
+      }
     },
     {
       "header": "Ecology, Evolution, and Environmental Biology",
+      "section": "Science C",
       "codes": [
-        "EEEB UN1001",
-        "EEEB UN1010",
-        "EEEB UN1011",
-        "EEEB S1115Q",
-        "EEEB UN3087",
-        "EEEB UN2001",
-        "EEEB UN2002",
-        "EEEB OC2201",
-        "FSEB UN1020"
-      ]
+        "EEEB UN1001",
+        "EEEB UN1010",
+        "EEEB UN1011",
+        "EEEB S1115Q",
+        "EEEB UN3087",
+        "EEEB UN2001",
+        "EEEB UN2002",
+        "EEEB OC2201",
+        "FSEB UN1020"
+      ],
+      "titles": {
+        "EEEB UN1001": "Biodiversity (*)",
+        "EEEB UN1010": "HUMAN ORIGINS ＆ EVOLUTION (*)",
+        "EEEB UN1011": "BEHAVIOR BIOL-LIVING PRIMATES (*)",
+        "EEEB S1115Q": "The Life Aquatic (*)",
+        "EEEB UN3087": "Biodiversity and CONSERVATION BIOLOGY (*)",
+        "EEEB UN2001": "ENVIRONMENTAL BIOLOGY I",
+        "EEEB UN2002": "ENVIRONMENTAL BIOLOGY II",
+        "EEEB OC2201": "Venice Ecology and Sustainability",
+        "FSEB UN1020": "Food and the Body (* this course is offered through the Ecology, Evolution, and Environmental Biology department)"
+      }
     },
     {
       "header": "Electrical Engineering",
+      "section": "Science C",
       "codes": [
-        "ELEN E1101"
-      ]
+        "ELEN E1101"
+      ],
+      "titles": {
+        "ELEN E1101": "THE DIGITAL INFORMATION AGE (*)"
+      }
     },
     {
       "header": "Food Studies",
+      "section": "Science C",
       "codes": [
-        "FSPH UN1100"
-      ]
+        "FSPH UN1100"
+      ],
+      "titles": {
+        "FSPH UN1100": "FOOD, PUBLIC HEALTH ＆ PUBLIC POLICY (*)"
+      }
     },
     {
       "header": "History and Applied Math",
+      "section": "Science C",
       "codes": [
-        "HSAM UN2901"
-      ]
+        "HSAM UN2901"
+      ],
+      "titles": {
+        "HSAM UN2901": "DATA:PAST, PRESENT AND FUTURE"
+      }
     },
     {
       "header": "Linguistics",
+      "section": "Science C",
       "codes": [
-        "LING UN3103"
-      ]
+        "LING UN3103"
+      ],
+      "titles": {
+        "LING UN3103": "Language, Brain and Mind (Beginning Fall 2024 semester)"
+      }
     },
     {
       "header": "Mathematics",
+      "section": "Science C",
       "codes": [
-        "MATH UN1003",
-        "PHIL UN3411",
-        "PHIL GU4424",
-        "CSPH GU4801",
-        "CSPH GU4802"
-      ]
+        "MATH UN1003",
+        "PHIL UN3411",
+        "PHIL GU4424",
+        "CSPH GU4801",
+        "CSPH GU4802"
+      ],
+      "titles": {
+        "MATH UN1003": "COLLEGE ALGEBRA-ANLYTC GEOMTRY (*)",
+        "PHIL UN3411": "SYMBOLIC LOGIC (*)",
+        "PHIL GU4424": "MODAL LOGIC (*)",
+        "CSPH GU4801": "MATH LOGIC I",
+        "CSPH GU4802": "Math Logic II: Incompletness"
+      }
     },
     {
       "header": "Physics",
+      "section": "Science C",
       "codes": [
-        "PHYS UN1001",
-        "PHYS UN1018",
-        "PHYS UN1111",
-        "PHYS UN1201",
-        "PHYS UN1202",
-        "PHYS UN1401",
-        "PHYS UN1402",
-        "PHYS UN1403",
-        "PHYS UN1601",
-        "PHYS UN1602",
-        "PHYS UN2801"
-      ]
+        "PHYS UN1001",
+        "PHYS UN1018",
+        "PHYS UN1111",
+        "PHYS UN1201",
+        "PHYS UN1202",
+        "PHYS UN1401",
+        "PHYS UN1402",
+        "PHYS UN1403",
+        "PHYS UN1601",
+        "PHYS UN1602",
+        "PHYS UN2801"
+      ],
+      "titles": {
+        "PHYS UN1001": "PHYSICS FOR POETS (*)",
+        "PHYS UN1018": "WEAPONS OF MASS DESTRUCTION (*)",
+        "PHYS UN1111": "ORIGINS AND MEANING (*)",
+        "PHYS UN1201": "GENERAL PHYSICS I",
+        "PHYS UN1202": "GENERAL PHYSICS II",
+        "PHYS UN1401": "INTRO TO MECHANICS ＆ THERMO",
+        "PHYS UN1402": "INTRO ELEC/MAGNETSM ＆ OPTCS",
+        "PHYS UN1403": "INTRO-CLASSCL ＆ QUANTUM WAVES",
+        "PHYS UN1601": "PHYSICS I:MECHANICS/RELATIVITY",
+        "PHYS UN1602": "PHYSICS II: THERMO, ELEC ＆ MAG",
+        "PHYS UN2801": "ACCELERATED PHYSICS I"
+      }
     },
     {
       "header": "Psychology",
+      "section": "Science C",
       "codes": [
-        "PSYC UN1001",
-        "PSYC UN1010",
-        "PSYC UN1021"
-      ]
+        "PSYC UN1001",
+        "PSYC UN1010",
+        "PSYC UN1021"
+      ],
+      "titles": {
+        "PSYC UN1001": "THE SCIENCE OF PSYCHOLOGY (*)",
+        "PSYC UN1010": "Mind, Brain and Behavior (*)",
+        "PSYC UN1021": "Science of Psychology: Explorations and Applications (*)"
+      }
     },
     {
       "header": "Science",
+      "section": "Science C",
       "codes": [
-        "SCNC UN1212",
-        "SCNC UN1700"
-      ]
+        "SCNC UN1212",
+        "SCNC UN1700"
+      ],
+      "titles": {
+        "SCNC UN1212": "Foundations of Science (*)",
+        "SCNC UN1700": "Science for Future Leaders (*)"
+      }
     },
     {
       "header": "Statistics",
+      "section": "Science C",
       "codes": [
-        "STAT UN1001",
-        "STAT UN1010"
-      ]
+        "STAT UN1001",
+        "STAT UN1010"
+      ],
+      "titles": {
+        "STAT UN1001": "INTRO TO STATISTICAL REASONING (*)",
+        "STAT UN1010": "STATISTICAL THINKING FOR DATA SCIENCE (*)"
+      }
     }
   ],
   "error": null

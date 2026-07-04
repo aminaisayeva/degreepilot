@@ -25,13 +25,25 @@ def test_parses_point_range_and_prereq_text():
 
 def test_title_is_prettified_not_shouty():
     courses = {c.code: c for c in parse_bulletin_courses(FIXTURE)}
-    assert courses["COMS W1004"].title == "Programming In Java"
+    assert courses["COMS W1004"].title == "Programming in Java"
     # Already-mixed-case titles pass through
     assert courses["COMS W4901"].title == "Projects in Computer Science"
 
 
 def test_parses_courselists_with_headers():
     lists = parse_courselists(FIXTURE)
-    assert len(lists) == 1
+    assert len(lists) == 2
     assert lists[0]["header"].startswith("Calculus Requirement")
+    # NBSP inside codes is normalized to a regular space
     assert lists[0]["codes"] == ["MATH UN1201", "MATH UN1205"]
+    assert lists[0]["section"] == "Mathematics Requirement (6-11 points)"
+
+
+def test_courselists_capture_titles_and_preceding_heading():
+    lists = parse_courselists(FIXTURE)
+    area = lists[1]
+    assert area["header"] == ""
+    assert area["section"] == "Area Foundation Courses (9 to 12 points):"
+    assert area["codes"] == ["COMS W4111", "COMS W4118"]
+    assert area["titles"]["COMS W4111"] == "Introduction to Databases"
+    assert area["titles"]["COMS W4118"] == "OPERATING SYSTEMS I"

@@ -1,989 +1,1776 @@
 {
   "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/global-core-requirement/",
-  "scraped_at": "2026-07-04T14:14:08Z",
+  "scraped_at": "2026-07-04T14:20:50Z",
   "courses": [],
   "courselists": [
     {
       "header": "African-American Studies",
+      "section": "Fall 2026",
       "codes": [
-        "AFAS UN1001"
-      ]
+        "AFAS UN1001"
+      ],
+      "titles": {
+        "AFAS UN1001": "INTRO TO AFRICAN-AMER STUDIES"
+      }
     },
     {
       "header": "Anthropology",
+      "section": "Fall 2026",
       "codes": [
-        "ANTH UN2017",
-        "ANTH UN2031"
-      ]
+        "ANTH UN2017",
+        "ANTH UN2031"
+      ],
+      "titles": {
+        "ANTH UN2017": "Mafias and Other Dangerous Affiliations",
+        "ANTH UN2031": "CORPSE LIFE: ANTH HISTORY OF THE DEAD"
+      }
     },
     {
       "header": "Art History and Archaeology",
+      "section": "Fall 2026",
       "codes": [
-        "AHUM UN2800"
-      ]
+        "AHUM UN2800"
+      ],
+      "titles": {
+        "AHUM UN2800": "Arts of Islam, 700-1000 CE"
+      }
     },
     {
       "header": "Center for the Core Curriculum",
+      "section": "Fall 2026",
       "codes": [
-        "LACV UN1020"
-      ]
+        "LACV UN1020"
+      ],
+      "titles": {
+        "LACV UN1020": "PRIM TEXTS OF LATIN AMER CIV"
+      }
     },
     {
       "header": "Center for the Study of Ethnicity and Race",
+      "section": "Fall 2026",
       "codes": [
-        "CSER UN1010",
-        "CSER UN3922",
-        "CSER UN3926",
-        "CSER UN3928"
-      ]
+        "CSER UN1010",
+        "CSER UN3922",
+        "CSER UN3926",
+        "CSER UN3928"
+      ],
+      "titles": {
+        "CSER UN1010": "INTRO TO COMP ETHNIC STUDIES",
+        "CSER UN3922": "RACE＆REPRESENTATION IN ASIAN AMER CINEMA",
+        "CSER UN3926": "LATIN MUSIC AND IDENTITY",
+        "CSER UN3928": "COLONIZATION/DECOLONIZATION"
+      }
     },
     {
       "header": "Classics",
+      "section": "Fall 2026",
       "codes": [
-        "GRKM UN3935"
-      ]
+        "GRKM UN3935"
+      ],
+      "titles": {
+        "GRKM UN3935": "Hellenism and the Topographical Imagination"
+      }
     },
     {
       "header": "Committee on Global Thought",
+      "section": "Fall 2026",
       "codes": [
-        "CGTH UN3401"
-      ]
+        "CGTH UN3401"
+      ],
+      "titles": {
+        "CGTH UN3401": "Seminar in Global Thought:  Inquiries into an Interconnected World"
+      }
     },
     {
       "header": "Dance- Barnard",
+      "section": "Fall 2026",
       "codes": [
-        "DNCE BC3567"
-      ]
+        "DNCE BC3567"
+      ],
+      "titles": {
+        "DNCE BC3567": "DANCES OF INDIA"
+      }
     },
     {
       "header": "East Asian Languages and Cultures",
+      "section": "Fall 2026",
       "codes": [
-        "ASCE UN1359",
-        "ASCE UN1361",
-        "ASCE UN1365",
-        "ASCE UN1367",
-        "AHUM UN1400",
-        "AHUM UN3830",
-        "EAAS UN3263",
-        "EAAS UN3913",
-        "HSEA GU4222",
-        "EARL GU4312",
-        "HSEA GU4847",
-        "HSEA GU4880"
-      ]
+        "ASCE UN1359",
+        "ASCE UN1361",
+        "ASCE UN1365",
+        "ASCE UN1367",
+        "AHUM UN1400",
+        "AHUM UN3830",
+        "EAAS UN3263",
+        "EAAS UN3913",
+        "HSEA GU4222",
+        "EARL GU4312",
+        "HSEA GU4847",
+        "HSEA GU4880"
+      ],
+      "titles": {
+        "ASCE UN1359": "INTRO TO EAST ASIAN CIV: CHINA",
+        "ASCE UN1361": "INTRO EAST ASIAN CIV: JPN",
+        "ASCE UN1365": "INTRO EAST ASIAN CIV: TIBET",
+        "ASCE UN1367": "INTRO EA CIV: VIETNAM",
+        "AHUM UN1400": "COLLOQUIUM ON MAJOR TEXTS",
+        "AHUM UN3830": "COLL ON MODERN EAST ASIA TEXTS",
+        "EAAS UN3263": "IMAGE-MAKING AND VISUAL CULTURE IN TIBET AND BEYOND, 1900–PRESENT",
+        "EAAS UN3913": "LOVE, GHOSTS, AND CANNIBALISM: THE CHINESE SHORT STORY",
+        "HSEA GU4222": "China's Global Histories: People, Space, and Power",
+        "EARL GU4312": "TIBETAN SACRED SPACE(IN COMPARATIVE CONT",
+        "HSEA GU4847": "MODERN JAPAN",
+        "HSEA GU4880": "HISTORY OF MODERN CHINA I"
+      }
     },
     {
       "header": "Film",
+      "section": "Fall 2026",
       "codes": [
-        "FILM UN2230"
-      ]
+        "FILM UN2230"
+      ],
+      "titles": {
+        "FILM UN2230": "World Cinema: Latin America-Women Filmmakers"
+      }
     },
     {
       "header": "French and Romance Philology",
+      "section": "Fall 2026",
       "codes": [
-        "CLFR UN3587",
-        "CLFR OC3821"
-      ]
+        "CLFR UN3587",
+        "CLFR OC3821"
+      ],
+      "titles": {
+        "CLFR UN3587": "Global Francophone Cinema",
+        "CLFR OC3821": "CITY DIPLOMACY"
+      }
     },
     {
       "header": "History",
+      "section": "Fall 2026",
       "codes": [
-        "HIST UN1786",
-        "HIST UN2660",
-        "HIST UN2701",
-        "HSWM UN2761",
-        "HIST UN2772",
-        "HSME UN2810",
-        "HIST GU4660"
-      ]
+        "HIST UN1786",
+        "HIST UN2660",
+        "HIST UN2701",
+        "HSWM UN2761",
+        "HIST UN2772",
+        "HSME UN2810",
+        "HIST GU4660"
+      ],
+      "titles": {
+        "HIST UN1786": "History of the City in Latin America",
+        "HIST UN2660": "LATIN AMERICAN CIVILIZATION I",
+        "HIST UN2701": "THE OTTOMAN EMPIRE",
+        "HSWM UN2761": "GENDER ＆ SEXUALITY IN AFRICA",
+        "HIST UN2772": "West African History",
+        "HSME UN2810": "HISTORY OF SOUTH ASIA I",
+        "HIST GU4660": "Indigenous Worlds in Early Latin America"
+      }
     },
     {
       "header": "Jewish Studies",
+      "section": "Fall 2026",
       "codes": [
-        "JWST GU4145",
-        "JWST GU4160",
-        "JWST GU4602"
-      ]
+        "JWST GU4145",
+        "JWST GU4160",
+        "JWST GU4602"
+      ],
+      "titles": {
+        "JWST GU4145": "Topics in Israeli Cinema",
+        "JWST GU4160": "Resilience and Resistance: North African Jews during the Colonial Period",
+        "JWST GU4602": "Zionism in History: Controversies Local and Global"
+      }
     },
     {
       "header": "Latin American and Iberian Cultures",
+      "section": "Fall 2026",
       "codes": [
-        "SPAN UN3349",
-        "SPAN UN3350",
-        "PORT UN3490",
-        "SPAN UN3899"
-      ]
+        "SPAN UN3349",
+        "SPAN UN3350",
+        "PORT UN3490",
+        "SPAN UN3899"
+      ],
+      "titles": {
+        "SPAN UN3349": "HISPANIC CULTURES I (SP)",
+        "SPAN UN3350": "HISPANIC CULTURES II (SP)",
+        "PORT UN3490": "BRAZILIAN SOCIETY ＆ CIV (ENG)",
+        "SPAN UN3899": "The Art of the Question in Latin America"
+      }
     },
     {
       "header": "Middle Eastern, South Asian, and African Studies",
+      "section": "Fall 2026",
       "codes": [
-        "MDES UN1003",
-        "MDES UN1030",
-        "AHUM UN1399",
-        "MDES UN2042",
-        "ASCM UN2357",
-        "MDES UN3335",
-        "CLME UN3928",
-        "MDES GU4122",
-        "CLME GU4231"
-      ]
+        "MDES UN1003",
+        "MDES UN1030",
+        "AHUM UN1399",
+        "MDES UN2042",
+        "ASCM UN2357",
+        "MDES UN3335",
+        "CLME UN3928",
+        "MDES GU4122",
+        "CLME GU4231"
+      ],
+      "titles": {
+        "MDES UN1003": "Premodern Islamic Worlds",
+        "MDES UN1030": "“Game of Thrones”:  On Epics and Empires",
+        "AHUM UN1399": "COLLOQUIUM ON MAJOR TEXTS: MIDDLE EAST/INDIA",
+        "MDES UN2042": "South Asia at the Crossroads of Empires",
+        "ASCM UN2357": "INTRO TO INDIAN CIVILIZATION",
+        "MDES UN3335": "Introduction to Armenian Studies",
+        "CLME UN3928": "ARABIC PRISON WRITING",
+        "MDES GU4122": "THE NOVEL IN AFRICA",
+        "CLME GU4231": "COLD WAR ARAB CULTURE"
+      }
     },
     {
       "header": "Music",
+      "section": "Fall 2026",
       "codes": [
-        "MUSI UN2030",
-        "AHMM UN3320",
-        "AHMM UN3321",
-        "MUSI GU4438"
-      ]
+        "MUSI UN2030",
+        "AHMM UN3320",
+        "AHMM UN3321",
+        "MUSI GU4438"
+      ],
+      "titles": {
+        "MUSI UN2030": "JEWISH MUSIC IN NEW YORK",
+        "AHMM UN3320": "MUSIC IN EAST ASIA",
+        "AHMM UN3321": "MUSICS OF INDIA ＆ WEST ASIA",
+        "MUSI GU4438": "Music and Global Africa"
+      }
     },
     {
       "header": "Religion",
+      "section": "Fall 2026",
       "codes": [
-        "RELI UN2305",
-        "RELI UN2405",
-        "RELI GU4322",
-        "RELI GU4999"
-      ]
+        "RELI UN2305",
+        "RELI UN2405",
+        "RELI GU4322",
+        "RELI GU4999"
+      ],
+      "titles": {
+        "RELI UN2305": "ISLAM",
+        "RELI UN2405": "CHINESE RELIGIOUS TRADITIONS",
+        "RELI GU4322": "EXPLORING THE SHARIA: ISLAMIC LAW",
+        "RELI GU4999": "GLOBAL INDIGENOUS RELIGIOUS HISTORIES"
+      }
     },
     {
       "header": "Slavic Languages",
+      "section": "Fall 2026",
       "codes": [
-        "SLCL UN3001"
-      ]
+        "SLCL UN3001"
+      ],
+      "titles": {
+        "SLCL UN3001": "SLAVIC CULTURES"
+      }
     },
     {
       "header": "Theatre",
+      "section": "Fall 2026",
       "codes": [
-        "THTR UN3154"
-      ]
+        "THTR UN3154"
+      ],
+      "titles": {
+        "THTR UN3154": "THEATRE TRAD GLOBAL CONTEXT"
+      }
     },
     {
       "header": "Women's Studies-Reid Hall",
+      "section": "Fall 2026",
       "codes": [
-        "WMST OC3550"
-      ]
+        "WMST OC3550"
+      ],
+      "titles": {
+        "WMST OC3550": "WOMEN ＆ SOCIETY - SEX-TRADE ECONOMY"
+      }
     },
     {
       "header": "Art History and Archaeology",
+      "section": "Summer 2026",
       "codes": [
-        "AHUM UN2604",
-        "AHUM S2815",
-        "AHUM S2901"
-      ]
+        "AHUM UN2604",
+        "AHUM S2815",
+        "AHUM S2901"
+      ],
+      "titles": {
+        "AHUM UN2604": "ARTS OF CHINA, JAPAN AND KOREA",
+        "AHUM S2815": "Masterpieces of Islamic Art",
+        "AHUM S2901": "MASTERPIECES-INDIAN ART ＆ ARCH"
+      }
     },
     {
       "header": "Africana Studies-Barnard",
+      "section": "Summer 2026",
       "codes": [
-        "AFRS BC2005"
-      ]
+        "AFRS BC2005"
+      ],
+      "titles": {
+        "AFRS BC2005": "CARIBBEAN CULTURE ＆ SOCIETIES"
+      }
     },
     {
       "header": "Classics",
+      "section": "Summer 2026",
       "codes": [
-        "CLCV UN3058"
-      ]
+        "CLCV UN3058"
+      ],
+      "titles": {
+        "CLCV UN3058": "Worlds of Alexander the Great"
+      }
     },
     {
       "header": "Dance- Barnard",
+      "section": "Summer 2026",
       "codes": [
-        "DNCE BC2665"
-      ]
+        "DNCE BC2665"
+      ],
+      "titles": {
+        "DNCE BC2665": "World Dance History"
+      }
     },
     {
       "header": "English and Comparative Literature",
+      "section": "Summer 2026",
       "codes": [
-        "ENGL UN3153"
-      ]
+        "ENGL UN3153"
+      ],
+      "titles": {
+        "ENGL UN3153": "How the Ancients Argued: The Global Rhetorical Tradition"
+      }
     },
     {
       "header": "Film",
+      "section": "Summer 2026",
       "codes": [
-        "FILM GU4212",
-        "FILM S4215"
-      ]
+        "FILM GU4212",
+        "FILM S4215"
+      ],
+      "titles": {
+        "FILM GU4212": "Hollywood in China",
+        "FILM S4215": "CONTEMPORARY GLOBAL DOCUMENTAR"
+      }
     },
     {
       "header": "History",
+      "section": "Summer 2026",
       "codes": [
-        "HIST S3596",
-        "HIST OC3136",
-        "HIST UN3779"
-      ]
+        "HIST S3596",
+        "HIST OC3136",
+        "HIST UN3779"
+      ],
+      "titles": {
+        "HIST S3596": "HIST OF LATINOS/AS IN THE U.S.",
+        "HIST OC3136": "France and the African Diaspora",
+        "HIST UN3779": "AFRICA AND FRANCE"
+      }
     },
     {
       "header": "Italian",
+      "section": "Summer 2026",
       "codes": [
-        "CLIA OC4600",
-        "CLIA GU4699",
-        "ITAL GU4022"
-      ]
+        "CLIA OC4600",
+        "CLIA GU4699",
+        "ITAL GU4022"
+      ],
+      "titles": {
+        "CLIA OC4600": "Mediterranean Humanities II in Venice",
+        "CLIA GU4699": "Mediterranean Humanities I",
+        "ITAL GU4022": "THE QUR'AN IN EUROPE"
+      }
     },
     {
       "header": "Linguistics",
+      "section": "Summer 2026",
       "codes": [
-        "LING OC3102"
-      ]
+        "LING OC3102"
+      ],
+      "titles": {
+        "LING OC3102": "Endangered Languages in the Global City: Lang, Culture, and Migration in Contempary NYC"
+      }
     },
     {
       "header": "Middle Eastern, South Asia, and African Studies",
+      "section": "Summer 2026",
       "codes": [
-        "MDES UN1001",
-        "AHUM UN1399"
-      ]
+        "MDES UN1001",
+        "AHUM UN1399"
+      ],
+      "titles": {
+        "MDES UN1001": "CRITICAL THEORY: A GLOBAL PERSPECTIVE",
+        "AHUM UN1399": "COLLOQUIUM ON MAJOR TEXTS: MIDDLE EAST/INDIA"
+      }
     },
     {
       "header": "Middle Eastern and North African Studies Program (MENA)",
+      "section": "Summer 2026",
       "codes": [
-        "MENA OC4100"
-      ]
+        "MENA OC4100"
+      ],
+      "titles": {
+        "MENA OC4100": "Migration, Displacement and Diaspora in the French and North African Context"
+      }
     },
     {
       "header": "Music",
+      "section": "Summer 2026",
       "codes": [
-        "AHMM UN3320",
-        "AHMM UN3321"
-      ]
+        "AHMM UN3320",
+        "AHMM UN3321"
+      ],
+      "titles": {
+        "AHMM UN3320": "MUSIC IN EAST ASIA",
+        "AHMM UN3321": "MUSICS OF INDIA ＆ WEST ASIA"
+      }
     },
     {
       "header": "Religion",
+      "section": "Summer 2026",
       "codes": [
-        "RELI S2305",
-        "RELI UN3771"
-      ]
+        "RELI S2305",
+        "RELI UN3771"
+      ],
+      "titles": {
+        "RELI S2305": "ISLAM",
+        "RELI UN3771": "Indigenous Enlightenment"
+      }
     },
     {
       "header": "Slavic Languages",
+      "section": "Summer 2026",
       "codes": [
-        "CLSL GU4013"
-      ]
+        "CLSL GU4013"
+      ],
+      "titles": {
+        "CLSL GU4013": "Jewish Worlds in Eastern Europe: A Journey"
+      }
     },
     {
       "header": "African- American Studies",
+      "section": "Spring 2026",
       "codes": [
-        "AFAS UN1003"
-      ]
+        "AFAS UN1003"
+      ],
+      "titles": {
+        "AFAS UN1003": "Blackness and Frenchness: A Radical Genealogy"
+      }
     },
     {
       "header": "Africana Studies- Barnard",
+      "section": "Spring 2026",
       "codes": [
-        "AFRS BC2005"
-      ]
+        "AFRS BC2005"
+      ],
+      "titles": {
+        "AFRS BC2005": "CARIBBEAN CULTURE ＆ SOCIETIES"
+      }
     },
     {
       "header": "Anthropology",
+      "section": "Spring 2026",
       "codes": [
-        "ANTH UN1008",
-        "ANTH UN3947"
-      ]
+        "ANTH UN1008",
+        "ANTH UN3947"
+      ],
+      "titles": {
+        "ANTH UN1008": "THE RISE OF CIVILIZATION",
+        "ANTH UN3947": "TEXT, MAGIC, PERFORMANCE"
+      }
     },
     {
       "header": "Art History and Archaeology",
+      "section": "Spring 2026",
       "codes": [
-        "AHUM UN2604",
-        "AHIS UN2622"
-      ]
+        "AHUM UN2604",
+        "AHIS UN2622"
+      ],
+      "titles": {
+        "AHUM UN2604": "ARTS OF CHINA, JAPAN AND KOREA",
+        "AHIS UN2622": "Introduction to East Asian Art: China, Japan, and Korea"
+      }
     },
     {
       "header": "Center for the Core Curriculum",
+      "section": "Spring 2026",
       "codes": [
-        "LACV UN1020"
-      ]
+        "LACV UN1020"
+      ],
+      "titles": {
+        "LACV UN1020": "PRIM TEXTS OF LATIN AMER CIV"
+      }
     },
     {
       "header": "Committee on Global Thought",
+      "section": "Spring 2026",
       "codes": [
-        "CGTH UN3402"
-      ]
+        "CGTH UN3402"
+      ],
+      "titles": {
+        "CGTH UN3402": "YOUTH-INTERCONNECTED WRLD"
+      }
     },
     {
       "header": "Comparative Literature and Society",
+      "section": "Spring 2026",
       "codes": [
-        "CLGM UN3110"
-      ]
+        "CLGM UN3110"
+      ],
+      "titles": {
+        "CLGM UN3110": "THE OTTOMAN PAST IN THE GREEK PRESENT"
+      }
     },
     {
       "header": "Dance- Barnard",
+      "section": "Spring 2026",
       "codes": [
-        "DNCE BC2565"
-      ]
+        "DNCE BC2565"
+      ],
+      "titles": {
+        "DNCE BC2565": "WORLD DANCE HISTORY"
+      }
     },
     {
       "header": "East Asian Languages and Cultures",
+      "section": "Spring 2026",
       "codes": [
-        "ASCE UN1359",
-        "AHUM UN1400",
-        "EAAS UN2844",
-        "HSEA UN3320",
-        "HSEA UN3862",
-        "EAAS GU4412"
-      ]
+        "ASCE UN1359",
+        "AHUM UN1400",
+        "EAAS UN2844",
+        "HSEA UN3320",
+        "HSEA UN3862",
+        "EAAS GU4412"
+      ],
+      "titles": {
+        "ASCE UN1359": "INTRO TO EAST ASIAN CIV: CHINA",
+        "AHUM UN1400": "COLLOQUIUM ON MAJOR TEXTS",
+        "EAAS UN2844": "CULTURE, MENTAL HEALTH, AND HEALING IN EAST ASIA",
+        "HSEA UN3320": "Making in Premodern Japan",
+        "HSEA UN3862": "THE HISTORY OF KOREA TO 1900 (Effective beginning Spring 2026)",
+        "EAAS GU4412": "History of Writing in a Cosmopolitan East Asia"
+      }
     },
     {
       "header": "English and Comparative Literature",
+      "section": "Spring 2026",
       "codes": [
-        "ENGL UN1100",
-        "CLEN UN3125",
-        "ENGL UN3851"
-      ]
+        "ENGL UN1100",
+        "CLEN UN3125",
+        "ENGL UN3851"
+      ],
+      "titles": {
+        "ENGL UN1100": "Introduction to Latinx Literature and Culture (Effective beginning Spring 2026)",
+        "CLEN UN3125": "Medieval Encounters (Effective beginning Spring 2026)",
+        "ENGL UN3851": "INDIAN WRITING IN ENGLISH"
+      }
     },
     {
       "header": "French and Romance Philology",
+      "section": "Spring 2026",
       "codes": [
-        "FREN OC3719",
-        "CLFR OC3821",
-        "CLFR GU4321"
-      ]
+        "FREN OC3719",
+        "CLFR OC3821",
+        "CLFR GU4321"
+      ],
+      "titles": {
+        "FREN OC3719": "VIOLENCE BY AND AGAINST WOMEN (This course is offered in Reid Hall, Paris.)",
+        "CLFR OC3821": "CITY DIPLOMACY (This course is offered in Reid Hall, Paris.)",
+        "CLFR GU4321": "The Maghreb in Transition: Society ＆ Culture in North Africa Since 1990"
+      }
     },
     {
       "header": "Germanic Languages",
+      "section": "Spring 2026",
       "codes": [
-        "GERM UN3780"
-      ]
+        "GERM UN3780"
+      ],
+      "titles": {
+        "GERM UN3780": "BERL/ISTANBUL:MIGRATN,CLTR,VAL"
+      }
     },
     {
       "header": "History",
+      "section": "Spring 2026",
       "codes": [
-        "HIST BC1760",
-        "HIST UN1942",
-        "HIST UN2336",
-        "HIST BC2699",
-        "HIST UN2709",
-        "HIST UN2820",
-        "HSEA UN3898",
-        "HIST GU4811"
-      ]
+        "HIST BC1760",
+        "HIST UN1942",
+        "HIST UN2336",
+        "HIST BC2699",
+        "HIST UN2709",
+        "HIST UN2820",
+        "HSEA UN3898",
+        "HIST GU4811"
+      ],
+      "titles": {
+        "HIST BC1760": "INTRO AFRICAN HIST:1700-PRESNT",
+        "HIST UN1942": "The Year 1000: A World History",
+        "HIST UN2336": "Everyday Communism",
+        "HIST BC2699": "Latin American Civilization II",
+        "HIST UN2709": "Medieval Middle East",
+        "HIST UN2820": "A History of the Indian Ocean, 19th Century to the Present",
+        "HSEA UN3898": "THE MONGOLS IN HISTORY",
+        "HIST GU4811": "Encounters with Nature: The History and Politics of Environment, Health and Development in South Asia and Beyond"
+      }
     },
     {
       "header": "Italian",
+      "section": "Spring 2026",
       "codes": [
-        "CLIA GU4499"
-      ]
+        "CLIA GU4499"
+      ],
+      "titles": {
+        "CLIA GU4499": "Mediterranean Humanities I"
+      }
     },
     {
       "header": "Jewish Studies",
+      "section": "Spring 2026",
       "codes": [
-        "JWST GU4159"
-      ]
+        "JWST GU4159"
+      ],
+      "titles": {
+        "JWST GU4159": "Antisemitism and Resistance in Europe, the Middle East, and North Africa"
+      }
     },
     {
       "header": "Latin American and Iberian Cultures",
+      "section": "Spring 2026",
       "codes": [
-        "SPJS UN3303",
-        "SPAN UN3349",
-        "PORT UN3350",
-        "SPAN UN3350",
-        "SPAN UN3361",
-        "PORT UN3490",
-        "SPAN UN3898",
-        "SPAN UN3899"
-      ]
+        "SPJS UN3303",
+        "SPAN UN3349",
+        "PORT UN3350",
+        "SPAN UN3350",
+        "SPAN UN3361",
+        "PORT UN3490",
+        "SPAN UN3898",
+        "SPAN UN3899"
+      ],
+      "titles": {
+        "SPJS UN3303": "JEWISH CULTURE IN TRANSL IN MED IBERIA",
+        "SPAN UN3349": "HISPANIC CULTURES I (SP)",
+        "PORT UN3350": "LUSOPHONE AFR/AFRO-BRAZ CULTRS",
+        "SPAN UN3350": "HISPANIC CULTURES II (SP)",
+        "SPAN UN3361": "ARTISTIC HUMANITY",
+        "PORT UN3490": "BRAZILIAN SOCIETY ＆ CIV (ENG)",
+        "SPAN UN3898": "Arabs and the West: The Andalusian Symbiosis (Effective beginning Spring 2026)",
+        "SPAN UN3899": "The Art of the Question in Latin America (Effective beginning Spring 2026)"
+      }
     },
     {
       "header": "Linguistics",
+      "section": "Spring 2026",
       "codes": [
-        "LING UN3104"
-      ]
+        "LING UN3104"
+      ],
+      "titles": {
+        "LING UN3104": "The Indigenous Languages of North America"
+      }
     },
     {
       "header": "Middle Eastern, South Asian, and African Studies",
+      "section": "Spring 2026",
       "codes": [
-        "AHUM UN1399",
-        "MDES UN1630",
-        "ASCM UN2003",
-        "ASCM UN2008",
-        "MDES UN2399",
-        "MDES UN3000",
-        "MDES UN3121",
-        "MDES UN3260",
-        "MDES GU4220",
-        "MDES GU4634"
-      ]
+        "AHUM UN1399",
+        "MDES UN1630",
+        "ASCM UN2003",
+        "ASCM UN2008",
+        "MDES UN2399",
+        "MDES UN3000",
+        "MDES UN3121",
+        "MDES UN3260",
+        "MDES GU4220",
+        "MDES GU4634"
+      ],
+      "titles": {
+        "AHUM UN1399": "COLLOQUIUM ON MAJOR TEXTS: MIDDLE EAST/INDIA",
+        "MDES UN1630": "Introduction to South Asia",
+        "ASCM UN2003": "INTRO TO ISLAMIC CIVILIZATION",
+        "ASCM UN2008": "CONTEMP ISLAMIC CIVILIZATION",
+        "MDES UN2399": "ANCIENT NEAR EASTERN LITERATURE (Effective beginning Spring 2026)",
+        "MDES UN3000": "THEORY AND CULTURE",
+        "MDES UN3121": "Literature and Cultures of Struggle in South Africa",
+        "MDES UN3260": "RETHINKING MIDDLE EAST POLITCS",
+        "MDES GU4220": "The Arabic Linguistic Tradition",
+        "MDES GU4634": "Sound and Listening Cultures of the Indian Subcontinent (This course will no longer partially fulfill the Global Core requirement after Spring 2026.)"
+      }
     },
     {
       "header": "Music",
+      "section": "Spring 2026",
       "codes": [
-        "AHMM UN3320",
-        "MUSI GU4438"
-      ]
+        "AHMM UN3320",
+        "MUSI GU4438"
+      ],
+      "titles": {
+        "AHMM UN3320": "MUSIC IN EAST ASIA",
+        "MUSI GU4438": "Music and Global Africa"
+      }
     },
     {
       "header": "Philosophy",
+      "section": "Spring 2026",
       "codes": [
-        "PHIL UN3912"
-      ]
+        "PHIL UN3912"
+      ],
+      "titles": {
+        "PHIL UN3912": "SEMINAR (Buddhist Philosophy. Only the section \"Buddhist Philosophy\" of this multi-topics course counts towards the Global Core requirement.)"
+      }
     },
     {
       "header": "Religion",
+      "section": "Spring 2026",
       "codes": [
-        "RELI UN1612",
-        "RELI UN2205",
-        "RELI UN2405",
-        "RELI UN3314",
-        "RELI UN3771"
-      ]
+        "RELI UN1612",
+        "RELI UN2205",
+        "RELI UN2405",
+        "RELI UN3314",
+        "RELI UN3771"
+      ],
+      "titles": {
+        "RELI UN1612": "Religion and the History of Hip Hop",
+        "RELI UN2405": "CHINESE RELIGIOUS TRADITIONS",
+        "RELI UN3314": "QURAN",
+        "RELI UN3771": "Indigenous Enlightenment"
+      }
     },
     {
       "header": "Slavic Languages",
+      "section": "Spring 2026",
       "codes": [
-        "CLSL GU4012"
-      ]
+        "CLSL GU4012"
+      ],
+      "titles": {
+        "CLSL GU4012": "Holocaust Literature: Critical Thinking in Dark Times"
+      }
     },
     {
       "header": "Urban Studies",
+      "section": "Spring 2026",
       "codes": [
-        "URBS UN3351"
-      ]
+        "URBS UN3351"
+      ],
+      "titles": {
+        "URBS UN3351": "URBAN ELSEWHERES: EXPLORING A WORLD OF CITIES"
+      }
     },
     {
       "header": "African-American Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "AFAS UN1001",
-        "AFAS UN1003"
-      ]
+        "AFAS UN1001",
+        "AFAS UN1003"
+      ],
+      "titles": {
+        "AFAS UN1001": "INTRO TO AFRICAN-AMER STUDIES",
+        "AFAS UN1003": "Blackness and Frenchness: A Radical Genealogy (Effective beginning Spring 2023)"
+      }
     },
     {
       "header": "Africana Studies- Barnard",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "AFRS BC2005"
-      ]
+        "AFRS BC2005"
+      ],
+      "titles": {
+        "AFRS BC2005": "CARIBBEAN CULTURE ＆ SOCIETIES (Effective beginning Spring 2025)"
+      }
     },
     {
       "header": "Anthropology",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "ANTH UN1008",
-        "ANTH UN1130",
-        "ANTH UN2007",
-        "ANTH V2013",
-        "ANTH V2014",
-        "ANTH UN2017",
-        "ANTH V2020",
-        "ANTH V2027",
-        "ANTH UN2031",
-        "ANTH V2035",
-        "ANTH V2100",
-        "ANTH UN2141",
-        "ANTH UN3300",
-        "ANTH UN3465",
-        "ANTH V3525",
-        "ANTH UN3821",
-        "ANTH V3892",
-        "ANTH UN3933",
-        "ANTH UN3947",
-        "ANHS GU4001",
-        "ANTH G4065"
-      ]
+        "ANTH UN1008",
+        "ANTH UN1130",
+        "ANTH UN2007",
+        "ANTH V2013",
+        "ANTH V2014",
+        "ANTH UN2017",
+        "ANTH V2020",
+        "ANTH V2027",
+        "ANTH UN2031",
+        "ANTH V2035",
+        "ANTH V2100",
+        "ANTH UN2141",
+        "ANTH UN3300",
+        "ANTH UN3465",
+        "ANTH V3525",
+        "ANTH UN3821",
+        "ANTH V3892",
+        "ANTH UN3933",
+        "ANTH UN3947",
+        "ANHS GU4001",
+        "ANTH G4065"
+      ],
+      "titles": {
+        "ANTH UN1008": "THE RISE OF CIVILIZATION",
+        "ANTH UN1130": "Africa and the Anthropologist",
+        "ANTH UN2007": "Indian and Nigerian Film Cultures (Effective beginning Fall 2017 semester)",
+        "ANTH V2013": "Africa in the 21st Century: Aesthetics, Culture, Politics",
+        "ANTH V2014": "Archaeology and Africa: Changing Perceptions of the African Past",
+        "ANTH UN2017": "Mafias and Other Dangerous Affiliations (Effective beginning Fall 2026)",
+        "ANTH V2020": "Chinese Strategies: Cultures in Practice",
+        "ANTH V2027": "Changing East Asia Foodways",
+        "ANTH UN2031": "CORPSE LIFE: ANTH HISTORY OF THE DEAD (Effective beginning Fall 2017)",
+        "ANTH V2035": "Introduction to the Anthropology of South Asia",
+        "ANTH V2100": "Muslim Societies",
+        "ANTH UN2141": "Frontier Imaginaries (Effective begining Spring 2022)",
+        "ANTH UN3300": "Pre-Columbian Histories of Native America",
+        "ANTH UN3465": "WOMEN, GENDER POL-MUSLIM WORLD",
+        "ANTH V3525": "Introduction to South Asian History and Culture",
+        "ANTH UN3821": "Native America",
+        "ANTH V3892": "CONTEMP CENT ASIA:STATES ＆ SOC",
+        "ANTH UN3933": "ARABIA IMAGINED",
+        "ANTH UN3947": "TEXT, MAGIC, PERFORMANCE",
+        "ANHS GU4001": "THE ANCIENT EMPIRES",
+        "ANTH G4065": "Archaeology of Idols"
+      }
     },
     {
       "header": "Art History and Archaeology",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "AHIS UN2119",
-        "AHIS UN2600",
-        "AHIS UN2500",
-        "AHUM UN2604",
-        "AHIS UN2614",
-        "AHIS UN2622",
-        "AHUM UN2800",
-        "AHUM UN2802",
-        "AHUM S2815",
-        "AHUM UN2901",
-        "AHIS W3500",
-        "AHIS UN3501",
-        "AHIS UN3503",
-        "AHIS UN3613",
-        "AHIS W3832",
-        "AHIS Q4570"
-      ]
+        "AHIS UN2119",
+        "AHIS UN2600",
+        "AHIS UN2500",
+        "AHUM UN2604",
+        "AHIS UN2614",
+        "AHIS UN2622",
+        "AHUM UN2800",
+        "AHUM UN2802",
+        "AHUM S2815",
+        "AHUM UN2901",
+        "AHIS W3500",
+        "AHIS UN3501",
+        "AHIS UN3503",
+        "AHIS UN3613",
+        "AHIS W3832",
+        "AHIS Q4570"
+      ],
+      "titles": {
+        "AHIS UN2119": "ROME BEYOND ROME (Effective beginning Spring 2018)",
+        "AHIS UN2600": "THE ARTS OF CHINA",
+        "AHIS UN2500": "ARTS OF AFRICA",
+        "AHUM UN2604": "ARTS OF CHINA, JAPAN AND KOREA",
+        "AHIS UN2614": "Chinese Painting of the Song Dynasty (960-1279) (Effective beginning Summer 2021)",
+        "AHIS UN2622": "Introduction to East Asian Art: China, Japan, and Korea (Effective beginning Fall 2024)",
+        "AHUM UN2800": "Arts of Islam, 700-1000 CE (Effective beginning Fall 2017 semester)",
+        "AHUM UN2802": "Arts of Islam: Realignments of Empire and State (ca. 1000-1400) (Effective Spring 2017)",
+        "AHUM S2815": "Masterpieces of Islamic Art (Effective beginning Summer 2026)",
+        "AHUM UN2901": "MASTERPIECES-INDIAN ART ＆ ARCH",
+        "AHIS W3500": "Yoruba and the Diaspora (Effective beginning Fall 2014; formerly AHIS W3898 )",
+        "AHIS UN3501": "African Art: The Next Generation. Focus: Congo (Effective Spring 2017)",
+        "AHIS UN3503": "Contemporary Arts of Africa (Effective beginning Fall 2020)",
+        "AHIS UN3613": "Temples of Kyoto (Effective beginning Fall 2025)",
+        "AHIS W3832": "Sacred Landscapes of the Ancient Andes (Effective beginning Spring 2016)",
+        "AHIS Q4570": "Andean Art and Architecture (formerly AHIS G4085 )"
+      }
     },
     {
       "header": "Center for the Core Curriculum",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "AFCV UN1020",
-        "LACV UN1020"
-      ]
+        "AFCV UN1020",
+        "LACV UN1020"
+      ],
+      "titles": {
+        "AFCV UN1020": "AFRICAN CIVILIZATION",
+        "LACV UN1020": "PRIM TEXTS OF LATIN AMER CIV"
+      }
     },
     {
       "header": "Center for the Study of Ethnicity and Race",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "CSER UN1010",
-        "CSER W3510",
-        "CSER UN3922",
-        "CSER UN3926",
-        "CSER UN3928",
-        "CSER W3961"
-      ]
+        "CSER UN1010",
+        "CSER W3510",
+        "CSER UN3922",
+        "CSER UN3926",
+        "CSER UN3928",
+        "CSER W3961"
+      ],
+      "titles": {
+        "CSER UN1010": "INTRO TO COMP ETHNIC STUDIES",
+        "CSER W3510": "Novels of Immigration, Relocation, and Diaspora (Also offered as ENGL GU4650 , effective Spring 2017)",
+        "CSER UN3922": "RACE＆REPRESENTATION IN ASIAN AMER CINEMA",
+        "CSER UN3926": "LATIN MUSIC AND IDENTITY",
+        "CSER UN3928": "COLONIZATION/DECOLONIZATION",
+        "CSER W3961": "(Wealth and Poverty in America)"
+      }
     },
     {
       "header": "Classics",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "CLCV UN2441",
-        "CLCV UN3059",
-        "CLCV UN3069",
-        "CLCV W3111",
-        "CLCV UN3535",
-        "CSGM UN3567",
-        "CLGM UN3920",
-        "GRKM UN3935",
-        "CLCV GU4411",
-        "CLGM GU4600"
-      ]
+        "CLCV UN2441",
+        "CLCV UN3059",
+        "CLCV UN3069",
+        "CLCV W3111",
+        "CLCV UN3535",
+        "CSGM UN3567",
+        "CLGM UN3920",
+        "GRKM UN3935",
+        "CLCV GU4411",
+        "CLGM GU4600"
+      ],
+      "titles": {
+        "CLCV UN2441": "EGYPT IN CLASSICAL WORLD (Effective beginning Spring 2018)",
+        "CLCV UN3059": "WORLDS OF ALEXANDER THE GREAT (Effective beginning Spring 2017)",
+        "CLCV UN3069": "Society and Power in the Hellenistic Age (Effective beginning Spring 2025)",
+        "CLCV W3111": "Plato and Confucius: Comparative Ancient Philosophies (Effective beginning Spring 2015)",
+        "CLCV UN3535": "IDENTITY ＆ SOCIETY ANC EGYPT (Effective beginning Fall 2024)",
+        "CSGM UN3567": "THESSALONIKI DOWN THE AGES (Effective Spring 2017)",
+        "CLGM UN3920": "WORLD RESPONDS TO THE GREEKS (formerly \"The World Responds to the Greeks: Greece Faces East\")",
+        "GRKM UN3935": "Hellenism and the Topographical Imagination (formerly GRKM UN3920 \"The World Responds to the Greeks\")",
+        "CLCV GU4411": "EGYPT IN THE CLASSICAL WORLD (Beginning Spring 2026 and onwards, this course will no longer fulfill the Global Core requirement.)",
+        "CLGM GU4600": "Multilingual America: Translation, Migration, Gender (Effective beginning Fall 2021)"
+      }
     },
     {
       "header": "Colloquia and Interdepartmental Seminars",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "INSM UN3920",
-        "INSM UN3921",
-        "INSM C3940",
-        "INSM W3950"
-      ]
+        "INSM UN3920",
+        "INSM UN3921",
+        "INSM C3940",
+        "INSM W3950"
+      ],
+      "titles": {
+        "INSM UN3920": "NOBILITY/CIVILITY: EAST/WEST I",
+        "INSM UN3921": "Nobility and Civility II",
+        "INSM C3940": "Science Across Cultures",
+        "INSM W3950": "Friendship in Asian and Western Civilization"
+      }
     },
     {
       "header": "Comparative Literature and Society",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "CLGM UN3110",
-        "CPLS UN3333",
-        "CPLS UN3454",
-        "CLGM UN3920",
-        "CPLS W3945",
-        "CPLS W3955",
-        "CPLS UN3956",
-        "CPLS W4100",
-        "CPLS GU4111"
-      ]
+        "CLGM UN3110",
+        "CPLS UN3333",
+        "CPLS UN3454",
+        "CLGM UN3920",
+        "CPLS W3945",
+        "CPLS W3955",
+        "CPLS UN3956",
+        "CPLS W4100",
+        "CPLS GU4111"
+      ],
+      "titles": {
+        "CLGM UN3110": "THE OTTOMAN PAST IN THE GREEK PRESENT (Effective beginning Spring 2018 )",
+        "CPLS UN3333": "EAST/WEST FRAMETALE NARRATIVES",
+        "CPLS UN3454": "STAGING THE EARLY MOD MEDITERR",
+        "CLGM UN3920": "WORLD RESPONDS TO THE GREEKS",
+        "CPLS W3945": "Transnational Memory Politics and the Culture of Human Rights (Effective beginning Spring 2014)",
+        "CPLS W3955": "The West in Global Thought",
+        "CPLS UN3956": "Postcolonial Narrative and the Limits of the Human",
+        "CPLS W4100": "Andalusian Symbiosis: Islam and the West (Effective beginning Fall 2014)",
+        "CPLS GU4111": "World Philology (Effective Spring 2017)"
+      }
     },
     {
       "header": "Committee on Global Thought",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "CGTH UN3401",
-        "CGTH UN3402"
-      ]
+        "CGTH UN3401",
+        "CGTH UN3402"
+      ],
+      "titles": {
+        "CGTH UN3401": "Seminar in Global Thought:  Inquiries into an Interconnected World (Effective beginning Fall 2018)",
+        "CGTH UN3402": "YOUTH-INTERCONNECTED WRLD (Effective beginning Spring 2019)"
+      }
     },
     {
       "header": "Dance- Barnard",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "DNCE BC3550",
-        "DNCE BC3567",
-        "DNCE BC2565",
-        "DNCE BC2665"
-      ]
+        "DNCE BC3550",
+        "DNCE BC3567",
+        "DNCE BC2565",
+        "DNCE BC2665"
+      ],
+      "titles": {
+        "DNCE BC3550": "Dance in Africa (Effective beginning Fall 2022)",
+        "DNCE BC3567": "DANCES OF INDIA (Effective beginning Fall 2018)",
+        "DNCE BC2565": "WORLD DANCE HISTORY (Effective beginning Spring 2019)",
+        "DNCE BC2665": "World Dance History (Effective Summer 2023. Students may only receive credit for either DNCE BC2665 or DNCE BC2565 ; not both.)"
+      }
     },
     {
       "header": "East Asian Languages and Cultures",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "ASCE UN1002",
-        "ASCE UN1359",
-        "ASCE UN1361",
-        "ASCE UN1363",
-        "ASCE UN1365",
-        "ASCE UN1367",
-        "AHUM UN1400",
-        "EAAS UN2342",
-        "EAAS UN2844",
-        "EAAS UN3114",
-        "EAAS UN3116",
-        "EAAS UN3121",
-        "EAAS UN3122",
-        "EARL UN3261",
-        "EARL UN3310",
-        "HSEA UN3320",
-        "EAAS UN3322",
-        "EAAS UN3338",
-        "EAAS V3350",
-        "EAAS UN3710",
-        "EAAS UN3720",
-        "AHUM UN3830",
-        "EAAS BC3840",
-        "EAAS UN3844",
-        "HSEA UN3862",
-        "HSEA Q3870",
-        "EAAS UN3913",
-        "EAAS UN3927",
-        "EAAS GU4017",
-        "EAAS GU4111",
-        "EARL W4127",
-        "EAAS GU4134",
-        "EAAS GU4160",
-        "HSEA GU4222",
-        "EAAS GU4277",
-        "EARL GU4310",
-        "EARL GU4312",
-        "EAAS GU4233",
-        "EAAS GU4412",
-        "EAAS GU4445",
-        "HSEA GU4542",
-        "EAAS GU4534",
-        "EAAS GU4565",
-        "EARL GU4575",
-        "HSEA GU4816",
-        "HSEA GU4822",
-        "HSEA GU4847",
-        "HSEA W4866",
-        "HSEA GU4870",
-        "HSEA GU4880",
-        "HSEA GU4968"
-      ]
+        "ASCE UN1002",
+        "ASCE UN1359",
+        "ASCE UN1361",
+        "ASCE UN1363",
+        "ASCE UN1365",
+        "ASCE UN1367",
+        "AHUM UN1400",
+        "EAAS UN2342",
+        "EAAS UN2844",
+        "EAAS UN3114",
+        "EAAS UN3116",
+        "EAAS UN3121",
+        "EAAS UN3122",
+        "EARL UN3261",
+        "EARL UN3310",
+        "HSEA UN3320",
+        "EAAS UN3322",
+        "EAAS UN3338",
+        "EAAS V3350",
+        "EAAS UN3710",
+        "EAAS UN3720",
+        "AHUM UN3830",
+        "EAAS BC3840",
+        "EAAS UN3844",
+        "HSEA UN3862",
+        "HSEA Q3870",
+        "EAAS UN3913",
+        "EAAS UN3927",
+        "EAAS GU4017",
+        "EAAS GU4111",
+        "EARL W4127",
+        "EAAS GU4134",
+        "EAAS GU4160",
+        "HSEA GU4222",
+        "EAAS GU4277",
+        "EARL GU4310",
+        "EARL GU4312",
+        "EAAS GU4233",
+        "EAAS GU4412",
+        "EAAS GU4445",
+        "HSEA GU4542",
+        "EAAS GU4534",
+        "EAAS GU4565",
+        "EARL GU4575",
+        "HSEA GU4816",
+        "HSEA GU4822",
+        "HSEA GU4847",
+        "HSEA W4866",
+        "HSEA GU4870",
+        "HSEA GU4880",
+        "HSEA GU4968"
+      ],
+      "titles": {
+        "ASCE UN1002": "INTRO MAJOR TPCS: EAST ASIAN",
+        "ASCE UN1359": "INTRO TO EAST ASIAN CIV: CHINA",
+        "ASCE UN1361": "INTRO EAST ASIAN CIV: JPN",
+        "ASCE UN1363": "INTRO TO EAST ASIAN CIV: KOREA",
+        "ASCE UN1365": "INTRO EAST ASIAN CIV: TIBET",
+        "ASCE UN1367": "INTRO EA CIV: VIETNAM (Effective beginning Fall 2017)",
+        "AHUM UN1400": "COLLOQUIUM ON MAJOR TEXTS",
+        "EAAS UN2342": "Mythology of East Asia",
+        "EAAS UN2844": "CULTURE, MENTAL HEALTH, AND HEALING IN EAST ASIA (formerly EAAS UN3844 ; new course number effective Spring 2025)",
+        "EAAS UN3114": "Chinese Theater and Drama Traditions (Effective beginning Spring 2023)",
+        "EAAS UN3116": "Supernatural in East Asia (Effective beginning Spring 2020)",
+        "EAAS UN3121": "Minority Literature in Modern China (Offered Fall 2018 as a one-time course)",
+        "EAAS UN3122": "Modern Chinese Poetry in a Global Context (Offered Spring 2020 as a one-time course. Effective beginning Spring 2022- Course number changed to EAAS GU4111 )",
+        "EARL UN3261": "Religion and Revolution in Modern China and the World (Effective beginning Fall 2025)",
+        "EARL UN3310": "The Body and/in Performance: Dance ＆ Drama in Tibet ＆ China (Effective beginning Spring 2025)",
+        "HSEA UN3320": "Making in Premodern Japan (Effective beginning Spring 2026)",
+        "EAAS UN3322": "EAST ASIAN CINEMA (Effective Spring 2017)",
+        "EAAS UN3338": "CULTRL HIST-JAPANESE MONSTERS (Effective Fall 2019)",
+        "EAAS V3350": "Japanese Fiction and Film (Effective beginning Fall 2014)",
+        "EAAS UN3710": "FICTION, FILM, AND MODERN VIETNAM (Effective beginning Fall 2024)",
+        "EAAS UN3720": "Women in Vietnamese society, history and literature (Effective beginning Spring 2025)",
+        "AHUM UN3830": "COLL ON MODERN EAST ASIA TEXTS (Colloquium on Modern East Asian Texts)",
+        "EAAS BC3840": "Beyond the Great Wall: Nomadic Empires and China (Effective beginning Fall 2025)",
+        "EAAS UN3844": "CULTURE, MENTAL HEALTH, AND HEALING IN EAST ASIA (Effective beginning Fall 2019. New course number EAAS UN2844 ; effective Spring 2025 semester.)",
+        "HSEA UN3862": "THE HISTORY OF KOREA TO 1900 (Effective beginning Spring 2026)",
+        "HSEA Q3870": "Japan Before 1600 (Effective beginning Spring 2015; formerly HSEA W4870 )",
+        "EAAS UN3913": "LOVE, GHOSTS, AND CANNIBALISM: THE CHINESE SHORT STORY (Effective beginning Fall 2026)",
+        "EAAS UN3927": "CHINA IN THE MODERN WORLD",
+        "EAAS GU4017": "Ethnography and Representation in Tibet (Effective beginning Fall 2020)",
+        "EAAS GU4111": "Modern Chinese Poetry in a Global Context (was formerly EAAS UN3122 )",
+        "EARL W4127": "Mediations, Perceptions, Words: Poetry in Buddhist Literature (Effective beginning Spring 2016)",
+        "EAAS GU4134": "Sex, Power, Performance: Gender in Chinese Literature (Effective beginning Spring 2025)",
+        "EAAS GU4160": "CULTURES IN COLONIAL KOREA (Effective beginning Spring 2014; formerly EAAS G4160)",
+        "HSEA GU4222": "China's Global Histories: People, Space, and Power (Effective beginning Fall 2019)",
+        "EAAS GU4277": "Japanese Anime and Beyond: Gender, Power and Transnational Media",
+        "EARL GU4310": "LIFE WRIT/TIBET BUDDHIST LIT",
+        "EARL GU4312": "TIBETAN SACRED SPACE(IN COMPARATIVE CONT (Effective beginning Spring 2018 semester)",
+        "EAAS GU4233": "Sonic Modernity in East Asia (Effective beginning Spring 2020)",
+        "EAAS GU4412": "History of Writing in a Cosmopolitan East Asia (Effective beginning Fall 2023)",
+        "EAAS GU4445": "Proletarian Asia - working-class culture from 1930s to present (Effective beginning Spring 2022)",
+        "HSEA GU4542": "The History of the Samurai (Effective beginning Spring 2023 semester)",
+        "EAAS GU4534": "Medieval Travel Writing (Effective beginning Fall 2024)",
+        "EAAS GU4565": "TIBET IN THE WORLD: CULTURAL PRODUCTION AND SOCIAL CHANGE (Effective beginning Spring 2022)",
+        "EARL GU4575": "Tibet in Eurasian Circulatory History (Effective beginning Fall 2023)",
+        "HSEA GU4816": "Comparing Indigeneities (Effective beginning Spring 2020)",
+        "HSEA GU4822": "Troubled Islands of the Indo Pacific (Effective beginning Spring 2017)",
+        "HSEA GU4847": "MODERN JAPAN (Effective beginning Fall 2017)",
+        "HSEA W4866": "Competing Nationalisms in East Asia: Representing Chinese and Tibetan Relations in History (Effective beginning Fall 2015)",
+        "HSEA GU4870": "JAPAN BEFORE 1600 (Effective beginning Fall 2025)",
+        "HSEA GU4880": "HISTORY OF MODERN CHINA I",
+        "HSEA GU4968": "Japan 1968: student protest movements in global historical perspective (Effective beginning Fall 2024)"
+      }
     },
     {
       "header": "Economics",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "ECON GU4325"
-      ]
+        "ECON GU4325"
+      ],
+      "titles": {
+        "ECON GU4325": "ECONOMIC DEVELOPMENT OF JAPAN"
+      }
     },
     {
       "header": "English and Comparative Literature",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "ENGL UN1100",
-        "CLEN UN3125",
-        "ENGL UN3153",
-        "CLEN UN3360",
-        "CLEN S3682",
-        "ENGL UN3794",
-        "CLEN S3829",
-        "ENGL UN3851",
-        "CLEN UN3933",
-        "ENTA UN3948",
-        "CLEN GU4199",
-        "CLEN W4200",
-        "ENGL GU4650",
-        "CLEN GU4644",
-        "ENTA GU4729"
-      ]
+        "ENGL UN1100",
+        "CLEN UN3125",
+        "ENGL UN3153",
+        "CLEN UN3360",
+        "CLEN S3682",
+        "ENGL UN3794",
+        "CLEN S3829",
+        "ENGL UN3851",
+        "CLEN UN3933",
+        "ENTA UN3948",
+        "CLEN GU4199",
+        "CLEN W4200",
+        "ENGL GU4650",
+        "CLEN GU4644",
+        "ENTA GU4729"
+      ],
+      "titles": {
+        "ENGL UN1100": "Introduction to Latinx Literature and Culture (Effective beginning Spring 2026)",
+        "CLEN UN3125": "Medieval Encounters (Effective beginning Spring 2026)",
+        "ENGL UN3153": "How the Ancients Argued: The Global Rhetorical Tradition (Effective beginning Fall 2025)",
+        "CLEN UN3360": "Theaters of Gods and Heroes (Effective beginnning Spring 2020)",
+        "CLEN S3682": "Human Rights in World Literature and Visual Culture (formerly CLEN S3851)",
+        "ENGL UN3794": "Trees (Effective beginning Fall 2023)",
+        "CLEN S3829": "Fantastic Fictions: Postmodern Asian American Literature  (Effective beginning Summer 2020)",
+        "ENGL UN3851": "INDIAN WRITING IN ENGLISH (Effective beginning Spring 2019)",
+        "CLEN UN3933": "POSTCOLONIAL LITERATURE (Effective beginning Fall 2018)",
+        "ENTA UN3948": "African Drama",
+        "CLEN GU4199": "LITERATURE AND OIL (Effective beginning Fall 2020)",
+        "CLEN W4200": "Caribbean Diaspora Literature",
+        "ENGL GU4650": "Novels of Immigration, Relocation, Diaspora (formerly ENGL W3510)",
+        "CLEN GU4644": "REVOLUTION IN/ON THE CARIBBEAN (Effective beginning Fall 2018)",
+        "ENTA GU4729": "GLOBAL ANGLOPHONE DRAMA (Effective beginning Spring 2022)"
+      }
     },
     {
       "header": "Film Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "FILM UN2292",
-        "FILM UN2294",
-        "FILM S2295Q",
-        "FILM UN2296",
-        "FILM GU4020",
-        "FILM GU4212",
-        "FILM S4215D",
-        "FILM GU4294"
-      ]
+        "FILM UN2292",
+        "FILM UN2294",
+        "FILM S2295Q",
+        "FILM UN2296",
+        "FILM GU4020",
+        "FILM GU4212",
+        "FILM S4215D",
+        "FILM GU4294"
+      ],
+      "titles": {
+        "FILM UN2292": "Topics in World Cinema: China (Effective beginning Spring 2018)",
+        "FILM UN2294": "WORLD CINEMA: LATIN AMERICA (Effective beginning Fall 2018)",
+        "FILM S2295Q": "World Cinema: Mexico (Effective beginning Summer 2017)",
+        "FILM UN2296": "ARAB ＆ AFRICAN FILMMAKING (Effective Fall 2019)",
+        "FILM GU4020": "Brazilian Cinema: Cinema Novo and Beyond (Effective beginning Fall 2021)",
+        "FILM GU4212": "Hollywood in China (Effective beginning Summer 2025)",
+        "FILM S4215D": "Contemporary Global Documentary (Effective beginning Summer 2019)",
+        "FILM GU4294": "World Cinema: Latin America (Effective beginning Summer 2021)"
+      }
     },
     {
       "header": "French and Romance Philology",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "CLFR UN3587",
-        "CLFR UN3716",
-        "FREN UN3822",
-        "CLFR GU4002",
-        "CLFR GU4020",
-        "FREN GU4022",
-        "CLFR GU4321",
-        "CLFR GU4440",
-        "CLFR GU4421",
-        "CLFR GU4716"
-      ]
+        "CLFR UN3587",
+        "CLFR UN3716",
+        "FREN UN3822",
+        "CLFR GU4002",
+        "CLFR GU4020",
+        "FREN GU4022",
+        "CLFR GU4321",
+        "CLFR GU4440",
+        "CLFR GU4421",
+        "CLFR GU4716"
+      ],
+      "titles": {
+        "CLFR UN3587": "Global Francophone Cinema (Effective beginning Fall 2026)",
+        "CLFR UN3716": "Francophone Romance : Love and Desire in French Colonial and Post-Colonial Literatures",
+        "FREN UN3822": "Blackness in French: From Harlem to Paris and Beyond (Effective beginning Summer 2021)",
+        "CLFR GU4002": "French Theory in a Global Context (Effective beginning Spring 2022)",
+        "CLFR GU4020": "Contemporary Migrations in the French & North African Context (Effective beginnning Summer 2020)",
+        "FREN GU4022": "How to Love: Medieval French and Arabic (Effective beginning Fall 2024)",
+        "CLFR GU4321": "The Maghreb in Transition: Society ＆ Culture in North Africa Since 1990 (Effective beginning Summer 2021)",
+        "CLFR GU4440": "Remapping Algeria: Poetics and Politics of Space (Effective beginning Spring 2021)",
+        "CLFR GU4421": "The Caribbean Digital (Effective beginning Fall 2020)",
+        "CLFR GU4716": "FRANCOPHONE ROMANCE LOVE, SEX, INTIMACY IN THE FRENCH COLONIAL WORLD (Effective beginning Fall 2019)"
+      }
     },
     {
       "header": "Germanic Languages",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "GERM UN3780"
-      ]
+        "GERM UN3780"
+      ],
+      "titles": {
+        "GERM UN3780": "BERL/ISTANBUL:MIGRATN,CLTR,VAL"
+      }
     },
     {
       "header": "History",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "HIST UN1004",
-        "HIST W1054",
-        "HIST BC1760",
-        "HIST UN1786",
-        "HIST UN1942",
-        "HIST UN2003",
-        "HIST UN2176",
-        "HIST UN2336",
-        "HIST UN2377",
-        "HIST UN2444",
-        "HIST UN2580",
-        "HIST UN2618",
-        "HIST UN2657",
-        "HIST UN2660",
-        "HIST UN2661",
-        "HIST BC2699",
-        "HIST UN2701",
-        "HIST UN2709",
-        "HIST UN2719",
-        "HSWM UN2761",
-        "HIST UN2764",
-        "HIST UN2772",
-        "HIST W2803",
-        "HSME UN2810",
-        "HSME UN2811",
-        "HIST UN2820",
-        "HIST W2880",
-        "HIST UN2881",
-        "HIST Q2900",
-        "HIST W2903",
-        "HIST W2943",
-        "HIST UN3152",
-        "HIST UN3298",
-        "HIST Q3400",
-        "HIST S3596",
-        "HIST W3678",
-        "HIST UN3766",
-        "HIST UN3779",
-        "HSEA UN3898",
-        "HIST Q3933",
-        "HIST UN3601",
-        "HIST UN3608",
-        "HIST GU4301",
-        "HIST GU4660",
-        "HIST GU4681",
-        "HIST GU4811"
-      ]
+        "HIST UN1004",
+        "HIST W1054",
+        "HIST BC1760",
+        "HIST UN1786",
+        "HIST UN1942",
+        "HIST UN2003",
+        "HIST UN2176",
+        "HIST UN2336",
+        "HIST UN2377",
+        "HIST UN2444",
+        "HIST UN2580",
+        "HIST UN2618",
+        "HIST UN2657",
+        "HIST UN2660",
+        "HIST UN2661",
+        "HIST BC2699",
+        "HIST UN2701",
+        "HIST UN2709",
+        "HIST UN2719",
+        "HSWM UN2761",
+        "HIST UN2764",
+        "HIST UN2772",
+        "HIST W2803",
+        "HSME UN2810",
+        "HSME UN2811",
+        "HIST UN2820",
+        "HIST W2880",
+        "HIST UN2881",
+        "HIST Q2900",
+        "HIST W2903",
+        "HIST W2943",
+        "HIST UN3152",
+        "HIST UN3298",
+        "HIST Q3400",
+        "HIST S3596",
+        "HIST W3678",
+        "HIST UN3766",
+        "HIST UN3779",
+        "HSEA UN3898",
+        "HIST Q3933",
+        "HIST UN3601",
+        "HIST UN3608",
+        "HIST GU4301",
+        "HIST GU4660",
+        "HIST GU4681",
+        "HIST GU4811"
+      ],
+      "titles": {
+        "HIST UN1004": "ANCIENT HISTORY OF EGYPT",
+        "HIST W1054": "Introduction to Byzantine History (Effective beginning Spring 2016)",
+        "HIST BC1760": "INTRO AFRICAN HIST:1700-PRESNT (Effective beginning Spring 2026)",
+        "HIST UN1786": "History of the City in Latin America (Effective beginning Fall 2026)",
+        "HIST UN1942": "The Year 1000: A World History (Effective beginning Spring 2024)",
+        "HIST UN2003": "Empire ＆ Nation-Building East Central Europe (Effective beginning Fall 2020)",
+        "HIST UN2176": "REVOLUTION ＆ EMPIRE: HAITI ＆ FRANCE, 1789-1820 (Effective beginning Summer 2022)",
+        "HIST UN2336": "Everyday Communism (Effective beginning Spring 2020)",
+        "HIST UN2377": "WORLD HISTORY SINCE WW II (Effective Spring 2017)",
+        "HIST UN2444": "THE VIETNAM WAR (Effective beginning Spring 2017)",
+        "HIST UN2580": "US - EAST ASIA RELATIONS (Effective beginning Fall 2017 )",
+        "HIST UN2618": "THE MODERN CARIBBEAN",
+        "HIST UN2657": "Medieval Jewish Cultures (formerly HIST W3657 )",
+        "HIST UN2660": "LATIN AMERICAN CIVILIZATION I",
+        "HIST UN2661": "LATIN AMERICAN CIVILIZATION II",
+        "HIST BC2699": "Latin American Civilization II (Effective beginning Spring 2025. Same as HIST UN2661 . Students may receive credit for either HIST UN2661 or HIST BC2699 , but not both)",
+        "HIST UN2701": "THE OTTOMAN EMPIRE (formerly HIST W3701 )",
+        "HIST UN2709": "Medieval Middle East",
+        "HIST UN2719": "HISTORY OF THE MOD MIDDLE EAST (formerly HIST W3719 )",
+        "HSWM UN2761": "GENDER ＆ SEXUALITY IN AFRICA (Effective beginning Fall 2018)",
+        "HIST UN2764": "EAST AFRICAN HISTORY",
+        "HIST UN2772": "West African History",
+        "HIST W2803": "The Worlds of Mughal India (Effective beginning Spring 2014; formerly HIST W3803 )",
+        "HSME UN2810": "HISTORY OF SOUTH ASIA I (formerly HSME W3810)",
+        "HSME UN2811": "South Asia: Empire and Its Aftermath (formerly HIST UN2811)",
+        "HIST UN2820": "A History of the Indian Ocean, 19th Century to the Present",
+        "HIST W2880": "Gandhi's India (formerly HIST W3800 )",
+        "HIST UN2881": "VIETNAM IN THE WORLD (Effective beginning Spring 2019)",
+        "HIST Q2900": "History of the World to 1450 CE (formerly HIST W3902 )",
+        "HIST W2903": "History of the World from 1450 CE to the Present (Effective beginning Fall 2013; formerly HIST W2903 )",
+        "HIST W2943": "Cultures of Empire (formerly HIST W3943 )",
+        "HIST UN3152": "Byzantine Encounters in the Mediterranean and the Middle East (Taught on Morningside going forward, effective Spring 2017)",
+        "HIST UN3298": "Popular Culture in Modern African History (Effective beginning Fall 2019)",
+        "HIST Q3400": "Native American History (formerly HIST W4404 )",
+        "HIST S3596": "HIST OF LATINOS/AS IN THE U.S. (Effective beginning Summer 2022)",
+        "HIST W3678": "Indigenous Worlds in Early Latin America (formerly HIST W4678 )",
+        "HIST UN3766": "African Futures (Effective beginning Fall 2017)",
+        "HIST UN3779": "AFRICA AND FRANCE",
+        "HSEA UN3898": "THE MONGOLS IN HISTORY",
+        "HIST Q3933": "Empires and Cultures of the Early Modern Atlantic World (Effective only for Spring 2014; formerly HIST W4103 )",
+        "HIST UN3601": "Jews in the Later Roman Empire, 300-600 CE (Effective beginning Fall 2014; formerly HIST W4601 ; renumbered to HIST UN3601 , effective Fall 2018)",
+        "HIST UN3608": "Women and Gender in Latin America and the Caribbean (Effective beginning Spring 2025)",
+        "HIST GU4301": "Politics and Justice in Latin America through Crime Fiction (Effective beginning Fall 2021)",
+        "HIST GU4660": "Indigenous Worlds in Early Latin America (Effective beginning Fall 2021)",
+        "HIST GU4681": "The Nahuas Through Their Sources (Effective beginning Fall 2024)",
+        "HIST GU4811": "Encounters with Nature: The History and Politics of Environment, Health and Development in South Asia and Beyond (Effective beginning Spring 2017 semester)"
+      }
     },
     {
       "header": "Italian",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "ITAL GU4022",
-        "CLIA GU4499",
-        "CLIA GU4500",
-        "CLIA GU4699"
-      ]
+        "ITAL GU4022",
+        "CLIA GU4499",
+        "CLIA GU4500",
+        "CLIA GU4699"
+      ],
+      "titles": {
+        "ITAL GU4022": "THE QUR'AN IN EUROPE (Effective beginning Fall 2017)",
+        "CLIA GU4499": "Mediterranean Humanities I (Effective beginning Fall 2022. Students may only receive Global Core credit for either CLIA GU4499 or CLIA GU4699 ; not both.)",
+        "CLIA GU4500": "Mediterranean Humanities II (Effective beginning Fall 2021. Students may only receive Global Core credit for either CLIA GU4500 or CLIA GU4600; not both.)",
+        "CLIA GU4699": "Mediterranean Humanities I (Effective beginning Summer 2025. Students may only receive Global Core credit for either CLIA GU4499 or CLIA GU4699 ; not both.)"
+      }
     },
     {
       "header": "Jewish Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "JWST UN3538",
-        "JWST GU4148",
-        "JWST GU4149",
-        "JWST GU4158",
-        "JWST GU4159",
-        "JWST GU4160",
-        "JWST GU4601",
-        "JWST GU4602"
-      ]
+        "JWST UN3538",
+        "JWST GU4148",
+        "JWST GU4149",
+        "JWST GU4158",
+        "JWST GU4159",
+        "JWST GU4160",
+        "JWST GU4601",
+        "JWST GU4602"
+      ],
+      "titles": {
+        "JWST UN3538": "Jews in the City in the Islamic Middle East (Effective beginning Spring 2021)",
+        "JWST GU4148": "Jewish Histories of the Modern Middle East (Effective beginning Fall 2023)",
+        "JWST GU4149": "A History of Jewish-Muslim Encounters: From the Beginning of Islam Until Today (Effective beginning Fall 2023)",
+        "JWST GU4158": "Zionist Thought: Center and Periphery (Effective beginning Spring 2025)",
+        "JWST GU4159": "Antisemitism and Resistance in Europe, the Middle East, and North Africa (Effective beginning Spring 2026)",
+        "JWST GU4160": "Resilience and Resistance: North African Jews during the Colonial Period (Effective beginning Fall 2026)",
+        "JWST GU4601": "The History of Mizrahi Jews (Effective beginning Spring 2025)",
+        "JWST GU4602": "Zionism in History: Controversies Local and Global (Effective beginning Fall 2026)"
+      }
     },
     {
       "header": "Latin American and Caribbean Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "LCRS UN3500"
-      ]
+        "LCRS UN3500"
+      ],
+      "titles": {
+        "LCRS UN3500": "Latin American Cities (Effective beginning Spring 2017)"
+      }
     },
     {
       "header": "Latin American and Iberian Cultures",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "SPJS UN3303",
-        "SPAN UN3349",
-        "PORT UN3350",
-        "SPAN UN3350",
-        "SPAN UN3361",
-        "SPAN UN3489",
-        "PORT UN3490",
-        "SPAN UN3490",
-        "SPAN W3491",
-        "PORT UN3601",
-        "SPAN UN3894",
-        "SPAN UN3898",
-        "SPAN UN3899"
-      ]
+        "SPJS UN3303",
+        "SPAN UN3349",
+        "PORT UN3350",
+        "SPAN UN3350",
+        "SPAN UN3361",
+        "SPAN UN3489",
+        "PORT UN3490",
+        "SPAN UN3490",
+        "SPAN W3491",
+        "PORT UN3601",
+        "SPAN UN3894",
+        "SPAN UN3898",
+        "SPAN UN3899"
+      ],
+      "titles": {
+        "SPJS UN3303": "JEWISH CULTURE IN TRANSL IN MED IBERIA ((Effective beginning Fall 2017 semester))",
+        "SPAN UN3349": "HISPANIC CULTURES I (SP)",
+        "PORT UN3350": "LUSOPHONE AFR/AFRO-BRAZ CULTRS",
+        "SPAN UN3350": "HISPANIC CULTURES II (SP)",
+        "SPAN UN3361": "ARTISTIC HUMANITY (Effective beginning Spring 2017)",
+        "SPAN UN3489": "Staging Revolt: Masses, Multitudes ＆ Political Performance in the Hispanic World (Effective beginning Spring 2025)",
+        "PORT UN3490": "BRAZILIAN SOCIETY ＆ CIV (ENG) (Effective beginning Fall 2017 semester)",
+        "SPAN UN3490": "Latin American Humanities I: From Pre-Columbian Civilizations to the Creation of New Nations",
+        "SPAN W3491": "Latin American Humanities II: From Modernity to the Present [In English]",
+        "PORT UN3601": "Race, Medicine and Literature in 19th-Century Brazil (Effective beginning Fall 2020)",
+        "SPAN UN3894": "Law, Literature, and Gender in the Hispanic World (Effective beginning Spring 2025)",
+        "SPAN UN3898": "Arabs and the West: The Andalusian Symbiosis (Effective beginning Spring 2026)",
+        "SPAN UN3899": "The Art of the Question in Latin America (Effective beginning Spring 2026)"
+      }
     },
     {
       "header": "Linguistics",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "LING UN3102",
-        "LING UN3104"
-      ]
+        "LING UN3102",
+        "LING UN3104"
+      ],
+      "titles": {
+        "LING UN3102": "(Effective beginning Fall 2019)",
+        "LING UN3104": "The Indigenous Languages of North America (Effective beginning Spring 2026)"
+      }
     },
     {
       "header": "Middle Eastern, South Asian, and African Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "MDES UN1001",
-        "MDES UN1030",
-        "MDES UN1003",
-        "AHUM UN1399",
-        "MDES UN1630",
-        "ASCM V2001",
-        "ASCM UN2003",
-        "ASCM UN2008",
-        "MDES UN2042",
-        "MDES UN2012",
-        "MDES UN2030",
-        "MDES W2041",
-        "ASCM UN2357",
-        "MDES UN2399",
-        "MDES UN2641",
-        "MDES UN2650",
-        "MDES UN3000",
-        "CLME W3032",
-        "HSME UN3044",
-        "MDES UN3047",
-        "MDES UN3121",
-        "MDES UN3130",
-        "CLME UN3221",
-        "MDES UN3260",
-        "CLME UN3266",
-        "MDES UN3335",
-        "MDES UN3421",
-        "MDES UN3445",
-        "CLME UN3928",
-        "MDES UN3930",
-        "CLME GU4031",
-        "MDES GU4122",
-        "MDES G4052",
-        "MDES GU4150",
-        "MDES GU4220",
-        "CLME GU4225",
-        "CLME GU4226",
-        "CLME GU4229",
-        "CLME GU4231",
-        "CLME GU4241",
-        "CLME G4261",
-        "MDES GU4259",
-        "CLME GU4262",
-        "MDES GU4266",
-        "CLME GU4272",
-        "MDES G4326",
-        "MDES GU4360",
-        "MDES GU4634",
-        "MDES GU4637",
-        "MDES GU4945"
-      ]
+        "MDES UN1001",
+        "MDES UN1030",
+        "MDES UN1003",
+        "AHUM UN1399",
+        "MDES UN1630",
+        "ASCM V2001",
+        "ASCM UN2003",
+        "ASCM UN2008",
+        "MDES UN2042",
+        "MDES UN2012",
+        "MDES UN2030",
+        "MDES W2041",
+        "ASCM UN2357",
+        "MDES UN2399",
+        "MDES UN2641",
+        "MDES UN2650",
+        "MDES UN3000",
+        "CLME W3032",
+        "HSME UN3044",
+        "MDES UN3047",
+        "MDES UN3121",
+        "MDES UN3130",
+        "CLME UN3221",
+        "MDES UN3260",
+        "CLME UN3266",
+        "MDES UN3335",
+        "MDES UN3421",
+        "MDES UN3445",
+        "CLME UN3928",
+        "MDES UN3930",
+        "CLME GU4031",
+        "MDES GU4122",
+        "MDES G4052",
+        "MDES GU4150",
+        "MDES GU4220",
+        "CLME GU4225",
+        "CLME GU4226",
+        "CLME GU4229",
+        "CLME GU4231",
+        "CLME GU4241",
+        "CLME G4261",
+        "MDES GU4259",
+        "CLME GU4262",
+        "MDES GU4266",
+        "CLME GU4272",
+        "MDES G4326",
+        "MDES GU4360",
+        "MDES GU4634",
+        "MDES GU4637",
+        "MDES GU4945"
+      ],
+      "titles": {
+        "MDES UN1001": "CRITICAL THEORY: A GLOBAL PERSPECTIVE (Effective beginning Spring 2018)",
+        "MDES UN1030": "“Game of Thrones”:  On Epics and Empires (Effective beginning Fall 2021)",
+        "MDES UN1003": "Premodern Islamic Worlds (Effective beginning Fall 2024)",
+        "AHUM UN1399": "COLLOQUIUM ON MAJOR TEXTS: MIDDLE EAST/INDIA (formerly AHUM UN3399 , new course number effective Fall 2018)",
+        "MDES UN1630": "Introduction to South Asia (Effective beginning Spring 2025)",
+        "ASCM V2001": "Introduction to Major Topics in the Civilizations of the Middle East and India",
+        "ASCM UN2003": "INTRO TO ISLAMIC CIVILIZATION",
+        "ASCM UN2008": "CONTEMP ISLAMIC CIVILIZATION",
+        "MDES UN2042": "South Asia at the Crossroads of Empires (Effective beginning Fall 2023)",
+        "MDES UN2012": "Finding Happiness: Readings in Arab-Islamic Texts (Effective beginning Fall 2022)",
+        "MDES UN2030": "Major Debates in the Study of Africa",
+        "MDES W2041": "Introduction to Indian Philosophy (Effective beginning Spring 2015)",
+        "ASCM UN2357": "INTRO TO INDIAN CIVILIZATION",
+        "MDES UN2399": "ANCIENT NEAR EASTERN LITERATURE (Effective beginning Spring 2026)",
+        "MDES UN2641": "CINEMAS OF INDIA (Effective beginning Fall 2020)",
+        "MDES UN2650": "GANDHI ＆ HIS INTERLOCUTORS (Gandhi and His Interlocutors; Effective beginning Spring 2015)",
+        "MDES UN3000": "THEORY AND CULTURE",
+        "CLME W3032": "Colonialism: Film, Fiction, History & Theory",
+        "HSME UN3044": "From Colonial to Global Health (Effective beginning Fall 2017 semester)",
+        "MDES UN3047": "MESAAS ＆ History: Court Cultures 350-1750 (Effective beginning Spring 2021)",
+        "MDES UN3121": "Literature and Cultures of Struggle in South Africa (Effective beginning Spring 2017)",
+        "MDES UN3130": "E AFRICA ＆ THE SWAHILI COAST",
+        "CLME UN3221": "ARABIC LITERATURE AS WORLD LITERATURE (Effective beginning Fall 2017 semester- course number changed to CLME GU4272 beginning Spring 2020)",
+        "MDES UN3260": "RETHINKING MIDDLE EAST POLITCS (Effective beginning Spring 2017)",
+        "CLME UN3266": "Decolonizing the Arabian Nights (Was formerly MDES GU4266 \"Decolonizing the Arabian Nights\". New course number effective beginning Spring 2022.)",
+        "MDES UN3335": "Introduction to Armenian Studies (Effective beginning Fall 2023)",
+        "MDES UN3421": "Islamic Central Asia (Effective beginning Fall 2020)",
+        "MDES UN3445": "SOCIETIES/CULTRS: INDIAN OCEAN (Effective beginning Fall 2013)",
+        "CLME UN3928": "ARABIC PRISON WRITING",
+        "MDES UN3930": "Iraq: War, Love, and Exile (Effective beginning Spring 2021)",
+        "CLME GU4031": "Cinema and Society In Asia and Africa",
+        "MDES GU4122": "THE NOVEL IN AFRICA (Effective beginning Fall 2026)",
+        "MDES G4052": "Locating Africa in the Early 20th Century World (Updated course number- HSME GU4052 )",
+        "MDES GU4150": "Introduction to African Philosophy (Effective beginning Spring 2017)",
+        "MDES GU4220": "The Arabic Linguistic Tradition (Effective beginning Spring 2026)",
+        "CLME GU4225": "New Millenium Challenges in Arabic Literary Production (Effective beginning Spring 2019- formerly \"Arabic Literary Production\"; New title effective Fall 2019)",
+        "CLME GU4226": "ARABIC AUTOBIOGRAPHY GLOBAL DIMENSIONS (Effective beginning Spring 2018)",
+        "CLME GU4229": "Afro-Mediterranean   Cultural Geographies: Ifriqiya-Tunis ((Effective beginning Fall 2018))",
+        "CLME GU4231": "COLD WAR ARAB CULTURE",
+        "CLME GU4241": "SUFISM: PRIMARY TEXTS/CONTEXTS",
+        "CLME G4261": "Popular Islam: Asia and Africa",
+        "MDES GU4259": "War Narrative: The Arab World (Effective beginning Fall 2019)",
+        "CLME GU4262": "THEMES IN THE ARABIC NOVEL (Effective beginning Fall 2018)",
+        "MDES GU4266": "Decolonizing the Arabian Nights (Effective beginning Fall 2021. Effective Spring 2022- new course number CLME UN3266 )",
+        "CLME GU4272": "ARABIC LITERATURE AS WORLD LITERATURE (was formerly CLME UN3221 - change of course number effective Spring 2020)",
+        "MDES G4326": "The Armenian Genocide and the Holocaust: Memory and Representation",
+        "MDES GU4360": "Armenians and the Modern World (Effective beginning Spring 2024)",
+        "MDES GU4634": "Sound and Listening Cultures of the Indian Subcontinent (This course will no longer partially fulfill the Global Core requirement after Spring 2026.)",
+        "MDES GU4637": "Cinema and Colonialism in South Asia (Effective beginning Spring 2018)",
+        "MDES GU4945": "Contested Histories: A Medieval Jewish Empire? (Effective beginning Spring 2024)"
+      }
     },
     {
       "header": "Music",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "MUSI UN2020",
-        "MUSI UN2030",
-        "MUSI V2430",
-        "AHMM UN3320",
-        "AHMM UN3321",
-        "MUSI GU4113",
-        "MUSI GU4438",
-        "MUSI GU4466"
-      ]
+        "MUSI UN2020",
+        "MUSI UN2030",
+        "MUSI V2430",
+        "AHMM UN3320",
+        "AHMM UN3321",
+        "MUSI GU4113",
+        "MUSI GU4438",
+        "MUSI GU4466"
+      ],
+      "titles": {
+        "MUSI UN2020": "SALSA, SOCA ＆ REGGAE",
+        "MUSI UN2030": "JEWISH MUSIC IN NEW YORK (Effective beginning Fall 2026)",
+        "MUSI V2430": "Listening and Sound in Cross-Cultural Perspective (Effective beginning Fall 2014; formerly MUSI W4430)",
+        "AHMM UN3320": "MUSIC IN EAST ASIA",
+        "AHMM UN3321": "MUSICS OF INDIA ＆ WEST ASIA",
+        "MUSI GU4113": "Medieval Mediterranean Love Songs (Effective beginning Spring 2024)",
+        "MUSI GU4438": "Music and Global Africa (Effective beginning Spring 2025)",
+        "MUSI GU4466": "Sound and Image in Modern East Asian Music (Effective Spring 2017)"
+      }
     },
     {
       "header": "Philosophy",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "PHIL UN3000",
-        "PHIL UN3912",
-        "PHIL GU4947"
-      ]
+        "PHIL UN3000",
+        "PHIL UN3912",
+        "PHIL GU4947"
+      ],
+      "titles": {
+        "PHIL UN3000": "BUDDHIST PHILOSOPHY (Effective beginning Fall 2022)",
+        "PHIL UN3912": "SEMINAR (Buddhist Philosophy. Only the section \"Buddhist Philosophy\" of this multi-topics course counts towards the Global Core requirement. Effective beginning Spring 2026)",
+        "PHIL GU4947": "Classical Indian Philosophy (Effective beginning Fall 2025)"
+      }
     },
     {
       "header": "Religion",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "RELI UN1612",
-        "RELI UN2205",
-        "RELI UN2305",
-        "RELI UN2306",
-        "RELI UN2405",
-        "RELI UN2308",
-        "RELI UN2309",
-        "RELI UN2335",
-        "RELI UN3303",
-        "RELI UN3407",
-        "RELI UN3314",
-        "RELI UN3425",
-        "RELI Q3511",
-        "RELI UN3521",
-        "RELI GU4214",
-        "RELI GU4215",
-        "RELI GU4204",
-        "RELI GU4304",
-        "RELI GU4314",
-        "RELI GU4322",
-        "RELI GU4418",
-        "RELI GU4999"
-      ]
+        "RELI UN1612",
+        "RELI UN2205",
+        "RELI UN2305",
+        "RELI UN2306",
+        "RELI UN2405",
+        "RELI UN2308",
+        "RELI UN2309",
+        "RELI UN2335",
+        "RELI UN3303",
+        "RELI UN3407",
+        "RELI UN3314",
+        "RELI UN3425",
+        "RELI Q3511",
+        "RELI UN3521",
+        "RELI GU4214",
+        "RELI GU4215",
+        "RELI GU4204",
+        "RELI GU4304",
+        "RELI GU4314",
+        "RELI GU4322",
+        "RELI GU4418",
+        "RELI GU4999"
+      ],
+      "titles": {
+        "RELI UN1612": "Religion and the History of Hip Hop (Effective beginning Spring 2020)",
+        "RELI UN2205": "(effective Fall 2016)",
+        "RELI UN2305": "ISLAM",
+        "RELI UN2306": "INTRO TO JUDAISM (Effective beginning Fall 2018)",
+        "RELI UN2405": "CHINESE RELIGIOUS TRADITIONS (formerly RELI UN2307 )",
+        "RELI UN2308": "BUDDHISM: EAST ASIAN",
+        "RELI UN2309": "HINDUISM",
+        "RELI UN2335": "RELI IN BLACK AMERICA:AN INTRO (formerly RELI V2645 )",
+        "RELI UN3303": "Judaism and Translation in the Medieval and Early Modern Mediterranean (effective Spring 2017)",
+        "RELI UN3407": "Muslims in Diaspora (Effective beginning Spring 2016; formerly RELI V3307 )",
+        "RELI UN3314": "QURAN (Effective beginning Fall 2023)",
+        "RELI UN3425": "Judaism and Courtly Literature in Medieval and Early Modern Iberia and Italy (Effective beginning Fall 2016 )",
+        "RELI Q3511": "Tantra in South Asia, East Asia & the West (Effective beginning Spring 2015; formerly RELI V3411 )",
+        "RELI UN3521": "Muslim Masculinities (Effective beginning Spring 2019)",
+        "RELI GU4214": "African and North African Philosophy: An Introduction (Effective beginning Summer 2021)",
+        "RELI GU4215": "Hinduism Here (Effecrtive beginning Fall 2019)",
+        "RELI GU4204": "Religions of the Iranian World (Effective beginning Spring 2020)",
+        "RELI GU4304": "Krishna (Effective beginning Fall 2017)",
+        "RELI GU4314": "Bhakti Poets (Effective beginning Spring 2022)",
+        "RELI GU4322": "EXPLORING THE SHARIA: ISLAMIC LAW (Effective beginning Fall 2018)",
+        "RELI GU4418": "On African Theory: Religion, Philosophy, Anthropology (Effective beginning Spring 2019)",
+        "RELI GU4999": "GLOBAL INDIGENOUS RELIGIOUS HISTORIES (Effective beginning Fall 2020)"
+      }
     },
     {
       "header": "Slavic Languages",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "SLCL UN3001",
-        "SLCL UN3100",
-        "RUSS UN3230",
-        "SLCL GU4002",
-        "CLSL GU4012",
-        "CLSL GU4013",
-        "CLRS GU4022",
-        "GEOR GU4042",
-        "CLRS W4190"
-      ]
+        "SLCL UN3001",
+        "SLCL UN3100",
+        "RUSS UN3230",
+        "SLCL GU4002",
+        "CLSL GU4012",
+        "CLSL GU4013",
+        "CLRS GU4022",
+        "GEOR GU4042",
+        "CLRS W4190"
+      ],
+      "titles": {
+        "SLCL UN3001": "SLAVIC CULTURES",
+        "SLCL UN3100": "FOLKLORE PAST ＆ PRESENT (Effective beginning Fall 2021 semester- New course number SLCL GU4002 - effective beginning Spring 2025)",
+        "RUSS UN3230": "Tricksters in World Culture: Mockery, Subversion, Rebellion (Effective beginning Fall 2022)",
+        "SLCL GU4002": "Folklore Past and Present (formerly SLCL UN3001 - New course number effective beginning Spring 2025))",
+        "CLSL GU4012": "Holocaust Literature: Critical Thinking in Dark Times (Effective beginning Fall 2023)",
+        "CLSL GU4013": "Jewish Worlds in Eastern Europe: A Journey (Effective beginning Summer 2024)",
+        "CLRS GU4022": "Russia and Asia: Orientalism, Eurasianism, Internationalism",
+        "GEOR GU4042": "Expressive Culture of Soviet and Independent Georgia (Effective beginning Spring 2017)",
+        "CLRS W4190": "Race, Ethnicity, and Narrative, in the Russian/Soviet Empire"
+      }
     },
     {
       "header": "Sociology",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "SOCI UN3324"
-      ]
+        "SOCI UN3324"
+      ],
+      "titles": {
+        "SOCI UN3324": "Global Urbanism"
+      }
     },
     {
       "header": "Theatre",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "THTR UN3154"
-      ]
+        "THTR UN3154"
+      ],
+      "titles": {
+        "THTR UN3154": "THEATRE TRAD GLOBAL CONTEXT (formerly THTR UN3000 )"
+      }
     },
     {
       "header": "Urban Studies",
+      "section": "All Approved Courses: Morningside Campus",
       "codes": [
-        "URBS UN3351"
-      ]
+        "URBS UN3351"
+      ],
+      "titles": {
+        "URBS UN3351": "URBAN ELSEWHERES: EXPLORING A WORLD OF CITIES (Effective beginning Spring 2021)"
+      }
     },
     {
       "header": "Columbia Athens Global Center",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
-        "GRKM OC3936"
-      ]
+        "GRKM OC3936"
+      ],
+      "titles": {
+        "GRKM OC3936": "Columbia Summer Global Core: The Athens Experience (Effective beginning Summer 2025)"
+      }
     },
     {
       "header": "Center for the Study of Ethnicity and Race",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
         "CSER OC3928"
-      ]
+      ],
+      "titles": {
+        "CSER OC3928": "Colonization/Decolonization (Effective beginning Summer 2017; taught in Mexico City)"
+      }
     },
     {
       "header": "Columbia in Amman and Paris: Middle Eastern and North African Studies (MENA) Program",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
         "MENA OC4100"
-      ]
+      ],
+      "titles": {
+        "MENA OC4100": "Migration, Displacement and Diaspora in the French and North African Context (taught in Paris, effective beginning Summer2017) (formerly Maghreb-Mashrek: East and West)"
+      }
     },
     {
       "header": "Columbia Global Seminar in Istanbul",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
         "CLGM OC3920"
-      ]
+      ],
+      "titles": {
+        "CLGM OC3920": "The World Responds to the Greeks: Modernity, Postmodernity, Globality (Effective beginning Spring 2015; taught in Istanbul)"
+      }
     },
     {
       "header": "Columbia in London- Queen Mary University",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
-        "CLEN OC3500",
-        "CLEN OC3793"
-      ]
+        "CLEN OC3500",
+        "CLEN OC3793"
+      ],
+      "titles": {
+        "CLEN OC3500": "LONDON IN POSTCOLONIAL FICTION: 'WE ARE HERE BECAUSE YOU WERE THERE ((Effective beginning Fall 2018))",
+        "CLEN OC3793": "Postcolonial London (Effective beginning Fall 2025)"
+      }
     },
     {
       "header": "Columbia Summer Program in Tunis and Istanbul: Democracy and Constitutional Engineering",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
         "POLS OC3545"
-      ]
+      ],
+      "titles": {
+        "POLS OC3545": "Comparative Democratic Processes (Effective beginning Summer 2015; taught in Istanbul)"
+      }
     },
     {
       "header": "Columbia Summer Program in Venice",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
-        "CLIA OC4600"
-      ]
+        "CLIA OC4600"
+      ],
+      "titles": {
+        "CLIA OC4600": "Mediterranean Humanities II in Venice (Effective beginning Summer 2025. Students may only receive Global Core credit for either CLIA GU4500 or CLIA OC4600 ; not both.)"
+      }
     },
     {
       "header": "Slavic Languages - Office of Global Programs",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
-        "CLSL OC4001"
-      ]
+        "CLSL OC4001"
+      ],
+      "titles": {
+        "CLSL OC4001": "The Muslim and the Christian in Balkan Narratives ((Effective beginning Summer 2016; taught in Istanbul))"
+      }
     },
     {
       "header": "Reid Hall in Paris",
+      "section": "All Approved Courses: Offered Abroad",
       "codes": [
-        "AHIS OC4652",
-        "FILM OC4225",
-        "FILM GU4330",
-        "FREN OC3719",
-        "FREN OC3817",
-        "CLFR OC3821",
-        "FREN OC3821",
-        "HIST OC3136",
-        "WMST OC3550"
-      ]
+        "AHIS OC4652",
+        "FILM OC4225",
+        "FILM GU4330",
+        "FREN OC3719",
+        "FREN OC3817",
+        "CLFR OC3821",
+        "FREN OC3821",
+        "HIST OC3136",
+        "WMST OC3550"
+      ],
+      "titles": {
+        "AHIS OC4652": "The Black Voices of Black Model: New Perspectives for the Histories of Art (Effective beginning Summer 2019)",
+        "FILM OC4225": "Arab & African Filmmaking (Effective beginning Summer 2019)",
+        "FILM GU4330": "(Effective beginning Summer 2024- to be offered in Reid Hall, Paris)",
+        "FREN OC3719": "VIOLENCE BY AND AGAINST WOMEN (Effective beginning Spring 2019)",
+        "FREN OC3817": "Black Paris (Effective Spring 2017; taught in Paris)",
+        "CLFR OC3821": "CITY DIPLOMACY (Effective beginning Spring 2021)",
+        "FREN OC3821": "\"Blackness\" in French: from Harlem to Paris and Beyond ((Effective beginning Summer 2018))",
+        "HIST OC3136": "France and the African Diaspora (Effective beginning Summer 2024)",
+        "WMST OC3550": "WOMEN ＆ SOCIETY - SEX-TRADE ECONOMY (Effective Spring 2016, will not be offered Spring 2018; taught in Paris)"
+      }
     }
   ],
   "error": null

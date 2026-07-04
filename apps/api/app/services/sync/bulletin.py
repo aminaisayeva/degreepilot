@@ -41,7 +41,7 @@ def parse_bulletin_courses(html: str) -> list[BulletinCourse]:
         title_p = block.find("p", class_="courseblocktitle")
         if not isinstance(title_p, Tag):
             continue
-        raw = title_p.get_text(" ", strip=True)
+        raw = _clean(title_p.get_text(" ", strip=True))
         m = _CODE_RE.match(raw)
         if not m:
             continue
@@ -60,7 +60,7 @@ def parse_bulletin_courses(html: str) -> list[BulletinCourse]:
         prereq_text = ""
         prereq_span = block.find("span", class_="prereq")
         if isinstance(prereq_span, Tag):
-            prereq_text = prereq_span.get_text(" ", strip=True)
+            prereq_text = _clean(prereq_span.get_text(" ", strip=True))
 
         # Description: longest paragraph in the block that isn't the title or
         # a prereq-only paragraph.
@@ -68,7 +68,7 @@ def parse_bulletin_courses(html: str) -> list[BulletinCourse]:
         for p in block.find_all("p"):
             if p is title_p:
                 continue
-            text = p.get_text(" ", strip=True)
+            text = _clean(p.get_text(" ", strip=True))
             if not text or text == prereq_text:
                 continue
             if text.startswith("Prerequisites:") or text.startswith("Corequisites:"):
@@ -95,14 +95,30 @@ def parse_bulletin_courses(html: str) -> list[BulletinCourse]:
 
 
 def parse_courselists(html: str) -> list[dict]:
-    """Extract requirement lists: [{"header": ..., "codes": [...]}, ...].
+    """Extract requirement lists:
+        [{"header": ..., "section": ..., "codes": [...], "titles": {code: title}}, ...]
 
     Rows with an `areaheader` marker start a new group; `codecol` cells carry
-    canonical codes ("MATH UN1201"). Sequence rows ("A & B") are split.
+    canonical codes ("MATH UN1201", NBSP normalized to space). Sequence rows
+    ("A & B") are split. `section` is the nearest heading (h2-h5) preceding
+    the table — many bulletin tables have no in-table header at all.
     """
     soup = BeautifulSoup(html, "html.parser")
+
+    # Map each courselist table to the nearest preceding heading, in document
+    # order over the whole page.
+    sections: dict[int, str] = {}
+    last_heading = ""
+    for el in soup.find_all(["h2", "h3", "h4", "h5", "table"]):
+        if el.name == "table":
+            if "sc_courselist" in (el.get("class") or []):
+                sections[id(el)] = last_heading
+        else:
+            last_heading = _clean(el.get_text(" ", strip=True))
+
     out: list[dict] = []
     for table in soup.find_all("table", class_="sc_courselist"):
+        section = sections.get(id(table), "")
         current: dict | None = None
         for tr in table.find_all("tr"):
             classes = tr.get("class") or []
@@ -110,20 +126,29 @@ def parse_courselists(html: str) -> list[dict]:
             if "areaheader" in classes or header_span is not None:
                 if current and current["codes"]:
                     out.append(current)
-                header = tr.get_text(" ", strip=True)
-                current = {"header": header, "codes": []}
+                header = _clean(tr.get_text(" ", strip=True))
+                current = {"header": header, "section": section, "codes": [], "titles": {}}
                 continue
             codecol = tr.find("td", class_="codecol")
             if not isinstance(codecol, Tag):
                 continue
-            code = codecol.get_text(" ", strip=True)
+            code = _clean(codecol.get_text(" ", strip=True))
+            title_td = codecol.find_next_sibling("td")
+            title = _clean(title_td.get_text(" ", strip=True)) if isinstance(title_td, Tag) else ""
             for part in re.split(r"\s*&\s*", code):
                 part = part.strip()
                 if _CODE_RE.match(part):
                     if current is None:
-                        current = {"header": "", "codes": []}
+                        current = {"header": "", "section": section, "codes": [], "titles": {}}
                     if part not in current["codes"]:
                         current["codes"].append(part)
+                        if title:
+                            current["titles"][part] = title
         if current and current["codes"]:
             out.append(current)
     return out
+
+
+def _clean(s: str) -> str:
+    """Normalize NBSP and zero-width characters the bulletin sprinkles in."""
+    return s.replace("\xa0", " ").replace("​", "").strip()
