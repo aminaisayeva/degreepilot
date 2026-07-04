@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-feature-settings: "ss01", "cv11";
+  background:
+    radial-gradient(1200px 600px at 80% -10%, hsl(196 96% 56% / 0.08), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, hsl(260 90% 60% / 0.07), transparent 60%),
+    hsl(220 25% 7%);
+}
+
+/* shadcn-like primitives */
+@layer components {
+  .card {
+    @apply rounded-2xl border border-border bg-surface shadow-card;
+  }
+  .card-pad {
+    @apply p-6;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-elevated px-4 py-2 text-sm font-medium text-ink transition hover:border-accent/60 hover:text-accent disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-4 py-2 text-sm font-semibold text-accent-ink shadow-glow transition hover:brightness-110 disabled:opacity-60;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-muted transition hover:bg-elevated hover:text-ink;
+  }
+  .input, .select, .textarea {
+    @apply w-full rounded-xl border border-border bg-elevated px-3 py-2 text-sm text-ink placeholder:text-muted focus:border-accent/70 focus:outline-none;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-md border border-border bg-elevated px-2 py-0.5 text-xs text-muted;
+  }
+  .badge-accent {
+    @apply inline-flex items-center gap-1 rounded-md border border-accent/40 bg-accent/10 px-2 py-0.5 text-xs text-accent;
+  }
+  .badge-ok {
+    @apply inline-flex items-center gap-1 rounded-md border border-ok/40 bg-ok/10 px-2 py-0.5 text-xs text-ok;
+  }
+  .badge-warn {
+    @apply inline-flex items-center gap-1 rounded-md border border-warn/40 bg-warn/10 px-2 py-0.5 text-xs text-warn;
+  }
+  .badge-danger {
+    @apply inline-flex items-center gap-1 rounded-md border border-danger/40 bg-danger/10 px-2 py-0.5 text-xs text-danger;
+  }
+  .kbd {
+    @apply rounded border border-border bg-elevated px-1.5 py-0.5 text-[10px] font-mono text-muted;
+  }
+  .progress-track {
+    @apply h-2 w-full overflow-hidden rounded-full bg-elevated;
+  }
+  .progress-fill {
+    @apply h-full rounded-full bg-gradient-to-r from-accent to-cyan-300 transition-all;
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(220 14% 22%); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(220 14% 32%); }
