@@ -31,6 +31,10 @@ def _season(term: str) -> str:
 
 
 def derive_categories(code: str, department: str, number_int: int, credits: float) -> list[str]:
+    # Barnard sections (BC-numbered) never auto-qualify for CC/SEAS electives;
+    # curation must opt them in explicitly.
+    if code.split()[-1].upper().startswith("BC"):
+        return []
     out: list[str] = []
     if department in {"COMS", "CSEE"} and number_int >= 3000 and credits >= 3:
         out.append("cs_elective_eligible")

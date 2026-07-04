@@ -118,6 +118,13 @@ def test_derived_categories():
     assert derive_categories("COMS W1004", "COMS", 1004, 3) == []
 
 
+def test_barnard_sections_not_auto_derived():
+    # Barnard (BC-numbered) courses never auto-qualify for CC/SEAS electives;
+    # curation must opt them in explicitly.
+    assert derive_categories("ECON BC3011", "ECON", 3011, 3) == []
+    assert derive_categories("COMS BC3420", "COMS", 3420, 3) == []
+
+
 def test_number_int_extraction_handles_letter_prefixes():
     # W1004 -> 1004, UN3211 -> 3211, E6998 -> 6998, BC1014 -> 1014
     assert _number_int("W1004") == 1004

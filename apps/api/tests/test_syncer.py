@@ -78,3 +78,12 @@ def test_sync_handles_fetch_error(session):
     record = sync_subject_term("COMS", "Fall2026", session=session, fetcher=boom)
     assert record.status == "error"
     assert "network" in (record.error or "")
+
+
+def test_pretty_title_handles_hyphens_slashes_and_small_words():
+    from app.services.sync.syncer import _pretty_title
+
+    assert _pretty_title("INTRO-COMPUT SCI/PROG IN JAVA") == "Intro-Comput Sci/Prog in Java"
+    assert _pretty_title("ANALYSIS OF ALGORITHMS I") == "Analysis of Algorithms I"
+    assert _pretty_title("MACHINE LEARNING FOR NLP") == "Machine Learning for NLP"
+    assert _pretty_title("EARTH'S ENVIRONMENTAL SYSTEMS") == "Earth's Environmental Systems"

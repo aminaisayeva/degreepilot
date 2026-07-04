@@ -6,8 +6,8 @@ class Course(SQLModel, table=True):
     """A single university course.
 
     `prerequisites` is stored as a CNF-style list of OR-groups:
-      [["COMS3134"], ["COMS3203", "MATH2010"]]
-    means: COMS3134 AND (COMS3203 OR MATH2010).
+      [["COMS W3134"], ["COMS W3203", "MATH UN2010"]]
+    means: COMS W3134 AND (COMS W3203 OR MATH UN2010).
     """
 
     code: str = Field(primary_key=True, index=True)
