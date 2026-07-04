@@ -148,8 +148,9 @@ WEB_PID=$!
 sleep 2
 echo
 echo -e "${BOLD}Degree Copilot is up:${RESET}"
-echo -e "  ${GREEN}API${RESET}    http://localhost:8000        ${DIM}(Swagger at /docs · PID $API_PID)${RESET}"
-echo -e "  ${GREEN}Web${RESET}    http://localhost:5173        ${DIM}(PID $WEB_PID)${RESET}"
+echo -e "  ${GREEN}API${RESET}    http://localhost:8000                 ${DIM}(Swagger at /docs · PID $API_PID)${RESET}"
+echo -e "  ${GREEN}Web${RESET}    http://localhost:5173                 ${DIM}(PID $WEB_PID)${RESET}"
+echo -e "  ${GREEN}QA${RESET}     http://localhost:8000/admin/accuracy  ${DIM}(catalog accuracy dashboard)${RESET}"
 echo
 echo -e "${DIM}Press Ctrl+C to stop both.${RESET}"
 echo
