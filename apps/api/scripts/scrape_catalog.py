@@ -32,8 +32,19 @@ BULLETIN_PAGES: dict[str, str] = {
     "econ": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/",
     "math": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
     "stat": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/",
-    "core": "https://bulletin.columbia.edu/columbia-college/core-curriculum/",
-    "ms_cs": "https://bulletin.columbia.edu/engineering/graduate-programs/computer-science/",
+    # Core hub has no course data — the subpages do (verified 2026-07-04).
+    "core_lithum": "https://bulletin.columbia.edu/columbia-college/core-curriculum/literature-humanities/",
+    "core_cc": "https://bulletin.columbia.edu/columbia-college/core-curriculum/contemporary-civilization/",
+    "core_arthum": "https://bulletin.columbia.edu/columbia-college/core-curriculum/art-humanities/",
+    "core_musichum": "https://bulletin.columbia.edu/columbia-college/core-curriculum/music-humanities/",
+    "core_uwriting": "https://bulletin.columbia.edu/columbia-college/core-curriculum/university-writing/",
+    "core_frontiers": "https://bulletin.columbia.edu/columbia-college/core-curriculum/frontiers-science/",
+    "core_science": "https://bulletin.columbia.edu/columbia-college/core-curriculum/science-requirement/",
+    "core_globalcore": "https://bulletin.columbia.edu/columbia-college/core-curriculum/global-core-requirement/",
+    # SEAS CS dept page carries 4000/6000-level courseblocks; the MS
+    # requirement lists are not on the bulletin (they live on cs.columbia.edu)
+    # so MS requirement lists stay curated and get verified via the dashboard.
+    "ms_cs": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-science/",
 }
 
 DIRECTORY_TERMS = ("Fall2025", "Spring2026", "Fall2026")

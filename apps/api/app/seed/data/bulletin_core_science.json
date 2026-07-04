@@ -1,0 +1,264 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/science-requirement/",
+  "scraped_at": "2026-07-04T14:14:08Z",
+  "courses": [],
+  "courselists": [
+    {
+      "header": "Astronomy",
+      "codes": [
+        "ASTR UN1234",
+        "ASTR UN1403",
+        "ASTR UN1404",
+        "ASTR UN1420",
+        "ASTR UN1453",
+        "ASTR UN1610",
+        "ASTR BC1753",
+        "ASTR BC1754",
+        "ASTR UN1836"
+      ]
+    },
+    {
+      "header": "Biology",
+      "codes": [
+        "BIOL UN1130",
+        "BIOL UN2300"
+      ]
+    },
+    {
+      "header": "Chemistry",
+      "codes": [
+        "CHEM UN1403",
+        "CHEM UN1404",
+        "CHEM UN1500",
+        "CHEM UN1604",
+        "CHEM UN1507",
+        "CHEM UN2045",
+        "CHEM UN2046",
+        "CHEM UN2443",
+        "CHEM UN2444",
+        "SCNC UN1800",
+        "SCNC UN1900"
+      ]
+    },
+    {
+      "header": "Earth and Environmental Sciences",
+      "codes": [
+        "EESC UN1001",
+        "EESC UN1003",
+        "EESC S1004",
+        "EESC UN1009",
+        "EESC UN1011",
+        "EESC UN1030",
+        "EESC UN1053",
+        "EESC UN1201",
+        "EESC UN1401",
+        "EESC UN1411",
+        "EESC UN1600",
+        "EESC UN2100",
+        "EESC UN2200",
+        "EESC UN2300",
+        "EESC UN2330"
+      ]
+    },
+    {
+      "header": "Ecology, Evolution, and Environmental Biology",
+      "codes": [
+        "EEEB UN1001",
+        "EEEB UN1010",
+        "EEEB UN1011",
+        "EEEB S1115Q",
+        "EEEB UN3087",
+        "EEEB UN2001",
+        "EEEB UN2002",
+        "EEEB OC2201",
+        "FSEB UN1020"
+      ]
+    },
+    {
+      "header": "Physics",
+      "codes": [
+        "PHYS UN1001",
+        "PHYS UN1018",
+        "PHYS UN1111",
+        "PHYS UN1201",
+        "PHYS UN1202",
+        "PHYS UN1401",
+        "PHYS UN1402",
+        "PHYS UN1403",
+        "PHYS UN1601",
+        "PHYS UN1602",
+        "PHYS UN2801"
+      ]
+    },
+    {
+      "header": "Psychology",
+      "codes": [
+        "PSYC UN1001",
+        "PSYC UN1010",
+        "PSYC UN1021"
+      ]
+    },
+    {
+      "header": "Astronomy",
+      "codes": [
+        "ASTR UN1234",
+        "ASTR UN1403",
+        "ASTR UN1404",
+        "ASTR UN1420",
+        "ASTR UN1453",
+        "ASTR BC1753",
+        "ASTR BC1754",
+        "ASTR UN1836"
+      ]
+    },
+    {
+      "header": "Biology",
+      "codes": [
+        "BIOL UN1130",
+        "BIOL UN2300"
+      ]
+    },
+    {
+      "header": "Chemistry",
+      "codes": [
+        "CHEM UN1403",
+        "CHEM UN1404",
+        "CHEM UN1500",
+        "CHEM UN1604",
+        "CHEM UN1507",
+        "CHEM UN2045",
+        "CHEM UN2046",
+        "CHEM UN2443",
+        "CHEM UN2444",
+        "SCNC UN1800",
+        "SCNC UN1900"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1001",
+        "COMS W1002",
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007",
+        "COMS W2132",
+        "COMS W2702"
+      ]
+    },
+    {
+      "header": "Earth and Environmental Engineering",
+      "codes": [
+        "EAEE E2100"
+      ]
+    },
+    {
+      "header": "Earth and Environmental Sciences",
+      "codes": [
+        "EESC UN1001",
+        "EESC UN1003",
+        "EESC S1004",
+        "EESC UN1009",
+        "EESC UN1011",
+        "EESC UN1030",
+        "EESC UN1053",
+        "EESC UN1201",
+        "EESC UN1401",
+        "EESC UN1411",
+        "EESC UN1600",
+        "EESC UN2100",
+        "EESC UN2200",
+        "EESC UN2300",
+        "EESC UN2330"
+      ]
+    },
+    {
+      "header": "Ecology, Evolution, and Environmental Biology",
+      "codes": [
+        "EEEB UN1001",
+        "EEEB UN1010",
+        "EEEB UN1011",
+        "EEEB S1115Q",
+        "EEEB UN3087",
+        "EEEB UN2001",
+        "EEEB UN2002",
+        "EEEB OC2201",
+        "FSEB UN1020"
+      ]
+    },
+    {
+      "header": "Electrical Engineering",
+      "codes": [
+        "ELEN E1101"
+      ]
+    },
+    {
+      "header": "Food Studies",
+      "codes": [
+        "FSPH UN1100"
+      ]
+    },
+    {
+      "header": "History and Applied Math",
+      "codes": [
+        "HSAM UN2901"
+      ]
+    },
+    {
+      "header": "Linguistics",
+      "codes": [
+        "LING UN3103"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1003",
+        "PHIL UN3411",
+        "PHIL GU4424",
+        "CSPH GU4801",
+        "CSPH GU4802"
+      ]
+    },
+    {
+      "header": "Physics",
+      "codes": [
+        "PHYS UN1001",
+        "PHYS UN1018",
+        "PHYS UN1111",
+        "PHYS UN1201",
+        "PHYS UN1202",
+        "PHYS UN1401",
+        "PHYS UN1402",
+        "PHYS UN1403",
+        "PHYS UN1601",
+        "PHYS UN1602",
+        "PHYS UN2801"
+      ]
+    },
+    {
+      "header": "Psychology",
+      "codes": [
+        "PSYC UN1001",
+        "PSYC UN1010",
+        "PSYC UN1021"
+      ]
+    },
+    {
+      "header": "Science",
+      "codes": [
+        "SCNC UN1212",
+        "SCNC UN1700"
+      ]
+    },
+    {
+      "header": "Statistics",
+      "codes": [
+        "STAT UN1001",
+        "STAT UN1010"
+      ]
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,783 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
+  "scraped_at": "2026-07-04T14:14:07Z",
+  "courses": [
+    {
+      "code": "MATH UN1003",
+      "subject": "MATH",
+      "number": "UN1003",
+      "title": "College ALGEBRA-ANLYTC Geomtry",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN1101",
+      "subject": "MATH",
+      "number": "UN1101",
+      "title": "Calculus I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: see Courses for First-Year Students. Functions, limits, derivatives, introduction to integrals."
+    },
+    {
+      "code": "MATH UN1102",
+      "subject": "MATH",
+      "number": "UN1102",
+      "title": "Calculus II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
+    },
+    {
+      "code": "MATH BC1110",
+      "subject": "MATH",
+      "number": "BC1110",
+      "title": " Discrete Probability",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This introductory-level course teaches students the basic concepts of probability and statistics, and the logic of probabilistic reasoning. The course is designed for students with no prior knowledge in probability or statistics, its only prerequisite is basic algebra. We will discuss axioms of probability, random variables, useful distributions, law of large numbers and central limit theorem, confidence intervals, discrete-time Markov chains, Brownian motion, introduction to inference and hypothesis testing",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH BC1113",
+      "subject": "MATH",
+      "number": "BC1113",
+      "title": " Discrete Probability-DISC",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "Required discussion section for MATH BC1110",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN1201",
+      "subject": "MATH",
+      "number": "UN1201",
+      "title": "Calculus III",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1101 MATH V1101 or the equivalent."
+    },
+    {
+      "code": "MATH UN1202",
+      "subject": "MATH",
+      "number": "UN1202",
+      "title": "Calculus IV",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102 , MATH V1201 , or the equivalent."
+    },
+    {
+      "code": "MATH UN1205",
+      "subject": "MATH",
+      "number": "UN1205",
+      "title": "Accelerated Multivariable Calc",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 )"
+    },
+    {
+      "code": "MATH UN1207",
+      "subject": "MATH",
+      "number": "UN1207",
+      "title": "Honors Mathematics A",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: (see Courses for First-Year Students)."
+    },
+    {
+      "code": "MATH UN1208",
+      "subject": "MATH",
+      "number": "UN1208",
+      "title": "Honors Mathematics B",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: (see Courses for First-Year Students)."
+    },
+    {
+      "code": "MATH UN1215",
+      "subject": "MATH",
+      "number": "UN1215",
+      "title": "Accelerated Multivariable CALC-REC",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "Recitation section for MATH UN1205 - Accelerated Multivariable Calculus. Students must register for both UN1205 and UN1215",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN1217",
+      "subject": "MATH",
+      "number": "UN1217",
+      "title": "Honors Mathematics A-REC",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "Recitation section for MATH UN1207 Honors Math A. Students must register for both UN1207 and UN1217",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN1218",
+      "subject": "MATH",
+      "number": "UN1218",
+      "title": "Honors Mathematics B-REC",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "Recitation section for MATH UN1208 Honors Math B. Students must register for both UN1208 and UN1218",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN2000",
+      "subject": "MATH",
+      "number": "UN2000",
+      "title": "Intro To Higher Mathematics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Introduction to understanding and writing mathematical proofs. Emphasis on precise thinking and the presentation of mathematical results, both in oral and in written form. Intended for students who are considering majoring in mathematics but wish additional training. CC/GS: Partial Fulfillment of Science Requirement",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH BC2001",
+      "subject": "MATH",
+      "number": "BC2001",
+      "title": "Perspectives In Mathematics",
+      "points_min": 1.0,
+      "points_max": 1.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN2005",
+      "subject": "MATH",
+      "number": "UN2005",
+      "title": "Introduction To Mathematics Proofs",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "This is a seminar course that covers the basics of mathematical proofs and in particular the epsilon-delta argument in single variable calculus. Students who have little experience with mathematical proofs are strongly encouraged to take this course concurrently with Honors Math, Into to Modern Algebra, or Intro to Modern Analysis",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH BC2006",
+      "subject": "MATH",
+      "number": "BC2006",
+      "title": "Combinatorics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN2010",
+      "subject": "MATH",
+      "number": "UN2010",
+      "title": "Linear Algebra",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Matrices, vector spaces, linear transformations, eigenvalues and eigenvectors, canonical forms, applications. (SC)",
+      "prereq_text": "Prerequisites: MATH V1201 , or the equivalent."
+    },
+    {
+      "code": "MATH UN2015",
+      "subject": "MATH",
+      "number": "UN2015",
+      "title": " Linear Algebra and Probability",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Linear algebra with a focus on probability and statistics. The course covers the standard linear algebra topics: systems of linear equations, matrices, determinants, vector spaces, bases, dimension, eigenvalues and eigenvectors, the Spectral Theorem and singular value decompositions. It also teaches applications of linear algebra to probability, statistics and dynamical systems giving a background sufficient for higher level courses in probability and statistics. The topics covered in the probability theory part include conditional probability, discrete and continuous random variables, probability distributions and the limit theorems, as well as Markov chains, curve fitting, regression, and pattern analysis. The course contains applications to life sciences, chemistry, and environmental life sciences. No a priori background in the life sciences is assumed. This course is best suited for students who wish to focus on applications and practical approaches to problem solving. It is recommended to students majoring in engineering, technology, life sciences, social sciences, and economics. Math majors, joint majors, and math concentrators must take MATH UN2010 Linear Algebra or MATH UN1207 Honors Math A, which focus on linear algebra concepts and foundations that are needed for upper-level math courses. MATH UN2015 (Linear Algebra and Probability) does NOT replace MATH UN2010 (Linear Algebra) as prerequisite requirements of math courses. Students may not receive full credit for both courses MATH UN2010 and MATH UN2015 . Students who have taken MATH UN2015 and consider taking higher level Math courses should contact a major advisor to discuss alternative pathways",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN2030",
+      "subject": "MATH",
+      "number": "UN2030",
+      "title": "Ordinary Differential Equations",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent."
+    },
+    {
+      "code": "MATH UN2500",
+      "subject": "MATH",
+      "number": "UN2500",
+      "title": "Analysis And Optimization",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1201 MATH V1102-MATH V1201 or the equivalent and MATH V2010 ."
+    },
+    {
+      "code": "MATH UN3007",
+      "subject": "MATH",
+      "number": "UN3007",
+      "title": "Complex Variables",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 . An elementary course in functions of a complex variable."
+    },
+    {
+      "code": "MATH UN3020",
+      "subject": "MATH",
+      "number": "UN3020",
+      "title": "Number Theory And Cryptography",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: one year of calculus."
+    },
+    {
+      "code": "MATH UN3025",
+      "subject": "MATH",
+      "number": "UN3025",
+      "title": "Making, Breaking Codes",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH V1101, MATH V1102, MATH V1201 and MATH V2010 ."
+    },
+    {
+      "code": "MATH UN3028",
+      "subject": "MATH",
+      "number": "UN3028",
+      "title": "Partial Differential Equations",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN3027 and MATH UN2010 MATH V3027 and MATH V2010 or the equivalent"
+    },
+    {
+      "code": "MATH UN3050",
+      "subject": "MATH",
+      "number": "UN3050",
+      "title": "Discrete Time Models In Financ",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1102 and MATH UN1201 ) or ( MATH UN1101 and MATH UN1102 and MATH UN1201 ) and MATH UN2010 MATH V1102, MATH V1201 (or MATH V1101, MATH V1102, MATH V1201 ), MATH V2010 . Recommended: MATH V3027 (or MATH V2030 ) and SIEO W3600 ."
+    },
+    {
+      "code": "MATH UN3386",
+      "subject": "MATH",
+      "number": "UN3386",
+      "title": "Differential Geometry",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Local and global differential geometry of submanifolds of Euclidiean 3-space. Frenet formulas for curves. Various types of curvatures for curves and surfaces and their relations. The Gauss-Bonnet theorem.",
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent."
+    },
+    {
+      "code": "MATH UN3902",
+      "subject": "MATH",
+      "number": "UN3902",
+      "title": "Supervised Readings II",
+      "points_min": 1.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: the written permission of the staff member who agrees to act as sponsor (sponsorship limited to full-time instructors on the staff list), as well as the director of undergraduate studies' permission. The written permission must be deposited with the director of undergraduate studies before registration is completed."
+    },
+    {
+      "code": "MATH UN3951",
+      "subject": "MATH",
+      "number": "UN3951",
+      "title": "Undergraduate Seminars I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: two years of calculus, at least one year of additional mathematics courses, and the director of undergraduate studies' permission."
+    },
+    {
+      "code": "MATH UN3952",
+      "subject": "MATH",
+      "number": "UN3952",
+      "title": "Undergraduate Seminars II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: two years of calculus, at least one year of additional mathematics courses, and the director of undergraduate studies' permission."
+    },
+    {
+      "code": "MATH UN3994",
+      "subject": "MATH",
+      "number": "UN3994",
+      "title": "Senior Thesis In Mathematics I",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH UN3995",
+      "subject": "MATH",
+      "number": "UN3995",
+      "title": "Senior Thesis In Mathematics II",
+      "points_min": 2.0,
+      "points_max": 2.0,
+      "description": "Majors in Mathematics are offered the opportunity to write an honors senior thesis under the guidance of a faculty member. Interested students should contact a faculty member to determine an appropriate topic, and receive written approval from the faculty advisor and the Director of Undergraduate Studies (faculty sponsorship is limited to full-time instructors on the staff list). Research is conducted primarily during the fall term; the final paper is submitted to the Director of Undergraduate Studies during the subsequent spring term. MATH UN3994 SENIOR THESIS IN MATHEMATICS I must be taken in the fall term, during which period the student conducts primary research on the agreed topic. An optional continuation course MATH UN3995 SENIOR THESIS IN MATHEMATICS II is available during the spring. The second term of this sequence may not be taken without the first. Registration for the spring continuation course has no impact on the timeline or outcome of the final paper. Sections of SENIOR THESIS IN MATHEMATICS I and II do NOT count towards the major requirements, with the exception of an advanced written approval by the DUS",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH GU4007",
+      "subject": "MATH",
+      "number": "GU4007",
+      "title": "Analytic Number Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN3007 MATH V3007 ."
+    },
+    {
+      "code": "MATH GU4032",
+      "subject": "MATH",
+      "number": "GU4032",
+      "title": "Fourier Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: three terms of calculus and linear algebra or four terms of calculus."
+    },
+    {
+      "code": "MATH GU4041",
+      "subject": "MATH",
+      "number": "GU4041",
+      "title": "Intro Modern Algebra I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
+    },
+    {
+      "code": "MATH GU4042",
+      "subject": "MATH",
+      "number": "GU4042",
+      "title": "Intro Modern Algebra II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1102 and MATH UN1202 and MATH UN2010 MATH V1102-MATH V1202 and MATH V2010 , or the equivalent."
+    },
+    {
+      "code": "MATH GU4043",
+      "subject": "MATH",
+      "number": "GU4043",
+      "title": "Algebraic Number Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH GU4041 and MATH GU4042 MATH W4041-MATH W4042 or the equivalent."
+    },
+    {
+      "code": "MATH GU4044",
+      "subject": "MATH",
+      "number": "GU4044",
+      "title": "Representatns Of Finite Groups",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 MATH V2010 and MATH W4041 or the equivalent."
+    },
+    {
+      "code": "MATH GU4045",
+      "subject": "MATH",
+      "number": "GU4045",
+      "title": "Algebraic Curves",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH GU4041 and MATH GU4042 ) and MATH UN3007 MATH W4041 , MATH W4042 and MATH V3007 ."
+    },
+    {
+      "code": "MATH GU4051",
+      "subject": "MATH",
+      "number": "GU4051",
+      "title": "Topology",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1202 and MATH UN2010 ) and MATH V1202, MATH V2010, and rudiments of group theory (e.g., MATH W4041 ). MATH V1208 or MATH W4061 is recommended, but not required."
+    },
+    {
+      "code": "MATH GU4052",
+      "subject": "MATH",
+      "number": "GU4052",
+      "title": "Introduction To Knot Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "CC/GS: Partial Fulfillment of Science Requirement",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH GU4053",
+      "subject": "MATH",
+      "number": "GU4053",
+      "title": "Intro To Algebraic Topology",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN2010 and MATH GU4041 and MATH GU4051 MATH V2010 , MATH W4041 , MATH W4051 ."
+    },
+    {
+      "code": "MATH GU4061",
+      "subject": "MATH",
+      "number": "GU4061",
+      "title": "Intro Modern Analysis I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
+    },
+    {
+      "code": "MATH GU4062",
+      "subject": "MATH",
+      "number": "GU4062",
+      "title": "Intro Modern Analysis II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH UN1202 MATH V1202 or the equivalent, and MATH V2010 . The second term of this course may not be taken without the first."
+    },
+    {
+      "code": "MATH GU4065",
+      "subject": "MATH",
+      "number": "GU4065",
+      "title": "Honors Complex Variables",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1207 and MATH UN1208 ) or MATH GU4061 MATH V1207 and MATH V1208 or MATH W4061 ."
+    },
+    {
+      "code": "MATH GU4081",
+      "subject": "MATH",
+      "number": "GU4081",
+      "title": "INTRO-DIFFERENTIABLE Manifolds",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH GU4051 or MATH GU4061 ) and MATH UN2010 MATH W4051 or MATH W4061 and MATH V2010 ."
+    },
+    {
+      "code": "MATH GU4155",
+      "subject": "MATH",
+      "number": "GU4155",
+      "title": "Probability Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: MATH GU4061 or MATH UN3007 MATH W4061 or MATH V3007 ."
+    },
+    {
+      "code": "MATH GU4156",
+      "subject": "MATH",
+      "number": "GU4156",
+      "title": "Advanced Probability Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course will cover advance topics in probability, including: the theory of martingales in discrete and in continuous time; Brownian motion and its properties, stochastic integration, ordinary and partial stochastic differential equations; Applications to optimal filtering, stopping, control, and finance; Continuous-time Markov chains, systems of interacting particles, relative entropy dissipation, notions of information theory; Electrical networks, random walks on graphs and groups, percolation",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH GU4200",
+      "subject": "MATH",
+      "number": "GU4200",
+      "title": "Mathematics And The Humanities",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course is being taught by two senior faculty members who are theorists and practitioners in disciplines as different as mathematics and literary criticism. The instructors believe that in today's world, the different ways in which theoretical mathematics and literary criticism mold the imaginations of students and scholars, should be brought together, so that the robust ethical imagination that is needed to combat the disintegration of our world can be produced. Except for the length of novels, the reading is no more than 100 pages a week. Our general approach is to keep alive the disciplinary differences between literary/philosophical (humanities) reading and mathematical writing. Some preliminary questions we have considered are: the survival skills of the logicist school over against the Foundational Crisis of the early 20th century; by way of Wittgenstein and others, we ask, Are mathematical objects real? Or are they linguistic conventions? We will consider the literary/philosophical use of mathematics, often by imaginative analogy; and the role of the digital imagination in the humanities: Can so-called creative work as well as mathematics be written by machines? Guest faculty from other departments will teach with us to help students and instructors understand various topics. We will close with how a novel animates “science” in prose, stepping out of the silo of disciplinary mathematics to the arena where mathematics is considered a code-name for science: Christine Brooke-Rose’s novel Subscript",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH GU4391",
+      "subject": "MATH",
+      "number": "GU4391",
+      "title": "Intro To Quantum Mechanics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course will focus on quantum mechanics, paying attention to both the underlying mathematical structures as well as their physical motivations and consequences. It is meant to be accessible to students with no previous formal training in quantum theory. The role of symmetry, groups and representations will be stressed",
+      "prereq_text": ""
+    },
+    {
+      "code": "MATH GU4392",
+      "subject": "MATH",
+      "number": "GU4392",
+      "title": "Intro To Quantum Mechanics II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Continuation of GU4391. This course will focus on quantum mechanics, paying attention to both the underlying mathematical structures as well as their physical motivations and consequences. It is meant to be accessible to students with no previous formal training in quantum theory. The role of symmetry, groups and representations will be stressed.",
+      "prereq_text": ""
+    }
+  ],
+  "courselists": [
+    {
+      "header": "",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208",
+        "MATH GU4041",
+        "MATH GU4042",
+        "MATH GU4061",
+        "MATH GU4062",
+        "MATH UN3951"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208",
+        "MATH UN2500",
+        "MATH GU4032",
+        "MATH GU4061",
+        "APMA E4901",
+        "APMA E4903"
+      ]
+    },
+    {
+      "header": "TRACK A",
+      "codes": [
+        "MATH UN2500",
+        "MATH UN2030",
+        "MATH UN3007",
+        "MATH UN3028",
+        "MATH GU4032",
+        "MATH GU4061",
+        "MATH GU4062",
+        "APMA E4100",
+        "APMA E4101",
+        "APMA E4150",
+        "APMA E4300",
+        "APMA E4301",
+        "APMA E6301",
+        "APMA E6302"
+      ]
+    },
+    {
+      "header": "TRACK B",
+      "codes": [
+        "COMS W3203",
+        "COMS W3261",
+        "COMS W4231",
+        "COMS W4261",
+        "MATH UN3050",
+        "MATH GU4155",
+        "MATH GU4156",
+        "IEOR E3106",
+        "APMA E4008",
+        "APMA E4306",
+        "ECON GU4415"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1004",
+        "COMS W3134",
+        "COMS W3157",
+        "COMS W3203",
+        "COMS W3261",
+        "CSEE W3827"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Undergraduate seminar requirement",
+      "codes": [
+        "MATH UN3951"
+      ]
+    },
+    {
+      "header": "Algebra Requirement",
+      "codes": [
+        "MATH GU4041"
+      ]
+    },
+    {
+      "header": "Electives",
+      "codes": [
+        "MATH BC2006",
+        "MATH UN2030",
+        "MATH UN2500",
+        "MATH UN3007",
+        "MATH UN3020",
+        "MATH UN3025",
+        "MATH UN3028",
+        "MATH UN3386",
+        "MATH GU4032",
+        "MATH GU4042",
+        "MATH GU4051",
+        "MATH GU4053",
+        "MATH GU4061",
+        "MATH GU4062",
+        "COMS W4111",
+        "COMS W4113",
+        "COMS W4115",
+        "COMS W4118",
+        "COMS W4119",
+        "COMS W4152",
+        "COMS W4156",
+        "COMS W4160",
+        "COMS W4167",
+        "COMS W4170",
+        "COMS W4181",
+        "CSOR E4231",
+        "COMS W4236",
+        "COMS W4701",
+        "COMS W4705",
+        "COMS W4731",
+        "COMS W4733",
+        "CBMF W4761",
+        "COMS W4771",
+        "CSEE W4824",
+        "CSEE W4868"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2500",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Introductory Course",
+      "codes": [
+        "STAT UN1201"
+      ]
+    },
+    {
+      "header": "Required Courses",
+      "codes": [
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007"
+      ]
+    },
+    {
+      "header": "Multivariable Calculus & Linear Algebra",
+      "codes": [
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Multivariable Calculus & Linear Algebra",
+      "codes": [
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2015",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Probability Theory",
+      "codes": [
+        "MATH GU4155"
+      ]
+    },
+    {
+      "header": "Approved Mathematics Electives",
+      "codes": [
+        "MATH UN2030",
+        "MATH UN2500",
+        "MATH UN3028",
+        "MATH UN3050",
+        "MATH GU4061",
+        "MATH GU4062",
+        "MATH GU4156"
+      ]
+    },
+    {
+      "header": "Approved Cognate Electives",
+      "codes": [
+        "COMS W3203",
+        "IEOR E3106",
+        "PHIL GU4561",
+        "PHYS GU4023",
+        "STAT GU4204",
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1201",
+        "MATH UN1202",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    }
+  ],
+  "error": null
+}

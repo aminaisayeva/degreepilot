@@ -1,0 +1,990 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/global-core-requirement/",
+  "scraped_at": "2026-07-04T14:14:08Z",
+  "courses": [],
+  "courselists": [
+    {
+      "header": "African-American Studies",
+      "codes": [
+        "AFAS UN1001"
+      ]
+    },
+    {
+      "header": "Anthropology",
+      "codes": [
+        "ANTH UN2017",
+        "ANTH UN2031"
+      ]
+    },
+    {
+      "header": "Art History and Archaeology",
+      "codes": [
+        "AHUM UN2800"
+      ]
+    },
+    {
+      "header": "Center for the Core Curriculum",
+      "codes": [
+        "LACV UN1020"
+      ]
+    },
+    {
+      "header": "Center for the Study of Ethnicity and Race",
+      "codes": [
+        "CSER UN1010",
+        "CSER UN3922",
+        "CSER UN3926",
+        "CSER UN3928"
+      ]
+    },
+    {
+      "header": "Classics",
+      "codes": [
+        "GRKM UN3935"
+      ]
+    },
+    {
+      "header": "Committee on Global Thought",
+      "codes": [
+        "CGTH UN3401"
+      ]
+    },
+    {
+      "header": "Dance- Barnard",
+      "codes": [
+        "DNCE BC3567"
+      ]
+    },
+    {
+      "header": "East Asian Languages and Cultures",
+      "codes": [
+        "ASCE UN1359",
+        "ASCE UN1361",
+        "ASCE UN1365",
+        "ASCE UN1367",
+        "AHUM UN1400",
+        "AHUM UN3830",
+        "EAAS UN3263",
+        "EAAS UN3913",
+        "HSEA GU4222",
+        "EARL GU4312",
+        "HSEA GU4847",
+        "HSEA GU4880"
+      ]
+    },
+    {
+      "header": "Film",
+      "codes": [
+        "FILM UN2230"
+      ]
+    },
+    {
+      "header": "French and Romance Philology",
+      "codes": [
+        "CLFR UN3587",
+        "CLFR OC3821"
+      ]
+    },
+    {
+      "header": "History",
+      "codes": [
+        "HIST UN1786",
+        "HIST UN2660",
+        "HIST UN2701",
+        "HSWM UN2761",
+        "HIST UN2772",
+        "HSME UN2810",
+        "HIST GU4660"
+      ]
+    },
+    {
+      "header": "Jewish Studies",
+      "codes": [
+        "JWST GU4145",
+        "JWST GU4160",
+        "JWST GU4602"
+      ]
+    },
+    {
+      "header": "Latin American and Iberian Cultures",
+      "codes": [
+        "SPAN UN3349",
+        "SPAN UN3350",
+        "PORT UN3490",
+        "SPAN UN3899"
+      ]
+    },
+    {
+      "header": "Middle Eastern, South Asian, and African Studies",
+      "codes": [
+        "MDES UN1003",
+        "MDES UN1030",
+        "AHUM UN1399",
+        "MDES UN2042",
+        "ASCM UN2357",
+        "MDES UN3335",
+        "CLME UN3928",
+        "MDES GU4122",
+        "CLME GU4231"
+      ]
+    },
+    {
+      "header": "Music",
+      "codes": [
+        "MUSI UN2030",
+        "AHMM UN3320",
+        "AHMM UN3321",
+        "MUSI GU4438"
+      ]
+    },
+    {
+      "header": "Religion",
+      "codes": [
+        "RELI UN2305",
+        "RELI UN2405",
+        "RELI GU4322",
+        "RELI GU4999"
+      ]
+    },
+    {
+      "header": "Slavic Languages",
+      "codes": [
+        "SLCL UN3001"
+      ]
+    },
+    {
+      "header": "Theatre",
+      "codes": [
+        "THTR UN3154"
+      ]
+    },
+    {
+      "header": "Women's Studies-Reid Hall",
+      "codes": [
+        "WMST OC3550"
+      ]
+    },
+    {
+      "header": "Art History and Archaeology",
+      "codes": [
+        "AHUM UN2604",
+        "AHUM S2815",
+        "AHUM S2901"
+      ]
+    },
+    {
+      "header": "Africana Studies-Barnard",
+      "codes": [
+        "AFRS BC2005"
+      ]
+    },
+    {
+      "header": "Classics",
+      "codes": [
+        "CLCV UN3058"
+      ]
+    },
+    {
+      "header": "Dance- Barnard",
+      "codes": [
+        "DNCE BC2665"
+      ]
+    },
+    {
+      "header": "English and Comparative Literature",
+      "codes": [
+        "ENGL UN3153"
+      ]
+    },
+    {
+      "header": "Film",
+      "codes": [
+        "FILM GU4212",
+        "FILM S4215"
+      ]
+    },
+    {
+      "header": "History",
+      "codes": [
+        "HIST S3596",
+        "HIST OC3136",
+        "HIST UN3779"
+      ]
+    },
+    {
+      "header": "Italian",
+      "codes": [
+        "CLIA OC4600",
+        "CLIA GU4699",
+        "ITAL GU4022"
+      ]
+    },
+    {
+      "header": "Linguistics",
+      "codes": [
+        "LING OC3102"
+      ]
+    },
+    {
+      "header": "Middle Eastern, South Asia, and African Studies",
+      "codes": [
+        "MDES UN1001",
+        "AHUM UN1399"
+      ]
+    },
+    {
+      "header": "Middle Eastern and North African Studies Program (MENA)",
+      "codes": [
+        "MENA OC4100"
+      ]
+    },
+    {
+      "header": "Music",
+      "codes": [
+        "AHMM UN3320",
+        "AHMM UN3321"
+      ]
+    },
+    {
+      "header": "Religion",
+      "codes": [
+        "RELI S2305",
+        "RELI UN3771"
+      ]
+    },
+    {
+      "header": "Slavic Languages",
+      "codes": [
+        "CLSL GU4013"
+      ]
+    },
+    {
+      "header": "African- American Studies",
+      "codes": [
+        "AFAS UN1003"
+      ]
+    },
+    {
+      "header": "Africana Studies- Barnard",
+      "codes": [
+        "AFRS BC2005"
+      ]
+    },
+    {
+      "header": "Anthropology",
+      "codes": [
+        "ANTH UN1008",
+        "ANTH UN3947"
+      ]
+    },
+    {
+      "header": "Art History and Archaeology",
+      "codes": [
+        "AHUM UN2604",
+        "AHIS UN2622"
+      ]
+    },
+    {
+      "header": "Center for the Core Curriculum",
+      "codes": [
+        "LACV UN1020"
+      ]
+    },
+    {
+      "header": "Committee on Global Thought",
+      "codes": [
+        "CGTH UN3402"
+      ]
+    },
+    {
+      "header": "Comparative Literature and Society",
+      "codes": [
+        "CLGM UN3110"
+      ]
+    },
+    {
+      "header": "Dance- Barnard",
+      "codes": [
+        "DNCE BC2565"
+      ]
+    },
+    {
+      "header": "East Asian Languages and Cultures",
+      "codes": [
+        "ASCE UN1359",
+        "AHUM UN1400",
+        "EAAS UN2844",
+        "HSEA UN3320",
+        "HSEA UN3862",
+        "EAAS GU4412"
+      ]
+    },
+    {
+      "header": "English and Comparative Literature",
+      "codes": [
+        "ENGL UN1100",
+        "CLEN UN3125",
+        "ENGL UN3851"
+      ]
+    },
+    {
+      "header": "French and Romance Philology",
+      "codes": [
+        "FREN OC3719",
+        "CLFR OC3821",
+        "CLFR GU4321"
+      ]
+    },
+    {
+      "header": "Germanic Languages",
+      "codes": [
+        "GERM UN3780"
+      ]
+    },
+    {
+      "header": "History",
+      "codes": [
+        "HIST BC1760",
+        "HIST UN1942",
+        "HIST UN2336",
+        "HIST BC2699",
+        "HIST UN2709",
+        "HIST UN2820",
+        "HSEA UN3898",
+        "HIST GU4811"
+      ]
+    },
+    {
+      "header": "Italian",
+      "codes": [
+        "CLIA GU4499"
+      ]
+    },
+    {
+      "header": "Jewish Studies",
+      "codes": [
+        "JWST GU4159"
+      ]
+    },
+    {
+      "header": "Latin American and Iberian Cultures",
+      "codes": [
+        "SPJS UN3303",
+        "SPAN UN3349",
+        "PORT UN3350",
+        "SPAN UN3350",
+        "SPAN UN3361",
+        "PORT UN3490",
+        "SPAN UN3898",
+        "SPAN UN3899"
+      ]
+    },
+    {
+      "header": "Linguistics",
+      "codes": [
+        "LING UN3104"
+      ]
+    },
+    {
+      "header": "Middle Eastern, South Asian, and African Studies",
+      "codes": [
+        "AHUM UN1399",
+        "MDES UN1630",
+        "ASCM UN2003",
+        "ASCM UN2008",
+        "MDES UN2399",
+        "MDES UN3000",
+        "MDES UN3121",
+        "MDES UN3260",
+        "MDES GU4220",
+        "MDES GU4634"
+      ]
+    },
+    {
+      "header": "Music",
+      "codes": [
+        "AHMM UN3320",
+        "MUSI GU4438"
+      ]
+    },
+    {
+      "header": "Philosophy",
+      "codes": [
+        "PHIL UN3912"
+      ]
+    },
+    {
+      "header": "Religion",
+      "codes": [
+        "RELI UN1612",
+        "RELI UN2205",
+        "RELI UN2405",
+        "RELI UN3314",
+        "RELI UN3771"
+      ]
+    },
+    {
+      "header": "Slavic Languages",
+      "codes": [
+        "CLSL GU4012"
+      ]
+    },
+    {
+      "header": "Urban Studies",
+      "codes": [
+        "URBS UN3351"
+      ]
+    },
+    {
+      "header": "African-American Studies",
+      "codes": [
+        "AFAS UN1001",
+        "AFAS UN1003"
+      ]
+    },
+    {
+      "header": "Africana Studies- Barnard",
+      "codes": [
+        "AFRS BC2005"
+      ]
+    },
+    {
+      "header": "Anthropology",
+      "codes": [
+        "ANTH UN1008",
+        "ANTH UN1130",
+        "ANTH UN2007",
+        "ANTH V2013",
+        "ANTH V2014",
+        "ANTH UN2017",
+        "ANTH V2020",
+        "ANTH V2027",
+        "ANTH UN2031",
+        "ANTH V2035",
+        "ANTH V2100",
+        "ANTH UN2141",
+        "ANTH UN3300",
+        "ANTH UN3465",
+        "ANTH V3525",
+        "ANTH UN3821",
+        "ANTH V3892",
+        "ANTH UN3933",
+        "ANTH UN3947",
+        "ANHS GU4001",
+        "ANTH G4065"
+      ]
+    },
+    {
+      "header": "Art History and Archaeology",
+      "codes": [
+        "AHIS UN2119",
+        "AHIS UN2600",
+        "AHIS UN2500",
+        "AHUM UN2604",
+        "AHIS UN2614",
+        "AHIS UN2622",
+        "AHUM UN2800",
+        "AHUM UN2802",
+        "AHUM S2815",
+        "AHUM UN2901",
+        "AHIS W3500",
+        "AHIS UN3501",
+        "AHIS UN3503",
+        "AHIS UN3613",
+        "AHIS W3832",
+        "AHIS Q4570"
+      ]
+    },
+    {
+      "header": "Center for the Core Curriculum",
+      "codes": [
+        "AFCV UN1020",
+        "LACV UN1020"
+      ]
+    },
+    {
+      "header": "Center for the Study of Ethnicity and Race",
+      "codes": [
+        "CSER UN1010",
+        "CSER W3510",
+        "CSER UN3922",
+        "CSER UN3926",
+        "CSER UN3928",
+        "CSER W3961"
+      ]
+    },
+    {
+      "header": "Classics",
+      "codes": [
+        "CLCV UN2441",
+        "CLCV UN3059",
+        "CLCV UN3069",
+        "CLCV W3111",
+        "CLCV UN3535",
+        "CSGM UN3567",
+        "CLGM UN3920",
+        "GRKM UN3935",
+        "CLCV GU4411",
+        "CLGM GU4600"
+      ]
+    },
+    {
+      "header": "Colloquia and Interdepartmental Seminars",
+      "codes": [
+        "INSM UN3920",
+        "INSM UN3921",
+        "INSM C3940",
+        "INSM W3950"
+      ]
+    },
+    {
+      "header": "Comparative Literature and Society",
+      "codes": [
+        "CLGM UN3110",
+        "CPLS UN3333",
+        "CPLS UN3454",
+        "CLGM UN3920",
+        "CPLS W3945",
+        "CPLS W3955",
+        "CPLS UN3956",
+        "CPLS W4100",
+        "CPLS GU4111"
+      ]
+    },
+    {
+      "header": "Committee on Global Thought",
+      "codes": [
+        "CGTH UN3401",
+        "CGTH UN3402"
+      ]
+    },
+    {
+      "header": "Dance- Barnard",
+      "codes": [
+        "DNCE BC3550",
+        "DNCE BC3567",
+        "DNCE BC2565",
+        "DNCE BC2665"
+      ]
+    },
+    {
+      "header": "East Asian Languages and Cultures",
+      "codes": [
+        "ASCE UN1002",
+        "ASCE UN1359",
+        "ASCE UN1361",
+        "ASCE UN1363",
+        "ASCE UN1365",
+        "ASCE UN1367",
+        "AHUM UN1400",
+        "EAAS UN2342",
+        "EAAS UN2844",
+        "EAAS UN3114",
+        "EAAS UN3116",
+        "EAAS UN3121",
+        "EAAS UN3122",
+        "EARL UN3261",
+        "EARL UN3310",
+        "HSEA UN3320",
+        "EAAS UN3322",
+        "EAAS UN3338",
+        "EAAS V3350",
+        "EAAS UN3710",
+        "EAAS UN3720",
+        "AHUM UN3830",
+        "EAAS BC3840",
+        "EAAS UN3844",
+        "HSEA UN3862",
+        "HSEA Q3870",
+        "EAAS UN3913",
+        "EAAS UN3927",
+        "EAAS GU4017",
+        "EAAS GU4111",
+        "EARL W4127",
+        "EAAS GU4134",
+        "EAAS GU4160",
+        "HSEA GU4222",
+        "EAAS GU4277",
+        "EARL GU4310",
+        "EARL GU4312",
+        "EAAS GU4233",
+        "EAAS GU4412",
+        "EAAS GU4445",
+        "HSEA GU4542",
+        "EAAS GU4534",
+        "EAAS GU4565",
+        "EARL GU4575",
+        "HSEA GU4816",
+        "HSEA GU4822",
+        "HSEA GU4847",
+        "HSEA W4866",
+        "HSEA GU4870",
+        "HSEA GU4880",
+        "HSEA GU4968"
+      ]
+    },
+    {
+      "header": "Economics",
+      "codes": [
+        "ECON GU4325"
+      ]
+    },
+    {
+      "header": "English and Comparative Literature",
+      "codes": [
+        "ENGL UN1100",
+        "CLEN UN3125",
+        "ENGL UN3153",
+        "CLEN UN3360",
+        "CLEN S3682",
+        "ENGL UN3794",
+        "CLEN S3829",
+        "ENGL UN3851",
+        "CLEN UN3933",
+        "ENTA UN3948",
+        "CLEN GU4199",
+        "CLEN W4200",
+        "ENGL GU4650",
+        "CLEN GU4644",
+        "ENTA GU4729"
+      ]
+    },
+    {
+      "header": "Film Studies",
+      "codes": [
+        "FILM UN2292",
+        "FILM UN2294",
+        "FILM S2295Q",
+        "FILM UN2296",
+        "FILM GU4020",
+        "FILM GU4212",
+        "FILM S4215D",
+        "FILM GU4294"
+      ]
+    },
+    {
+      "header": "French and Romance Philology",
+      "codes": [
+        "CLFR UN3587",
+        "CLFR UN3716",
+        "FREN UN3822",
+        "CLFR GU4002",
+        "CLFR GU4020",
+        "FREN GU4022",
+        "CLFR GU4321",
+        "CLFR GU4440",
+        "CLFR GU4421",
+        "CLFR GU4716"
+      ]
+    },
+    {
+      "header": "Germanic Languages",
+      "codes": [
+        "GERM UN3780"
+      ]
+    },
+    {
+      "header": "History",
+      "codes": [
+        "HIST UN1004",
+        "HIST W1054",
+        "HIST BC1760",
+        "HIST UN1786",
+        "HIST UN1942",
+        "HIST UN2003",
+        "HIST UN2176",
+        "HIST UN2336",
+        "HIST UN2377",
+        "HIST UN2444",
+        "HIST UN2580",
+        "HIST UN2618",
+        "HIST UN2657",
+        "HIST UN2660",
+        "HIST UN2661",
+        "HIST BC2699",
+        "HIST UN2701",
+        "HIST UN2709",
+        "HIST UN2719",
+        "HSWM UN2761",
+        "HIST UN2764",
+        "HIST UN2772",
+        "HIST W2803",
+        "HSME UN2810",
+        "HSME UN2811",
+        "HIST UN2820",
+        "HIST W2880",
+        "HIST UN2881",
+        "HIST Q2900",
+        "HIST W2903",
+        "HIST W2943",
+        "HIST UN3152",
+        "HIST UN3298",
+        "HIST Q3400",
+        "HIST S3596",
+        "HIST W3678",
+        "HIST UN3766",
+        "HIST UN3779",
+        "HSEA UN3898",
+        "HIST Q3933",
+        "HIST UN3601",
+        "HIST UN3608",
+        "HIST GU4301",
+        "HIST GU4660",
+        "HIST GU4681",
+        "HIST GU4811"
+      ]
+    },
+    {
+      "header": "Italian",
+      "codes": [
+        "ITAL GU4022",
+        "CLIA GU4499",
+        "CLIA GU4500",
+        "CLIA GU4699"
+      ]
+    },
+    {
+      "header": "Jewish Studies",
+      "codes": [
+        "JWST UN3538",
+        "JWST GU4148",
+        "JWST GU4149",
+        "JWST GU4158",
+        "JWST GU4159",
+        "JWST GU4160",
+        "JWST GU4601",
+        "JWST GU4602"
+      ]
+    },
+    {
+      "header": "Latin American and Caribbean Studies",
+      "codes": [
+        "LCRS UN3500"
+      ]
+    },
+    {
+      "header": "Latin American and Iberian Cultures",
+      "codes": [
+        "SPJS UN3303",
+        "SPAN UN3349",
+        "PORT UN3350",
+        "SPAN UN3350",
+        "SPAN UN3361",
+        "SPAN UN3489",
+        "PORT UN3490",
+        "SPAN UN3490",
+        "SPAN W3491",
+        "PORT UN3601",
+        "SPAN UN3894",
+        "SPAN UN3898",
+        "SPAN UN3899"
+      ]
+    },
+    {
+      "header": "Linguistics",
+      "codes": [
+        "LING UN3102",
+        "LING UN3104"
+      ]
+    },
+    {
+      "header": "Middle Eastern, South Asian, and African Studies",
+      "codes": [
+        "MDES UN1001",
+        "MDES UN1030",
+        "MDES UN1003",
+        "AHUM UN1399",
+        "MDES UN1630",
+        "ASCM V2001",
+        "ASCM UN2003",
+        "ASCM UN2008",
+        "MDES UN2042",
+        "MDES UN2012",
+        "MDES UN2030",
+        "MDES W2041",
+        "ASCM UN2357",
+        "MDES UN2399",
+        "MDES UN2641",
+        "MDES UN2650",
+        "MDES UN3000",
+        "CLME W3032",
+        "HSME UN3044",
+        "MDES UN3047",
+        "MDES UN3121",
+        "MDES UN3130",
+        "CLME UN3221",
+        "MDES UN3260",
+        "CLME UN3266",
+        "MDES UN3335",
+        "MDES UN3421",
+        "MDES UN3445",
+        "CLME UN3928",
+        "MDES UN3930",
+        "CLME GU4031",
+        "MDES GU4122",
+        "MDES G4052",
+        "MDES GU4150",
+        "MDES GU4220",
+        "CLME GU4225",
+        "CLME GU4226",
+        "CLME GU4229",
+        "CLME GU4231",
+        "CLME GU4241",
+        "CLME G4261",
+        "MDES GU4259",
+        "CLME GU4262",
+        "MDES GU4266",
+        "CLME GU4272",
+        "MDES G4326",
+        "MDES GU4360",
+        "MDES GU4634",
+        "MDES GU4637",
+        "MDES GU4945"
+      ]
+    },
+    {
+      "header": "Music",
+      "codes": [
+        "MUSI UN2020",
+        "MUSI UN2030",
+        "MUSI V2430",
+        "AHMM UN3320",
+        "AHMM UN3321",
+        "MUSI GU4113",
+        "MUSI GU4438",
+        "MUSI GU4466"
+      ]
+    },
+    {
+      "header": "Philosophy",
+      "codes": [
+        "PHIL UN3000",
+        "PHIL UN3912",
+        "PHIL GU4947"
+      ]
+    },
+    {
+      "header": "Religion",
+      "codes": [
+        "RELI UN1612",
+        "RELI UN2205",
+        "RELI UN2305",
+        "RELI UN2306",
+        "RELI UN2405",
+        "RELI UN2308",
+        "RELI UN2309",
+        "RELI UN2335",
+        "RELI UN3303",
+        "RELI UN3407",
+        "RELI UN3314",
+        "RELI UN3425",
+        "RELI Q3511",
+        "RELI UN3521",
+        "RELI GU4214",
+        "RELI GU4215",
+        "RELI GU4204",
+        "RELI GU4304",
+        "RELI GU4314",
+        "RELI GU4322",
+        "RELI GU4418",
+        "RELI GU4999"
+      ]
+    },
+    {
+      "header": "Slavic Languages",
+      "codes": [
+        "SLCL UN3001",
+        "SLCL UN3100",
+        "RUSS UN3230",
+        "SLCL GU4002",
+        "CLSL GU4012",
+        "CLSL GU4013",
+        "CLRS GU4022",
+        "GEOR GU4042",
+        "CLRS W4190"
+      ]
+    },
+    {
+      "header": "Sociology",
+      "codes": [
+        "SOCI UN3324"
+      ]
+    },
+    {
+      "header": "Theatre",
+      "codes": [
+        "THTR UN3154"
+      ]
+    },
+    {
+      "header": "Urban Studies",
+      "codes": [
+        "URBS UN3351"
+      ]
+    },
+    {
+      "header": "Columbia Athens Global Center",
+      "codes": [
+        "GRKM OC3936"
+      ]
+    },
+    {
+      "header": "Center for the Study of Ethnicity and Race",
+      "codes": [
+        "CSER OC3928"
+      ]
+    },
+    {
+      "header": "Columbia in Amman and Paris: Middle Eastern and North African Studies (MENA) Program",
+      "codes": [
+        "MENA OC4100"
+      ]
+    },
+    {
+      "header": "Columbia Global Seminar in Istanbul",
+      "codes": [
+        "CLGM OC3920"
+      ]
+    },
+    {
+      "header": "Columbia in London- Queen Mary University",
+      "codes": [
+        "CLEN OC3500",
+        "CLEN OC3793"
+      ]
+    },
+    {
+      "header": "Columbia Summer Program in Tunis and Istanbul: Democracy and Constitutional Engineering",
+      "codes": [
+        "POLS OC3545"
+      ]
+    },
+    {
+      "header": "Columbia Summer Program in Venice",
+      "codes": [
+        "CLIA OC4600"
+      ]
+    },
+    {
+      "header": "Slavic Languages - Office of Global Programs",
+      "codes": [
+        "CLSL OC4001"
+      ]
+    },
+    {
+      "header": "Reid Hall in Paris",
+      "codes": [
+        "AHIS OC4652",
+        "FILM OC4225",
+        "FILM GU4330",
+        "FREN OC3719",
+        "FREN OC3817",
+        "CLFR OC3821",
+        "FREN OC3821",
+        "HIST OC3136",
+        "WMST OC3550"
+      ]
+    }
+  ],
+  "error": null
+}

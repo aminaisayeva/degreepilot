@@ -1,0 +1,840 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/",
+  "scraped_at": "2026-07-04T14:14:06Z",
+  "courses": [
+    {
+      "code": "ECON UN1105",
+      "subject": "ECON",
+      "number": "UN1105",
+      "title": "Principles Of Economics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON UN3211",
+      "subject": "ECON",
+      "number": "UN3211",
+      "title": "Intermediate Microeconomics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN1105 and MATH UN1101 and ( MATH UN1201 or MATH UN1207 ) ECON W1105 or the equivalent; MATH V1101 , MATH V1201 (or MATH V1207 )."
+    },
+    {
+      "code": "ECON UN3213",
+      "subject": "ECON",
+      "number": "UN3213",
+      "title": "Intermediate Macroeconomics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( MATH UN1101 or MATH UN1207 ) and ECON UN1105 ECON W1105 or the equivalent; MATH V1101 or MATH V1207 ."
+    },
+    {
+      "code": "ECON UN3412",
+      "subject": "ECON",
+      "number": "UN3412",
+      "title": "Introduction To Econometrics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( ECON UN3211 or ECON UN3213 ) and ( MATH UN1201 or MATH UN1207 ) and STAT UN1201 ECON W3211 or W3213 ; STAT 1201 or SIEO 3001 ; and MATH V1201 or V1207."
+    },
+    {
+      "code": "ECON UN2105",
+      "subject": "ECON",
+      "number": "UN2105",
+      "title": "The American Economy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON W1105 ."
+    },
+    {
+      "code": "ECON UN2257",
+      "subject": "ECON",
+      "number": "UN2257",
+      "title": "The Global Economy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON W1105 ."
+    },
+    {
+      "code": "ECON UN3025",
+      "subject": "ECON",
+      "number": "UN3025",
+      "title": "Financial Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211, W3213 and STAT 1201 ."
+    },
+    {
+      "code": "ECON UN3265",
+      "subject": "ECON",
+      "number": "UN3265",
+      "title": "Money And Banking",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON UN3901",
+      "subject": "ECON",
+      "number": "UN3901",
+      "title": "Economics Of Education",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( ECON UN3211 and ECON UN3213 and ECON UN3412 )"
+    },
+    {
+      "code": "ECON UN3952",
+      "subject": "ECON",
+      "number": "UN3952",
+      "title": "MACROECONOMICS＆FORMATION Of Expectations",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412"
+    },
+    {
+      "code": "ECON UN3981",
+      "subject": "ECON",
+      "number": "UN3981",
+      "title": "Applied Econometrics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Towards this goal, this course will review or introduce the most widely used econometric techniques for empirical research. These include multiple regressions, probit and logit models, instrumental variables methods, panel data methods, regression discontinuity designs. This course will also introduce some time series methods such as vector autoregressive process, cointegration analysis, financial time series, and modeling of volatilities. Students will need to practice these methods with a computer software package (R or STATA) and with actual economic data sets.",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412"
+    },
+    {
+      "code": "ECON GU4020",
+      "subject": "ECON",
+      "number": "GU4020",
+      "title": "Econ Of Uncertainty ＆ Informtn",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211 , W3213 and STAT 1201 ."
+    },
+    {
+      "code": "ECON GU4211",
+      "subject": "ECON",
+      "number": "GU4211",
+      "title": "Advanced Microeconomics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and MATH UN2010 ECON W3211 , W3213 , and MATH V2010."
+    },
+    {
+      "code": "ECON GU4213",
+      "subject": "ECON",
+      "number": "GU4213",
+      "title": "Advanced Macroeconomics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 and MATH UN2010 ECON W3211 , W3213 , W3412 and MATH V2010 ."
+    },
+    {
+      "code": "ECON GU4228",
+      "subject": "ECON",
+      "number": "GU4228",
+      "title": "Urban Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Congestion and other games, and the pricing of transit services. Location theory and land rents. Segregation and discrimination. The fiscal structure of American cities. Zoning and the taking issue. Abandonment and city-owned property. Economic development, abatements, subsidies, and eminent domain. Crime, deadweight losses, and the allocation of police services.",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4230",
+      "subject": "ECON",
+      "number": "GU4230",
+      "title": "Economics Of New York City",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211 , W3213 and STAT 1201 ."
+    },
+    {
+      "code": "ECON GU4251",
+      "subject": "ECON",
+      "number": "GU4251",
+      "title": "Industrial Organization",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4260",
+      "subject": "ECON",
+      "number": "GU4260",
+      "title": "Market Design",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211 , ECON W3213 and STAT W1201 ."
+    },
+    {
+      "code": "ECON GU4280",
+      "subject": "ECON",
+      "number": "GU4280",
+      "title": "Corporate Finance",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211 , ECON W3213 and STAT 1201 ."
+    },
+    {
+      "code": "ECON GU4301",
+      "subject": "ECON",
+      "number": "GU4301",
+      "title": "Economic Growth ＆ Developmnt I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4321",
+      "subject": "ECON",
+      "number": "GU4321",
+      "title": "Economic Development",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4325",
+      "subject": "ECON",
+      "number": "GU4325",
+      "title": "Economic Development Of Japan",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "CC/GS/SEAS: Partial Fulfillment of Global Core Requirement",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4330",
+      "subject": "ECON",
+      "number": "GU4330",
+      "title": " Economic Policy in the Middle East",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This advanced elective equips economics majors with the tools to analyze the policy challenges and structural dynamics of Middle Eastern economies. Students will apply macroeconomic models and quantitative methods to understand topics such as oil and gas dependence, fiscal sustainability, inflation, trade, labor markets, demographic transition, institutional development, poverty, and the economics of conflict and reform. They will actively research and present case studies that illustrate the policy challenges in specific country settings. Readings are drawn from leading economics textbooks, research articles, policy reports, and multimedia sources, fostering collaboration, critical thinking, and data-driven discussions on contemporary regional development issues while remaining attentive to the human dimension and to the political economy context in which these policies unfold",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4370",
+      "subject": "ECON",
+      "number": "GU4370",
+      "title": "Political Economy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 or ECON W3211 , W3213 , STAT 1201 (or POLS 4710 for those who declared prior to Spring 2014)."
+    },
+    {
+      "code": "ECON GU4400",
+      "subject": "ECON",
+      "number": "GU4400",
+      "title": "Labor Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "The labor force and labor markets, educational and man power training, unions and collective bargaining, mobility and immobility, sex and race discrimination, unemployment.",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4412",
+      "subject": "ECON",
+      "number": "GU4412",
+      "title": "Advanced Econometrics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 and MATH UN2010 ECON W3211 , ECON W3213 , ECON W3412 , MATH V2010 ."
+    },
+    {
+      "code": "ECON GU4413",
+      "subject": "ECON",
+      "number": "GU4413",
+      "title": " Econometrics of Time Series and Forecasting",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course focuses on the application of econometric methods to time series data; such data is common in the testing of macro and financial economics models. It will focus on the application of these methods to data problems in macro and finance.",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 W3211, W3213, W3412 ."
+    },
+    {
+      "code": "ECON GU4415",
+      "subject": "ECON",
+      "number": "GU4415",
+      "title": "Game Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4438",
+      "subject": "ECON",
+      "number": "GU4438",
+      "title": "Economics Of Race In The U.S",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213"
+    },
+    {
+      "code": "ECON GU4465",
+      "subject": "ECON",
+      "number": "GU4465",
+      "title": "Public Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4480",
+      "subject": "ECON",
+      "number": "GU4480",
+      "title": "Gender ＆ Applied Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211, W3213 ."
+    },
+    {
+      "code": "ECON GU4500",
+      "subject": "ECON",
+      "number": "GU4500",
+      "title": "International Trade",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4505",
+      "subject": "ECON",
+      "number": "GU4505",
+      "title": "International Macroeconomics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213."
+    },
+    {
+      "code": "ECON GU4615",
+      "subject": "ECON",
+      "number": "GU4615",
+      "title": "Law And Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4630",
+      "subject": "ECON",
+      "number": "GU4630",
+      "title": " Climate Finance",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "In lieu of the failure of legislatures to pass comprehensive carbon taxes, there is growing pressure on the financial system to address the risks of global warming. One set of pressures is to account for the heightened physical risks due to extreme weather events and potential climate tipping points. Another set of pressures are to find approaches to incentivize corporations to meet the goals set out in the Paris Treaty of 2015. These approaches include (1) mandates or restrictions to only hold companies with decarbonization plans, (2) development of negative emissions technologies such as direct-air capture and (3) promotion of natural capital markets that can be used to offset carbon emissions. Moreover, financial markets also provide crucial information on expectations and plans of economic agents regarding climate change. This course will cover both models and empirical methodologies that are necessary to assess the role of the financial system in addressing global warming",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4700",
+      "subject": "ECON",
+      "number": "GU4700",
+      "title": "Financial Crises",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course uses economic theory and empirical evidence to study the causes of financial crises and the effectiveness of policy responses to these crises. Particular attention will be given to some of the major economic and financial crises in the past century and to the crisis that began in August 2007.",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211 , W3213 and STAT 1201 ."
+    },
+    {
+      "code": "ECON GU4710",
+      "subject": "ECON",
+      "number": "GU4710",
+      "title": "Finance And The Real Economy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( ECON UN3211 ) and ( ECON UN3213 ) and ( STAT UN1201 )"
+    },
+    {
+      "code": "ECON GU4750",
+      "subject": "ECON",
+      "number": "GU4750",
+      "title": "Globalization ＆ Its Risks",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 ECON W3211 and W3213 ."
+    },
+    {
+      "code": "ECON GU4840",
+      "subject": "ECON",
+      "number": "GU4840",
+      "title": "Behavioral Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213"
+    },
+    {
+      "code": "ECON GU4850",
+      "subject": "ECON",
+      "number": "GU4850",
+      "title": "Cognitive Mech ＆ Econ Behavior",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and STAT UN1201 ECON W3211, W3213; STAT 1201."
+    },
+    {
+      "code": "ECON GU4860",
+      "subject": "ECON",
+      "number": "GU4860",
+      "title": "Behavioral Finance",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412"
+    },
+    {
+      "code": "ECON GU4720",
+      "subject": "ECON",
+      "number": "GU4720",
+      "title": " Empirical Macroeconomics and Finance",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course develops empirical methods to investigate key questions in macroeconomics and finance, and discusses the existing empirical evidence on those questions. While models developed in macroeconomics and finance provide theoretical frameworks for understanding economic fluctuations, long-run growth, and policy interventions, empirical work is crucial for testing these models and informing policy decisions. The course will examine key macroeconomics/finance questions—such as the sources of short-run fluctuations, the determinants of long-run growth, or the role of financial markets in business cycles—through the lens of modern empirical techniques. We will put a special emphasis on implications for the design of economic policy. For instance, we will consider what the empirical evidence tells us on questions such as: can stimulus checks boost consumer spending? does monetary policy affect investment? should governments invest in R＆D? Special attention will be given to recent advances in identification strategies, including high-frequency event studies, differences-in-differences approaches, and instrumental variables tailored to macroeconomic settings. By integrating empirical evidence with theoretical insights, the course aims to equip students with the tools to critically assess macroeconomic policy and contribute to ongoing debates in the field",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4911",
+      "subject": "ECON",
+      "number": "GU4911",
+      "title": "Microeconomics Seminar",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 ECON W3211 , W3213 , W3412 . Registration information is posted on the department's Seminar Sign-up webpage."
+    },
+    {
+      "code": "ECON GU4913",
+      "subject": "ECON",
+      "number": "GU4913",
+      "title": "Macroeconomics Seminar",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 ECON W3211 , W3213 , W3412 . Registration information is posted on the department's Seminar Sign-up webpage."
+    },
+    {
+      "code": "ECON GU4918",
+      "subject": "ECON",
+      "number": "GU4918",
+      "title": "Seminar In Econometrics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 ECON 3211 , W3213 , W3412 , and sign-up in the department's office. Registration information is posted on the department's Seminar Sign-up webpage."
+    },
+    {
+      "code": "ECPS GU4921",
+      "subject": "ECPS",
+      "number": "GU4921",
+      "title": "Seminar In Political Economics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Priority is given to economics-political science majors who are in their senior year, but any available space is open to students who have taken the elective course in political economy.",
+      "prereq_text": "Prerequisites: ECON W3211 , W3213 , W3412 (or POLS 4711 ), W4370 . Registration information is posted on the department's Seminar Sign-up webpage."
+    },
+    {
+      "code": "ECPH GU4950",
+      "subject": "ECPH",
+      "number": "GU4950",
+      "title": "Economics ＆ Philosophy",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Open only to economics-philosophy majors who are in their senior year.",
+      "prereq_text": "Prerequisites: ECON W3211 , ECON W3213 , ECON W3412 . Students will be contacted by the Economics department for pre-enrollment."
+    },
+    {
+      "code": "ECON GU4999",
+      "subject": "ECON",
+      "number": "GU4999",
+      "title": "Senior Honors Thesis Workshop",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ECON UN3211 and ECON UN3213 and ECON UN3412 and ECON W3211 , W3213 , W3412 , and the director of the departmental honors program's permission. Students must have a minimum GPA of 3.7 in all required major courses, including calculus and statistics, prior to enrollment."
+    },
+    {
+      "code": "ECON UN2029",
+      "subject": "ECON",
+      "number": "UN2029",
+      "title": "Fed Challenge Workshop",
+      "points_min": 1.0,
+      "points_max": 1.0,
+      "description": "",
+      "prereq_text": "Prerequisites: ( ECON UN1105 ) ECON W1105 ."
+    },
+    {
+      "code": "ECON UN2261",
+      "subject": "ECON",
+      "number": "UN2261",
+      "title": "Accounting ＆ Finance For Economics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "The purpose of this course is to provide a basic introduction to accounting, including the foundations of accounting concepts, the underlying mechanics, and the overall perspective required to become intelligent users of accounting information. The course will focus on the main financial statements, the nature of accrual measurement, and the information perspective. In addition, we will explore some accounting methods in detail, such as revenue recognition, assets, liabilities, and equity. The overarching perspective is that accounting reports provide information that is useful for a variety of purposes. In the course, I will also provide insights into how the financial markets use accounting information to evaluate executives, predict future stock returns, assess firms’ riskiness, and allocate society’s resources to their most productive uses",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4995",
+      "subject": "ECON",
+      "number": "GU4995",
+      "title": "Research Course",
+      "points_min": 1.0,
+      "points_max": 1.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4996",
+      "subject": "ECON",
+      "number": "GU4996",
+      "title": "Research Course",
+      "points_min": 1.0,
+      "points_max": 2.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECON GU4998",
+      "subject": "ECON",
+      "number": "GU4998",
+      "title": "Supervised Independent Study",
+      "points_min": 1.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    }
+  ],
+  "courselists": [
+    {
+      "header": "Economics (Barnard)",
+      "codes": [
+        "ECON BC2010",
+        "ECON BC2012",
+        "ECON BC2017",
+        "ECON BC2020",
+        "ECON BC2075",
+        "ECON BC2224",
+        "ECON BC3010",
+        "ECON BC3011",
+        "ECON BC3012",
+        "ECON BC3013",
+        "ECON BC3014",
+        "ECON BC3017",
+        "ECON BC3019",
+        "ECON BC3027",
+        "ECON BC3022",
+        "ECON BC3023",
+        "ECON BC3024",
+        "ECON BC3026",
+        "ECON BC3029",
+        "ECON BC3031",
+        "ECON BC3038",
+        "ECON BC3039",
+        "ECON BC3041",
+        "ECON BC3045",
+        "ECON BC3047",
+        "ECON BC3049",
+        "ECON BC3270",
+        "ECON UN3025",
+        "ECON UN3265"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "ECON UN1105",
+        "ECON UN3211",
+        "ECON UN3213",
+        "ECON UN3412"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1201",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "ECON BC3029",
+        "ECON GU4321",
+        "ECON BC3038",
+        "ECON GU4505",
+        "ECON BC3019",
+        "ECON GU4400",
+        "ECON BC3047",
+        "ECON GU4500",
+        "ECON BC3039",
+        "ECON GU4625",
+        "ECON BC3041",
+        "ECON GU4235"
+      ]
+    },
+    {
+      "header": "Finance Core Courses *",
+      "codes": [
+        "ECON UN3025",
+        "ECON GU4280",
+        "ECON UN2261"
+      ]
+    },
+    {
+      "header": "Electives",
+      "codes": [
+        "ECON BC3014",
+        "ECON BC3017",
+        "ECON UN3265",
+        "ECON UN3901",
+        "ECON UN3952",
+        "ECON GU4020",
+        "ECON GU4213",
+        "ECON GU4251",
+        "ECON GU4260",
+        "ECON GU4412",
+        "ECON GU4415",
+        "ECON GU4465",
+        "ECON GU4500",
+        "ECON GU4505",
+        "ECON G4526",
+        "ECON GU4615",
+        "ECON GU4630",
+        "ECON GU4700",
+        "ECON GU4710",
+        "ECON GU4840",
+        "ECON GU4850",
+        "ECON GU4860",
+        "BIOT GU4180",
+        "ECON BC3043",
+        "BUSI UN3021",
+        "BUSI UN3701",
+        "BUSI UN3702",
+        "BUSI UN3703",
+        "BUSI UN3704",
+        "BUSI GU4377",
+        "BUSI GU4518",
+        "COMS W1002",
+        "HIST W2904",
+        "IEOR E4106",
+        "IEOR E4700",
+        "MATH UN3050",
+        "MATH GR5010",
+        "POLS UN3630",
+        "STAT W3201",
+        "STAT GU4261",
+        "STAT GU4207",
+        "STAT GU4262"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208",
+        "MATH UN2500",
+        "MATH UN1202",
+        "MATH UN2030"
+      ]
+    },
+    {
+      "header": "Statistics",
+      "codes": [
+        "STAT GU4001",
+        "STAT GU4203",
+        "STAT GU4204"
+      ]
+    },
+    {
+      "header": "Economics Core Courses",
+      "codes": [
+        "ECON UN1105",
+        "ECON UN3211",
+        "ECON UN3213",
+        "ECON UN3412"
+      ]
+    },
+    {
+      "header": "Economics Electives",
+      "codes": [
+        "ECON GU4020",
+        "ECON UN3901",
+        "ECON GU4211",
+        "ECON GU4213",
+        "ECON GU4228",
+        "ECON GU4230",
+        "ECON GU4235",
+        "ECON GU4260",
+        "ECON GU4301",
+        "ECON GU4321",
+        "ECON GU4330",
+        "ECON GU4370",
+        "ECON GU4400",
+        "ECON GU4415",
+        "ECON GU4438",
+        "ECON GU4465",
+        "ECON GU4480",
+        "ECON GU4500",
+        "ECON GU4615",
+        "ECON GU4625",
+        "ECON GU4630",
+        "ECON GU4750",
+        "ECON GU4840",
+        "ECON GU4850",
+        "ECON BC3011"
+      ]
+    },
+    {
+      "header": "Philosophy Courses",
+      "codes": [
+        "PHIL UN1010",
+        "PHIL UN3411",
+        "PHIL UN3701",
+        "PHIL UN3551",
+        "PHIL GU4561"
+      ]
+    },
+    {
+      "header": "Seminar",
+      "codes": [
+        "ECPH GU4950"
+      ]
+    },
+    {
+      "header": "Economics Core Courses",
+      "codes": [
+        "ECON UN1105",
+        "ECON UN3211",
+        "ECON UN3213",
+        "ECON GU4370"
+      ]
+    },
+    {
+      "header": "Statistical Methods",
+      "codes": [
+        "STAT UN1201",
+        "ECON UN3412",
+        "POLS GU4712"
+      ]
+    },
+    {
+      "header": "Seminars",
+      "codes": [
+        "ECPS GU4921",
+        "POLS UN3911",
+        "POLS UN3921",
+        "POLS UN3951",
+        "POLS UN3961"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Statistics",
+      "codes": [
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1004",
+        "COMS W1005",
+        "COMS W1007",
+        "ENGI E1006",
+        "STAT UN2102"
+      ]
+    },
+    {
+      "header": "Economics Seminar",
+      "codes": [
+        "ECON GU4918"
+      ]
+    },
+    {
+      "header": "Economics (Barnard)",
+      "codes": [
+        "ECON BC2010",
+        "ECON BC2012",
+        "ECON BC2017",
+        "ECON BC2020",
+        "ECON BC2224",
+        "ECON BC2075",
+        "ECON BC3027",
+        "ECON BC3010",
+        "ECON BC3011",
+        "ECON BC3012",
+        "ECON BC3013",
+        "ECON BC3014",
+        "ECON BC3017",
+        "ECON BC3019",
+        "ECON BC3022",
+        "ECON BC3023",
+        "ECON BC3024",
+        "ECON UN3025",
+        "ECON BC3026",
+        "ECON BC3029",
+        "ECON BC3031",
+        "ECON BC3038",
+        "ECON BC3039",
+        "ECON BC3041",
+        "ECON BC3045",
+        "ECON BC3047",
+        "ECON BC3049",
+        "ECON UN3265",
+        "ECON BC3270"
+      ]
+    }
+  ],
+  "error": null
+}

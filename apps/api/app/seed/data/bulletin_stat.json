@@ -1,0 +1,456 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/",
+  "scraped_at": "2026-07-04T14:14:07Z",
+  "courses": [
+    {
+      "code": "STAT UN1001",
+      "subject": "STAT",
+      "number": "UN1001",
+      "title": "Intro To Statistical Reasoning",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "A friendly introduction to statistical concepts and reasoning with emphasis on developing statistical intuition rather than on mathematical rigor. Topics include design of experiments, descriptive statistics, correlation and regression, probability, chance variability, sampling, chance models, and tests of significance",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN1010",
+      "subject": "STAT",
+      "number": "UN1010",
+      "title": "Statistical Thinking For Data Science",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course introduces core ideas in probability and statistics with a focus on building a foundation for data science. Topics include probability theory basics, common probability distributions, sampling and estimation, confidence intervals and hypothesis testing, and simple linear regression, resampling methods, smoothing techniques, and an introduction to the Bayesian inference. The course also offers a brief introduction to programming in R and Python",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN1101",
+      "subject": "STAT",
+      "number": "UN1101",
+      "title": "Introduction To Statistics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN1201",
+      "subject": "STAT",
+      "number": "UN1201",
+      "title": "CALC-BASED Intro To Statistics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN1202",
+      "subject": "STAT",
+      "number": "UN1202",
+      "title": "Undergraduate SEM/STATISTICS",
+      "points_min": 1.0,
+      "points_max": 1.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4001",
+      "subject": "STAT",
+      "number": "GU4001",
+      "title": "Introduction To Probability And Statistics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN2102",
+      "subject": "STAT",
+      "number": "UN2102",
+      "title": " Applied Statistical Computing",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN2103",
+      "subject": "STAT",
+      "number": "UN2103",
+      "title": "Applied Linear Reg Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT UN2104",
+      "subject": "STAT",
+      "number": "UN2104",
+      "title": "Appl Categorical Data Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT UN2103 is strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
+    },
+    {
+      "code": "STAT UN3105",
+      "subject": "STAT",
+      "number": "UN3105",
+      "title": "Applied Statistical Methods",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: At least one, and preferably both, of STAT UN2103 and UN2104 are strongly recommended. Students without programming experience in R might find STAT UN2102 very helpful."
+    },
+    {
+      "code": "STAT UN3106",
+      "subject": "STAT",
+      "number": "UN3106",
+      "title": "Applied Machine Learning",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT UN2103 . Students without programming experience in R might find STAT UN2102 very helpful."
+    },
+    {
+      "code": "STAT GU4221",
+      "subject": "STAT",
+      "number": "GU4221",
+      "title": "Time Series Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4222",
+      "subject": "STAT",
+      "number": "GU4222",
+      "title": "Nonparametric Statistics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "CC/GS: Partial Fulfillment of Science Requirement",
+      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
+    },
+    {
+      "code": "STAT GU4223",
+      "subject": "STAT",
+      "number": "GU4223",
+      "title": "Multivariate Stat Inference",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+    },
+    {
+      "code": "STAT GU4224",
+      "subject": "STAT",
+      "number": "GU4224",
+      "title": "Bayesian Statistics",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT GU4204 or the equivalent."
+    },
+    {
+      "code": "STAT GU4231",
+      "subject": "STAT",
+      "number": "GU4231",
+      "title": "Survival Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+    },
+    {
+      "code": "STAT GU4232",
+      "subject": "STAT",
+      "number": "GU4232",
+      "title": "Generalized Linear Models",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "CC/GS: Partial Fulfillment of Science Requirement",
+      "prereq_text": "Prerequisites: STAT GU4205 or the equivalent."
+    },
+    {
+      "code": "STAT GU4233",
+      "subject": "STAT",
+      "number": "GU4233",
+      "title": " Multilevel Models",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Theory and practice, including model-checking, for random and mixed-effects models (also called hierarchical, multi-level models). Extensive use of the computer to analyse data.",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4234",
+      "subject": "STAT",
+      "number": "GU4234",
+      "title": "Sample Surveys",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4241",
+      "subject": "STAT",
+      "number": "GU4241",
+      "title": "Statistical Machine Learning",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: STAT GU4206 ."
+    },
+    {
+      "code": "STAT GU4261",
+      "subject": "STAT",
+      "number": "GU4261",
+      "title": "Statistical Methods In Finance",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4263",
+      "subject": "STAT",
+      "number": "GU4263",
+      "title": "Stat INF/TIME-SERIES Modelling",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "STAT GU4291",
+      "subject": "STAT",
+      "number": "GU4291",
+      "title": "Advanced Data Analysis",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    }
+  ],
+  "courselists": [
+    {
+      "header": "",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "COMS W1004",
+        "ENGI E1006",
+        "STAT UN2102",
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT GU4207"
+      ]
+    },
+    {
+      "header": "Mathematical Prerequisites",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010"
+      ]
+    },
+    {
+      "header": "Statistics Required Courses",
+      "codes": [
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4241"
+      ]
+    },
+    {
+      "header": "Statistics Electives",
+      "codes": [
+        "STAT UN3106",
+        "STAT GU4206",
+        "STAT GU4243",
+        "STAT GU4224",
+        "STAT GU4242"
+      ]
+    },
+    {
+      "header": "Computer Science Introductory Courses",
+      "codes": [
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007",
+        "COMS W3134",
+        "COMS W3136",
+        "COMS W3137"
+      ]
+    },
+    {
+      "header": "Computer Science Required Courses",
+      "codes": [
+        "COMS W3203",
+        "CSOR W4231"
+      ]
+    },
+    {
+      "header": "Computer Science Electives",
+      "codes": [
+        "COMS W3261",
+        "COMS W4236",
+        "COMS W4252",
+        "COMS W4111",
+        "COMS W4130"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Statistics",
+      "codes": [
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1004",
+        "COMS W1005",
+        "COMS W1007",
+        "ENGI E1006",
+        "STAT UN2102"
+      ]
+    },
+    {
+      "header": "Seminar",
+      "codes": [
+        "ECON GU4918"
+      ]
+    },
+    {
+      "header": "Mathematics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN1201",
+        "MATH UN2010",
+        "MATH UN2500",
+        "MATH UN1205",
+        "MATH UN1207",
+        "MATH UN1208"
+      ]
+    },
+    {
+      "header": "Statistics required courses",
+      "codes": [
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205"
+      ]
+    },
+    {
+      "header": "And select one of the following courses:",
+      "codes": [
+        "STAT GU4207",
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ]
+    },
+    {
+      "header": "Computer Science",
+      "codes": [
+        "COMS W1004",
+        "COMS W1005",
+        "ENGI E1006",
+        "COMS W1007"
+      ]
+    },
+    {
+      "header": "Political Science",
+      "codes": [
+        "POLS UN1201",
+        "POLS UN1501",
+        "POLS UN1601",
+        "POLS UN1101",
+        "POLS GU4710",
+        "POLS GU4712"
+      ]
+    },
+    {
+      "header": "Statistics",
+      "codes": [
+        "MATH UN1101",
+        "MATH UN1102",
+        "MATH UN2010",
+        "STAT UN1201",
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT UN1101",
+        "STAT UN2102",
+        "STAT UN2103",
+        "STAT UN2104",
+        "STAT UN3105",
+        "STAT UN3106"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "STAT GU4203",
+        "STAT GU4204",
+        "STAT GU4205",
+        "STAT GU4206",
+        "STAT GU4207"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "STAT GU4281",
+        "STAT GU4282"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "STAT GU4241",
+        "STAT GU4242",
+        "STAT GU4243",
+        "STAT GU4702"
+      ]
+    },
+    {
+      "header": "",
+      "codes": [
+        "STAT GU4262",
+        "STAT GU4264",
+        "STAT GU4265"
+      ]
+    }
+  ],
+  "error": null
+}

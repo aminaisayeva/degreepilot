@@ -1,0 +1,1741 @@
+{
+  "term": "Spring2026",
+  "scraped_at": "2026-07-04T14:14:12Z",
+  "subjects": {
+    "COMS": {
+      "courses": [
+        {
+          "code": "COMS W1004",
+          "title": "INTRO-COMPUT SCI/PROG IN JAVA",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC1016",
+          "title": "Introduction to Computational Thinking a",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC1017",
+          "title": "Introduction to Computational Thinking a",
+          "credits": 1.0
+        },
+        {
+          "code": "COMS W1404",
+          "title": "EMERGING SCHOLARS PROG SEMINAR",
+          "credits": 1.0
+        },
+        {
+          "code": "COMS BC1428",
+          "title": "WRITING WITH/ON COMPUTING",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS W2132",
+          "title": "Intermediate Computing in Python",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS BC3099",
+          "title": "INDEPENDENT STUDY",
+          "credits": 0.0
+        },
+        {
+          "code": "COMS W3134",
+          "title": "DATA STRUCTURES IN JAVA",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3136",
+          "title": "ESSENTIAL DATA STRUCTURES",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS W3157",
+          "title": "ADVANCED PROGRAMMING",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS BC3168",
+          "title": "DEEP LEARNING FOR COMPUTER GRAPHICS",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3203",
+          "title": "DISCRETE MATHEMATICS",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS W3261",
+          "title": "COMPUTER SCIENCE THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC3262",
+          "title": "INTRODUCTION TO CRYPTOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC3411",
+          "title": "HUMAN-CENTERED SOCIAL NETWORK ANALYSIS",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS BC3423",
+          "title": "MISINFORMATION, JUSTICE & DESIGN",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS BC3430",
+          "title": "Computational Sound",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC3707",
+          "title": "LARGE LANGUAGE MODELS: FOUNDATIONS AND E",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC3930",
+          "title": "Creative Embedded Systems",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS BC3997",
+          "title": "NEW DIRECTIONS IN COMPUTING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4111",
+          "title": "INTRODUCTION TO DATABASES",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4118",
+          "title": "OPERATING SYSTEMS I",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4167",
+          "title": "COMPUTER ANIMATION",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4170",
+          "title": "USER INTERFACE DESIGN",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4172",
+          "title": "3D UI AND AUGMENTED REALITY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4232",
+          "title": "Advanced Algorithms",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4281",
+          "title": "INTRO TO QUANTUM COMPUTING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4419",
+          "title": "Internet Technology, Economics, and Poli",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4460",
+          "title": "PRIN-INNOVATN/ENTREPRENEURSHIP",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4701",
+          "title": "ARTIFICIAL INTELLIGENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4705",
+          "title": "NATURAL LANGUAGE PROCESSING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4710",
+          "title": "Ethical and Responsible AI",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4721",
+          "title": "MACHINE LEARNING FOR DATA SCI",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4732",
+          "title": "Computer Vision II: Learning",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4771",
+          "title": "MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4995",
+          "title": "TOPICS IN COMPUTER SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6156",
+          "title": "TOPICS IN SOFTWARE ENGINEERING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6178",
+          "title": "Human-Computer Interaction",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6184",
+          "title": "ANONYMITY & PRIVACY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6261",
+          "title": "ADVANCED CRYPTOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6424",
+          "title": "HARDWARE SECURITY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6706",
+          "title": "Advanced Spoken Language Processing",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6732",
+          "title": "COMPUTATIONAL IMAGING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6975",
+          "title": "Advanced Topics in Natural Language Proc",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E6998",
+          "title": "TOPICS IN COMPUTER SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS E9902",
+          "title": "SEMINAR IN COMPUTER SCIENCE",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "CSEE": {
+      "courses": [
+        {
+          "code": "CSEE W3827",
+          "title": "FUNDAMENTALS OF COMPUTER SYSTS",
+          "credits": 3.0
+        },
+        {
+          "code": "CSEE W4119",
+          "title": "COMPUTER NETWORKS",
+          "credits": 3.0
+        },
+        {
+          "code": "CSEE W4121",
+          "title": "COMPUTER SYSTEMS FOR DATA SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "CSEE W4840",
+          "title": "EMBEDDED SYSTEMS",
+          "credits": 3.0
+        },
+        {
+          "code": "CSEE E6868",
+          "title": "EMBEDDED SCALABLE PLATFORMS",
+          "credits": 3.0
+        },
+        {
+          "code": "CSEE E6915",
+          "title": "Academic Writing and Great Presentations",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "ECON": {
+      "courses": [
+        {
+          "code": "ECON BC1003",
+          "title": "INTRO TO ECONOMIC REASONING",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC1005",
+          "title": "INTRODUCTION TO MICROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC1007",
+          "title": "MATH METHODS FOR ECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC1013",
+          "title": "INTRO TO ECON REASONING - RECITATION",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC1017",
+          "title": "Math Methods for Economics Recitation",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN1105",
+          "title": "PRINCIPLES OF ECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN1155",
+          "title": "PRINCIPLES OF ECONOMICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC2010",
+          "title": "THE ECONOMICS OF GENDER",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC2020",
+          "title": "INTRO TO DEVELOPMENT ECON",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC2021",
+          "title": "INTRO TO DEVELOPMENT ECON-REC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN2257",
+          "title": "THE GLOBAL ECONOMY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON UN2261",
+          "title": "ACCOUNTING & FINANCE FOR ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON UN2262",
+          "title": "INTRO-ACCOUNTING & FIN - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC2411",
+          "title": "STATISTICS FOR ECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC2413",
+          "title": "STATS FOR ECONOMICS - REC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3018",
+          "title": "ECONOMETRICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC3024",
+          "title": "MIGRATION & ECONOMIC CHANGE",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON UN3025",
+          "title": "FINANCIAL ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON UN3026",
+          "title": "FINANCIAL ECONOMICS - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3028",
+          "title": "Economic History of Global Capitalism",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC3033",
+          "title": "INTERMEDIATE MACROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC3035",
+          "title": "INTERMEDIATE MICROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC3041",
+          "title": "THEORETICL FOUNDTNS-POLIT ECON",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC3048",
+          "title": "Introduction to Behavioral Economics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC3062",
+          "title": "SENIOR THESIS II",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC3063",
+          "title": "SENIOR SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON BC3081",
+          "title": "Economics of Work and Play",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC3098",
+          "title": "GUIDED RESEARCH IN ECONOMICS",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3099",
+          "title": "INDEPENDENT STUDY",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3118",
+          "title": "ECONOMETRICS LAB/RECITATION",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3133",
+          "title": "INTERMEDIATE MACRO-DISC/RECIT",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON BC3135",
+          "title": "INTERMEDIATE MICRO THEORY RECITATION",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3211",
+          "title": "INTERMEDIATE MICROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN3212",
+          "title": "INTER MICROECONOMICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3213",
+          "title": "INTERMEDIATE MACROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN3214",
+          "title": "INTER MACROECONOMICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3265",
+          "title": "MONEY AND BANKING",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON BC3341",
+          "title": "THEORETICL FOUNTNS-POLIT ECON-REC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3412",
+          "title": "INTRODUCTION TO ECONOMETRICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN3413",
+          "title": "INTRO TO ECONOMETRICS-DIS",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3902",
+          "title": "Economics of Public Policy",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4211",
+          "title": "ADVANCED MICROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GU4212",
+          "title": "ADV MICROECONOMICS - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GU4230",
+          "title": "ECONOMICS OF NEW YORK CITY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4251",
+          "title": "INDUSTRIAL ORGANIZATION",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4280",
+          "title": "CORPORATE FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4330",
+          "title": "Economic Policy in the Middle East",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4400",
+          "title": "LABOR ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4415",
+          "title": "GAME THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4465",
+          "title": "PUBLIC ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4480",
+          "title": "GENDER & APPLIED ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4500",
+          "title": "INTERNATIONAL TRADE",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4505",
+          "title": "INTERNATIONAL MACROECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4630",
+          "title": "Climate Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4710",
+          "title": "FINANCE AND THE REAL ECONOMY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4911",
+          "title": "MICROECONOMICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GU4913",
+          "title": "MACROECONOMICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GU4918",
+          "title": "SEMINAR IN ECONOMETRICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GU4995",
+          "title": "RESEARCH COURSE",
+          "credits": 1.0
+        },
+        {
+          "code": "ECON GU4996",
+          "title": "RESEARCH COURSE",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GU4998",
+          "title": "SUPERVISED INDEPENDENT STUDY",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GU4999",
+          "title": "SENIOR HONORS THESIS WORKSHOP",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5005",
+          "title": "MICROECONOMIC ANALYSIS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR5006",
+          "title": "MACROECONOMIC ANALYSIS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR5007",
+          "title": "ECONOMETRICS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR5212",
+          "title": "MICROECONOMIC ANALYSIS II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5216",
+          "title": "MACROECONOMCS ANALYSIS II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5250",
+          "title": "Industrial Organization",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5412",
+          "title": "ECONOMETRICS II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5711",
+          "title": "FINANCIAL ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR5911",
+          "title": "INTERNATIONAL ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6206",
+          "title": "MICROECONOMIC ANALYSIS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR6208",
+          "title": "MACROECONOMIC ANALYSIS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR6212",
+          "title": "MICROECONOMIC ANALYSIS II",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GR6216",
+          "title": "MACROECONOMIC ANALYSIS II",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GR6219",
+          "title": "ADV MICRO ANALYSIS II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6222",
+          "title": "ADV MACROECONOMIC ANALYSIS II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6254",
+          "title": "INDUSTRIAL ORGANIZATION II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6255",
+          "title": "INDUSTRIAL ORGANIZATION III",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6256",
+          "title": "Topics in Organizational Economics",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6306",
+          "title": "INDUSTRIAL DEVELOPMENT",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6307",
+          "title": "PUB ECONOMICS AND DEVELOPMENT",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6406",
+          "title": "INTRO TO ECONOMETRICS II-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR6412",
+          "title": "INTRODUCTN TO ECONOMETRICS II",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GR6414",
+          "title": "ECONOMETRICS IV",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6448",
+          "title": "Climate Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6452",
+          "title": "THE ECONOMICS OF LABOR II",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6910",
+          "title": "TOPICS IN ECONOMIC GEOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GR6915",
+          "title": "PERSPECTIVES ON ECON STUDIES-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR6930",
+          "title": "PERSPECTVS ON ECONOMIC STUDIES",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GR8310",
+          "title": "ECONOMETRICS COLLOQUIUM",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8315",
+          "title": "ECONOMIC FLUCTUATIONS COLLOQ",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8420",
+          "title": "COLLOQUIUM IN DEVELOPMENT",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8440",
+          "title": "COLL IN INDUST ORGANIZATION",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8708",
+          "title": "COLL IN INTERNATIONAL TRADE",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8713",
+          "title": "MICROECONOMIC THEORY COLLOQ",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8714",
+          "title": "Labor & Public Finance colloquium",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR8730",
+          "title": "FINANCIAL ECONOMICS COLLOQUIUM",
+          "credits": 2.0
+        },
+        {
+          "code": "ECON GR9001",
+          "title": "ECONOMIC THEORY",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9002",
+          "title": "MONEY & MACROECONOMCS WORKSHOP",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9007",
+          "title": "INTERNATIONAL ECONOMICS",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9008",
+          "title": "DEVPT & ENVIRON ECON WORKSHOP",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9009",
+          "title": "ECONOMETRICS WORKSHOP",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9012",
+          "title": "INDUSTRIAL ORG WORKSHOP",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON GR9016",
+          "title": "Labor and Public Economics Workshop",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    },
+    "MATH": {
+      "courses": [
+        {
+          "code": "MATH UN1003",
+          "title": "COLLEGE ALGEBRA-ANLYTC GEOMTRY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN1101",
+          "title": "CALCULUS I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN1102",
+          "title": "CALCULUS II",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN1201",
+          "title": "CALCULUS III",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN1202",
+          "title": "CALCULUS IV",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN1205",
+          "title": "ACCELERATED MULTIVARIABLE CALC",
+          "credits": 4.0
+        },
+        {
+          "code": "MATH UN1208",
+          "title": "HONORS MATHEMATICS B",
+          "credits": 4.0
+        },
+        {
+          "code": "MATH UN1215",
+          "title": "ACCELERATED MULTIVARIABLE CALC-REC",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH UN1218",
+          "title": "HONORS MATHEMATICS B-REC",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH UN2000",
+          "title": "INTRO TO HIGHER MATHEMATICS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH BC2001",
+          "title": "PERSPECTIVES IN MATHEMATICS",
+          "credits": 1.0
+        },
+        {
+          "code": "MATH UN2005",
+          "title": "INTRODUCTION TO MATHEMATICS PROOFS",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH UN2010",
+          "title": "LINEAR ALGEBRA",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN2015",
+          "title": "Linear Algebra and Probability",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN2030",
+          "title": "ORDINARY DIFFERENTIAL EQUATIONS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN2500",
+          "title": "ANALYSIS AND OPTIMIZATION",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3007",
+          "title": "COMPLEX VARIABLES",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3020",
+          "title": "NUMBER THEORY AND CRYPTOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3028",
+          "title": "PARTIAL DIFFERENTIAL EQUATIONS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3050",
+          "title": "DISCRETE TIME MODELS IN FINANC",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3902",
+          "title": "SUPERVISED READINGS II",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH UN3952",
+          "title": "UNDERGRADUATE SEMINARS II",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN3995",
+          "title": "SENIOR THESIS IN MATHEMATICS II",
+          "credits": 2.0
+        },
+        {
+          "code": "MATH UN3997",
+          "title": "SUPERVISED INDIVIDUAL RESEARCH",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH GU4007",
+          "title": "ANALYTIC NUMBER THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4041",
+          "title": "INTRO MODERN ALGEBRA I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4042",
+          "title": "INTRO MODERN ALGEBRA II",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4043",
+          "title": "ALGEBRAIC NUMBER THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4045",
+          "title": "ALGEBRAIC CURVES",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4053",
+          "title": "INTRO TO ALGEBRAIC TOPOLOGY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4061",
+          "title": "INTRO MODERN ANALYSIS I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4062",
+          "title": "INTRO MODERN ANALYSIS II",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4081",
+          "title": "INTRO-DIFFERENTIABLE MANIFOLDS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4155",
+          "title": "PROBABILITY THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5010",
+          "title": "INTRO TO THE MATH OF FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5030",
+          "title": "NUMERICAL METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5051",
+          "title": "MATH FINANCE PRACTITIONERS SEMINAR II",
+          "credits": 1.5
+        },
+        {
+          "code": "MATH GR5260",
+          "title": "PROG FOR QUANT & COMP FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5320",
+          "title": "FINANCIAL RISK MGMT & REGULATION",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5360",
+          "title": "MATH MTHDS-FIN PRICE ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5380",
+          "title": "MULTI-ASSET PORTFOLIO MGMT",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5430",
+          "title": "Machine Learning for Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5450",
+          "title": "Credit Analytics",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5470",
+          "title": "A MATHEMATICAL APPROACH TO GENERATIVE AI",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5490",
+          "title": "Algorithmic Trading with Market Simulato",
+          "credits": 1.5
+        },
+        {
+          "code": "MATH GR5510",
+          "title": "MAFN FIELDWORK",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH GR5520",
+          "title": "Career Development for Quantitative Fina",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH GR6000",
+          "title": "THE TEACHING OF MATHEMATICS",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH GR6152",
+          "title": "ANALYSIS II",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6153",
+          "title": "PROBABILITY II",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6176",
+          "title": "COMPLEX ANALYSIS/RIEMANN SURF",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6262",
+          "title": "ARITH & ALGEBRAIC GEOMETRY",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6308",
+          "title": "ALGEBRAIC TOPOLOGY II",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6344",
+          "title": "LIE GROUPS & REPRESENTATIONS",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6403",
+          "title": "MODERN GEOMETRY",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR6657",
+          "title": "ALGEBRAIC NUMBER THEORY",
+          "credits": 4.5
+        },
+        {
+          "code": "MATH GR8209",
+          "title": "TOPICS IN GEOMETRIC ANALYSIS",
+          "credits": 4.5
+        }
+      ],
+      "error": null
+    },
+    "STAT": {
+      "courses": [
+        {
+          "code": "STAT UN1001",
+          "title": "INTRO TO STATISTICAL REASONING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN1101",
+          "title": "INTRODUCTION TO STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN1102",
+          "title": "Intro to Statistics Recitation",
+          "credits": 0.0
+        },
+        {
+          "code": "STAT UN1201",
+          "title": "CALC-BASED INTRO TO STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN2102",
+          "title": "Applied Statistical Computing",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN2103",
+          "title": "APPLIED LINEAR REG ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN2104",
+          "title": "APPL CATEGORICAL DATA ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN2109",
+          "title": "Statistical Consulting Practicum for Und",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3106",
+          "title": "APPLIED MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3107",
+          "title": "Undergraduate Mentored Research",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3293",
+          "title": "Topics in Modern Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3702",
+          "title": "Exploratory Data Analysis & Visualizatio",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4001",
+          "title": "INTRODUCTION TO PROBABILITY AND STATISTI",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4203",
+          "title": "PROBABILITY THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4204",
+          "title": "STATISTICAL INFERENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4205",
+          "title": "LINEAR REGRESSION MODELS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4206",
+          "title": "STAT COMP & INTRO DATA SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4207",
+          "title": "ELEMENTARY STOCHASTIC PROCESS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4221",
+          "title": "TIME SERIES ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4222",
+          "title": "NONPARAMETRIC STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4224",
+          "title": "BAYESIAN STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4231",
+          "title": "SURVIVAL ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4234",
+          "title": "SAMPLE SURVEYS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4241",
+          "title": "STATISTICAL MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4243",
+          "title": "ADVANCED DATA SCIENCE AND ARTIFICIAL INT",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4261",
+          "title": "STATISTICAL METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4264",
+          "title": "STOCHASTC PROCSSES-APPLICTNS I",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4265",
+          "title": "STOCHASTIC METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4291",
+          "title": "ADVANCED DATA ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4541",
+          "title": "Honors Statistical Machine Learning",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5203",
+          "title": "PROBABILITY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5204",
+          "title": "STATISTICAL INFERENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5205",
+          "title": "LINEAR REGRESSION MODELS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5206",
+          "title": "STAT COMP & INTRO DATA SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5207",
+          "title": "ELEMENTARY STOCHASTIC PROCESSE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5221",
+          "title": "TIME SERIES ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5222",
+          "title": "NONPARAMETRIC STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5224",
+          "title": "BAYESIAN STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5231",
+          "title": "SURVIVAL ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5234",
+          "title": "SAMPLE SURVEYS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5241",
+          "title": "STATISTICAL MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5243",
+          "title": "ADVANCED DATA SCIENCE AND ARTIFICIAL INT",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5261",
+          "title": "STATISTICAL METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5264",
+          "title": "STOCHASTC PROCSSES-APPLICTNS I",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5265",
+          "title": "STOCHASTIC METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5291",
+          "title": "ADVANCED DATA ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5293",
+          "title": "TOPICS IN MODERN STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5398",
+          "title": "MA Mentored Research",
+          "credits": 0.0
+        },
+        {
+          "code": "STAT GR5399",
+          "title": "Statistical Fieldwork",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT GR5700",
+          "title": "Statistics - Graduate Recitation",
+          "credits": 0.0
+        },
+        {
+          "code": "STAT GR5703",
+          "title": "STAT INFERENCE & MODELING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5999",
+          "title": "MA Research Specialization in Statistics",
+          "credits": 6.0
+        },
+        {
+          "code": "STAT GR6102",
+          "title": "APPLIED STATISTICS II",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT GR6104",
+          "title": "COMPUTATIONAL STATISTICS",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT GR6105",
+          "title": "Statistical Consulting",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR6202",
+          "title": "STATISTICL INFERENCE THEORY II",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT GR6302",
+          "title": "PROBABILITY THEORY II",
+          "credits": 4.0
+        },
+        {
+          "code": "STAT GR8001",
+          "title": "Graduate Independent Research",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR8101",
+          "title": "TOPICS IN APPLIED STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR8201",
+          "title": "Theoretical Statistics",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR8301",
+          "title": "TOPICS IN PROBABILITY THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR9201",
+          "title": "SEM-THEORETICAL STATISTIC",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR9301",
+          "title": "SEMINAR PROBABILITY THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR9302",
+          "title": "SEMINAR IN APPLIED PROB & RISK",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT GR9303",
+          "title": "SEM IN MATHEMATICAL FINANCE",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "IEOR": {
+      "courses": [
+        {
+          "code": "IEOR E1000",
+          "title": "Frontiers in Operations Research and Dat",
+          "credits": 1.0
+        },
+        {
+          "code": "IEOR E2000",
+          "title": "Data Engineering with Python",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E3402",
+          "title": "PRODUCTN-INVENTORY PLAN-CONTRL",
+          "credits": 4.0
+        },
+        {
+          "code": "IEOR E3404",
+          "title": "SIMULATION MODELING AND ANALYSIS",
+          "credits": 4.0
+        },
+        {
+          "code": "IEOR E3609",
+          "title": "ADVANCED OPTIMIZATION",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E3658",
+          "title": "PROBABILITY FOR ENGINEERS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E3700",
+          "title": "Research Immersion in OR and Data Analyt",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E3900",
+          "title": "UNDERGRAD RESEARCH OR PROJECT",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E3999",
+          "title": "FIELDWORK",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4004",
+          "title": "OPTIMIZATION MODELS AND METHODS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4010",
+          "title": "Artificial Intelligence for OR and FE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4102",
+          "title": "STOCHASTIC MODELING FOR MSE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4106",
+          "title": "STOCHASTIC MODELS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4108",
+          "title": "SUPPLY CHAIN ANALYTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4111",
+          "title": "OPERATIONS CONSULTING",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4150",
+          "title": "INTRO-PROBABILITY & STATISTICS",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4199",
+          "title": "MSIEOR Quantitative Bootcamp",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4402",
+          "title": "Corporate Finance, Accounting & Investme",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4404",
+          "title": "SIMULATION",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4405",
+          "title": "PRODUCTION SCHEDULING",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4505",
+          "title": "OPERATION RES IN PUBLIC POLICY",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4510",
+          "title": "PROJECT MANAGEMENT",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4511",
+          "title": "Industry Projects in Analytics & Operati",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4523",
+          "title": "Data Analytics and Machine Learning",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4524",
+          "title": "ANALYTICS IN PRACTICE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4525",
+          "title": "MACHINE LEARNING FE & OPR",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4532",
+          "title": "Visualization and Storytelling with Data",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4533",
+          "title": "Performance, Objectives, & Results Using",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4534",
+          "title": "Applied Analytics: from Data to Decision",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4540",
+          "title": "DATA MINING",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4570",
+          "title": "TOPICS IN OPERATIONS RESEARCH",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4571",
+          "title": "TOPICS IN OPERATIONS RESEARCH",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4573",
+          "title": "TOPICS IN OR",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4574",
+          "title": "TOPICS IN OR",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4575",
+          "title": "TOPICS IN OPERATIONS RESEARCH",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4576",
+          "title": "TOPICS IN OPERATIONS RESEARCH",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4577",
+          "title": "TOPICS IN OPERATIONS RESEARCH",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4578",
+          "title": "TOPICS IN OPERATION RESEARCH",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4579",
+          "title": "TOPICS IN OR",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4598",
+          "title": "Business Analytics Practitioners Seminar",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4601",
+          "title": "DYNAMIC PRICING/REVENUE MGMT",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4630",
+          "title": "ASSET ALLOCATION",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4650",
+          "title": "BUSINESS ANALYTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4700",
+          "title": "INTRO TO FINANCIAL ENGINEERING",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4703",
+          "title": "MONTE CARLO SIMULATION METHODS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4704",
+          "title": "Foundations of Financial Technology",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4707",
+          "title": "FE CONTINUOUS TIME MODELS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4709",
+          "title": "STATISTICAL ANALYSIS AND TIME SERIES",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4718",
+          "title": "INTRO-IMPLIED VOLATILITY SMILE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4721",
+          "title": "TOPICS IN QUANT FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4728",
+          "title": "TOPICS IN QUANTITATIVE FINANCE",
+          "credits": 1.5
+        },
+        {
+          "code": "IEOR E4732",
+          "title": "COMPUT METHODS IN FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4733",
+          "title": "ALGORITHMIC TRADING",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4737",
+          "title": "AI Applications in Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4798",
+          "title": "Financial Engineering Practitioners Semi",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4900",
+          "title": "MASTERS RESEARCH OR PROJECT",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4998",
+          "title": "MANAG TECH INNOV & ENTREPRENEURSHIP",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4999",
+          "title": "FIELDWORK",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E6614",
+          "title": "OPTIMIZATION II",
+          "credits": 4.5
+        },
+        {
+          "code": "IEOR E6712",
+          "title": "STOCHASTIC MODELING II",
+          "credits": 4.5
+        },
+        {
+          "code": "IEOR E8100",
+          "title": "ADVANCED TOPICS IN IEOR",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E9101",
+          "title": "RESEARCH",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    }
+  }
+}

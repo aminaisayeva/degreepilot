@@ -1,0 +1,28 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/core-curriculum/contemporary-civilization/",
+  "scraped_at": "2026-07-04T14:14:08Z",
+  "courses": [
+    {
+      "code": "COCI CC1101",
+      "subject": "COCI",
+      "number": "CC1101",
+      "title": "Contemp Western Civilization I",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Taught by members of the Departments of Anthropology, Classics, English and Comparative Literature, French, German, History, Latin American and Iberian Cultures, Middle Eastern, South Asian, and African Studies, Philosophy, Political Science, Religion, Slavic Languages, and Sociology; and members of the Society of Fellows. A study in their historical context of major contributions to the intellectual traditions that underpin contemporary civilization. Emphasis is on the history of political, social, and philosophical thought. Students are expected to write at least three papers to complete two examinations, and to participate actively in class discussions",
+      "prereq_text": ""
+    },
+    {
+      "code": "COCI CC1102",
+      "subject": "COCI",
+      "number": "CC1102",
+      "title": "Contemp Westrn Civilization II",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Taught by members of the Departments of Anthropology, Classics, English and Comparative Literature, French, German, History, Middle East and Asian Languages and Cultures, Philosophy, Political Science, Religion, Slavic Languages, and Sociology; and members of the Society of Fellows. A study in their historical context of major contributions to the intellectual traditions that underpin contemporary civilization. Emphasis is on the history of political, social, and philosophical thought. Students are expected to write at least three papers to complete two examinations, and to participate actively in class discussions",
+      "prereq_text": ""
+    }
+  ],
+  "courselists": [],
+  "error": null
+}
