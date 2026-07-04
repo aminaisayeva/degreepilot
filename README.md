@@ -137,7 +137,8 @@ app/seed/expand.py         "_dynamic" requirements (e.g. any COMS 3000+) +
                            hard validation: every requirement course must exist
         │
         ▼
-seed_all()                 ~1,077 courses + 34 requirements across 4 programs
+seed_all()                 ~1,077 courses + 35 requirements across 4 programs
+                           (incl. the CC Science A/B/C three-course structure)
 ```
 
 - Refresh the snapshots any time with

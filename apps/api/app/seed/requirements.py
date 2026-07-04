@@ -33,11 +33,12 @@ CC_CORE_REQS: list[dict] = [
         "display_order": 10,
     },
     {
-        "name": "Frontiers of Science",
+        "name": "Science A: Frontiers of Science",
         "type": RequirementType.ALL_OF,
         "courses": ["SCNC CC1000"],
         "credits_required": 3,
         "display_order": 20,
+        "notes": "Science A of the three-course science requirement. Required in the first year.",
     },
     {
         "name": "Literature Humanities (year-long)",
@@ -77,17 +78,30 @@ CC_CORE_REQS: list[dict] = [
         "display_order": 70,
         "notes": "Completion at the Intermediate II level in a single approved language, or exemption.",
     },
+    # The science requirement is three courses across Science A/B/C.
+    # A = Frontiers (above); B and C expand at seed time from the approved
+    # lists scraped from the bulletin's science-requirement page. The lists
+    # overlap by design; B and C must be satisfied by two DISTINCT courses.
     {
-        "name": "Science Requirement (2 beyond Frontiers)",
+        "name": "Science B (pick 1)",
         "type": RequirementType.N_OF,
-        # Expanded at seed time to the full approved list scraped from the
-        # bulletin's science-requirement page (category: core_science).
         "courses": ["BIOL UN2005", "CHEM UN1403", "PHYS UN1401", "ASTR UN1403"],
-        "_dynamic": "core_science",
-        "count_required": 2,
-        "credits_required": 6,
+        "_dynamic": "core_science_b",
+        "count_required": 1,
+        "credits_required": 3,
         "display_order": 80,
-        "notes": "Two approved science courses in addition to Frontiers of Science.",
+        "notes": "One course from the Science B approved list (seven science departments).",
+    },
+    {
+        "name": "Science C (pick 1 more)",
+        "type": RequirementType.N_OF,
+        "courses": ["BIOL UN2005", "CHEM UN1403", "PHYS UN1401", "ASTR UN1403"],
+        "_dynamic": "core_science_c",
+        "count_required": 1,
+        "credits_required": 3,
+        "display_order": 85,
+        "notes": "One additional course from the broader Science C approved list — "
+                 "must be a second, distinct course from the one used for Science B.",
     },
     {
         "name": "Global Core (pick 2)",

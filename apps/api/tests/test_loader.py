@@ -82,9 +82,16 @@ def _synth_snapshots(tmp_path: Path) -> Path:
         "error": None,
         "courses": [],
         "courselists": [
-            {"header": "Astronomy", "section": "", "codes": ["ASTR UN1403", "EESC UN2100"],
+            {"header": "Astronomy", "section": "Science B",
+             "codes": ["ASTR UN1403", "EESC UN2100"],
              "titles": {"ASTR UN1403": "EARTH, MOON, AND PLANETS (*)",
                         "EESC UN2100": "EARTH'S ENVIRONMENTAL SYSTEMS"}},
+            {"header": "Astronomy", "section": "Science C",
+             "codes": ["EESC UN2100"],
+             "titles": {"EESC UN2100": "EARTH'S ENVIRONMENTAL SYSTEMS"}},
+            {"header": "Computer Science", "section": "Science C",
+             "codes": ["COMS W1002"],
+             "titles": {"COMS W1002": "COMPUTING IN CONTEXT"}},
         ],
     })
     return data
@@ -109,6 +116,22 @@ def test_approved_science_list_gets_category_even_for_curated(tmp_path):
     assert "core_science" in by_code["ASTR UN1403"]["categories"]
     # marker suffix "(*)" is stripped from synthesized titles
     assert by_code["EESC UN2100"]["title"] == "Earth's Environmental Systems"
+
+
+def test_science_sections_map_to_a_b_c_categories(tmp_path):
+    courses, _ = build_catalog(data_dir=_synth_snapshots(tmp_path))
+    by_code = {c["code"]: c for c in courses}
+    # Science B only
+    assert "core_science_b" in by_code["ASTR UN1403"]["categories"]
+    assert "core_science_c" not in by_code["ASTR UN1403"]["categories"]
+    # On both lists → both categories
+    assert "core_science_b" in by_code["EESC UN2100"]["categories"]
+    assert "core_science_c" in by_code["EESC UN2100"]["categories"]
+    # Science C only (CS course counting toward Science C)
+    assert "core_science_c" in by_code["COMS W1002"]["categories"]
+    assert "core_science_b" not in by_code["COMS W1002"]["categories"]
+    # Science A = Frontiers, tagged in the curated overlay
+    assert "core_science_a" in by_code["SCNC CC1000"]["categories"]
 
 
 def test_derived_categories():

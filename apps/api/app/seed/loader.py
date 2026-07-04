@@ -51,6 +51,12 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
 # prefix or None for all lists in the snapshot, category to apply or None).
 ADOPTED_LISTS: list[tuple[str, str | None, str | None]] = [
     ("cs", "Area Foundation", None),
+    # The CC science requirement is three courses across Science A/B/C.
+    # Science A is SCNC CC1000 (tagged core_science_a in the curated overlay);
+    # B and C are approved lists on the science-requirement page, captured as
+    # per-table sections. Lists overlap by design — a course can be B and C.
+    ("core_science", "Science B", "core_science_b"),
+    ("core_science", "Science C", "core_science_c"),
     ("core_science", None, "core_science"),
     ("core_globalcore", None, "core_global"),
 ]
