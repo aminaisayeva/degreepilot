@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DegreePilot — Catalog Accuracy</title>
+<style>
+  :root {
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --border: rgba(11,11,11,0.10);
+    --good: #0ca30c;
+    --good-text: #006300;
+    --bad: #d03b3b;
+    --neutral: #c3c2b7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --border: rgba(255,255,255,0.10);
+      --good: #0ca30c;
+      --good-text: #0ca30c;
+      --bad: #d03b3b;
+      --neutral: #383835;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page); color: var(--ink);
+    padding: 24px; max-width: 1200px; margin: 0 auto;
+  }
+  h1 { font-size: 20px; font-weight: 650; }
+  .sub { color: var(--ink-2); margin-top: 2px; font-size: 13px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 18px 0; }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px;
+  }
+  .tile .label { color: var(--ink-2); font-size: 12px; }
+  .tile .value { font-size: 26px; font-weight: 650; margin-top: 2px; }
+  .tile .value.good { color: var(--good-text); }
+  .tile .value.bad { color: var(--bad); }
+  .programs { display: grid; gap: 10px; margin-bottom: 18px; }
+  .prog-row { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; }
+  .prog-row .top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .prog-row .name { font-weight: 600; }
+  .prog-row .counts { color: var(--ink-2); font-size: 12px; }
+  .bar { display: flex; height: 12px; border-radius: 4px; overflow: hidden; margin-top: 8px; background: var(--neutral); }
+  .bar span { display: block; height: 100%; }
+  .bar .v { background: var(--good); }
+  .bar .i { background: var(--bad); }
+  .bar span + span { border-left: 2px solid var(--surface-1); } /* 2px spacer between fills */
+  .controls {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    position: sticky; top: 0; background: var(--page); padding: 10px 0; z-index: 5;
+    border-bottom: 1px solid var(--grid); margin-bottom: 14px;
+  }
+  select, input[type="search"] {
+    font: inherit; color: var(--ink); background: var(--surface-1);
+    border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px;
+  }
+  input[type="search"] { flex: 1; min-width: 220px; }
+  details.program { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; }
+  details.program > summary {
+    cursor: pointer; padding: 12px 14px; font-weight: 650; font-size: 15px;
+    display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap;
+  }
+  details.program > summary .mini { color: var(--ink-2); font-weight: 400; font-size: 12px; }
+  .req { border-top: 1px solid var(--grid); padding: 10px 14px; }
+  .req-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .req-head .rname { font-weight: 600; }
+  .badge {
+    font-size: 11px; color: var(--ink-2); border: 1px solid var(--border);
+    border-radius: 999px; padding: 1px 8px; white-space: nowrap;
+  }
+  .req-notes { color: var(--muted); font-size: 12px; margin: 2px 0 6px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+  th { text-align: left; color: var(--muted); font-size: 11px; font-weight: 500; padding: 4px 8px; border-bottom: 1px solid var(--grid); }
+  td { padding: 6px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; font-size: 13px; }
+  tr:last-child td { border-bottom: none; }
+  .code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; white-space: nowrap; }
+  .title-cell .prereq-cnf { color: var(--ink-2); font-size: 12px; margin-top: 1px; }
+  .title-cell .bulletin-prereq { color: var(--muted); font-size: 11px; margin-top: 1px; font-style: italic; }
+  .origin { font-size: 11px; color: var(--ink-2); }
+  .links a { color: inherit; font-size: 12px; text-decoration: underline; text-decoration-color: var(--muted); white-space: nowrap; }
+  .links a + a { margin-left: 8px; }
+  .status { font-size: 12px; white-space: nowrap; }
+  .status.verified { color: var(--good-text); }
+  .status.incorrect { color: var(--bad); }
+  .status.unchecked { color: var(--muted); }
+  .actions { white-space: nowrap; }
+  .actions button {
+    font: inherit; font-size: 12px; cursor: pointer; border-radius: 7px;
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--ink);
+    padding: 3px 8px; margin-left: 4px;
+  }
+  .actions button:hover { border-color: var(--muted); }
+  .actions button.on-v { background: var(--good); color: #fff; border-color: transparent; }
+  .actions button.on-i { background: var(--bad); color: #fff; border-color: transparent; }
+  .notes-input {
+    font: inherit; font-size: 12px; width: 130px; color: var(--ink);
+    background: transparent; border: none; border-bottom: 1px dashed var(--grid);
+    padding: 2px 0; margin-left: 6px;
+  }
+  .notes-input:focus { outline: none; border-bottom-color: var(--muted); }
+  .missing { color: var(--bad); font-size: 12px; }
+  #toast {
+    position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
+    background: var(--bad); color: #fff; padding: 8px 14px; border-radius: 8px;
+    font-size: 13px; display: none; z-index: 10;
+  }
+  .empty { color: var(--muted); padding: 24px; text-align: center; }
+</style>
+</head>
+<body>
+<h1>DegreePilot — Catalog Accuracy</h1>
+<div class="sub" id="meta">Loading…</div>
+
+<div class="tiles" id="tiles"></div>
+<div class="programs" id="programBars"></div>
+
+<div class="controls">
+  <select id="fProgram"><option value="">All programs</option></select>
+  <select id="fStatus">
+    <option value="">All statuses</option>
+    <option value="unchecked">Unchecked</option>
+    <option value="verified">Verified</option>
+    <option value="incorrect">Incorrect</option>
+  </select>
+  <input type="search" id="fSearch" placeholder="Search code or title…">
+</div>
+
+<div id="list"></div>
+<div id="toast"></div>
+
+<script>
+"use strict";
+let DATA = null;
+const $ = (id) => document.getElementById(id);
+
+async function load() {
+  const res = await fetch("/admin/accuracy/data");
+  if (!res.ok) { toast(`Failed to load data: ${res.status}`); return; }
+  DATA = await res.json();
+  initFilters();
+  render();
+}
+
+function initFilters() {
+  const sel = $("fProgram");
+  sel.length = 1;
+  for (const p of DATA.programs) {
+    const o = document.createElement("option");
+    o.value = p.slug; o.textContent = p.label;
+    sel.appendChild(o);
+  }
+  for (const id of ["fProgram", "fStatus"]) $(id).onchange = render;
+  $("fSearch").oninput = debounce(render, 150);
+}
+
+function statusOf(item) { return item.check ? item.check.status : "unchecked"; }
+
+function counts() {
+  let total = 0, verified = 0, incorrect = 0;
+  for (const s of Object.values(DATA.summary)) {
+    total += s.total; verified += s.verified; incorrect += s.incorrect;
+  }
+  return { total, verified, incorrect, unchecked: total - verified - incorrect };
+}
+
+function render() {
+  const meta = $("meta");
+  meta.textContent = `Snapshot data + ${DATA.catalog_size} catalog courses · generated ${DATA.generated_at}`;
+  const c = counts();
+  $("tiles").innerHTML = `
+    ${tile("Tracked items", c.total, "")}
+    ${tile("Verified ✓", `${c.verified} (${pct(c.verified, c.total)})`, "good")}
+    ${tile("Flagged incorrect ✗", c.incorrect, c.incorrect ? "bad" : "")}
+    ${tile("Unchecked", c.unchecked, "")}
+  `;
+  $("programBars").innerHTML = DATA.programs.map(p => {
+    const s = DATA.summary[p.slug];
+    const u = s.total - s.verified - s.incorrect;
+    return `<div class="prog-row">
+      <div class="top">
+        <span class="name">${esc(p.label)}</span>
+        <span class="counts">✓ ${s.verified} verified · ✗ ${s.incorrect} incorrect · ${u} unchecked of ${s.total}</span>
+      </div>
+      <div class="bar" role="img" aria-label="${esc(p.label)}: ${s.verified} verified, ${s.incorrect} incorrect, ${u} unchecked">
+        ${s.verified ? `<span class="v" style="width:${100 * s.verified / s.total}%"></span>` : ""}
+        ${s.incorrect ? `<span class="i" style="width:${100 * s.incorrect / s.total}%"></span>` : ""}
+      </div>
+    </div>`;
+  }).join("");
+
+  const fp = $("fProgram").value, fs = $("fStatus").value,
+        q = $("fSearch").value.trim().toLowerCase();
+  const blocks = [];
+  for (const p of DATA.programs) {
+    if (fp && p.slug !== fp) continue;
+    const reqBlocks = [];
+    for (const r of p.requirements) {
+      const reqMatches = (!fs || statusOf(r) === fs) &&
+        (!q || r.name.toLowerCase().includes(q));
+      const rows = r.courses.filter(cr =>
+        (!fs || statusOf(cr) === fs) &&
+        (!q || cr.code.toLowerCase().includes(q) || (cr.title || "").toLowerCase().includes(q))
+      );
+      if (!rows.length && !reqMatches) continue;
+      reqBlocks.push(reqBlock(r, rows));
+    }
+    if (!reqBlocks.length) continue;
+    const s = DATA.summary[p.slug];
+    blocks.push(`<details class="program" open>
+      <summary><span>${esc(p.label)}</span>
+        <span class="mini">${p.requirements.length} requirements · ${s.total} tracked items</span>
+      </summary>
+      ${reqBlocks.join("")}
+    </details>`);
+  }
+  $("list").innerHTML = blocks.join("") || `<div class="empty">Nothing matches the current filters.</div>`;
+}
+
+function reqBlock(r, rows) {
+  const st = statusOf(r);
+  return `<div class="req">
+    <div class="req-head">
+      <span class="rname">${esc(r.name)}</span>
+      <span class="badge">${esc(r.type)}</span>
+      ${r.count_required ? `<span class="badge">pick ${r.count_required}</span>` : ""}
+      ${r.credits_required ? `<span class="badge">${r.credits_required} pts</span>` : ""}
+      <span class="status ${st}">${statusLabel(st)}</span>
+      ${actions("requirement", r.entity_key, st, r.check)}
+    </div>
+    ${r.notes ? `<div class="req-notes">${esc(r.notes)}</div>` : ""}
+    ${rows.length ? courseTable(rows) : ""}
+  </div>`;
+}
+
+function courseTable(rows) {
+  return `<table>
+    <thead><tr><th>Code</th><th>Title / prereqs</th><th>Pts</th><th>Terms</th><th>Origin</th><th>Source</th><th>Status</th><th></th></tr></thead>
+    <tbody>${rows.map(courseRow).join("")}</tbody></table>`;
+}
+
+function courseRow(c) {
+  const st = statusOf(c);
+  const cnf = (c.prerequisites || [])
+    .map(g => g.length > 1 ? `(${g.join(" OR ")})` : g[0]).join(" AND ");
+  return `<tr>
+    <td class="code">${esc(c.code)}</td>
+    <td class="title-cell">
+      ${c.in_catalog ? esc(c.title || "") : `<span class="missing">not in catalog</span>`}
+      ${cnf ? `<div class="prereq-cnf">Prereqs: ${esc(cnf)}</div>` : ""}
+      ${c.bulletin_prereq_text ? `<div class="bulletin-prereq">Bulletin: ${esc(c.bulletin_prereq_text)}</div>` : ""}
+    </td>
+    <td>${c.credits ?? ""}</td>
+    <td>${(c.offered_terms || []).join(", ")}</td>
+    <td class="origin">${esc(c.origin)}</td>
+    <td class="links">
+      ${c.source_url ? `<a href="${esc(c.source_url)}" target="_blank" rel="noopener">Bulletin ↗</a>` : ""}
+      <a href="${esc(c.directory_url)}" target="_blank" rel="noopener">Directory ↗</a>
+    </td>
+    <td><span class="status ${st}">${statusLabel(st)}</span></td>
+    <td class="actions">${actions("course", c.code, st, c.check)}</td>
+  </tr>`;
+}
+
+function statusLabel(st) {
+  return st === "verified" ? "✓ verified" : st === "incorrect" ? "✗ incorrect" : "· unchecked";
+}
+
+function actions(type, key, st, check) {
+  const notes = check && check.notes ? check.notes : "";
+  const k = esc(key);
+  return `<button class="${st === "verified" ? "on-v" : ""}"
+      onclick="setCheck('${type}','${jsq(key)}','verified',this)">✓</button>
+    <button class="${st === "incorrect" ? "on-i" : ""}"
+      onclick="setCheck('${type}','${jsq(key)}','incorrect',this)">✗</button>
+    <button onclick="setCheck('${type}','${jsq(key)}','unchecked',this)">reset</button>
+    <input class="notes-input" placeholder="notes" value="${esc(notes)}"
+      data-type="${type}" data-key="${k}"
+      onchange="saveNotes(this)">`;
+}
+
+async function setCheck(entityType, key, status, el, notes) {
+  if (notes === undefined) {
+    const input = el && el.parentElement ? el.parentElement.querySelector(".notes-input") : null;
+    notes = input ? input.value : "";
+  }
+  const res = await fetch("/admin/accuracy/check", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ entity_type: entityType, entity_key: key, status, notes }),
+  });
+  if (!res.ok) {
+    let detail = res.statusText;
+    try { detail = (await res.json()).detail || detail; } catch {}
+    toast(`Save failed: ${detail}`);
+    return;
+  }
+  patchLocal(entityType, key, status, notes);
+  render();
+}
+
+function saveNotes(input) {
+  const type = input.dataset.type, key = input.dataset.key;
+  const item = findItem(type, key);
+  const st = item && item.check ? item.check.status : null;
+  if (!st) return; // notes only persist alongside a verified/incorrect mark
+  setCheck(type, key, st, null, input.value);
+}
+
+function findItem(type, key) {
+  for (const p of DATA.programs) {
+    for (const r of p.requirements) {
+      if (type === "requirement" && r.entity_key === key) return r;
+      if (type === "course") {
+        const hit = r.courses.find(c => c.code === key);
+        if (hit) return hit;
+      }
+    }
+  }
+  return null;
+}
+
+function patchLocal(type, key, status, notes) {
+  const now = new Date().toISOString();
+  for (const p of DATA.programs) {
+    let dv = 0, di = 0;
+    for (const r of p.requirements) {
+      const items = type === "requirement"
+        ? (r.entity_key === key ? [r] : [])
+        : r.courses.filter(c => c.code === key);
+      for (const it of items) {
+        const prev = it.check ? it.check.status : "unchecked";
+        it.check = status === "unchecked" ? null : { status, notes, checked_at: now };
+        if (prev === "verified") dv -= 1;
+        if (prev === "incorrect") di -= 1;
+        if (status === "verified") dv += 1;
+        if (status === "incorrect") di += 1;
+      }
+    }
+    DATA.summary[p.slug].verified += dv;
+    DATA.summary[p.slug].incorrect += di;
+  }
+}
+
+function tile(label, value, cls) {
+  return `<div class="tile"><div class="label">${label}</div>
+    <div class="value ${cls}">${value}</div></div>`;
+}
+function pct(n, d) { return d ? `${Math.round(100 * n / d)}%` : "0%"; }
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g,
+    ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+}
+function jsq(s) { return String(s).replace(/\\/g, "\\\\").replace(/'/g, "\\'"); }
+function toast(msg) {
+  const t = $("toast");
+  t.textContent = msg; t.style.display = "block";
+  clearTimeout(t._h); t._h = setTimeout(() => { t.style.display = "none"; }, 4000);
+}
+function debounce(fn, ms) {
+  let h; return (...a) => { clearTimeout(h); h = setTimeout(() => fn(...a), ms); };
+}
+load();
+</script>
+</body>
+</html>

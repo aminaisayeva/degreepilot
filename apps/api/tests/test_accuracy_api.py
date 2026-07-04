@@ -89,6 +89,13 @@ def test_requirement_check_roundtrip(client):
     assert ds["check"]["status"] == "verified"
 
 
+def test_accuracy_page_served(client):
+    r = client.get("/admin/accuracy")
+    assert r.status_code == 200
+    assert r.headers["content-type"].startswith("text/html")
+    assert "DegreePilot" in r.text and "accuracy" in r.text.lower()
+
+
 def test_check_validation(client):
     r = client.post("/admin/accuracy/check", json={
         "entity_type": "course", "entity_key": "FAKE X0000", "status": "verified"})

@@ -1,6 +1,8 @@
 from datetime import datetime
+from pathlib import Path
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 from sqlmodel import Session, select
 
@@ -56,6 +58,14 @@ def sync_status(
         session.exec(select(DirectorySync).order_by(DirectorySync.fetched_at.desc())).all()
     )
     return [_dump(r) for r in rows[:limit]]
+
+
+_STATIC = Path(__file__).resolve().parents[2] / "static"
+
+
+@router.get("/accuracy", response_class=HTMLResponse)
+def accuracy_page() -> HTMLResponse:
+    return HTMLResponse((_STATIC / "accuracy.html").read_text())
 
 
 class CheckIn(BaseModel):
