@@ -174,6 +174,7 @@ def _thesis_cards(breadth: list[dict], track: dict | None) -> list[dict]:
     thesis_note = (sections.get("2", {}).get("rule_text") or "")[:400]
     secondary_note = (sections.get("3", {}).get("rule_text") or "")[:400]
     defense_note = (sections.get("5", {}).get("rule_text") or "")[:400]
+    defense = defense_note or "Thesis proposal + committee defense per department policy."
     return [
         *[dict(r) for r in breadth],
         {
@@ -182,7 +183,9 @@ def _thesis_cards(breadth: list[dict], track: dict | None) -> list[dict]:
             "courses": ["COMS E6902"],
             "credits_required": 9,
             "display_order": 40,
-            "notes": ("By faculty invite only. " + thesis_note).strip(),
+            # The defense is an administrative milestone, not a course — the
+            # engine can't check it, so it rides along as notes.
+            "notes": ("By faculty invite only. " + thesis_note + " Defense: " + defense).strip(),
         },
         {
             "name": "Secondary: Graduate Electives (9 points)",
@@ -192,14 +195,6 @@ def _thesis_cards(breadth: list[dict], track: dict | None) -> list[dict]:
             "credits_required": 9,
             "display_order": 50,
             "notes": secondary_note,
-        },
-        {
-            "name": "Thesis Defense",
-            "type": RequirementType.ALL_OF,
-            "courses": [],
-            "credits_required": 0,
-            "display_order": 60,
-            "notes": defense_note or "Thesis proposal + committee defense per department policy.",
         },
         _total_card(""),
     ]

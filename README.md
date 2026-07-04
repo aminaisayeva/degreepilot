@@ -16,7 +16,13 @@ The MVP covers two Columbia programs with curated sample data:
   with an optional Economics concentration.
 - **MS in Computer Science** (SEAS) — 30-point graduate program with breadth
   areas, track depth, and graduate electives. Undergraduate prerequisites are
-  treated as satisfied (a CS bachelor's is assumed for admission).
+  treated as satisfied (a CS bachelor's is assumed for admission). All ten
+  official pathways are modeled as their own programs (Machine Learning, NLP,
+  Computer Security, Software Systems, Network Systems, Computational
+  Biology, Foundations of CS, Vision/Graphics/Interaction/Robotics, plus the
+  invite-only Personalized and Thesis pathways), each with its scraped
+  fundamental/secondary course lists and the department's research-credit
+  rules.
 
 ```
                     ┌──────────────────────────────────────────────────────┐
@@ -137,8 +143,11 @@ app/seed/expand.py         "_dynamic" requirements (e.g. any COMS 3000+) +
                            hard validation: every requirement course must exist
         │
         ▼
-seed_all()                 ~1,077 courses + 35 requirements across 4 programs
-                           (incl. the CC Science A/B/C three-course structure)
+seed_all()                 ~1,193 courses + 96 requirements across 14 programs
+                           (CC Science A/B/C structure; 10 MS pathway programs
+                           scraped from cs.columbia.edu with research-credit
+                           policy — max 12 research points, ≤3 of E6901,
+                           thesis pathway = 9 points of E6902)
 ```
 
 - Refresh the snapshots any time with

@@ -19,8 +19,23 @@ export type DegreeType = "undergrad" | "ms";
 const UNDERGRAD_PROGRAMS = ["columbia_cc_core", "columbia_cs_major"];
 const MS_PROGRAMS = ["columbia_ms_cs"];
 
+// MS pathway programs (cs.columbia.edu). "General" = no pathway chosen yet.
+const MS_PATHWAYS: { slug: string; label: string }[] = [
+  { slug: "columbia_ms_cs", label: "General (no pathway yet)" },
+  { slug: "columbia_ms_cs_ml", label: "Machine Learning" },
+  { slug: "columbia_ms_cs_nlp", label: "Natural Language Processing" },
+  { slug: "columbia_ms_cs_security", label: "Computer Security" },
+  { slug: "columbia_ms_cs_software", label: "Software Systems" },
+  { slug: "columbia_ms_cs_networks", label: "Network Systems" },
+  { slug: "columbia_ms_cs_compbio", label: "Computational Biology" },
+  { slug: "columbia_ms_cs_foundations", label: "Foundations of Computer Science" },
+  { slug: "columbia_ms_cs_vgir", label: "Vision, Graphics, Interaction & Robotics" },
+  { slug: "columbia_ms_cs_personalized", label: "MS Personalized (faculty invite only)" },
+  { slug: "columbia_ms_cs_thesis", label: "MS Thesis (faculty invite only)" },
+];
+
 export function degreeOf(programs: string[]): DegreeType {
-  return programs.includes("columbia_ms_cs") ? "ms" : "undergrad";
+  return programs.some((p) => p.startsWith("columbia_ms")) ? "ms" : "undergrad";
 }
 
 const DEFAULT: StudentCreate = {
@@ -410,6 +425,24 @@ function BasicsStep({
         <Field label="Major">
           <input className="input" value={form.major} disabled />
         </Field>
+        {degree === "ms" && (
+          <Field
+            label="Pathway"
+            hint="Each pathway has its own fundamental and secondary course requirements."
+          >
+            <select
+              className="input"
+              value={form.programs.find((p) => p.startsWith("columbia_ms")) ?? "columbia_ms_cs"}
+              onChange={(e) => onChange({ ...form, programs: [e.target.value] })}
+            >
+              {MS_PATHWAYS.map((p) => (
+                <option key={p.slug} value={p.slug}>
+                  {p.label}
+                </option>
+              ))}
+            </select>
+          </Field>
+        )}
         {degree === "undergrad" && (
           <Field label="Minor (optional)">
             <select
