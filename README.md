@@ -107,7 +107,45 @@ POST /plans/generate     { student_id, strategies[] }   # balanced | career_opti
 POST /plans/validate     { student_id, plan }
 POST /plans/compare      { student_id, plans[] }
 POST /advisor/chat       { student_id, message, plan_id? }
+POST /advisor/v2/chat    { student_id, message, plan_id? }   # multi-agent trace
+POST /admin/sync?term=Fall2026[&subjects=…&wait=true]        # live directory refresh
+GET  /admin/sync/status
+GET  /admin/accuracy          # human verification dashboard (HTML)
+GET  /admin/accuracy/data
+POST /admin/accuracy/check    { entity_type, entity_key, status, notes }
 ```
+
+---
+
+## Catalog data pipeline
+
+The catalog is built from **committed scrape snapshots merged with a curated
+overlay** — no runtime scraping, and curated knowledge is never overwritten:
+
+```
+scripts/scrape_catalog.py  (one-shot, manual)
+  bulletin.columbia.edu   → titles, credits, descriptions, requirement lists
+  doc.sis.columbia.edu    → term offerings, credits
+        │
+        ▼
+app/seed/data/*.json       raw snapshots (source_url + scraped_at provenance)
+app/seed/overlays/*.py     curated CNF prereqs, categories, career tags, workload
+        │
+        ▼
+app/seed/loader.py         merge (curated wins) + derived elective categories
+app/seed/expand.py         "_dynamic" requirements (e.g. any COMS 3000+) +
+                           hard validation: every requirement course must exist
+        │
+        ▼
+seed_all()                 ~1,077 courses + 34 requirements across 4 programs
+```
+
+- Refresh the snapshots any time with
+  `python -m scripts.scrape_catalog` (from `apps/api`, venv active).
+- **Accuracy dashboard:** open `http://localhost:8000/admin/accuracy` to
+  verify every program → requirement → course against the official Bulletin
+  and Directory sources (links per row), mark rows verified/incorrect with
+  notes, and track per-program accuracy. Checks persist in the database.
 
 ---
 
@@ -159,9 +197,10 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-The app boots, creates a SQLite DB (`degreepilot.db`), seeds 73 courses +
-requirements across 4 programs (Core Curriculum, CS major, Econ concentration,
-MS in CS), and inserts two pre-built demo students.
+The app boots, creates a SQLite DB (`degreepilot.db`), seeds ~1,077 courses
+(scraped Columbia Bulletin + Directory snapshots merged with the curated
+overlay) + requirements across 4 programs (Core Curriculum, CS major, Econ
+concentration, MS in CS), and inserts two pre-built demo students.
 
 - API: http://localhost:8000
 - Docs (Swagger): http://localhost:8000/docs
@@ -197,9 +236,10 @@ cd apps/api
 pytest
 ```
 
-71 backend tests cover prereq graph, auditor, planner (3 strategies, both
+98 backend tests cover prereq graph, auditor, planner (3 strategies, both
 degree levels), validator (prereqs, credits, duplicates, term offerings),
-scorers, comparator, and advisor intents.
+scorers, comparator, advisor intents, the bulletin/directory parsers, the
+snapshot loader + dynamic requirement expansion, and the accuracy endpoints.
 
 The frontend type-checks with `npm run lint` and builds with `npm run build`.
 
@@ -246,7 +286,8 @@ The frontend type-checks with `npm run lint` and builds with `npm run build`.
 
 ## Roadmap
 
-- Real Columbia Bulletin import (one-shot offline crawl + curation step).
+- ~~Real Columbia Bulletin import (one-shot offline crawl + curation step).~~
+  ✅ Shipped — see *Catalog data pipeline* above.
 - Vector search over course descriptions for "courses like X" advisor intent.
 - Plug-in hosted LLM provider behind the existing `LLMProvider` interface
   for richer explanations while the validator stays authoritative.
