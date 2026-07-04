@@ -134,6 +134,38 @@ def test_science_sections_map_to_a_b_c_categories(tmp_path):
     assert "core_science_a" in by_code["SCNC CC1000"]["categories"]
 
 
+def test_pathway_listed_codes_synthesized(tmp_path):
+    data = _synth_snapshots(tmp_path)
+    _write(data, "ms_pathways.json", {
+        "scraped_at": "2026-07-04T00:00:00Z",
+        "pathways": {
+            "ml": {
+                "source_url": "https://cs.test/ms/ml", "title": "Machine Learning",
+                "error": None,
+                "sections": [{
+                    "heading": "2. Fundamental Courses", "rule_text": "…",
+                    "entries": [
+                        {"group": "A", "raw": "ELEN 4720",
+                         "codes": ["ELEN E4720"],
+                         "title": "Machine Learning for Signals, Information and Data"},
+                        {"group": "A", "raw": "COMS W4252",
+                         "codes": ["COMS W4252"], "title": "Intro to Computational Learning Theory"},
+                    ],
+                }],
+            },
+        },
+    })
+    courses, prov = build_catalog(data_dir=data)
+    by_code = {c["code"]: c for c in courses}
+    c = by_code["ELEN E4720"]
+    assert c["title"] == "Machine Learning for Signals, Information and Data"
+    assert c["department"] == "ELEN"
+    assert prov["ELEN E4720"]["origin"] == "pathway_list"
+    assert prov["ELEN E4720"]["source_url"] == "https://cs.test/ms/ml"
+    # curated code on a pathway list is untouched
+    assert prov["COMS W4252"]["origin"] == "curated"
+
+
 def test_derived_categories():
     assert "cs_elective_eligible" in derive_categories("COMS W4771", "COMS", 4771, 3)
     assert "ms_grad_eligible" in derive_categories("COMS W4771", "COMS", 4771, 3)

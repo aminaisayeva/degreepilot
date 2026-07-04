@@ -141,4 +141,48 @@ MS_COURSES: list[dict] = [
         "categories": ["grad_elective"],
         "career_tags": ["ai_ml", "research", "swe"],
     },
+    # ------------------------------------------------------------
+    # Research / project credit (cs.columbia.edu MS policy: max 12
+    # project/research points count toward the 30; ≤3 of E6901; the MS Thesis
+    # pathway requires 9 points of E6902, max 9).
+    # ------------------------------------------------------------
+    {
+        "code": "COMS E6900",
+        "title": "Tutorial in Computer Science",
+        "department": "COMS",
+        "credits": 3,
+        "description": "Faculty-supervised tutorial study. Can substitute for COMS E6901 with advisor approval.",
+        "workload_level": 3,
+        "offered_terms": ["Fall", "Spring"],
+        "prerequisites": [],
+        "categories": ["ms_research"],
+        "career_tags": ["research"],
+    },
+    {
+        "code": "COMS E6901",
+        "title": "Projects in Computer Science",
+        "department": "COMS",
+        "credits": 3,
+        "description": "Faculty-supervised research project. At most 3 project points may count toward the MS.",
+        "workload_level": 3,
+        "offered_terms": ["Fall", "Spring"],
+        "prerequisites": [],
+        "categories": ["ms_research"],
+        "career_tags": ["research"],
+    },
+    {
+        "code": "COMS E6902",
+        "title": "MS Thesis",
+        "department": "COMS",
+        "credits": 9,
+        "description": (
+            "MS thesis research with a faculty advisor. Modeled as one 9-point entry; in "
+            "practice the 9 points are spread across semesters (e.g. 3+3+3). Max 9 thesis points."
+        ),
+        "workload_level": 4,
+        "offered_terms": ["Fall", "Spring"],
+        "prerequisites": [],
+        "categories": ["ms_research", "ms_thesis"],
+        "career_tags": ["research"],
+    },
 ]

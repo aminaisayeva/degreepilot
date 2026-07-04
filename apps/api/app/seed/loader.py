@@ -68,6 +68,8 @@ class Snapshots:
     directory: dict[str, dict] = field(default_factory=dict)
     courselists: dict[str, list[dict]] = field(default_factory=dict)
     list_sources: dict[str, str | None] = field(default_factory=dict)
+    # code -> {"title", "source_url"} from MS pathway pages (cs.columbia.edu)
+    pathway_courses: dict[str, dict] = field(default_factory=dict)
 
 
 def load_snapshots(data_dir: Path | None = None) -> Snapshots:
@@ -88,6 +90,17 @@ def load_snapshots(data_dir: Path | None = None) -> Snapshots:
                     "source_url": payload.get("source_url"),
                     "scraped_at": payload.get("scraped_at"),
                 }
+    pathway_file = data_dir / "ms_pathways.json"
+    if pathway_file.exists():
+        payload = json.loads(pathway_file.read_text())
+        for track in (payload.get("pathways") or {}).values():
+            for section in track.get("sections") or []:
+                for entry in section.get("entries") or []:
+                    for code in entry.get("codes") or []:
+                        snaps.pathway_courses.setdefault(code, {
+                            "title": entry.get("title") or code,
+                            "source_url": track.get("source_url"),
+                        })
     for path in sorted(data_dir.glob("directory_*.json")):
         payload = json.loads(path.read_text())
         season = _season(payload.get("term", ""))
@@ -166,7 +179,41 @@ def build_catalog(data_dir: Path | None = None) -> tuple[list[dict], dict[str, d
         }
 
     _apply_adopted_lists(snaps, courses, provenance)
+    _apply_pathway_courses(snaps, courses, provenance)
     return courses, provenance
+
+
+def _apply_pathway_courses(
+    snaps: Snapshots, courses: list[dict], provenance: dict[str, dict]
+) -> None:
+    """Synthesize catalog entries for MS-pathway-listed courses that no other
+    source covers (e.g. ELEN E4720). Title comes from the pathway table row —
+    for OR-rows it may describe several alternatives; the accuracy dashboard
+    is the curation point."""
+    by_code = {c["code"]: c for c in courses}
+    for code, info in snaps.pathway_courses.items():
+        if code in by_code:
+            continue
+        number = code.split()[-1]
+        courses.append({
+            "code": code,
+            "title": info["title"],
+            "department": code.split()[0],
+            "credits": 3.0,
+            "description": "",
+            "workload_level": 3,
+            "offered_terms": [],
+            "prerequisites": [],
+            "categories": derive_categories(code, code.split()[0], _number_int(number), 3.0),
+            "career_tags": [],
+        })
+        by_code[code] = courses[-1]
+        provenance[code] = {
+            "origin": "pathway_list",
+            "source_url": info.get("source_url"),
+            "scraped_at": None,
+            "bulletin_prereq_text": "",
+        }
 
 
 _TITLE_MARKER_RE = re.compile(r"\s*\(\*+\)\s*$")

@@ -1,0 +1,2824 @@
+{
+  "scraped_at": "2026-07-04T15:47:08Z",
+  "pathways": {
+    "ml": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/machineLearning/",
+      "title": "Machine Learning",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete two courses by either taking two courses from group A or one course from group A and one course from group B. (At least one course must be taken from group A). Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": "A",
+              "raw": "COMS W4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": "A",
+              "raw": "COMS W4771 or COMS W4721 or ELEN 4720",
+              "codes": [
+                "COMS W4771",
+                "COMS W4721",
+                "ELEN E4720"
+              ],
+              "title": "Machine Learning OR Machine Learning for Data Science OR Machine Learning for Signals, Information and Data"
+            },
+            {
+              "group": "A",
+              "raw": "COMS W4772 or COMS 6772",
+              "codes": [
+                "COMS W4772",
+                "COMS E6772"
+              ],
+              "title": "Advanced Machine Learning"
+            },
+            {
+              "group": "A",
+              "raw": "COMS 4776",
+              "codes": [
+                "COMS W4776"
+              ],
+              "title": "Neural Networks & Deep Learning (Previously listed as COMS 4995: Neural Networks Deep Learning)"
+            },
+            {
+              "group": "A",
+              "raw": "COMS/STAT G6509/6701",
+              "codes": [
+                "COMS G6509",
+                "STAT G6509",
+                "STAT 6701"
+              ],
+              "title": "Foundations of Graphical Models (This course is an advanced course, but MS students may register for it with instructor approval)"
+            },
+            {
+              "group": "A",
+              "raw": "COMS 4732",
+              "codes": [
+                "COMS W4732"
+              ],
+              "title": "Computer Vision II"
+            },
+            {
+              "group": "A",
+              "raw": "COMS 4773",
+              "codes": [
+                "COMS W4773"
+              ],
+              "title": "Machine Learning Theory"
+            },
+            {
+              "group": "A",
+              "raw": "COMS 4774",
+              "codes": [
+                "COMS W4774"
+              ],
+              "title": "Unsupervised Learning"
+            },
+            {
+              "group": "A",
+              "raw": "COMS 4775",
+              "codes": [
+                "COMS W4775"
+              ],
+              "title": "Causal Inference (Previously listed as COMS 4995: Causal Inference)"
+            },
+            {
+              "group": "B",
+              "raw": "COMS W4731",
+              "codes": [
+                "COMS W4731"
+              ],
+              "title": "Computer Vision I"
+            },
+            {
+              "group": "B",
+              "raw": "COMS W4705",
+              "codes": [
+                "COMS W4705"
+              ],
+              "title": "Natural Language Processing"
+            },
+            {
+              "group": "B",
+              "raw": "COMS W4733",
+              "codes": [
+                "COMS W4733"
+              ],
+              "title": "Computational Aspects of Robotics"
+            },
+            {
+              "group": "B",
+              "raw": "COMS W4701",
+              "codes": [
+                "COMS W4701"
+              ],
+              "title": "Artificial Intelligence"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Courses",
+          "rule_text": "Students take 2 courses from the following list, at least one of which must be a 6000-level course. Students cannot ‘double count’ a course that they took as a foundational course as a secondary elective.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4111",
+              "codes": [
+                "COMS W4111"
+              ],
+              "title": "Introduction to Databases"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "CSOR W4246",
+              "codes": [
+                "CSOR W4246"
+              ],
+              "title": "Algorithms for Data Science"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4705",
+              "codes": [
+                "COMS W4705"
+              ],
+              "title": "Intro to Natural Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4731",
+              "codes": [
+                "COMS W4731"
+              ],
+              "title": "Computer Vision"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4732",
+              "codes": [
+                "COMS W4732"
+              ],
+              "title": "Computer Vision II"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4733",
+              "codes": [
+                "COMS W4733"
+              ],
+              "title": "Computational Aspects of Robotics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4761",
+              "codes": [
+                "COMS W4761"
+              ],
+              "title": "Computational Genomics"
+            },
+            {
+              "group": null,
+              "raw": "COMS E4762",
+              "codes": [
+                "COMS E4762"
+              ],
+              "title": "Machine Learning for Functional Genomics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4771 or COMS W4721 or ELEN 4720",
+              "codes": [
+                "COMS W4771",
+                "COMS W4721",
+                "ELEN E4720"
+              ],
+              "title": "Machine Learning OR Machine Learning for Data Science OR Machine Learning for Signals, Information and Data"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4772 or COMS 6772",
+              "codes": [
+                "COMS W4772",
+                "COMS E6772"
+              ],
+              "title": "Advanced Machine Learning (or COMS 6998: Machine Learning Personalization only valid if taken in Spring 2018)"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4776",
+              "codes": [
+                "COMS W4776"
+              ],
+              "title": "Machine Learning for Data Science"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6111",
+              "codes": [
+                "COMS E6111"
+              ],
+              "title": "Advanced Database Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6232",
+              "codes": [
+                "COMS E6232"
+              ],
+              "title": "Analysis of Algorithms II"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6253",
+              "codes": [
+                "COMS E6253"
+              ],
+              "title": "Advanced Topics in Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6706",
+              "codes": [
+                "COMS E6706"
+              ],
+              "title": "Advanced Spoken Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6717 (ELEN E6717)",
+              "codes": [
+                "COMS E6717",
+                "ELEN E6717"
+              ],
+              "title": "Information Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6735",
+              "codes": [
+                "COMS E6735"
+              ],
+              "title": "Visual Databases"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6737",
+              "codes": [
+                "COMS E6737"
+              ],
+              "title": "Biometrics"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "CSEE E6892",
+              "codes": [
+                "CSEE E6892"
+              ],
+              "title": "Bayesian Models in Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "CSEE E6898",
+              "codes": [
+                "CSEE E6898"
+              ],
+              "title": "Large-Scale Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "CSEE E6898",
+              "codes": [
+                "CSEE E6898"
+              ],
+              "title": "Sparse Signal Modeling"
+            },
+            {
+              "group": null,
+              "raw": "APMA E4990",
+              "codes": [
+                "APMA E4990"
+              ],
+              "title": "Modeling Social Data"
+            },
+            {
+              "group": null,
+              "raw": "BINF G4006",
+              "codes": [
+                "BINF G4006"
+              ],
+              "title": "Translational Bioinformatics"
+            },
+            {
+              "group": null,
+              "raw": "ECBM E4040",
+              "codes": [
+                "ECBM E4040"
+              ],
+              "title": "Neural Networks and Deep Learning"
+            },
+            {
+              "group": null,
+              "raw": "ECBM E6040/6070",
+              "codes": [
+                "ECBM E6040",
+                "ECBM E6070"
+              ],
+              "title": "Neural Networks and Deep Learning Research"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6691",
+              "codes": [
+                "EECS E6691"
+              ],
+              "title": "Topics in Data-Driven Analysis & Comp: Advanced Deep Learning"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6699",
+              "codes": [
+                "EECS E6699"
+              ],
+              "title": "Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6720",
+              "codes": [
+                "EECS E6720"
+              ],
+              "title": "Bayesian Models of Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6870",
+              "codes": [
+                "EECS E6870"
+              ],
+              "title": "Speech Recognition"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6893",
+              "codes": [
+                "EECS E6893"
+              ],
+              "title": "Big Data Analytics or Topics-Information Processing (May only count 1 of these)"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6895",
+              "codes": [
+                "EECS E6895"
+              ],
+              "title": "Topic Adv Big Data Analytics"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6894",
+              "codes": [
+                "EECS E6894"
+              ],
+              "title": "Deep Learning for Computer Vision and Natural Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "ELEN 6885",
+              "codes": [
+                "ELEN E6885"
+              ],
+              "title": "Reinforcement Learning"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6886",
+              "codes": [
+                "ELEN E6886"
+              ],
+              "title": "Sparse Representations and Higher Dimensional Geometry"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6899",
+              "codes": [
+                "ELEN E6899"
+              ],
+              "title": "Topics in Information Processing: Autonomous Multi-Agent Systems"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6613",
+              "codes": [
+                "IEOR E6613"
+              ],
+              "title": "Optimization I"
+            },
+            {
+              "group": null,
+              "raw": "IEOR 6617",
+              "codes": [
+                "IEOR E6617"
+              ],
+              "title": "Machine Learning and High-Dimensional Data"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E8100",
+              "codes": [
+                "IEOR E8100"
+              ],
+              "title": "Optimization Methods in Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E8100",
+              "codes": [
+                "IEOR E8100"
+              ],
+              "title": "Big Data & Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "MECS E6615",
+              "codes": [
+                "MECS E6615"
+              ],
+              "title": "Advanced Robotic Manipulation"
+            },
+            {
+              "group": null,
+              "raw": "MEEC E6600",
+              "codes": [
+                "MEEC E6600"
+              ],
+              "title": "Mathematics of Machine Learning, Signals, and Control"
+            },
+            {
+              "group": null,
+              "raw": "STAT 4001 (previously known as SIEO 4150)",
+              "codes": [
+                "STAT 4001",
+                "SIEO 4150"
+              ],
+              "title": "Introduction to Probability and Statistics"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4201/4291/5291 or IEOR 4150",
+              "codes": [
+                "STAT W4201",
+                "STAT 4291",
+                "STAT 5291",
+                "IEOR E4150"
+              ],
+              "title": "Probability and Statistics/Advanced Data Analysis"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4240* or IEOR 4540",
+              "codes": [
+                "STAT W4240",
+                "IEOR E4540"
+              ],
+              "title": "Data Mining"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4282 or STAT GU4205",
+              "codes": [
+                "STAT W4282",
+                "STAT GU4205"
+              ],
+              "title": "Linear Regression/Time Series Analysis/Linear Regression Models"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4249/STAT 4243",
+              "codes": [
+                "STAT W4249",
+                "STAT 4243"
+              ],
+              "title": "Applied Data Science"
+            },
+            {
+              "group": null,
+              "raw": "STAT G4400/4241/5241*",
+              "codes": [
+                "STAT G4400",
+                "STAT 4241",
+                "STAT 5241"
+              ],
+              "title": "Statistical Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4640/4224/5224",
+              "codes": [
+                "STAT W4640",
+                "STAT 4224",
+                "STAT 5224"
+              ],
+              "title": "Bayesian Statistics"
+            },
+            {
+              "group": null,
+              "raw": "STAT 5242",
+              "codes": [
+                "STAT 5242"
+              ],
+              "title": "Advanced Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "STAT W4700",
+              "codes": [
+                "STAT W4700"
+              ],
+              "title": "Probability and Statistics"
+            },
+            {
+              "group": null,
+              "raw": "STAT G6101",
+              "codes": [
+                "STAT G6101"
+              ],
+              "title": "Statistical Modeling and Data Analysis I/ Applied Statistics I"
+            },
+            {
+              "group": null,
+              "raw": "STAT G6104",
+              "codes": [
+                "STAT G6104"
+              ],
+              "title": "Computational Statistics"
+            },
+            {
+              "group": null,
+              "raw": "STAT GR8101",
+              "codes": [
+                "STAT GR8101"
+              ],
+              "title": "Topics in Applied Statistics: Applied Causality"
+            }
+          ]
+        },
+        {
+          "heading": "4. General Electives",
+          "rule_text": "Students must complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "nlp": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/nlp/",
+      "title": "Natural Language Processing",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete the following 3 courses. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS 4705",
+              "codes": [
+                "COMS W4705"
+              ],
+              "title": "Natural Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4706/6706",
+              "codes": [
+                "COMS W4706",
+                "COMS E6706"
+              ],
+              "title": "Spoken Language Processing (COMS 4706), or Advanced Spoken Language Processing (COMS 6706, formerly COMS 6998)"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4975/6975 or 4995/6998",
+              "codes": [
+                "COMS W4975",
+                "COMS E6975",
+                "COMS W4995",
+                "COMS E6998"
+              ],
+              "title": "Any one course from Topics in Natural Language Processing (COMS 4975), Advanced Topics in Natural Language Processing (COMS 6975), or another topics course relevant to Natural Language Processing."
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Courses",
+          "rule_text": "Students complete 2 courses out of the following list; at least 1 course must be a 6000-level CS course. Since other departments vary their offerings considerably from year to year, it is possible to count such courses toward the MS degree; please propose courses you think might be suitable to your faculty advisor.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4170",
+              "codes": [
+                "COMS W4170"
+              ],
+              "title": "User Interface Design"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4172",
+              "codes": [
+                "COMS W4172"
+              ],
+              "title": "3D User Interfaces"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4701",
+              "codes": [
+                "COMS W4701"
+              ],
+              "title": "Artificial Intelligence"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4771 or W4721*",
+              "codes": [
+                "COMS W4771",
+                "COMS W4721"
+              ],
+              "title": "Machine Learning or Machine Learning for Data Science"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4772",
+              "codes": [
+                "COMS W4772"
+              ],
+              "title": "Advanced Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4975",
+              "codes": [
+                "COMS W4975"
+              ],
+              "title": "Topics in NLP"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6975",
+              "codes": [
+                "COMS E6975"
+              ],
+              "title": "Advanced Topics in NLP"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "SIEO W4150**",
+              "codes": [
+                "SIEO W4150"
+              ],
+              "title": "Probability and Statistics"
+            },
+            {
+              "group": null,
+              "raw": "ECBM E6040",
+              "codes": [
+                "ECBM E6040"
+              ],
+              "title": "Neural Networks and Deep Learning"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6894",
+              "codes": [
+                "EECS E6894"
+              ],
+              "title": "Deep Learning for Computer Vision and Natural Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E4810",
+              "codes": [
+                "ELEN E4810"
+              ],
+              "title": "Digital Signal Processing"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6829",
+              "codes": [
+                "ELEN E6829"
+              ],
+              "title": "Speech/Audio Processing-Recognition"
+            },
+            {
+              "group": null,
+              "raw": "MEEC E6600",
+              "codes": [
+                "MEEC E6600"
+              ],
+              "title": "Mathematics of Machine Learning, Signals, and Control"
+            },
+            {
+              "group": null,
+              "raw": "PSYC G4232",
+              "codes": [
+                "PSYC G4232"
+              ],
+              "title": "Production and Perception of Language"
+            },
+            {
+              "group": null,
+              "raw": "PSYC G4275",
+              "codes": [
+                "PSYC G4275"
+              ],
+              "title": "Contemporary Topics in Language and Communication"
+            },
+            {
+              "group": null,
+              "raw": "PSYC G4205",
+              "codes": [
+                "PSYC G4205"
+              ],
+              "title": "Models of Cognition"
+            },
+            {
+              "group": null,
+              "raw": "PSYC 4236",
+              "codes": [
+                "PSYC 4236"
+              ],
+              "title": "Machine Intelligence"
+            },
+            {
+              "group": null,
+              "raw": "PSYC G4470",
+              "codes": [
+                "PSYC G4470"
+              ],
+              "title": "Psychology and Neuropsychology of Language"
+            },
+            {
+              "group": null,
+              "raw": "PSYC G6006",
+              "codes": [
+                "PSYC G6006"
+              ],
+              "title": "Introduction to Statistical Modelling in Psychology"
+            }
+          ]
+        },
+        {
+          "heading": "4. General Electives",
+          "rule_text": "Students complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "security": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/newComputerSecurity/",
+      "title": "Computer Security",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete the following 5 courses: COMS W4118 (OS), COMS W4156 (Adv. Software Engineering), COMS W4181 (Computer Security I), COMS W4182 (Computer Security II), and either COMS W4261 (Introduction to Cryptography) or COMS E6185 (Intrusion Detection). Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead. For students starting the program in Fall 2018 and later:",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4118",
+              "codes": [
+                "COMS W4118"
+              ],
+              "title": "Operating Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4156",
+              "codes": [
+                "COMS W4156"
+              ],
+              "title": "Adv. Software Engineering"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4181",
+              "codes": [
+                "COMS W4181"
+              ],
+              "title": "Computer Security I"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4182",
+              "codes": [
+                "COMS W4182"
+              ],
+              "title": "Computer Security II"
+            },
+            {
+              "group": null,
+              "raw": "Either COMS W4261 or COMS E6185",
+              "codes": [
+                "COMS W4261",
+                "COMS E6185"
+              ],
+              "title": "Introduction to Cryptography or Intrusion Detection"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4118",
+              "codes": [
+                "COMS W4118"
+              ],
+              "title": "Operating Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4156",
+              "codes": [
+                "COMS W4156"
+              ],
+              "title": "Adv. Software Engineering"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4180",
+              "codes": [
+                "COMS W4180"
+              ],
+              "title": "Network Security"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4187",
+              "codes": [
+                "COMS W4187"
+              ],
+              "title": "Security Architecture and Engineering"
+            },
+            {
+              "group": null,
+              "raw": "Either COMS W4261 or COMS E6185",
+              "codes": [
+                "COMS W4261",
+                "COMS E6185"
+              ],
+              "title": "Introduction to Cryptography or Intrusion Detection"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Electives",
+          "rule_text": "Students complete 2 courses out of the following list; at least one course must be 6000-level. Please note that courses with * are offered in alternate years.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4115",
+              "codes": [
+                "COMS W4115"
+              ],
+              "title": "Programming Languages and Translators"
+            },
+            {
+              "group": null,
+              "raw": "COMS/CSEE W4119",
+              "codes": [
+                "COMS W4119",
+                "CSEE W4119"
+              ],
+              "title": "Computer Networks"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4186",
+              "codes": [
+                "COMS W4186"
+              ],
+              "title": "Malware Analysis & Reverse Engineering"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4261",
+              "codes": [
+                "COMS W4261"
+              ],
+              "title": "Introduction to Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6118",
+              "codes": [
+                "COMS E6118"
+              ],
+              "title": "Operating Systems, II"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6181",
+              "codes": [
+                "COMS E6181"
+              ],
+              "title": "Advanced Internet Services"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6183",
+              "codes": [
+                "COMS E6183"
+              ],
+              "title": "Security"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6184*",
+              "codes": [
+                "COMS E6184"
+              ],
+              "title": "Privacy & Anonymity"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6185",
+              "codes": [
+                "COMS E6185"
+              ],
+              "title": "Intrusion and Anomaly Detection Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6261*",
+              "codes": [
+                "COMS E6261"
+              ],
+              "title": "Advanced Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6424",
+              "codes": [
+                "COMS E6424"
+              ],
+              "title": "Hardware Security"
+            },
+            {
+              "group": null,
+              "raw": "CSEE E6863",
+              "codes": [
+                "CSEE E6863"
+              ],
+              "title": "Formal Verification of Hardware and Software Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "CSEE W4824",
+              "codes": [
+                "CSEE W4824"
+              ],
+              "title": "Computer Architecture"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E4703",
+              "codes": [
+                "ELEN E4703"
+              ],
+              "title": "Wireless Communications"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6761",
+              "codes": [
+                "ELEN E6761"
+              ],
+              "title": "Computer Communication Networks"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6886",
+              "codes": [
+                "ELEN E6886"
+              ],
+              "title": "Topics in Multimedia Security"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6950",
+              "codes": [
+                "ELEN E6950"
+              ],
+              "title": "Wireless & Mobile Nets, I"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6951",
+              "codes": [
+                "ELEN E6951"
+              ],
+              "title": "Wireless & Mobile Nets, II"
+            }
+          ]
+        },
+        {
+          "heading": "4. General Electives",
+          "rule_text": "Students must complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "software": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/softwareSystems/",
+      "title": "Software Systems",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete the following three courses: COMS W4115, COMS W4118, and either COMS W4152 or COMS W4156. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4115",
+              "codes": [
+                "COMS W4115"
+              ],
+              "title": "Programming Languages and Translators"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4118",
+              "codes": [
+                "COMS W4118"
+              ],
+              "title": "Operating Systems I"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4152* OR COMS W4156*",
+              "codes": [
+                "COMS W4152",
+                "COMS W4156"
+              ],
+              "title": "Engineering Software as a Service OR Advanced Software Engineering"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Courses Part I",
+          "rule_text": "Students complete at least two 4000-level courses (6 credits) selected from the following list of courses. Note: some of the 4000-level electives are offered every semester, and some are offered only one semester per year, while others are not offered regularly. If you have questions about courses or your course plan, reach out to your CS Faculty Advisor.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4111",
+              "codes": [
+                "COMS W4111"
+              ],
+              "title": "Introduction to Databases"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4112",
+              "codes": [
+                "COMS W4112"
+              ],
+              "title": "Database System Implementation"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4113",
+              "codes": [
+                "COMS W4113"
+              ],
+              "title": "Fundamentals of Large-Scale Distributed Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4117",
+              "codes": [
+                "COMS W4117"
+              ],
+              "title": "Compilers and Interpreters"
+            },
+            {
+              "group": null,
+              "raw": "CSEE W4119",
+              "codes": [
+                "CSEE W4119"
+              ],
+              "title": "Computer Networks"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4130",
+              "codes": [
+                "COMS W4130"
+              ],
+              "title": "Principles and Practice of Parallel Programming"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4153",
+              "codes": [
+                "COMS W4153"
+              ],
+              "title": "Cloud Computing (Fall 2024 and beyond)"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4170",
+              "codes": [
+                "COMS W4170"
+              ],
+              "title": "User Interface Design"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4181",
+              "codes": [
+                "COMS W4181"
+              ],
+              "title": "Computer Security I"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4444",
+              "codes": [
+                "COMS W4444"
+              ],
+              "title": "Programming and Problem Solving"
+            },
+            {
+              "group": null,
+              "raw": "CSEE W4840",
+              "codes": [
+                "CSEE W4840"
+              ],
+              "title": "Embedded Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995 **",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Topics in Computer Science (Visit the topics courses page to see which COMS 4995 courses apply)"
+            }
+          ]
+        },
+        {
+          "heading": "4. Secondary Courses Part II",
+          "rule_text": "Students complete at least two 6000-level courses (6 credits) selected from the following pre-approved list. Note: some of the 6000-level electives are offered only one semester per year, while others are not offered regularly. If you have questions about courses or your course plan, reach out to your CS Faculty Advisor.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS E6111",
+              "codes": [
+                "COMS E6111"
+              ],
+              "title": "Advanced Database Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6113",
+              "codes": [
+                "COMS E6113"
+              ],
+              "title": "Topics in Database Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6114",
+              "codes": [
+                "COMS E6114"
+              ],
+              "title": "Advanced Distributed Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6117",
+              "codes": [
+                "COMS E6117"
+              ],
+              "title": "Topics in Programming Languages and Translators"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6118",
+              "codes": [
+                "COMS E6118"
+              ],
+              "title": "Operating Systems II"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6121",
+              "codes": [
+                "COMS E6121"
+              ],
+              "title": "Reliable Software"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6156",
+              "codes": [
+                "COMS E6156"
+              ],
+              "title": "Topics in Software Engineering"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6156",
+              "codes": [
+                "COMS E6156"
+              ],
+              "title": "Cloud Computing (Prior to Fall 2024)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6178",
+              "codes": [
+                "COMS E6178"
+              ],
+              "title": "Human-Computer Interaction"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6184",
+              "codes": [
+                "COMS E6184"
+              ],
+              "title": "Anonymity & Privacy"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6424",
+              "codes": [
+                "COMS E6424"
+              ],
+              "title": "Hardware Security"
+            },
+            {
+              "group": null,
+              "raw": "CSEE E6863",
+              "codes": [
+                "CSEE E6863"
+              ],
+              "title": "Formal Verification of Hardware and Software Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901 **",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998 **",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Topics in Computer Science (Visit the topics courses page to see which COMS 6998 courses apply)"
+            }
+          ]
+        },
+        {
+          "heading": "5. General Electives",
+          "rule_text": "Students complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "networks": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/networkSystems/",
+      "title": "Network Systems",
+      "sections": [
+        {
+          "heading": "1. Breadth Requirement",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete the following courses. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "CSEE W4119",
+              "codes": [
+                "CSEE W4119"
+              ],
+              "title": "Computer Networks"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4118",
+              "codes": [
+                "COMS W4118"
+              ],
+              "title": "Operating Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4115",
+              "codes": [
+                "COMS W4115"
+              ],
+              "title": "Programming Languages and Translators"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Courses",
+          "rule_text": "Students complete 4 courses out of the following list; at least 2 courses must be 6000-level CS courses:",
+          "entries": [
+            {
+              "group": null,
+              "raw": "CSEE W4140",
+              "codes": [
+                "CSEE W4140"
+              ],
+              "title": "Networking Laboratory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4180",
+              "codes": [
+                "COMS W4180"
+              ],
+              "title": "Intro to Network Security"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4261",
+              "codes": [
+                "COMS W4261"
+              ],
+              "title": "Intro to Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4737",
+              "codes": [
+                "COMS W4737"
+              ],
+              "title": "Biometrics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6118",
+              "codes": [
+                "COMS E6118"
+              ],
+              "title": "Operating Systems, II"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6125",
+              "codes": [
+                "COMS E6125"
+              ],
+              "title": "Web-enhanced Info Management (Whim)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6180",
+              "codes": [
+                "COMS E6180"
+              ],
+              "title": "Modeling & Performance"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6181",
+              "codes": [
+                "COMS E6181"
+              ],
+              "title": "Advanced Internet Services"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6184",
+              "codes": [
+                "COMS E6184"
+              ],
+              "title": "Anonymity and Privacy"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6185",
+              "codes": [
+                "COMS E6185"
+              ],
+              "title": "Intrusion and Anomaly Detection Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6717 (ELEN E6717)",
+              "codes": [
+                "COMS E6717",
+                "ELEN E6717"
+              ],
+              "title": "Information Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6737",
+              "codes": [
+                "COMS E6737"
+              ],
+              "title": "Biometrics"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E4703",
+              "codes": [
+                "ELEN E4703"
+              ],
+              "title": "Wireless Communications"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6761",
+              "codes": [
+                "ELEN E6761"
+              ],
+              "title": "Computer Communication Networks"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6767",
+              "codes": [
+                "ELEN E6767"
+              ],
+              "title": "INTERNET ECON, ENG & SOCIETY"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6770",
+              "codes": [
+                "ELEN E6770"
+              ],
+              "title": "Next-Generation IP Networks"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6771",
+              "codes": [
+                "ELEN E6771"
+              ],
+              "title": "Topics: 5G Programmable Networks"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6771",
+              "codes": [
+                "ELEN E6771"
+              ],
+              "title": "Topics: Next Generation Networks"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6950",
+              "codes": [
+                "ELEN E6950"
+              ],
+              "title": "Wireless & Mobile Nets, I"
+            },
+            {
+              "group": null,
+              "raw": "EECS 4951",
+              "codes": [
+                "EECS E4951"
+              ],
+              "title": "Wireless Networks & Systems"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6704",
+              "codes": [
+                "IEOR E6704"
+              ],
+              "title": "Queueing Theory and Applications"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6801",
+              "codes": [
+                "IEOR E6801"
+              ],
+              "title": "Monte Carlo & Discrete Event Simulation"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E4406",
+              "codes": [
+                "IEOR E4406"
+              ],
+              "title": "Facilities Location, Routing, Network Design"
+            }
+          ]
+        },
+        {
+          "heading": "4. General Electives",
+          "rule_text": "Students complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "compbio": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/computationalBiology/",
+      "title": "Computational Biology",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete two fundamental courses (6 points): One course from either COMS W4761 (Computational Genomics) or COMS W4762 Machine Learning for Functional Genomics and one course from either COMS W4771 or SIEO W4150/IEOR W4150/*STAT 4001. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead. Any course option taken but not used towards the Fundamental Course can be counted as an elective. Students must take one of the following courses:",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4761",
+              "codes": [
+                "COMS W4761"
+              ],
+              "title": "Computational Genomics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4762",
+              "codes": [
+                "COMS W4762"
+              ],
+              "title": "Machine Learning for Functional Genomics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4771 or STAT 4400",
+              "codes": [
+                "COMS W4771",
+                "STAT 4400"
+              ],
+              "title": "Machine Learning or Statistical Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "STAT 4001/IEOR W4150*",
+              "codes": [
+                "STAT 4001",
+                "IEOR W4150"
+              ],
+              "title": "Probability and Statistic"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Electives",
+          "rule_text": "Students take two courses from the following list, at least one of which must be a 6000-level course. Other courses on this list may be used as general electives or waiver replacements when the student has received a waiver.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4111",
+              "codes": [
+                "COMS W4111"
+              ],
+              "title": "Introduction to Databases"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4772 (E6772)",
+              "codes": [
+                "COMS W4772",
+                "COMS E6772"
+              ],
+              "title": "Advanced Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6111",
+              "codes": [
+                "COMS E6111"
+              ],
+              "title": "Advanced Database Systems"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6706",
+              "codes": [
+                "COMS E6706"
+              ],
+              "title": "Advanced Spoken Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "CMBS 5305",
+              "codes": [
+                "CMBS 5305"
+              ],
+              "title": "Topics in Mathematical Genomics and Biology"
+            },
+            {
+              "group": null,
+              "raw": "BIOC W4512",
+              "codes": [
+                "BIOC W4512"
+              ],
+              "title": "Molecular Biology"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4031",
+              "codes": [
+                "BIOL W4031"
+              ],
+              "title": "Genetics I"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4032",
+              "codes": [
+                "BIOL W4032"
+              ],
+              "title": "Genetics II"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4034",
+              "codes": [
+                "BIOL W4034"
+              ],
+              "title": "Biotechnology"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4037",
+              "codes": [
+                "BIOL W4037"
+              ],
+              "title": "Bioinformatics of Gene Expression"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4041",
+              "codes": [
+                "BIOL W4041"
+              ],
+              "title": "Cell Biology"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4070",
+              "codes": [
+                "BIOL W4070"
+              ],
+              "title": "The Biology and Physics of Single Molecules"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4300",
+              "codes": [
+                "BIOL W4300"
+              ],
+              "title": "Drugs and Disease"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4073",
+              "codes": [
+                "BIOL W4073"
+              ],
+              "title": "Cellular and Molecular Immunology"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4400",
+              "codes": [
+                "BIOL W4400"
+              ],
+              "title": "Biological Networks"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W4510",
+              "codes": [
+                "BIOL W4510"
+              ],
+              "title": "Genomics of Gene Regulation"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W5004",
+              "codes": [
+                "BIOL W5004"
+              ],
+              "title": "Neuro Biology"
+            },
+            {
+              "group": null,
+              "raw": "BIOL W5031",
+              "codes": [
+                "BIOL W5031"
+              ],
+              "title": "Genetics (This replaces BIOL 4031 and BIOL 4032. Courses cannot be double-counted.)"
+            },
+            {
+              "group": null,
+              "raw": "BIOL G6560",
+              "codes": [
+                "BIOL G6560"
+              ],
+              "title": "Human Evolutionary Genetics"
+            },
+            {
+              "group": null,
+              "raw": "BCHM G4026",
+              "codes": [
+                "BCHM G4026"
+              ],
+              "title": "Biochemistry of Nucleic and Protein Synthesis"
+            },
+            {
+              "group": null,
+              "raw": "BCHM G4250",
+              "codes": [
+                "BCHM G4250"
+              ],
+              "title": "Biochemistry and Molecular Biophysics"
+            },
+            {
+              "group": null,
+              "raw": "BCHM G6300",
+              "codes": [
+                "BCHM G6300"
+              ],
+              "title": "Biochemistry and Molecular Biology of Eukaryotes I"
+            },
+            {
+              "group": null,
+              "raw": "BCHM G6301",
+              "codes": [
+                "BCHM G6301"
+              ],
+              "title": "Biochemistry and Molecular Biology of Eukaryotes II"
+            },
+            {
+              "group": null,
+              "raw": "BMEN E6480",
+              "codes": [
+                "BMEN E6480"
+              ],
+              "title": "Computational Neural Modeling and Neuroengineering"
+            },
+            {
+              "group": null,
+              "raw": "GEND G4050",
+              "codes": [
+                "GEND G4050"
+              ],
+              "title": "Advanced Eukaryotic Molecular Genetics"
+            },
+            {
+              "group": null,
+              "raw": "STAT G6101",
+              "codes": [
+                "STAT G6101"
+              ],
+              "title": "Statistical Modeling and Data Analysis"
+            },
+            {
+              "group": null,
+              "raw": "APMA E4400",
+              "codes": [
+                "APMA E4400"
+              ],
+              "title": "Introduction to Biophysical Modeling"
+            },
+            {
+              "group": null,
+              "raw": "BINF G4006",
+              "codes": [
+                "BINF G4006"
+              ],
+              "title": "Translational Bioinformatics"
+            },
+            {
+              "group": null,
+              "raw": "BINF G4014",
+              "codes": [
+                "BINF G4014"
+              ],
+              "title": "Computational Biology I: Functional and Integrative Genomics"
+            },
+            {
+              "group": null,
+              "raw": "BINF G4015",
+              "codes": [
+                "BINF G4015"
+              ],
+              "title": "Computational Systems Biology: Proteins, Networks, Function"
+            },
+            {
+              "group": null,
+              "raw": "BINF G4017",
+              "codes": [
+                "BINF G4017"
+              ],
+              "title": "Deep Sequencing"
+            },
+            {
+              "group": null,
+              "raw": "BINF G6001",
+              "codes": [
+                "BINF G6001"
+              ],
+              "title": "Projects in Biomedical Informatics"
+            },
+            {
+              "group": null,
+              "raw": "ECBM E4060",
+              "codes": [
+                "ECBM E4060"
+              ],
+              "title": "Intro to Genomic Info Sci & Tech"
+            },
+            {
+              "group": null,
+              "raw": "ECBM 6070",
+              "codes": [
+                "ECBM E6070"
+              ],
+              "title": "NeroScience and Deep Learning (Any other topic under this course number must be advisor approved)"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6720",
+              "codes": [
+                "EECS E6720"
+              ],
+              "title": "Bayesian Models for Machine Learning"
+            },
+            {
+              "group": null,
+              "raw": "EECS E6894",
+              "codes": [
+                "EECS E6894"
+              ],
+              "title": "Deep Learning for Computer Vision and Natural Language Processing"
+            },
+            {
+              "group": null,
+              "raw": "BMCS 4575",
+              "codes": [
+                "BMCS 4575"
+              ],
+              "title": "High-Dimensional Statistics for Biomedical Data"
+            }
+          ]
+        },
+        {
+          "heading": "4. General Electives",
+          "rule_text": "Students must complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "foundations": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/foundationsOfCS/",
+      "title": "Foundations of Computer Science",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete the following two courses: CSOR W4231 and COMS W4236. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "CSOR W4231",
+              "codes": [
+                "CSOR W4231"
+              ],
+              "title": "Analysis of Algorithms I"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4236",
+              "codes": [
+                "COMS W4236"
+              ],
+              "title": "Intro. to Computational Complexity"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Electives Part I",
+          "rule_text": "Students complete 1 of the following courses:",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4203",
+              "codes": [
+                "COMS W4203"
+              ],
+              "title": "Graph Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4205",
+              "codes": [
+                "COMS W4205"
+              ],
+              "title": "Combinatorial Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4241",
+              "codes": [
+                "COMS W4241"
+              ],
+              "title": "Numerical Algorithms and Complexity"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4261",
+              "codes": [
+                "COMS W4261"
+              ],
+              "title": "Introduction to Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4281",
+              "codes": [
+                "COMS W4281"
+              ],
+              "title": "Introduction to Quantum Computing"
+            }
+          ]
+        },
+        {
+          "heading": "4. Secondary Electives Part II",
+          "rule_text": "Students complete 9 points out of the following Electives II list, excluding the course already taken; at least 6 points must be at the 6000-level:",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS 4203",
+              "codes": [
+                "COMS W4203"
+              ],
+              "title": "Graph Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4205",
+              "codes": [
+                "COMS W4205"
+              ],
+              "title": "Combinatorial Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4241",
+              "codes": [
+                "COMS W4241"
+              ],
+              "title": "Numerical Algorithms and Complexity"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4252",
+              "codes": [
+                "COMS W4252"
+              ],
+              "title": "Introduction to Computational Learning Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4261",
+              "codes": [
+                "COMS W4261"
+              ],
+              "title": "Introduction to Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4281",
+              "codes": [
+                "COMS W4281"
+              ],
+              "title": "Introduction to Quantum Computing"
+            },
+            {
+              "group": null,
+              "raw": "COMS 4295",
+              "codes": [
+                "COMS W4295"
+              ],
+              "title": "Topics in Theoretical CS"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "CSEE 6180",
+              "codes": [
+                "CSEE E6180"
+              ],
+              "title": "Performance Analysis"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6204",
+              "codes": [
+                "COMS E6204"
+              ],
+              "title": "Topics in Graph Theory"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6232",
+              "codes": [
+                "COMS E6232"
+              ],
+              "title": "Analysis of Algorithms II"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6253",
+              "codes": [
+                "COMS E6253"
+              ],
+              "title": "Computational Learning Theory II"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6261",
+              "codes": [
+                "COMS E6261"
+              ],
+              "title": "Advanced Cryptography"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6291",
+              "codes": [
+                "COMS E6291"
+              ],
+              "title": "Theoretical Topics in C.S."
+            },
+            {
+              "group": null,
+              "raw": "COMS 6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6298",
+              "codes": [
+                "COMS E6298"
+              ],
+              "title": "Advanced Topics in Theoretical CS"
+            },
+            {
+              "group": null,
+              "raw": "COMS 6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "CSPH G4802",
+              "codes": [
+                "CSPH G4802"
+              ],
+              "title": "Incompleteness Results in Logic"
+            },
+            {
+              "group": null,
+              "raw": "STAT 4001 (previously SIEO 4150)",
+              "codes": [
+                "STAT 4001",
+                "SIEO 4150"
+              ],
+              "title": "Intro. to Probability and Statistics"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E4407",
+              "codes": [
+                "IEOR E4407"
+              ],
+              "title": "Game Theoretic Models of Operation"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6400",
+              "codes": [
+                "IEOR E6400"
+              ],
+              "title": "Scheduling: Deterministic Models"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6603",
+              "codes": [
+                "IEOR E6603"
+              ],
+              "title": "Combinatorial Optimization"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6606",
+              "codes": [
+                "IEOR E6606"
+              ],
+              "title": "Advanced Topics in Network Flows"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6608",
+              "codes": [
+                "IEOR E6608"
+              ],
+              "title": "Integer Programming"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6610",
+              "codes": [
+                "IEOR E6610"
+              ],
+              "title": "Approximation Algorithms"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6613",
+              "codes": [
+                "IEOR E6613"
+              ],
+              "title": "Optimization I"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6614",
+              "codes": [
+                "IEOR E6614"
+              ],
+              "title": "Optimization II"
+            },
+            {
+              "group": null,
+              "raw": "IEOR 6616",
+              "codes": [
+                "IEOR E6616"
+              ],
+              "title": "Convex Optimization"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6711",
+              "codes": [
+                "IEOR E6711"
+              ],
+              "title": "Stochastic Models I"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E6712",
+              "codes": [
+                "IEOR E6712"
+              ],
+              "title": "Stochastic motels II"
+            },
+            {
+              "group": null,
+              "raw": "IEOR E8100",
+              "codes": [
+                "IEOR E8100"
+              ],
+              "title": "Doctoral Seminar on Convex Optimization"
+            },
+            {
+              "group": null,
+              "raw": "ELEN 6717",
+              "codes": [
+                "ELEN E6717"
+              ],
+              "title": "Information Theory"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6718",
+              "codes": [
+                "ELEN E6718"
+              ],
+              "title": "Algebraic Coding Theory"
+            },
+            {
+              "group": null,
+              "raw": "ELEN E6970",
+              "codes": [
+                "ELEN E6970"
+              ],
+              "title": "Resource Allocation and Networking Games"
+            }
+          ]
+        },
+        {
+          "heading": "5. General Electives",
+          "rule_text": "Students complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "vgir": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/visionAndGraphics/",
+      "title": "Vision, Graphics, Interaction, and Robotics",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Fundamental Courses",
+          "rule_text": "Students complete 2 of the following courses. Students who have taken equivalent courses in the past and received grades of at least a B may apply for waivers and take other CS courses instead.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4160",
+              "codes": [
+                "COMS W4160"
+              ],
+              "title": "Computer Graphics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4167",
+              "codes": [
+                "COMS W4167"
+              ],
+              "title": "Computer Animation"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4170",
+              "codes": [
+                "COMS W4170"
+              ],
+              "title": "User Interface Design"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4172",
+              "codes": [
+                "COMS W4172"
+              ],
+              "title": "3D User Interfaces and Augmented Reality"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4731",
+              "codes": [
+                "COMS W4731"
+              ],
+              "title": "Computer Vision"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4732",
+              "codes": [
+                "COMS W4732"
+              ],
+              "title": "Computer Vision II"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4733",
+              "codes": [
+                "COMS W4733"
+              ],
+              "title": "Computational Aspects of Robotics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4735",
+              "codes": [
+                "COMS W4735"
+              ],
+              "title": "Visual Interfaces to Computers"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4771 or W4721*",
+              "codes": [
+                "COMS W4771",
+                "COMS W4721"
+              ],
+              "title": "Machine Learning or Machine Learning for Data Science"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4737 (E6737)",
+              "codes": [
+                "COMS W4737",
+                "COMS E6737"
+              ],
+              "title": "Biometrics"
+            }
+          ]
+        },
+        {
+          "heading": "3. Secondary Courses",
+          "rule_text": "Students complete 2 courses from the following list. At least one of these courses must be a 6000-level CS course.",
+          "entries": [
+            {
+              "group": null,
+              "raw": "COMS W4160",
+              "codes": [
+                "COMS W4160"
+              ],
+              "title": "Computer Graphics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4162",
+              "codes": [
+                "COMS W4162"
+              ],
+              "title": "Advanced Computer Graphics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4165",
+              "codes": [
+                "COMS W4165"
+              ],
+              "title": "Computational Techniques in Pixel Processing"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4167",
+              "codes": [
+                "COMS W4167"
+              ],
+              "title": "Computer Animation"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4170",
+              "codes": [
+                "COMS W4170"
+              ],
+              "title": "User Interface Design"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4172",
+              "codes": [
+                "COMS W4172"
+              ],
+              "title": "3D User Interfaces and Augmented Reality"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4731",
+              "codes": [
+                "COMS W4731"
+              ],
+              "title": "Computer Vision"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4732",
+              "codes": [
+                "COMS W4732"
+              ],
+              "title": "Computer Vision II"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4733",
+              "codes": [
+                "COMS W4733"
+              ],
+              "title": "Computational Aspects of Robotics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4735",
+              "codes": [
+                "COMS W4735"
+              ],
+              "title": "Visual Interfaces to Computers"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4737",
+              "codes": [
+                "COMS W4737"
+              ],
+              "title": "Biometrics"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4771 or W4721*",
+              "codes": [
+                "COMS W4771",
+                "COMS W4721"
+              ],
+              "title": "Machine Learning or Machine Learning for Data Science"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4772",
+              "codes": [
+                "COMS W4772"
+              ],
+              "title": "Advanced Machine Learning and Perception"
+            },
+            {
+              "group": null,
+              "raw": "COMS W4995",
+              "codes": [
+                "COMS W4995"
+              ],
+              "title": "Visit the topics courses page to see which COMS 4995 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6160",
+              "codes": [
+                "COMS E6160"
+              ],
+              "title": "Topics in Computer Graphics"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6161",
+              "codes": [
+                "COMS E6161"
+              ],
+              "title": "Rendering"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6173",
+              "codes": [
+                "COMS E6173"
+              ],
+              "title": "Virtual Reality and Augmented Reality"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6174",
+              "codes": [
+                "COMS E6174"
+              ],
+              "title": "Interaction Design: A Perceptual Approach"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6176",
+              "codes": [
+                "COMS E6176"
+              ],
+              "title": "User Interfaces for Mobile & Wearable Computing"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6178",
+              "codes": [
+                "COMS E6178"
+              ],
+              "title": "Human–Computer Interaction"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6731",
+              "codes": [
+                "COMS E6731"
+              ],
+              "title": "Humanoid Robots"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6732",
+              "codes": [
+                "COMS E6732"
+              ],
+              "title": "Computational Imaging"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6733",
+              "codes": [
+                "COMS E6733"
+              ],
+              "title": "3-D Photography"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6734",
+              "codes": [
+                "COMS E6734"
+              ],
+              "title": "Computational Photography"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6735",
+              "codes": [
+                "COMS E6735"
+              ],
+              "title": "Visual Databases"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6737",
+              "codes": [
+                "COMS E6737"
+              ],
+              "title": "Biometrics"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6901",
+              "codes": [
+                "COMS E6901"
+              ],
+              "title": "Projects in Computer Science (Advisor approval required)"
+            },
+            {
+              "group": null,
+              "raw": "COMS E6998",
+              "codes": [
+                "COMS E6998"
+              ],
+              "title": "Visit the topics courses page to see which COMS 6998 courses apply"
+            },
+            {
+              "group": null,
+              "raw": "MECS E6615",
+              "codes": [
+                "MECS E6615"
+              ],
+              "title": "Advanced Robotic Manipulation"
+            }
+          ]
+        },
+        {
+          "heading": "5. General Electives",
+          "rule_text": "Students complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from either the Electives listed above or from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below.",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "personalized": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/MSpersonalized/",
+      "title": "The Personalized CS MS",
+      "sections": [
+        {
+          "heading": "1. Breadth Courses (12 credits)",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. Courses (18 credits)",
+          "rule_text": "Students will build their course plan with their Faculty Advisor to ensure that their courses meet the requirements of the MS 30-credit program. Students must take at least 6 credits of 6000-level graduate courses selected from Computer Science and/or related areas together with your faculty advisor. At most, 3 credits overall may be from “non-COMS” graduate courses. All MS students can take a maximum of 12 project/research points(CS and non-CS). No more than 12 credits of project/research points can count towards the 30-credit requirements. Please visit the Directory of Classes to get the updated course listings. Please also note that not all courses are offered every semester or even every year. A few courses are offered only once every two or three years or even less frequently. Please note that some Data Science Institute courses, such as COMS/CSEE W4121 (Computer Systems for Data Science), do not count towards the CS MS degree. If you have any questions, please contact your advisor or CS Advising . Find open faculty positions here .",
+          "entries": []
+        }
+      ],
+      "error": null
+    },
+    "thesis": {
+      "source_url": "https://www.cs.columbia.edu/education/ms/MSThesis/",
+      "title": "The CS MS Thesis",
+      "sections": [
+        {
+          "heading": "1. BREADTH REQUIREMENT",
+          "rule_text": "Visit the breadth requirement page for more information.",
+          "entries": []
+        },
+        {
+          "heading": "2. FUNDAMENTAL COURSES (9 credits)",
+          "rule_text": "Students must take 9 credits of COMS E6902 Thesis. The points are typically spread over multiple semesters, e.g., 3 points each for 3 semesters or 4.5 points each for 2 semesters. No more than 9 points of E6902 may be taken. Sign up for the section number of E6902 associated with your thesis advisor.",
+          "entries": []
+        },
+        {
+          "heading": "3. SECONDARY COURSES",
+          "rule_text": "Students are required to complete 9 elective credits of graduate courses (4000-level or above) selected from Computer Science and/or related areas, together with their faculty thesis advisor. These would normally be strongly related to your thesis topic. Up to 3 of these points may be in COMS E6901 Projects in Computer Science.",
+          "entries": []
+        },
+        {
+          "heading": "4. GENERAL ELECTIVES",
+          "rule_text": "Students must complete the remaining credits of General Elective Courses at the 4000 level or above. At least three of these points must be chosen from the CS department at the 4000 level or higher. Students may also request to use at most 3 points of Non-CS/Non-pathway coursework if approved by the process listed below. All MS students can take a maximum of 12 project/research points(CS and non-CS), 9 of which can be thesis points if you are in the MS Thesis pathway. No more than 12 credits of project/research points can count towards the 30-credit.",
+          "entries": []
+        },
+        {
+          "heading": "5. THESIS DEFENSE",
+          "rule_text": "A thesis proposal is presented to your thesis committee at least three months before your defense. Your thesis committee should have three members. Two of them must be internal, but one can be an outsider. Please bring the thesis defense form to your defense. Once completed, please submit the form to CS Advising via email: ms-advising@cs.columbia.edu. The thesis cannot be imported from another institution. A publication-quality thesis document is also published as a CS department technical report. Once completed, please upload your thesis into MICE.",
+          "entries": []
+        }
+      ],
+      "error": null
+    }
+  }
+}
