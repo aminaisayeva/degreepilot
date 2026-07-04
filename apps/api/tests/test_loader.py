@@ -148,8 +148,8 @@ def test_pathway_listed_codes_synthesized(tmp_path):
                         {"group": "A", "raw": "ELEN 4720",
                          "codes": ["ELEN E4720"],
                          "title": "Machine Learning for Signals, Information and Data"},
-                        {"group": "A", "raw": "COMS W4252",
-                         "codes": ["COMS W4252"], "title": "Intro to Computational Learning Theory"},
+                        {"group": "A", "raw": "COMS W4771",
+                         "codes": ["COMS W4771"], "title": "Machine Learning"},
                     ],
                 }],
             },
@@ -163,7 +163,7 @@ def test_pathway_listed_codes_synthesized(tmp_path):
     assert prov["ELEN E4720"]["origin"] == "pathway_list"
     assert prov["ELEN E4720"]["source_url"] == "https://cs.test/ms/ml"
     # curated code on a pathway list is untouched
-    assert prov["COMS W4252"]["origin"] == "curated"
+    assert prov["COMS W4771"]["origin"] == "curated"
 
 
 def test_derived_categories():
