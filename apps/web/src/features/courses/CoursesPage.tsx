@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Filter, Search } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { Badge } from "@/components/ui/Badge";
 import { Card, CardBody, CardHeader, CardTitle } from "@/components/ui/Card";
@@ -10,24 +10,33 @@ import type { Course } from "@/types/api";
 
 const CAREER = ["ai_ml", "swe", "systems", "data", "quant", "security", "research", "product"];
 const TERMS = ["Fall", "Spring"];
+const MAX_RENDERED = 150;
 
 export function CoursesPage() {
   const [query, setQuery] = useState("");
+  const [debouncedQuery, setDebouncedQuery] = useState("");
   const [tag, setTag] = useState<string | null>(null);
   const [term, setTerm] = useState<string | null>(null);
 
+  // The catalog is ~1000+ courses; don't refetch on every keystroke.
+  useEffect(() => {
+    const h = setTimeout(() => setDebouncedQuery(query), 250);
+    return () => clearTimeout(h);
+  }, [query]);
+
   const { data: courses, isLoading } = useQuery({
-    queryKey: ["courses", query, tag, term],
+    queryKey: ["courses", debouncedQuery, tag, term],
     queryFn: () =>
       api.listCourses({
-        q: query || undefined,
+        q: debouncedQuery || undefined,
         career_tag: tag || undefined,
         term: term || undefined,
       }),
   });
 
   const [selected, setSelected] = useState<Course | null>(null);
-  const display = courses ?? [];
+  const matches = courses ?? [];
+  const display = matches.slice(0, MAX_RENDERED);
   const detail = selected ?? display[0];
 
   return (
@@ -35,7 +44,8 @@ export function CoursesPage() {
       <header>
         <h1 className="text-2xl font-bold tracking-tight">Course catalog</h1>
         <p className="text-sm text-muted">
-          Sample Columbia CS + Econ courses. Filter by career goal or term to plan a track.
+          Columbia catalog scraped from the Bulletin and Directory of Classes.
+          Filter by career goal or term to plan a track.
         </p>
       </header>
 
@@ -71,6 +81,12 @@ export function CoursesPage() {
           {!isLoading && display.length === 0 && (
             <div className="rounded-xl border border-dashed border-border p-4 text-sm text-muted">
               No matches.
+            </div>
+          )}
+          {!isLoading && matches.length > MAX_RENDERED && (
+            <div className="text-xs text-muted">
+              Showing {MAX_RENDERED} of {matches.length} matches — refine your
+              search to narrow the list.
             </div>
           )}
           {display.map((c) => (

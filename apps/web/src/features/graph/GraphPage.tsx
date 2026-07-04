@@ -63,7 +63,17 @@ export function GraphPage() {
       });
       return set;
     }
-    return new Set((courses ?? []).map((c) => c.code));
+    // "Everything": the full catalog is ~1000+ courses, most without curated
+    // prereqs — rendering them all makes the graph unusable. Show only
+    // courses connected by at least one prerequisite edge.
+    const connected = new Set<string>();
+    (courses ?? []).forEach((c) => {
+      if (c.prerequisites?.length) {
+        connected.add(c.code);
+        c.prerequisites.forEach((g) => g.forEach((p) => connected.add(p)));
+      }
+    });
+    return connected;
   }, [mode, plan, catalog, courses]);
 
   const completed = new Set(student?.completed_courses ?? []);
@@ -91,10 +101,17 @@ export function GraphPage() {
             AI/ML track
           </ModeChip>
           <ModeChip on={mode === "all"} onClick={() => setMode("all")}>
-            Everything
+            All prereq chains
           </ModeChip>
         </div>
       </header>
+
+      {mode === "all" && (
+        <div className="text-xs text-muted">
+          Showing every course connected by a curated prerequisite chain
+          ({focusCodes.size} of {courses?.length ?? 0} catalog courses).
+        </div>
+      )}
 
       {mode === "plan" && !plan && (
         <div className="rounded-xl border border-warn/40 bg-warn/10 p-3 text-sm text-warn">

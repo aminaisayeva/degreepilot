@@ -48,9 +48,10 @@ export const api = {
     const qs = search.toString();
     return request<Course[]>(`/courses${qs ? `?${qs}` : ""}`);
   },
-  getCourse: (code: string) => request<Course>(`/courses/${code}`),
+  getCourse: (code: string) => request<Course>(`/courses/${encodeURIComponent(code)}`),
   listPrograms: () => request<{ slug: string; label: string }[]>(`/requirements`),
-  getRequirements: (program: string) => request<Requirement[]>(`/requirements/${program}`),
+  getRequirements: (program: string) =>
+    request<Requirement[]>(`/requirements/${encodeURIComponent(program)}`),
   listStudents: () => request<Student[]>(`/students`),
   getStudent: (id: number) => request<Student>(`/students/${id}`),
   createStudent: (body: StudentCreate) =>
