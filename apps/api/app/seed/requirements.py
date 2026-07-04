@@ -423,5 +423,14 @@ PROGRAM_LABELS: dict[str, str] = {
     "columbia_cc_core": "Core Curriculum",
     "columbia_cs_major": "CS Major",
     "columbia_econ_concentration": "Econ Concentration",
-    "columbia_ms_cs": "MS in Computer Science",
+    "columbia_ms_cs": "MS in CS — General",
 }
+
+
+# MS pathway programs (cs.columbia.edu): each pathway is its own program
+# sharing the breadth cards, with track-specific requirements generated from
+# the committed ms_pathways.json snapshot. Imported last to avoid cycles.
+from app.seed.requirements_ms_tracks import TRACK_LABELS, build_track_programs  # noqa: E402
+
+PROGRAMS.update(build_track_programs(MS_CS_REQS))
+PROGRAM_LABELS.update(TRACK_LABELS)
