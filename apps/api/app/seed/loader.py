@@ -38,7 +38,9 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
     out: list[str] = []
     if department in {"COMS", "CSEE"} and number_int >= 3000 and credits >= 3:
         out.append("cs_elective_eligible")
-    if department == "ECON" and number_int >= 3000:
+    # Cap at 4999: ECON GR5xxx+ are graduate-school-only registration and
+    # must not auto-qualify for undergraduate electives.
+    if department == "ECON" and 3000 <= number_int <= 4999:
         out.append("econ_elective_3000")
     if department in {"COMS", "CSEE"} and number_int >= 4000:
         out.append("ms_grad_eligible")
@@ -51,6 +53,15 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
 # prefix or None for all lists in the snapshot, category to apply or None).
 ADOPTED_LISTS: list[tuple[str, str | None, str | None]] = [
     ("cs", "Area Foundation", None),
+    # Stage-3 programs (Econ major, AI minor, Data Science major, CS
+    # concentration) reference these bulletin lists directly.
+    ("cs", "Minor in Artificial Intelligence", None),
+    ("cs", "AI Requirement", None),
+    ("cs", "Ethics Requirement", None),
+    ("cs", "AI Elective", None),
+    ("cs", "Major in Data Science", None),
+    ("cs", "Concentration in Computer Science", None),
+    ("econ", "Required Coursework", None),
     # The CC science requirement is three courses across Science A/B/C.
     # Science A is SCNC CC1000 (tagged core_science_a in the curated overlay);
     # B and C are approved lists on the science-requirement page, captured as

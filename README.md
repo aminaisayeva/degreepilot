@@ -143,7 +143,9 @@ app/seed/expand.py         "_dynamic" requirements (e.g. any COMS 3000+) +
                            hard validation: every requirement course must exist
         │
         ▼
-seed_all()                 ~1,193 courses + 96 requirements across 14 programs
+seed_all()                 ~1,212 courses + 123 requirements across 18 programs
+                           (adds Economics Major, Data Science Major, AI
+                           Minor, CS Concentration)
                            (CC Science A/B/C structure; 10 MS pathway programs
                            scraped from cs.columbia.edu with research-credit
                            policy — max 12 research points, ≤3 of E6901,

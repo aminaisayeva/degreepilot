@@ -19,6 +19,24 @@ export type DegreeType = "undergrad" | "ms";
 const UNDERGRAD_PROGRAMS = ["columbia_cc_core", "columbia_cs_major"];
 const MS_PROGRAMS = ["columbia_ms_cs"];
 
+const UNDERGRAD_MAJORS = [
+  { slug: "columbia_cs_major", label: "Computer Science" },
+  { slug: "columbia_econ_major", label: "Economics" },
+  { slug: "columbia_data_science_major", label: "Data Science" },
+];
+const UNDERGRAD_MINORS = [
+  { slug: "", label: "None" },
+  { slug: "columbia_econ_concentration", label: "Economics (concentration)" },
+  { slug: "columbia_cs_concentration", label: "Computer Science (concentration)" },
+  { slug: "columbia_ai_minor", label: "Artificial Intelligence (minor)" },
+];
+const MAJOR_SLUGS = UNDERGRAD_MAJORS.map((m) => m.slug);
+const MINOR_SLUGS = UNDERGRAD_MINORS.map((m) => m.slug).filter(Boolean);
+
+function composePrograms(majorSlug: string, minorSlug: string): string[] {
+  return ["columbia_cc_core", majorSlug, ...(minorSlug ? [minorSlug] : [])];
+}
+
 // MS pathway programs (cs.columbia.edu). "General" = no pathway chosen yet.
 const MS_PATHWAYS: { slug: string; label: string }[] = [
   { slug: "columbia_ms_cs", label: "General (no pathway yet)" },
@@ -422,9 +440,34 @@ function BasicsStep({
         <Field label="School">
           <input className="input" value={form.school} disabled />
         </Field>
-        <Field label="Major">
-          <input className="input" value={form.major} disabled />
-        </Field>
+        {degree === "undergrad" ? (
+          <Field label="Major">
+            <select
+              className="input"
+              value={form.programs.find((p) => MAJOR_SLUGS.includes(p)) ?? "columbia_cs_major"}
+              onChange={(e) => {
+                const majorSlug = e.target.value;
+                const minorSlug = form.programs.find((p) => MINOR_SLUGS.includes(p)) ?? "";
+                const label = UNDERGRAD_MAJORS.find((m) => m.slug === majorSlug)!.label;
+                onChange({
+                  ...form,
+                  major: label,
+                  programs: composePrograms(majorSlug, minorSlug),
+                });
+              }}
+            >
+              {UNDERGRAD_MAJORS.map((m) => (
+                <option key={m.slug} value={m.slug}>
+                  {m.label}
+                </option>
+              ))}
+            </select>
+          </Field>
+        ) : (
+          <Field label="Major">
+            <input className="input" value={form.major} disabled />
+          </Field>
+        )}
         {degree === "ms" && (
           <Field
             label="Pathway"
@@ -444,22 +487,27 @@ function BasicsStep({
           </Field>
         )}
         {degree === "undergrad" && (
-          <Field label="Minor (optional)">
+          <Field label="Minor / concentration (optional)">
             <select
               className="input"
-              value={form.minor ?? ""}
-              onChange={(e) =>
+              value={form.programs.find((p) => MINOR_SLUGS.includes(p)) ?? ""}
+              onChange={(e) => {
+                const minorSlug = e.target.value;
+                const majorSlug =
+                  form.programs.find((p) => MAJOR_SLUGS.includes(p)) ?? "columbia_cs_major";
+                const label = UNDERGRAD_MINORS.find((m) => m.slug === minorSlug)?.label;
                 onChange({
                   ...form,
-                  minor: e.target.value || null,
-                  programs: e.target.value
-                    ? [...UNDERGRAD_PROGRAMS, "columbia_econ_concentration"]
-                    : [...UNDERGRAD_PROGRAMS],
-                })
-              }
+                  minor: minorSlug ? label ?? null : null,
+                  programs: composePrograms(majorSlug, minorSlug),
+                });
+              }}
             >
-              <option value="">None</option>
-              <option value="Economics">Economics</option>
+              {UNDERGRAD_MINORS.map((m) => (
+                <option key={m.slug} value={m.slug}>
+                  {m.label}
+                </option>
+              ))}
             </select>
           </Field>
         )}

@@ -186,3 +186,10 @@ def test_number_int_extraction_handles_letter_prefixes():
     assert _number_int("UN3211") == 3211
     assert _number_int("E6998") == 6998
     assert _number_int("BC1014") == 1014
+
+
+def test_econ_electives_exclude_graduate_gr_level():
+    # ECON GR5xxx are graduate-school-only; undergrad electives cap at 4999.
+    assert derive_categories("ECON GR5211", "ECON", 5211, 3) == []
+    assert "econ_elective_3000" in derive_categories("ECON GU4280", "ECON", 4280, 3)
+    assert "econ_elective_3000" in derive_categories("ECON UN3025", "ECON", 3025, 4)

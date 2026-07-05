@@ -410,11 +410,262 @@ MS_CS_REQS: list[dict] = [
 ]
 
 
+# --- Economics BA Major ---
+# Bulletin: "The economics major requires a minimum of 35 points in
+# economics, 6 points in mathematics, and 3 points in statistics (≥44 total)."
+ECON_MAJOR_REQS: list[dict] = [
+    {
+        "name": "Economics Core",
+        "type": RequirementType.ALL_OF,
+        "courses": ["ECON UN1105", "ECON UN3211", "ECON UN3213", "ECON UN3412"],
+        "credits_required": 16,
+        "display_order": 10,
+        "notes": "All core courses by spring of junior year, taken at Columbia.",
+    },
+    {
+        "name": "Calculus I",
+        "type": RequirementType.ALL_OF,
+        "courses": ["MATH UN1101"],
+        "credits_required": 3,
+        "display_order": 20,
+    },
+    {
+        "name": "Multivariable Calculus",
+        "type": RequirementType.ONE_OF,
+        "courses": ["MATH UN1201", "MATH UN1205", "MATH UN1207", "MATH UN1208"],
+        "credits_required": 3,
+        "display_order": 30,
+        "notes": "Second course of the required mathematics sequence.",
+    },
+    {
+        "name": "Statistics",
+        "type": RequirementType.ALL_OF,
+        "courses": ["STAT UN1201"],
+        "credits_required": 3,
+        "display_order": 40,
+        "notes": "STAT UN1201 or a higher-level statistics course.",
+    },
+    {
+        "name": "Economics Electives (pick 5)",
+        "type": RequirementType.N_OF,
+        "courses": ["ECON UN3025", "ECON GU4280", "ECON GU4370", "ECON GU4918"],
+        "_dynamic": "econ_elective_3000",
+        "count_required": 5,
+        "credits_required": 15,
+        "display_order": 50,
+        "notes": "At least five electives; no more than one may be at the 2000-level.",
+    },
+    {
+        "name": "Economics Seminar (pick 1)",
+        "type": RequirementType.N_OF,
+        # Seminar list scraped from the econ bulletin "Required Coursework
+        # for all Programs" section.
+        "courses": [
+            "ECON BC3029", "ECON GU4321", "ECON BC3038", "ECON GU4505",
+            "ECON BC3019", "ECON GU4400", "ECON BC3047", "ECON GU4500",
+            "ECON BC3039", "ECON GU4625", "ECON BC3041", "ECON GU4235",
+        ],
+        "count_required": 1,
+        "credits_required": 3,
+        "display_order": 60,
+        "notes": "One senior economics seminar.",
+    },
+]
+
+
+# --- Minor in Artificial Intelligence ---
+# Bulletin: "The Minor in Artificial Intelligence consists of 6 courses."
+AI_MINOR_REQS: list[dict] = [
+    {
+        "name": "Linear Algebra & Probability",
+        "type": RequirementType.ALL_OF,
+        "courses": ["MATH UN2015"],
+        "credits_required": 4,
+        "display_order": 10,
+    },
+    {
+        "name": "Intro Computing",
+        "type": RequirementType.ONE_OF,
+        "courses": ["ENGI E1006", "COMS W1002"],
+        "credits_required": 3,
+        "display_order": 20,
+    },
+    {
+        "name": "Python Computing",
+        "type": RequirementType.ONE_OF,
+        "courses": ["COMS W2132", "IEOR E2000"],
+        "credits_required": 3,
+        "display_order": 30,
+    },
+    {
+        "name": "AI Requirement",
+        "type": RequirementType.ALL_OF,
+        "courses": ["COMS W4701"],
+        "credits_required": 3,
+        "display_order": 40,
+    },
+    {
+        "name": "Ethics Requirement (pick 1)",
+        "type": RequirementType.N_OF,
+        "courses": ["COMS W4710", "COMS W2702", "PSYC GU4836", "ORCS E4201", "COMS BC3420"],
+        "count_required": 1,
+        "credits_required": 3,
+        "display_order": 50,
+    },
+    {
+        "name": "AI Elective (pick 1)",
+        "type": RequirementType.N_OF,
+        "courses": [
+            "BMEN E4460", "BMEN E4470", "BMEN E4480", "CBMF W4761", "CHEN E4180",
+            "CIEN E4253", "CIEN E4256", "EAEE E4000", "ECBM E4040", "EECS E4764",
+            "ELEN E4720", "ELEN E4730", "IEOR E4212", "IEOR E4540", "MECE E4520",
+            "MECE E4602", "ORCS E4200", "ORCS E4529", "POLS GU4728",
+            "STAT GU4241", "STAT GU4242", "STAT GU4243", "STAT GU4244",
+        ],
+        "count_required": 1,
+        "credits_required": 3,
+        "display_order": 60,
+        "notes": "Any COMS 47xx course or a relevant COMS 4995/6998 topics course also qualifies.",
+    },
+]
+
+
+# --- Major in Data Science (joint CS + Statistics) ---
+DATA_SCIENCE_REQS: list[dict] = [
+    {
+        "name": "Prerequisites",
+        "type": RequirementType.ALL_OF,
+        "courses": ["MATH UN1101", "MATH UN1102", "MATH UN1201", "MATH UN2010", "STAT UN1201"],
+        "credits_required": 15,
+        "display_order": 10,
+        "notes": "Calculus I–III, Linear Algebra, and calculus-based intro statistics (15 points).",
+    },
+    {
+        "name": "Statistics Core",
+        "type": RequirementType.ALL_OF,
+        "courses": ["STAT GU4203", "STAT GU4204", "STAT GU4205"],
+        "credits_required": 9,
+        "display_order": 20,
+        "notes": "Probability Theory, Statistical Inference, Linear Regression Models.",
+    },
+    {
+        "name": "Machine Learning",
+        "type": RequirementType.ONE_OF,
+        "courses": ["STAT GU4241", "COMS W4771"],
+        "credits_required": 3,
+        "display_order": 30,
+    },
+    {
+        "name": "CS: Introduction",
+        "type": RequirementType.ONE_OF,
+        "courses": ["COMS W1004", "COMS W1005", "COMS W1007", "ENGI E1006"],
+        "credits_required": 3,
+        "display_order": 40,
+    },
+    {
+        "name": "CS: Data Structures",
+        "type": RequirementType.ONE_OF,
+        "courses": ["COMS W3134", "COMS W3136", "COMS W3137"],
+        "credits_required": 3,
+        "display_order": 50,
+    },
+    {
+        "name": "CS: Discrete Mathematics",
+        "type": RequirementType.ALL_OF,
+        "courses": ["COMS W3203"],
+        "credits_required": 3,
+        "display_order": 60,
+    },
+    {
+        "name": "CS: Analysis of Algorithms",
+        "type": RequirementType.ALL_OF,
+        "courses": ["CSOR W4231"],
+        "credits_required": 3,
+        "display_order": 70,
+    },
+    {
+        "name": "Electives (pick 5)",
+        "type": RequirementType.N_OF,
+        "courses": [
+            "STAT UN3106", "STAT GU4206", "STAT GU4224", "STAT GU4243", "STAT Q4242",
+            "COMS W3261", "COMS W4111", "COMS W4236", "COMS W4252",
+        ],
+        "count_required": 5,
+        "credits_required": 15,
+        "display_order": 80,
+        "notes": "15 points from the approved joint electives list.",
+    },
+]
+
+
+# --- Concentration in Computer Science ---
+# Bulletin: "requires a minimum of 22-24 points, as follows."
+CS_CONCENTRATION_REQS: list[dict] = [
+    {
+        "name": "Introduction to Computer Science",
+        "type": RequirementType.ONE_OF,
+        "courses": ["COMS W1004", "COMS W1007"],
+        "credits_required": 3,
+        "display_order": 10,
+    },
+    {
+        "name": "Data Structures",
+        "type": RequirementType.ONE_OF,
+        "courses": ["COMS W3134", "COMS W3137"],
+        "credits_required": 3,
+        "display_order": 20,
+    },
+    {
+        "name": "Advanced Programming",
+        "type": RequirementType.ALL_OF,
+        "courses": ["COMS W3157"],
+        "credits_required": 4,
+        "display_order": 30,
+    },
+    {
+        "name": "Discrete Mathematics",
+        "type": RequirementType.ALL_OF,
+        "courses": ["COMS W3203"],
+        "credits_required": 3,
+        "display_order": 40,
+    },
+    {
+        "name": "Computer Science Theory",
+        "type": RequirementType.ALL_OF,
+        "courses": ["COMS W3261"],
+        "credits_required": 3,
+        "display_order": 50,
+    },
+    {
+        "name": "Computer Systems",
+        "type": RequirementType.ONE_OF,
+        "courses": ["CSEE W3827"],
+        "credits_required": 3,
+        "display_order": 60,
+        "notes": "CSEE W3827, or any 3-point 4000-level computer science course.",
+    },
+    {
+        "name": "Math / Probability (pick 1)",
+        "type": RequirementType.ONE_OF,
+        "courses": [
+            "COMS W3251", "MATH UN2010", "MATH UN2015", "MATH V2020",
+            "APMA E2101", "APMA E3101", "IEOR E3658", "STAT UN1201", "STAT GU4001",
+        ],
+        "credits_required": 3,
+        "display_order": 70,
+    },
+]
+
+
 PROGRAMS: dict[str, list[dict]] = {
     "columbia_cc_core": CC_CORE_REQS,
     "columbia_cs_major": CS_MAJOR_REQS,
     "columbia_econ_concentration": ECON_CONCENTRATION_REQS,
     "columbia_ms_cs": MS_CS_REQS,
+    "columbia_econ_major": ECON_MAJOR_REQS,
+    "columbia_ai_minor": AI_MINOR_REQS,
+    "columbia_data_science_major": DATA_SCIENCE_REQS,
+    "columbia_cs_concentration": CS_CONCENTRATION_REQS,
 }
 
 
@@ -424,6 +675,10 @@ PROGRAM_LABELS: dict[str, str] = {
     "columbia_cs_major": "CS Major",
     "columbia_econ_concentration": "Econ Concentration",
     "columbia_ms_cs": "MS in CS — General",
+    "columbia_econ_major": "Economics Major",
+    "columbia_ai_minor": "AI Minor",
+    "columbia_data_science_major": "Data Science Major",
+    "columbia_cs_concentration": "CS Concentration",
 }
 
 
