@@ -1,6 +1,6 @@
 {
   "term": "Spring2026",
-  "scraped_at": "2026-07-04T14:14:12Z",
+  "scraped_at": "2026-07-05T19:13:06Z",
   "subjects": {
     "COMS": {
       "courses": [
@@ -182,7 +182,99 @@
         {
           "code": "COMS W4995",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "SCIENCE OF BLOCKCHAINS",
+              "credits": 3.0,
+              "instructor": "Timothy A Roughgarden"
+            },
+            {
+              "section": "002",
+              "title": "INNOVATION & DESIGN LAB",
+              "credits": 3.0,
+              "instructor": "Gary Zamchick"
+            },
+            {
+              "section": "003",
+              "title": "INNOVATION & DESIGN LAB",
+              "credits": 3.0,
+              "instructor": "Gary Zamchick"
+            },
+            {
+              "section": "004",
+              "title": "ADV SYSTEMS PROGRAMMING",
+              "credits": 3.0,
+              "instructor": "Jae W Lee"
+            },
+            {
+              "section": "005",
+              "title": "C++ DEEP DIVE FOR C PRGS",
+              "credits": 3.0,
+              "instructor": "Jae W Lee"
+            },
+            {
+              "section": "006",
+              "title": "INTRO TO DATA VISUALIZATION",
+              "credits": 3.0,
+              "instructor": "Christian Swinehart"
+            },
+            {
+              "section": "007",
+              "title": "COMPETITIVE PROGRAMMING",
+              "credits": 3.0,
+              "instructor": "Yongwhan Lim"
+            },
+            {
+              "section": "008",
+              "title": "MACHINE LEARNING SECURITY",
+              "credits": 3.0,
+              "instructor": "Suman Jana"
+            },
+            {
+              "section": "009",
+              "title": "THRY ML INTERACT DECISION",
+              "credits": 3.0,
+              "instructor": "Adam B Block"
+            },
+            {
+              "section": "010",
+              "title": "AI FOR SOFTWARE SECURITY",
+              "credits": 3.0,
+              "instructor": "Zhuo Zhang"
+            },
+            {
+              "section": "011",
+              "title": "STRT STUDIO AI ACCEL BLDG",
+              "credits": 3.0,
+              "instructor": "Ken St. Clair"
+            },
+            {
+              "section": "012",
+              "title": "TOPICS IN COMPUTER SCIENC",
+              "credits": 3.0,
+              "instructor": "Lydia Chilton"
+            },
+            {
+              "section": "030",
+              "title": "CAUSAL INFERENCE FOR DATA SCI",
+              "credits": 3.0,
+              "instructor": "Adam Kelleher"
+            },
+            {
+              "section": "031",
+              "title": "APPLIED MACHINE LEARNING",
+              "credits": 3.0,
+              "instructor": "Spencer Luo"
+            },
+            {
+              "section": "032",
+              "title": "APPLIED DEEP LEARNING",
+              "credits": 3.0,
+              "instructor": "Andrei A Simion"
+            }
+          ]
         },
         {
           "code": "COMS E6156",
@@ -227,7 +319,75 @@
         {
           "code": "COMS E6998",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "TPCS GEOMETRY PROCESSING",
+              "credits": 3.0,
+              "instructor": "Silvia Sellan"
+            },
+            {
+              "section": "002",
+              "title": "TPCS SCALABLE MATRIX COMP",
+              "credits": 3.0,
+              "instructor": "Vasileios Kalantzis"
+            },
+            {
+              "section": "003",
+              "title": "HIGH PERF MACH LEARNING",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            },
+            {
+              "section": "004",
+              "title": "APPL MACHINE LEARN CLOUD",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "005",
+              "title": "FINE GRAINED COMPLEXITY",
+              "credits": 3.0,
+              "instructor": "Josh Alman"
+            },
+            {
+              "section": "006",
+              "title": "Machine Assisted Math",
+              "credits": 3.0,
+              "instructor": "Henry Yuen"
+            },
+            {
+              "section": "007",
+              "title": "READINGS COMP ARCH",
+              "credits": 3.0,
+              "instructor": "Martha A Kim"
+            },
+            {
+              "section": "008",
+              "title": "DEEP LEARNING ROBOT MANIP",
+              "credits": 3.0,
+              "instructor": "Yunzhu Li"
+            },
+            {
+              "section": "009",
+              "title": "COMMUNICATION COMPLEXITY APPS",
+              "credits": 3.0,
+              "instructor": "Toniann Pitassi"
+            },
+            {
+              "section": "010",
+              "title": "CONTINUAL LEARN MEM MDLS",
+              "credits": 3.0,
+              "instructor": "Richard Zemel"
+            },
+            {
+              "section": "V03",
+              "title": "HIGH PERF MACH LEARNING",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            }
+          ]
         },
         {
           "code": "COMS E9902",

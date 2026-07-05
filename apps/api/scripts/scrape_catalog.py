@@ -23,6 +23,7 @@ import httpx
 
 from app.services.sync.bulletin import BulletinCourse, parse_bulletin_courses, parse_courselists
 from app.services.sync.columbia_directory import DirectoryCourse, fetch_subject_term
+from app.services.sync.cs_faq import parse_faq_page
 from app.services.sync.cs_pathways import parse_pathway_page
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "app" / "seed" / "data"
@@ -82,17 +83,34 @@ def bulletin_snapshot(*, source_url: str, courses: list[BulletinCourse],
     }
 
 
+# Umbrella topics courses: every section is a different class taught by a
+# different professor — record per-section topics so the loader can expose
+# them as distinct catalog entries.
+TOPICS_UMBRELLAS = {"COMS W4995", "COMS E6995", "COMS E6998"}
+
+
 def directory_snapshot(*, term: str, subjects: dict, scraped_at: str) -> dict:
     subj_out = {}
     for name, payload in subjects.items():
         courses = payload.get("courses") or []
-        subj_out[name] = {
-            "courses": [
-                {"code": c.code, "title": c.title, "credits": c.credits}
-                for c in courses
-            ],
-            "error": payload.get("error"),
-        }
+        entries = []
+        for c in courses:
+            entry: dict = {"code": c.code, "title": c.title, "credits": c.credits}
+            if c.code in TOPICS_UMBRELLAS:
+                topics = []
+                for s in c.sections:
+                    if not s.title_variant:
+                        continue
+                    topics.append({
+                        "section": s.section,
+                        "title": s.title_variant,
+                        "credits": s.credits or c.credits,
+                        "instructor": s.instructor,
+                    })
+                if topics:
+                    entry["topics"] = topics
+            entries.append(entry)
+        subj_out[name] = {"courses": entries, "error": payload.get("error")}
     return {"term": term, "scraped_at": scraped_at, "subjects": subj_out}
 
 
@@ -170,9 +188,36 @@ def scrape_pathways(client: httpx.Client) -> int:
     return ok
 
 
+# MS policy / FAQ pages — parsed into Q/A entries for the accuracy dashboard
+# and requirement-note curation.
+FAQ_PAGES: dict[str, str] = {
+    "regfaq": "https://www.cs.columbia.edu/education/ms/regfaq/",
+    "appfaq": "https://www.cs.columbia.edu/education/ms/appfaq/",
+}
+
+
+def scrape_faq(client: httpx.Client) -> int:
+    ok = 0
+    pages: dict = {}
+    for slug, url in FAQ_PAGES.items():
+        try:
+            r = client.get(url)
+            r.raise_for_status()
+            entries = parse_faq_page(r.text)
+            pages[slug] = {"source_url": url, "entries": entries, "error": None}
+            ok += 1
+            print(f"  faq:{slug:10s} {len(entries)} Q/A entries")
+        except Exception as e:
+            pages[slug] = {"source_url": url, "entries": [], "error": str(e)[:240]}
+            print(f"  faq:{slug:10s} ERR {str(e)[:80]}")
+    path = write_snapshot({"scraped_at": _now(), "pages": pages}, DATA_DIR / "ms_faq.json")
+    print(f"  -> {path.name}")
+    return ok
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only", choices=["bulletin", "directory", "pathways"], default=None)
+    ap.add_argument("--only", choices=["bulletin", "directory", "pathways", "faq"], default=None)
     args = ap.parse_args()
     ok = 0
     with httpx.Client(timeout=30.0, headers={"User-Agent": _UA}, follow_redirects=True) as client:
@@ -185,6 +230,9 @@ def main() -> int:
         if args.only in (None, "pathways"):
             print("Scraping MS pathway pages…")
             ok += scrape_pathways(client)
+        if args.only in (None, "faq"):
+            print("Scraping MS FAQ pages…")
+            ok += scrape_faq(client)
     return 0 if ok else 1
 
 

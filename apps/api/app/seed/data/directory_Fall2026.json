@@ -1,6 +1,6 @@
 {
   "term": "Fall2026",
-  "scraped_at": "2026-07-04T14:14:13Z",
+  "scraped_at": "2026-07-05T19:13:07Z",
   "subjects": {
     "COMS": {
       "courses": [
@@ -217,7 +217,93 @@
         {
           "code": "COMS W4995",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "PARALLEL FUNCTIONAL PROGRAMMIN",
+              "credits": 3.0,
+              "instructor": "Stephen A Edwards"
+            },
+            {
+              "section": "002",
+              "title": "DESIGN USING C++",
+              "credits": 3.0,
+              "instructor": "Bjarne Stroustrup"
+            },
+            {
+              "section": "003",
+              "title": "RESILIENT QUANTUM COMP",
+              "credits": 3.0,
+              "instructor": "Daniel S Rubenstein"
+            },
+            {
+              "section": "004",
+              "title": "ADV SFTWR DEVELOP W/ AI",
+              "credits": 3.0,
+              "instructor": "Baishakhi Ray"
+            },
+            {
+              "section": "005",
+              "title": "HACKING 4 DEFENSE",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "006",
+              "title": "INNOVATION & DESIGN LAB",
+              "credits": 3.0,
+              "instructor": "Gary Zamchick"
+            },
+            {
+              "section": "007",
+              "title": "COMPETITIVE PROGRAMMING",
+              "credits": 3.0,
+              "instructor": "Yongwhan Lim"
+            },
+            {
+              "section": "008",
+              "title": "HEALTH DATA MGMT AGENTS",
+              "credits": 3.0,
+              "instructor": "Eugene Wu"
+            },
+            {
+              "section": "009",
+              "title": "AGENIC ENGINEERING",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "010",
+              "title": "DEEP LRNG FOR COMP VISION",
+              "credits": 3.0,
+              "instructor": "Peter Belhumeur"
+            },
+            {
+              "section": "011",
+              "title": "C++ DEEP DIVE FOR C PRGS",
+              "credits": 3.0,
+              "instructor": "Hans J Montero"
+            },
+            {
+              "section": "012",
+              "title": "LAB2MKT QUANTUM AI INNOVA",
+              "credits": 3.0,
+              "instructor": "Hossein Azari Soufiani"
+            },
+            {
+              "section": "013",
+              "title": "CASL MLTPLAYER GAME OCAML",
+              "credits": 3.0,
+              "instructor": "Yoav Zibin"
+            },
+            {
+              "section": "030",
+              "title": "APPLIED MACHINE LEARNING",
+              "credits": 3.0,
+              "instructor": "Spencer Luo"
+            }
+          ]
         },
         {
           "code": "COMS E6113",
@@ -252,7 +338,87 @@
         {
           "code": "COMS E6998",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "READINGS LANGUAGE DESIGN",
+              "credits": 3.0,
+              "instructor": "Bjarne Stroustrup"
+            },
+            {
+              "section": "002",
+              "title": "ADV TPCS COMPETITIVE PROG",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "003",
+              "title": "Hyperscale+AI Infrastruct",
+              "credits": 3.0,
+              "instructor": "Jason Nieh"
+            },
+            {
+              "section": "004",
+              "title": "CONTINUAL LEARN MEM MDLS",
+              "credits": 3.0,
+              "instructor": "Richard Zemel"
+            },
+            {
+              "section": "005",
+              "title": "MOBILE HEALTH SENSING AI",
+              "credits": 3.0,
+              "instructor": "Xia Zhou"
+            },
+            {
+              "section": "006",
+              "title": "HIGH PERF MACH LEARNING",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            },
+            {
+              "section": "007",
+              "title": "LLM BASED GENERATIVE AI",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "008",
+              "title": "SCALING LLMS SYSTEMS OPT",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "009",
+              "title": "ADVANCED COMP SECURITY",
+              "credits": 3.0,
+              "instructor": "Suman Jana"
+            },
+            {
+              "section": "010",
+              "title": "ALGOS LARGE LANG MODELS",
+              "credits": 3.0,
+              "instructor": "Alexandr Andoni"
+            },
+            {
+              "section": "011",
+              "title": "DESIGN FOR GENERATIVE AI",
+              "credits": 3.0,
+              "instructor": "Lydia Chilton"
+            },
+            {
+              "section": "012",
+              "title": "COMPUTATION AND THE BRAIN",
+              "credits": 3.0,
+              "instructor": "Christos H Papadimitriou"
+            },
+            {
+              "section": "013",
+              "title": "ADVANCES VIS GENER MODELS",
+              "credits": 3.0,
+              "instructor": "Aleksander Holynski"
+            }
+          ]
         },
         {
           "code": "COMS E9902",

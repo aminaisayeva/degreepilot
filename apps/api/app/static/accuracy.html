@@ -141,6 +141,12 @@
 </div>
 
 <div id="list"></div>
+
+<details id="policies" style="margin-top:18px">
+  <summary style="cursor:pointer;font-weight:650;font-size:15px">Policies &amp; FAQ (scraped from cs.columbia.edu)</summary>
+  <div id="policyList"></div>
+</details>
+
 <div id="toast"></div>
 
 <script>
@@ -202,6 +208,13 @@ function render() {
       </div>
     </div>`;
   }).join("");
+
+  $("policyList").innerHTML = (DATA.policies || []).map(p => `
+    <div style="border-top:1px solid var(--grid);padding:8px 2px">
+      <div style="font-weight:600;font-size:13px">${esc(p.question)}</div>
+      <div style="color:var(--ink-2);font-size:12px;margin-top:2px">${esc(p.answer)}</div>
+      ${p.source_url ? `<a class="links" style="font-size:11px" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source ↗</a>` : ""}
+    </div>`).join("") || `<div class="empty">No policy snapshot found.</div>`;
 
   const fp = $("fProgram").value, fs = $("fStatus").value,
         q = $("fSearch").value.trim().toLowerCase();

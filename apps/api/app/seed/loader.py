@@ -44,6 +44,27 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
         out.append("econ_elective_3000")
     if department in {"COMS", "CSEE"} and number_int >= 4000:
         out.append("ms_grad_eligible")
+
+    # MS breadth chart (cs.columbia.edu/education/ms/breadthRequirement,
+    # verified 2026-07-05): pattern-based groups with explicit exceptions.
+    n = number_int
+    if department == "COMS":
+        in_41xx = 4100 <= n <= 4199
+        in_416x_417x = 4160 <= n <= 4179
+        if (in_41xx and n != 4121 and not in_416x_417x) or 4800 <= n <= 4899 or n == 4444:
+            out.append("ms_breadth_systems")
+        if 4200 <= n <= 4299:
+            out.append("ms_breadth_theory")
+        if (4700 <= n <= 4799 and n not in (4721, 4726)) or in_416x_417x:
+            out.append("ms_breadth_ai")
+    elif department == "CSEE" and n in (4119, 4823, 4824, 4840, 4868):
+        out.append("ms_breadth_systems")
+    elif department == "EECS" and n == 4340:
+        out.append("ms_breadth_systems")
+    elif department == "CSOR" and n in (4231, 4223):
+        out.append("ms_breadth_theory")
+    elif department == "CBMF" and n == 4761:
+        out.append("ms_breadth_ai")
     return out
 
 
@@ -81,6 +102,8 @@ class Snapshots:
     list_sources: dict[str, str | None] = field(default_factory=dict)
     # code -> {"title", "source_url"} from MS pathway pages (cs.columbia.edu)
     pathway_courses: dict[str, dict] = field(default_factory=dict)
+    # umbrella code -> topic title -> {"credits", "seasons", "instructors"}
+    topics: dict[str, dict[str, dict]] = field(default_factory=dict)
 
 
 def load_snapshots(data_dir: Path | None = None) -> Snapshots:
@@ -125,6 +148,20 @@ def load_snapshots(data_dir: Path | None = None) -> Snapshots:
                     entry["seasons"].append(season)
                 if c["credits"] and not entry["credits"]:
                     entry["credits"] = c["credits"]
+                # Topics umbrellas (4995/6998): every section is a distinct
+                # class — collect per-topic titles across terms.
+                for t in c.get("topics") or []:
+                    bucket = snaps.topics.setdefault(c["code"], {})
+                    info = bucket.setdefault(t["title"], {
+                        "credits": t.get("credits") or c["credits"] or 3.0,
+                        "seasons": [],
+                        "instructors": [],
+                    })
+                    if season and season not in info["seasons"]:
+                        info["seasons"].append(season)
+                    instr = t.get("instructor")
+                    if instr and instr not in info["instructors"]:
+                        info["instructors"].append(instr)
     return snaps
 
 
@@ -191,7 +228,59 @@ def build_catalog(data_dir: Path | None = None) -> tuple[list[dict], dict[str, d
 
     _apply_adopted_lists(snaps, courses, provenance)
     _apply_pathway_courses(snaps, courses, provenance)
+    _apply_topics(snaps, courses, provenance)
     return courses, provenance
+
+
+def _apply_topics(snaps: Snapshots, courses: list[dict], provenance: dict[str, dict]) -> None:
+    """Expand topics umbrellas (COMS W4995/E6998/…) into one catalog entry per
+    distinct topic title. Codes are `<umbrella>-NN` in sorted-title order —
+    stable for a fixed snapshot set. The umbrella entry stays for requirement
+    references and gets a pointer note."""
+    from app.services.sync.syncer import _pretty_title
+
+    by_code = {c["code"]: c for c in courses}
+    for umbrella, titles in snaps.topics.items():
+        parent = by_code.get(umbrella)
+        if parent is not None and "individual topic sections" not in parent["description"]:
+            parent["description"] = (
+                f"Umbrella topics course — see the individual topic sections "
+                f"({umbrella}-01 …) for the actual classes. "
+                + parent["description"]
+            ).strip()
+        department = umbrella.split()[0]
+        number = umbrella.split()[-1]
+        for i, title in enumerate(sorted(titles), start=1):
+            info = titles[title]
+            code = f"{umbrella}-{i:02d}"
+            pretty = _pretty_title(title) if title.isupper() or not any(
+                ch.islower() for ch in title) else title
+            instructors = ", ".join(info["instructors"])
+            spec = {
+                "code": code,
+                "title": pretty,
+                "department": department,
+                "credits": float(info["credits"] or 3.0),
+                "description": (
+                    f"Topics section of {umbrella}"
+                    + (f" — taught by {instructors}" if instructors else "")
+                    + ". Each section is a distinct class."
+                ),
+                "workload_level": (parent or {}).get("workload_level", 3),
+                "prerequisites": [],
+                "offered_terms": list(info["seasons"]),
+                "categories": derive_categories(code, department, _number_int(number),
+                                                float(info["credits"] or 3.0)),
+                "career_tags": [],
+            }
+            courses.append(spec)
+            by_code[code] = spec
+            provenance[code] = {
+                "origin": "directory_topic",
+                "source_url": None,
+                "scraped_at": None,
+                "bulletin_prereq_text": "",
+            }
 
 
 def _apply_pathway_courses(

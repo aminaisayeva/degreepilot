@@ -193,3 +193,51 @@ def test_econ_electives_exclude_graduate_gr_level():
     assert derive_categories("ECON GR5211", "ECON", 5211, 3) == []
     assert "econ_elective_3000" in derive_categories("ECON GU4280", "ECON", 4280, 3)
     assert "econ_elective_3000" in derive_categories("ECON UN3025", "ECON", 3025, 4)
+
+
+def test_topics_sections_become_distinct_courses(tmp_path):
+    data = _mini_snapshots(tmp_path)
+    _write(data, "directory_Spring2027.json", {
+        "term": "Spring2027", "scraped_at": "2026-07-05T00:00:00Z",
+        "subjects": {"COMS": {"error": None, "courses": [
+            {"code": "COMS W4995", "title": "TOPICS IN COMPUTER SCIENCE", "credits": 3.0,
+             "topics": [
+                 {"section": "001", "title": "SCIENCE OF BLOCKCHAINS", "credits": 3.0,
+                  "instructor": "A Prof"},
+                 {"section": "002", "title": "DEEP LRNG FOR COMP VISION", "credits": 3.0,
+                  "instructor": "B Prof"},
+             ]},
+        ]}},
+    })
+    courses, prov = build_catalog(data_dir=data)
+    by_code = {c["code"]: c for c in courses}
+    topic_codes = [c for c in by_code if c.startswith("COMS W4995-")]
+    assert len(topic_codes) == 2
+    blockchains = next(c for c in topic_codes
+                       if by_code[c]["title"] == "Science of Blockchains")
+    assert by_code[blockchains]["offered_terms"] == ["Spring"]
+    assert "A Prof" in by_code[blockchains]["description"]
+    assert prov[blockchains]["origin"] == "directory_topic"
+    # Umbrella stays and points readers at the topic entries.
+    assert "COMS W4995" in by_code
+    assert "individual topic sections" in by_code["COMS W4995"]["description"]
+
+
+def test_breadth_categories_follow_number_patterns():
+    # cs.columbia.edu breadth chart: Systems = COMS 41xx (minus 4121/416x/417x),
+    # 48xx, 4444, listed CSEE + EECS 4340; Theory = COMS 42xx + CSOR 4231/4223;
+    # AI = COMS 47xx (minus 4721/4726) + 416x/417x + CBMF 4761.
+    assert "ms_breadth_systems" in derive_categories("COMS W4118", "COMS", 4118, 3)
+    assert "ms_breadth_systems" in derive_categories("COMS W4111", "COMS", 4111, 3)
+    assert "ms_breadth_systems" in derive_categories("COMS W4156", "COMS", 4156, 3)
+    assert "ms_breadth_systems" not in derive_categories("COMS W4121", "COMS", 4121, 3)
+    assert "ms_breadth_systems" in derive_categories("CSEE W4119", "CSEE", 4119, 3)
+    assert "ms_breadth_systems" in derive_categories("COMS W4444", "COMS", 4444, 3)
+    assert "ms_breadth_theory" in derive_categories("COMS W4231", "COMS", 4231, 3)
+    assert "ms_breadth_theory" in derive_categories("CSOR E4231", "CSOR", 4231, 3)
+    assert "ms_breadth_theory" not in derive_categories("CSOR W4246", "CSOR", 4246, 3)
+    assert "ms_breadth_ai" in derive_categories("COMS W4771", "COMS", 4771, 3)
+    assert "ms_breadth_ai" not in derive_categories("COMS W4721", "COMS", 4721, 3)
+    assert "ms_breadth_ai" in derive_categories("COMS W4170", "COMS", 4170, 3)
+    assert "ms_breadth_systems" not in derive_categories("COMS W4170", "COMS", 4170, 3)
+    assert "ms_breadth_ai" in derive_categories("CBMF W4761", "CBMF", 4761, 3)

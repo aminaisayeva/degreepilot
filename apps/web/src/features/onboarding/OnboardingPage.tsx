@@ -65,6 +65,7 @@ const DEFAULT: StudentCreate = {
   current_term: "Fall 2025",
   graduation_term: "Spring 2028",
   completed_courses: [],
+  waived_courses: [],
   transfer_credits: [],
   preferred_workload: 3,
   max_credits_per_term: 17,
@@ -555,7 +556,13 @@ function CompletedStep({
   catalog: { code: string; title: string; department: string }[];
 }) {
   const [query, setQuery] = useState("");
-  const selected = new Set(form.completed_courses);
+  // MS students select courses taken during their bachelor's: those WAIVE
+  // requirements but earn no credit toward the 30 points (department
+  // policy), so they're stored separately from completed courses.
+  const isMs = degreeOf(form.programs) === "ms";
+  const fieldName = isMs ? ("waived_courses" as const) : ("completed_courses" as const);
+  const currentList = form[fieldName] ?? [];
+  const selected = new Set(currentList);
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return catalog.filter(
@@ -570,11 +577,18 @@ function CompletedStep({
   const toggle = (code: string) => {
     const next = new Set(selected);
     next.has(code) ? next.delete(code) : next.add(code);
-    onChange({ ...form, completed_courses: Array.from(next).sort() });
+    onChange({ ...form, [fieldName]: Array.from(next).sort() });
   };
 
   return (
     <div className="space-y-4">
+      {isMs && (
+        <div className="rounded-xl border border-border bg-elevated p-3 text-xs text-muted">
+          Select courses you completed during your <span className="text-ink">bachelor's</span>.
+          They waive the matching MS requirement, but they don't count toward your 30
+          points — the plan will schedule replacement courses.
+        </div>
+      )}
       <input
         className="input"
         placeholder="Search by code, title, or department…"
@@ -582,7 +596,7 @@ function CompletedStep({
         onChange={(e) => setQuery(e.target.value)}
       />
       <div className="flex flex-wrap gap-2">
-        {form.completed_courses.map((c) => (
+        {currentList.map((c) => (
           <Badge key={c} variant="accent" className="cursor-pointer" onClick={() => toggle(c)}>
             {c} ✕
           </Badge>
@@ -665,6 +679,25 @@ function WorkloadStep({
           Avoid summer terms in my plan
         </label>
       </div>
+      {degreeOf(form.programs) === "ms" && (
+        <div className="md:col-span-2 flex items-center gap-2">
+          <input
+            id="include_research"
+            type="checkbox"
+            checked={Boolean((form.constraints as any).include_research)}
+            onChange={(e) =>
+              onChange({
+                ...form,
+                constraints: { ...form.constraints, include_research: e.target.checked },
+              })
+            }
+          />
+          <label htmlFor="include_research" className="text-sm">
+            Include a research project (COMS E6901 — up to 3 of your 30 points; max 12
+            research points overall)
+          </label>
+        </div>
+      )}
     </div>
   );
 }

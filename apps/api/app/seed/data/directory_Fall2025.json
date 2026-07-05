@@ -1,6 +1,6 @@
 {
   "term": "Fall2025",
-  "scraped_at": "2026-07-04T14:14:12Z",
+  "scraped_at": "2026-07-05T19:13:06Z",
   "subjects": {
     "COMS": {
       "courses": [
@@ -242,7 +242,99 @@
         {
           "code": "COMS W4995",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "DEEP LRNG FOR COMP VISION",
+              "credits": 3.0,
+              "instructor": "Peter Belhumeur"
+            },
+            {
+              "section": "002",
+              "title": "HACKING 4 DEFENSE",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "003",
+              "title": "THE QUANTUM INTERNET",
+              "credits": 3.0,
+              "instructor": "Daniel S Rubenstein"
+            },
+            {
+              "section": "004",
+              "title": "DESIGN USING C++",
+              "credits": 3.0,
+              "instructor": "Bjarne Stroustrup"
+            },
+            {
+              "section": "005",
+              "title": "PARALLEL FUNCTIONAL PROGRAMMIN",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "007",
+              "title": "C++ DEEP DIVE FOR C PRGS",
+              "credits": 3.0,
+              "instructor": "Hans J Montero"
+            },
+            {
+              "section": "008",
+              "title": "INNOVATION & DESIGN LAB",
+              "credits": 3.0,
+              "instructor": "Gary Zamchick"
+            },
+            {
+              "section": "009",
+              "title": "COMPETITIVE PROGRAMMING",
+              "credits": 3.0,
+              "instructor": "Yongwhan Lim"
+            },
+            {
+              "section": "010",
+              "title": "CASL MLTPLAYER GAME OCAML",
+              "credits": 3.0,
+              "instructor": "Yoav Zibin"
+            },
+            {
+              "section": "011",
+              "title": "NEURAL RENDERING GRAPHICS",
+              "credits": 3.0,
+              "instructor": "Corey Toler-Franklin"
+            },
+            {
+              "section": "030",
+              "title": "ELEMENTS FOR DATA SCIENCE",
+              "credits": 3.0,
+              "instructor": "Andi Cupallari"
+            },
+            {
+              "section": "031",
+              "title": "APPLIED DEEP LEARNING",
+              "credits": 3.0,
+              "instructor": "Andrei A Simion"
+            },
+            {
+              "section": "032",
+              "title": "APPLIED MACHINE LEARNING",
+              "credits": 3.0,
+              "instructor": "Spencer Luo"
+            },
+            {
+              "section": "V05",
+              "title": "PARALLEL FUNCTIONAL PROGRAMMIN",
+              "credits": 3.0,
+              "instructor": "Stephen A Edwards"
+            },
+            {
+              "section": "V09",
+              "title": "COMPETITIVE PROGRAMMING",
+              "credits": 3.0,
+              "instructor": "Yongwhan Lim"
+            }
+          ]
         },
         {
           "code": "COMS E6113",
@@ -277,7 +369,117 @@
         {
           "code": "COMS E6998",
           "title": "TOPICS IN COMPUTER SCIENCE",
-          "credits": 3.0
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "002",
+              "title": "READINGS LANGUAGE DESIGN",
+              "credits": 3.0,
+              "instructor": "Bjarne Stroustrup"
+            },
+            {
+              "section": "003",
+              "title": "ALGORITHMS FOR MASSIVE DATA",
+              "credits": 3.0,
+              "instructor": "Alexandr Andoni"
+            },
+            {
+              "section": "004",
+              "title": "TPCS QUANTUM CRYPTOGRAPHY",
+              "credits": 3.0,
+              "instructor": "James L Bartusek"
+            },
+            {
+              "section": "005",
+              "title": "TOPICS MOBILE COMPUTING",
+              "credits": 3.0,
+              "instructor": "Xia Zhou"
+            },
+            {
+              "section": "006",
+              "title": "COMPUTATION AND THE BRAIN",
+              "credits": 3.0,
+              "instructor": "Christos H Papadimitriou"
+            },
+            {
+              "section": "007",
+              "title": "ENGR WEB3 BLOCKCHAIN APPS",
+              "credits": 3.0,
+              "instructor": "Ronghui Gu"
+            },
+            {
+              "section": "008",
+              "title": "ANALYSIS OF NETWORKS & CROWDS",
+              "credits": 3.0,
+              "instructor": "Augustin Chaintreau"
+            },
+            {
+              "section": "009",
+              "title": "MACHINE LEARNING FRONTRS",
+              "credits": 3.0,
+              "instructor": "Carl Vondrick"
+            },
+            {
+              "section": "010",
+              "title": "GRAPHICS & COMP MOTION",
+              "credits": 3.0,
+              "instructor": "Changxi Zheng"
+            },
+            {
+              "section": "012",
+              "title": "HIGH PERF MACH LEARNING",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            },
+            {
+              "section": "013",
+              "title": "LLM BASED GENERATIVE AI",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "014",
+              "title": "REINFORCEMENT LRNING LLMS",
+              "credits": 3.0,
+              "instructor": "Adam B Block"
+            },
+            {
+              "section": "015",
+              "title": "SCALING LLMS SYSTEMS OPT",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "V03",
+              "title": "ALGORITHMS FOR MASSIVE DATA",
+              "credits": 3.0,
+              "instructor": "Alexandr Andoni"
+            },
+            {
+              "section": "V07",
+              "title": "ENGR WEB3 BLOCKCHAIN APPS",
+              "credits": 3.0,
+              "instructor": "Ronghui Gu"
+            },
+            {
+              "section": "V12",
+              "title": "HIGH PERF MACH LEARNING",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            },
+            {
+              "section": "V13",
+              "title": "LLM BASED GENERATIVE AI",
+              "credits": 3.0,
+              "instructor": null
+            },
+            {
+              "section": "V15",
+              "title": "SCALING LLMS SYSTEMS OPT",
+              "credits": 3.0,
+              "instructor": "Kaoutar El Maghraoui"
+            }
+          ]
         },
         {
           "code": "COMS E9902",

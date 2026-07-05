@@ -343,29 +343,42 @@ ECON_CONCENTRATION_REQS: list[dict] = [
 # Students admitted to the MS are assumed to hold a CS bachelor's, so
 # undergraduate prerequisites (sub-4000-level) are treated as satisfied.
 MS_CS_REQS: list[dict] = [
+    # Breadth groups follow the cs.columbia.edu breadth chart (pattern-based:
+    # COMS 41xx/48xx/4444 = Systems, 42xx = Theory, 47xx/416x/417x = AI, with
+    # listed exceptions) — expanded from derived categories at seed time.
+    # Waiver policy: waiving a breadth course with a prior-degree (bachelor's)
+    # course does NOT reduce the 30-point total — replacement credits are
+    # required. Breadth courses may overlap with track/elective courses.
     {
         "name": "Breadth: Systems",
         "type": RequirementType.ONE_OF,
         "courses": ["COMS W4118", "COMS W4111", "COMS W4115"],
+        "_dynamic": "ms_breadth_systems",
         "credits_required": 3,
         "display_order": 10,
-        "notes": "One graduate-eligible systems course (OS, databases, or PLT).",
+        "notes": "One systems breadth course (COMS 41xx/48xx per the breadth chart). "
+                 "Waiving with a bachelor's course does not reduce the 30-point total.",
     },
     {
         "name": "Breadth: Theory",
         "type": RequirementType.ONE_OF,
         "courses": ["COMS W4231", "COMS W4236"],
+        "_dynamic": "ms_breadth_theory",
         "credits_required": 3,
         "display_order": 20,
-        "notes": "One algorithms/complexity course.",
+        "notes": "One theory breadth course (COMS 42xx, CSOR 4231/4223 per the breadth "
+                 "chart). Waiving with a bachelor's course does not reduce the 30-point total.",
     },
     {
         "name": "Breadth: AI & Applications",
         "type": RequirementType.ONE_OF,
         "courses": ["COMS W4701", "COMS W4771", "COMS W4705"],
+        "_dynamic": "ms_breadth_ai",
         "credits_required": 3,
         "display_order": 30,
-        "notes": "One AI, machine learning, or NLP course.",
+        "notes": "One AI & applications breadth course (COMS 47xx/416x/417x per the "
+                 "breadth chart). Waiving with a bachelor's course does not reduce the "
+                 "30-point total.",
     },
     {
         "name": "Track Depth (pick 4)",

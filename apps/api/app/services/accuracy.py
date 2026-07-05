@@ -27,6 +27,24 @@ def _provenance() -> dict[str, dict]:
 
 
 @lru_cache(maxsize=1)
+def _policies() -> list[dict]:
+    """Q/A entries scraped from the MS FAQ pages — static per process."""
+    import json
+
+    from app.seed.loader import DATA_DIR
+
+    path = DATA_DIR / "ms_faq.json"
+    if not path.exists():
+        return []
+    payload = json.loads(path.read_text())
+    out: list[dict] = []
+    for page in (payload.get("pages") or {}).values():
+        for e in page.get("entries") or []:
+            out.append({**e, "source_url": page.get("source_url")})
+    return out
+
+
+@lru_cache(maxsize=1)
 def _newest_directory_term() -> str:
     from app.seed.loader import DATA_DIR
 
@@ -125,4 +143,5 @@ def build_accuracy_data(session: Session) -> dict:
         "programs": programs_out,
         "catalog_size": len(courses),
         "summary": summary,
+        "policies": _policies(),
     }

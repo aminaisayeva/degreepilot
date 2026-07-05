@@ -100,7 +100,8 @@ def audit_requirement(
         completed_courses=completed_in,
         missing_courses=missing,
         needed_credits=needed_credits,
-        earned_credits=_credits_for(completed_in, catalog),
+        # Waived courses satisfy the card but never earn credit.
+        earned_credits=_credits_for([c for c in completed_in if c in creditable], catalog),
         notes=notes,
     )
 

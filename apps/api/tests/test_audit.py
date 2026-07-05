@@ -64,5 +64,7 @@ def test_waived_courses_satisfy_cards_but_earn_no_credits(session, catalog, ms_r
 
     assert by_name["Breadth: Systems"].satisfied is True          # waived counts
     assert by_name["Breadth: Theory"].satisfied is True           # completed counts
-    # Credit math excludes the waived course entirely.
+    # Credit math excludes the waived course entirely — in the total AND per card.
     assert report.total_credits_completed == catalog["COMS W4231"].credits
+    assert by_name["Breadth: Systems"].earned_credits == 0.0
+    assert by_name["Breadth: Theory"].earned_credits == catalog["COMS W4231"].credits

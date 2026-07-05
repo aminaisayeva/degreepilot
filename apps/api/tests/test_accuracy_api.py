@@ -106,3 +106,11 @@ def test_check_validation(client):
     r = client.post("/admin/accuracy/check", json={
         "entity_type": "recipe", "entity_key": "COMS W3134", "status": "verified"})
     assert r.status_code == 422
+
+
+def test_accuracy_data_includes_scraped_policies(client):
+    data = client.get("/admin/accuracy/data").json()
+    assert "policies" in data
+    # Committed ms_faq.json snapshot has both FAQ pages
+    assert len(data["policies"]) > 50
+    assert all({"question", "answer", "source_url"} <= set(p) for p in data["policies"][:5])

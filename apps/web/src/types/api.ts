@@ -33,6 +33,8 @@ export interface Student {
   current_term: string;
   graduation_term: string;
   completed_courses: string[];
+  /** Courses counted toward a prior degree: waive requirements, earn no credit. */
+  waived_courses: string[];
   transfer_credits: { code?: string; category?: string; credits: number }[];
   preferred_workload: number;
   max_credits_per_term: number;
