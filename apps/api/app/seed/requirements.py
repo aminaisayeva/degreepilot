@@ -702,3 +702,8 @@ from app.seed.requirements_ms_tracks import TRACK_LABELS, build_track_programs  
 
 PROGRAMS.update(build_track_programs(MS_CS_REQS))
 PROGRAM_LABELS.update(TRACK_LABELS)
+
+from app.seed.requirements_more_majors import MORE_LABELS, MORE_PROGRAMS  # noqa: E402
+
+PROGRAMS.update(MORE_PROGRAMS)
+PROGRAM_LABELS.update(MORE_LABELS)

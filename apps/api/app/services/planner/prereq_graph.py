@@ -21,7 +21,7 @@ def assumed_completed(programs: list[str], catalog: dict[str, Course]) -> set[st
     Graduate students are admitted with a CS bachelor's, so undergraduate
     (sub-4000-level) prerequisites are considered met.
     """
-    if not any(p.startswith("columbia_ms") for p in programs):
+    if not any(p.startswith(("columbia_ms", "columbia_ma_")) for p in programs):
         return set()
     out: set[str] = set()
     for code in catalog:

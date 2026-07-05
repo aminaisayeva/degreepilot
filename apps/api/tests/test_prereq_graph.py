@@ -33,3 +33,15 @@ def test_unlocks_are_reachable(catalog):
     g = build_prereq_graph(list(catalog.values()))
     unlocks = g.unlocks("COMS W3134")
     assert "COMS W4231" in unlocks or "COMS W3157" in unlocks
+
+
+def test_math_majors_are_not_graduate_programs(catalog):
+    """Prefix guard: 'columbia_math_*' must NOT match the graduate 'columbia_ma_'
+    prefix — a math major keeps every undergraduate prerequisite."""
+    from app.services.planner.prereq_graph import assumed_completed
+
+    cat = {c: v for c, v in catalog.items()}
+    assert assumed_completed(["columbia_math_major"], cat) == set()
+    assert assumed_completed(["columbia_cc_core", "columbia_math_stat"], cat) == set()
+    assert assumed_completed(["columbia_ma_philosophy"], cat) != set()
+    assert assumed_completed(["columbia_ms_cs_ml"], cat) != set()

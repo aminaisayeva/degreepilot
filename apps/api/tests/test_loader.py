@@ -251,3 +251,16 @@ def test_administrative_codes_are_not_elective_eligible():
         assert derive_categories(code, "COMS", num, 3) == [], code
     # regular courses unaffected
     assert "ms_grad_eligible" in derive_categories("COMS E6111", "COMS", 6111, 3)
+
+
+def test_new_department_derived_categories():
+    assert "math_elective_2000" in derive_categories("MATH GU4041", "MATH", 4041, 3)
+    assert "math_elective_2000" not in derive_categories("MATH UN1101", "MATH", 1101, 3)
+    assert "phil_ug" in derive_categories("PHIL UN2101", "PHIL", 2101, 3)
+    assert "phil_grad" in derive_categories("PHIL GU4561", "PHIL", 4561, 3)
+    assert "phil_grad" not in derive_categories("PHIL UN2101", "PHIL", 2101, 3)
+    assert "english_lit" in derive_categories("ENGL UN3001", "ENGL", 3001, 3)
+    assert "english_lit" in derive_categories("CLEN GU4550", "CLEN", 4550, 3)
+    assert "polisci_ug" in derive_categories("POLS UN1201", "POLS", 1201, 3)
+    # Barnard exclusion still applies everywhere
+    assert derive_categories("PHIL BC1001", "PHIL", 1001, 3) == []

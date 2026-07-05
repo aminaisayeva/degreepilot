@@ -73,7 +73,7 @@ class Planner:
     # ----- per-intent actions -----
 
     def _do_ai_ml_picks(self, scratchpad: AdvisorScratchpad) -> None:
-        grad = any(p.startswith("columbia_ms") for p in self.student.resolve_programs())
+        grad = any(p.startswith(("columbia_ms", "columbia_ma_")) for p in self.student.resolve_programs())
         cats = {"ms_track_ml", "grad_elective"} if grad else {"cs_track_ai", "cs_area_foundation"}
         picks = [
             c.code

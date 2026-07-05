@@ -1,0 +1,494 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/philosophy/",
+  "scraped_at": "2026-07-05T20:54:32Z",
+  "courses": [
+    {
+      "code": "PHIL UN1001",
+      "subject": "PHIL",
+      "number": "UN1001",
+      "title": "Introduction to Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Survey of some of the central problems, key figures, and great works in both traditional and contemporary philosophy. Topics and texts will vary with instructor and semester",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN1010",
+      "subject": "PHIL",
+      "number": "UN1010",
+      "title": "Methds/Prob of Philos Thought",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Critical introduction to philosophical problems, ideas and methods",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN2101",
+      "subject": "PHIL",
+      "number": "UN2101",
+      "title": "History of Philosophy I",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN2110",
+      "subject": "PHIL",
+      "number": "UN2110",
+      "title": "Philosophy ＆ Feminism",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Is there an essential difference between women and men? How do questions about race conflict or overlap with those about gender? Is there a normal way of being queer? Introduction to philosophy and feminism through a critical discussion of these and other questions using historical and contemporary texts, art, and public lectures. Focus includes essentialism, difference, identity, knowledge, objectivity, and queerness",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN2685",
+      "subject": "PHIL",
+      "number": "UN2685",
+      "title": "Intro to Phil of Language",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course gives students an introduction to various topics in the Philosophy of Language",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3000",
+      "subject": "PHIL",
+      "number": "UN3000",
+      "title": "Buddhist Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Buddhist philosophers generally agree about what doesn’t exist: an enduring, unitary, and independent self. But there is surprisingly little consensus across Buddhist traditions about what does exist and what it’s like. In this course, we will examine several Buddhist theories about the nature and structure of reality and consider the epistemological and ethical implications of these radically different pictures of the world. We will analyze and evaluate arguments from some of the most influential Indian Buddhist philosophers from the second to the eleventh centuries, including Nāgārjuna, Vasubandhu, Dignāga, Candrakīrti, Śāntarakṣita, Śāntideva, and Ratnakīrti. Topics will include the existence and nature of the external world, the mind, and the self; practical and epistemological implications of the Buddhist no-self principle; personal identity; the problem of other minds; and causal determinism and moral responsibility",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3264",
+      "subject": "PHIL",
+      "number": "UN3264",
+      "title": "19Th Century Philosophy: Hegel",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3353",
+      "subject": "PHIL",
+      "number": "UN3353",
+      "title": "European Social Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: one philosophy course."
+    },
+    {
+      "code": "PHIL UN3411",
+      "subject": "PHIL",
+      "number": "UN3411",
+      "title": "Symbolic Logic",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3551",
+      "subject": "PHIL",
+      "number": "UN3551",
+      "title": "Philosophy of Science",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Enrollment limited to 40.",
+      "prereq_text": "Prerequisites: one philosophy course or the instructor's permission."
+    },
+    {
+      "code": "PHIL UN3601",
+      "subject": "PHIL",
+      "number": "UN3601",
+      "title": "Metaphysics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3701",
+      "subject": "PHIL",
+      "number": "UN3701",
+      "title": "Ethics",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: one course in philosophy."
+    },
+    {
+      "code": "PHIL UN3751",
+      "subject": "PHIL",
+      "number": "UN3751",
+      "title": "Political Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Six major concepts of political philosophy including authority, rights, equality, justice, liberty and democracy are examined in three different ways. First the conceptual issues are analyzed through contemporary essays on these topics by authors like Peters, Hart, Williams, Berlin, Rawls and Schumpeter. Second the classical sources on these topics are discussed through readings from Hobbes, Locke, Hume, Marx, Plato, Mill and Rousseau. Third some attention is paid to relevant contexts of application of these concepts in political society, including such political movements as anarchism, international human rights, conservative, liberal, and Marxist economic policies as well as competing models of democracy",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3756",
+      "subject": "PHIL",
+      "number": "UN3756",
+      "title": "Critical Philosophy of Race: What is Race?",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course is a philosophical examination of the meaning and significance of the concept of race. The course will chiefly aim to answer: What do we mean by the term “race”? And why is it often tied to the existence of racism? From where does the concept come? And what role did “race” play in the philosophical thought and the culture of Western modernity? Among the questions that can be asked are, How do concepts of race contribute to the formation and justification of various economic, political, and social institutions and practices, such as slavery, colonialism, and segregation? However, we will also inquire at the end of the course whether “race” is always a destructive concept, or whether it can be re-defined as part of a liberation project centered on racial identity: the appreciation and celebration of racial difference and solidarity",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3858",
+      "subject": "PHIL",
+      "number": "UN3858",
+      "title": "Cultivating Individuality",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Talk about “individuality”, about being (or becoming) “yourself” is all around us. But what exactly does this mean? What is genuine individuality, and how can we develop it, in ourselves (though self-development) and in others (by designing appropriate educational institutions)? What is the relationship between being an individual and being a part of society? Is there a tension between the non-conformism often associated with genuine individuality on the one hand, and the demands of community and good citizenship, on the other? Can educational institutions be designed to fulfill both those demands (to the extent they are distinct)? And how might oppressive social institutions hinder the development of “individuality”? In this course, we will explore these and related questions by drawing on both the classics of philosophy of education (Plato, Rousseau, Nietzsche, Dewey, Du Bois), and on relevant literary material that is in conversation with the philosophical texts (Rilke, Tolstoy, Woolf)",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3768",
+      "subject": "PHIL",
+      "number": "UN3768",
+      "title": "Allies, Advocates, Adversaries",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course will survey political and epistemological questions that are centered around living in a society with oppression, including: What is oppression? What does it mean to be an ally? When is it right to speak for others and advocate for their interests? Do we have a duty to dissent and protest under certain circumstances? What is solidarity and how can we act in solidarity with others?",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3863",
+      "subject": "PHIL",
+      "number": "UN3863",
+      "title": "Happiness and Well-Being",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "“What is it to be happy?” Philosophers have passionately debated this question from antiquity until now. Especially in times when happiness seems difficult to find, we naturally want to know what happiness is and how best to secure it. In this course, we will consider happiness in relation to well-being, examining four major theories of well-being (hedonism, desire-fulfillment theories, objective list theories, and eudaimonism/perfectionism). We will gain a nuanced understanding of each view by juxtaposing their ancient and modern advocates and opponents",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3912",
+      "subject": "PHIL",
+      "number": "UN3912",
+      "title": "Seminar",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Required of senior majors, but also open to junior majors, and junior and senior concentrators who have taken at least four philosophy courses. This exploration will typically involve writing a substantial research paper. Capped at 20 students with preference to philosophy majors",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3960",
+      "subject": "PHIL",
+      "number": "UN3960",
+      "title": "Epistemology",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3996",
+      "subject": "PHIL",
+      "number": "UN3996",
+      "title": "Supervised Senior Research",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3997",
+      "subject": "PHIL",
+      "number": "UN3997",
+      "title": "SUPERVISED SENIOR RESEARCH,Supervised Senior Research. 3.00,",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Supervised research usually with the goal of writing a senior thesis, under the direction of individual members of the department. ,",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4424",
+      "subject": "PHIL",
+      "number": "GU4424",
+      "title": "Modal Logic",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "CC/GS: Partial Fulfillment of Science Requirement",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4495",
+      "subject": "PHIL",
+      "number": "GU4495",
+      "title": "Perception",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course addresses the fabulously rich range of issues about the nature of perception, including: perceptual mental representation and its content; computational explanation; justifying beliefs; knowledge and thought about perception; and perception of music. Perception is an interdisciplinary subject par excellence. Readings will be drawn from philosophy and psychology, aesthetics, and artificial intelligence",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4561",
+      "subject": "PHIL",
+      "number": "GU4561",
+      "title": "Probability ＆ Decision Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Examines interpretations and applications of the calculus of probability including applications as a measure of degree of belief, degree of confirmation, relative frequency, a theoretical property of systems, and other notions of objective probability or chance. Attention to epistimological questions such as Hume's problem of induction, Goodman's problem of projectibility, and the paradox of confirmation",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4602",
+      "subject": "PHIL",
+      "number": "GU4602",
+      "title": "Philosophical Texts in Greek",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Careful reading and translation of a major philosophical text in ancient Greek to be chosen by the course participants in consultation with the instructor. Special attention is to be paid to the linguistic and conceptual problems of translating ancient Greek philosophical texts. Prerequisite: equivalent of at least two years of study of ancient Greek at university level",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4675",
+      "subject": "PHIL",
+      "number": "GU4675",
+      "title": "The Direction of Time",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "A survey of the various attempts to reconcile the macroscopic directionality of time with the time-reversibility of the fundamental laws of physics. The second law of thermodynamics and the concept of entropy, statistical mechanics, cosmological problems, the problems of memory, the possibility of multiple time direction",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN1010",
+      "subject": "PHIL",
+      "number": "UN1010",
+      "title": "Methds/Prob of Philos Thought",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Critical introduction to philosophical problems, ideas and methods",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN1401",
+      "subject": "PHIL",
+      "number": "UN1401",
+      "title": "Introduction to Logic",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Explicit criteria for recognizing valid and fallacious arguments, together with various methods for schematizing discourse for the purpose of logical analysis. Illustrative material taken from science and everyday life",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3131",
+      "subject": "PHIL",
+      "number": "UN3131",
+      "title": "Aristotle",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Introduction to Aristotle's philosophy through analysis of selected texts.",
+      "prereq_text": "Prerequisites: One philosophy course or permission of the instructor."
+    },
+    {
+      "code": "PHIL UN3411",
+      "subject": "PHIL",
+      "number": "UN3411",
+      "title": "Symbolic Logic",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3685",
+      "subject": "PHIL",
+      "number": "UN3685",
+      "title": "Philosophy of Language",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course is a survey of analytic philosophy of language. It addresses central issues about the nature of meaning, including: sense and reference, speech acts, pragmatics, and the relationship between meaning and use, meaning and context, and meaning and truth",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3912",
+      "subject": "PHIL",
+      "number": "UN3912",
+      "title": "Seminar",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Required of senior majors, but also open to junior majors, and junior and senior concentrators who have taken at least four philosophy courses. This exploration will typically involve writing a substantial research paper. Capped at 20 students with preference to philosophy majors",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3996",
+      "subject": "PHIL",
+      "number": "UN3996",
+      "title": "Supervised Senior Research",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL UN3998",
+      "subject": "PHIL",
+      "number": "UN3998",
+      "title": "Supervised Individual Research",
+      "points_min": 1.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4170",
+      "subject": "PHIL",
+      "number": "GU4170",
+      "title": "Medieval Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4431",
+      "subject": "PHIL",
+      "number": "GU4431",
+      "title": "Introduction to Set Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Basic set-theoretic operations and constructions. The axiom of choice. Infinitary arithmetic, ordinal and cardinal. Russell’s paradox, Cantor’s paradoxes, and other set-theoretic paradoxes. The continuum hypothesis. Axiomatic set theory. Other topics as time permits.",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4337",
+      "subject": "PHIL",
+      "number": "GU4337",
+      "title": "Early Twentieth Cent Philos",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4810",
+      "subject": "PHIL",
+      "number": "GU4810",
+      "title": "Lattices and Boolean Algebra",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": "Prerequisites: PHIL UN3411 or 4801"
+    },
+    {
+      "code": "PHIL GU4481",
+      "subject": "PHIL",
+      "number": "GU4481",
+      "title": "Philosophy of Language",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4501",
+      "subject": "PHIL",
+      "number": "GU4501",
+      "title": "Epistemology",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "PHIL GU4900",
+      "subject": "PHIL",
+      "number": "GU4900",
+      "title": "Topics in Early Modern Philosophy",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Open to undergraduates with previous work in the history of philosophy and to graduate students. Focuses either on an important topic in the history of early modern philosophy (e.g. skepticism, causation, mind, body) or on the philosophy of a major figure in the period (e.g. Descartes, Leibniz, Spinoza, Gassendi, Conway)",
+      "prereq_text": ""
+    },
+    {
+      "code": "ECPH GU4950",
+      "subject": "ECPH",
+      "number": "GU4950",
+      "title": "Economics ＆ Philosophy",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Open only to economics-philosophy majors who are in their senior year.",
+      "prereq_text": "Prerequisites: ECON W3211 , ECON W3213 , ECON W3412 . Students will be contacted by the Economics department for pre-enrollment."
+    }
+  ],
+  "courselists": [
+    {
+      "header": "",
+      "section": "Major in Philosophy",
+      "codes": [
+        "PHIL UN2101",
+        "PHIL UN2201",
+        "PHIL UN3411",
+        "PHIL UN2702",
+        "PHIL UN3701",
+        "PHIL UN3751",
+        "PHIL UN3912"
+      ],
+      "titles": {
+        "PHIL UN2101": "HISTORY OF PHILOSOPHY I",
+        "PHIL UN3411": "SYMBOLIC LOGIC",
+        "PHIL UN2702": "Contemporary Moral Problems",
+        "PHIL UN3701": "ETHICS",
+        "PHIL UN3751": "POLITICAL PHILOSOPHY",
+        "PHIL UN3912": "SEMINAR"
+      }
+    },
+    {
+      "header": "Economics Core Courses",
+      "section": "Joint Major in Economics-Philosophy",
+      "codes": [
+        "ECON UN1105",
+        "ECON UN3211",
+        "ECON UN3213",
+        "ECON UN3412"
+      ],
+      "titles": {
+        "ECON UN1105": "PRINCIPLES OF ECONOMICS",
+        "ECON UN3211": "INTERMEDIATE MICROECONOMICS",
+        "ECON UN3213": "INTERMEDIATE MACROECONOMICS",
+        "ECON UN3412": "INTRODUCTION TO ECONOMETRICS"
+      }
+    },
+    {
+      "header": "Philosophy Courses",
+      "section": "Joint Major in Economics-Philosophy",
+      "codes": [
+        "PHIL UN1010",
+        "PHIL UN3411",
+        "PHIL UN3701",
+        "PHIL UN3551",
+        "PHIL GU4561"
+      ],
+      "titles": {
+        "PHIL UN1010": "METHDS/PROB OF PHILOS THOUGHT",
+        "PHIL UN3411": "SYMBOLIC LOGIC",
+        "PHIL UN3701": "ETHICS (a social or political philosophy course may be substituted, please consult the Philosophy DUS)",
+        "PHIL UN3551": "PHILOSOPHY OF SCIENCE",
+        "PHIL GU4561": "PROBABILITY ＆ DECISION THEORY"
+      }
+    },
+    {
+      "header": "Seminar",
+      "section": "Joint Major in Economics-Philosophy",
+      "codes": [
+        "ECPH GU4950"
+      ],
+      "titles": {
+        "ECPH GU4950": "ECONOMICS ＆ PHILOSOPHY (or another seminar in philosophy or economics approved by advisers in both department)"
+      }
+    }
+  ],
+  "error": null
+}

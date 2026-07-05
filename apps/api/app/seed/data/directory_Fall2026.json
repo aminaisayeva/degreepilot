@@ -1,6 +1,6 @@
 {
   "term": "Fall2026",
-  "scraped_at": "2026-07-05T19:59:36Z",
+  "scraped_at": "2026-07-05T20:49:29Z",
   "subjects": {
     "COMS": {
       "courses": [
@@ -1859,6 +1859,1386 @@
           "code": "IEOR E9101",
           "title": "RESEARCH",
           "credits": 0.0
+        }
+      ],
+      "error": null
+    },
+    "SDEV": {
+      "courses": [
+        {
+          "code": "SDEV UN2050",
+          "title": "ENVIRONMENTAL POLICY AND GOVERNANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3280",
+          "title": "WORKSHOP IN SUSTAINABLE DEVPT",
+          "credits": 4.0
+        },
+        {
+          "code": "SDEV UN3310",
+          "title": "ETHICS OF SUSTAINABLE DEVPT",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3320",
+          "title": "ECON & FIN MTHDS FOR SDEV",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3360",
+          "title": "DISASTERS AND DEVELOPMENT",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3366",
+          "title": "ENERGY LAW",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3390",
+          "title": "GIS FOR SUSTAINABLE DEVELOPMNT",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3400",
+          "title": "HUMAN POPULATIONS & SDEV",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV UN3998",
+          "title": "SUPERVISED INDIVIDUAL RESEARCH",
+          "credits": 0.0
+        },
+        {
+          "code": "SDEV GU4101",
+          "title": "QUAL RESEARCH METHODS SDEV",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV GU4550",
+          "title": "The New York City Watershed: From Commun",
+          "credits": 1.0
+        },
+        {
+          "code": "SDEV GU4650",
+          "title": "Building Climate Justice: Co-Creative Co",
+          "credits": 4.0
+        },
+        {
+          "code": "SDEV IA6240",
+          "title": "Environmental Science for Sustainable De",
+          "credits": 3.0
+        },
+        {
+          "code": "SDEV IA6241",
+          "title": "Environmental Science for Sustainable De",
+          "credits": 1.0
+        },
+        {
+          "code": "SDEV IA9200",
+          "title": "Sustainable Development Seminar I",
+          "credits": 1.5
+        }
+      ],
+      "error": null
+    },
+    "PHIL": {
+      "courses": [
+        {
+          "code": "PHIL UN1001",
+          "title": "INTRODUCTION TO PHILOSOPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN1101",
+          "title": "METHODS OF PHILOSOPHIC THOUGHT",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN2101",
+          "title": "HISTORY OF PHILOSOPHY I",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL UN2110",
+          "title": "PHILOSOPHY & FEMINISM",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN2655",
+          "title": "COGNITIVE SCIENCE AND PHILOSOPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN2685",
+          "title": "INTRO TO PHIL OF LANGUAGE",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3411",
+          "title": "SYMBOLIC LOGIC",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL UN3551",
+          "title": "PHILOSOPHY OF SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3601",
+          "title": "METAPHYSICS",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL UN3655",
+          "title": "TOPICS IN COGNITIVE SCIENCE AND PHILOSOP",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3701",
+          "title": "ETHICS",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL UN3751",
+          "title": "POLITICAL PHILOSOPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3912",
+          "title": "SEMINAR",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3997",
+          "title": "SUPERVISED SENIOR RESEARCH",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL UN3997",
+          "title": "SUPERVISED INDIVIDUAL RESEARCH",
+          "credits": 0.0
+        },
+        {
+          "code": "PHIL UN3998",
+          "title": "SUPERVISED INDIVIDUAL RESEARCH",
+          "credits": 0.0
+        },
+        {
+          "code": "PHIL BC4050",
+          "title": "SENIOR SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL BC4051",
+          "title": "SENIOR ESSAY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GU4137",
+          "title": "NON-CLASSICAL LOGIC",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GU4561",
+          "title": "PROBABILITY & DECISION THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GU4570",
+          "title": "PERSONAL IDENTITY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GU4675",
+          "title": "THE DIRECTION OF TIME",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GU4717",
+          "title": "Topics in Moral Psychology",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR5415",
+          "title": "SYMBOLIC LOGIC",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL GR6050",
+          "title": "Methods and Problems: Theoretical Philos",
+          "credits": 4.0
+        },
+        {
+          "code": "PHIL GR6101",
+          "title": "Proseminar for PhD and MA Students",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR6552",
+          "title": "Counterfactuals",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR6553",
+          "title": "Understanding, Epistemology, and Metaphy",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR6554",
+          "title": "Reverse Physics: Set Theory, Determinism",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR9001",
+          "title": "QUODLIBETAL STUDIES I",
+          "credits": 0.0
+        },
+        {
+          "code": "PHIL GR9003",
+          "title": "QUODLIBETAL STUDIES III",
+          "credits": 0.0
+        },
+        {
+          "code": "PHIL GR9265",
+          "title": "Topics in 19th Century Philosophy",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR9750",
+          "title": "TOPICS IN POLITICAL PHILOSOPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "PHIL GR9985",
+          "title": "PROPOSAL PREPARATION SEMINAR",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "ENGL": {
+      "courses": [
+        {
+          "code": "ENGL PS0003",
+          "title": "LISTEN & SPEAK FOR INT'L STUDS",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0005",
+          "title": "ACADEMIC WRITING",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0006",
+          "title": "ACADEMIC WRITING",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0012",
+          "title": "AMER 12 PT PROG INTENSIVE",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0719",
+          "title": "PRONUNCIATION WORKSHOP",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0850",
+          "title": "INTL TEACHING FELLOWS TRAINING",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL UN1000",
+          "title": "Julie's Test Course",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL CC1010",
+          "title": "UNIVERSITY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL GS1010",
+          "title": "UNIVERSITY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC1068",
+          "title": "True Crime",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN1335",
+          "title": "Shakespeare I",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC1349",
+          "title": "CHILDREN   S LITERATURE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN1520",
+          "title": "Intro to Asian American Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC1808",
+          "title": "ROOTING FOR THE ANTIHERO     THE EVOLUTI",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN2000",
+          "title": "Approaches to Literary Study",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN2001",
+          "title": "Approaches to Literary Study Seminar",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL UN2100",
+          "title": "Drama Before Shakespeare",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN2200",
+          "title": "Out of the Ordinary: Aesthetics, Power,",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN2225",
+          "title": "Virginia Woolf",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3027",
+          "title": "Staging Pulp",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3055",
+          "title": "US Poetry of the 1960s",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3098",
+          "title": "THE ENGLISH CONFERENCE",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL BC3101",
+          "title": "THE WRITER'S PROCESS",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3102",
+          "title": "ACADEMIC WRITING INTENSIVE",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3103",
+          "title": "THE ART OF THE ESSAY",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3105",
+          "title": "FICTION & PERSONAL NARRATIVE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3107",
+          "title": "INTRODUCTION TO FICTION WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3110",
+          "title": "INTRODUCTION TO POETRY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3113",
+          "title": "PLAYWRITING I",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3115",
+          "title": "STORY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3117",
+          "title": "FICTION WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3118",
+          "title": "ADVANCED POETRY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3121",
+          "title": "PUBLIC SPEAKING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3123",
+          "title": "RHETORICAL CHOICES: PUBLIC SPEAKING",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3130",
+          "title": "THE AMERICAN COWBOY AND THE ICONOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3134",
+          "title": "CREATIVE NON-FICTION",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3147",
+          "title": "INTRODUCTION TO NARRATIVE MEDICINE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3153",
+          "title": "SHAKESPEARE   S SONNETS: AN EXPERIMENT I",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3159",
+          "title": "THE ENGLISH COLLOQUIUM",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3163",
+          "title": "SHAKESPEARE I",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3179",
+          "title": "AMERICAN LITERATURE TO 1800",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3181",
+          "title": "AMERICAN LITERATURE 1871-1945",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3183",
+          "title": "AMERICAN LITERATURE SINCE 1945",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3185",
+          "title": "MODRN BRITISH & AMERCAN POETRY",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3193",
+          "title": "CRITICAL WRITING",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3194",
+          "title": "LITERARY THEORY",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3208",
+          "title": "WHAT'S YOUR STORY ANYWAY? - TRAUMA RESIS",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3214",
+          "title": "LATINX AND THE ICE/PRISON INDUSTRIAL COM",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3252",
+          "title": "CONTEMPORARY MEDIA THEORY",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3322",
+          "title": "POETRY AND THE POLITICS OF DECOLONIZATIO",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3327",
+          "title": "Old New York",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3329",
+          "title": "What Shakespeare Read",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3351",
+          "title": "The Family in Film and Memoir",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3521",
+          "title": "GLOBAL LITERATURES IN ENGLISH",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3536",
+          "title": "COMIC BOOK METROPOLIS: HOW NEW YORK CITY",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3599",
+          "title": "GIRLS' SCHOOLS: THE LITERATURE OF WOMEN",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3645",
+          "title": "A Literary History of Marriage",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3795",
+          "title": "SENIOR ESSAY RESEARCH METHODS",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3805",
+          "title": "The Political Novel",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL UN3891",
+          "title": "INTRO TO CLASSICAL RHETORIC",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3899",
+          "title": "READING ITALIANS: HER SIDE OF THE STORY",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3992",
+          "title": "SENIOR PROJECT IN CREATIVE WRITING",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL BC3997",
+          "title": "SENIOR SEMINAR IN ENGLISH",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GU4131",
+          "title": "NATURE, RACE, AND INDIGENEITY IN THE U.S",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GU4132",
+          "title": "Frankenstein and Its Vicissitudes",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL GU4426",
+          "title": "The Protest Novel     or Books that Chan",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GU4559",
+          "title": "August Wilson",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GU4619",
+          "title": "AFRICAN-AMERICAN LITERATURE I",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL GU4728",
+          "title": "American Transcendentalism",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR5001",
+          "title": "MASTERS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6102",
+          "title": "World   s End: 20th and 21St Century Dys",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6150",
+          "title": "Modernism, Dance, and Diaspora",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6233",
+          "title": "Worldmaking in the Long Poem",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6240",
+          "title": "Lanyer, Cavendish, and Hutchinson",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6300",
+          "title": "Third Year Proseminar",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL GR6303",
+          "title": "Sylvia Wynter and the Question of Litera",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6909",
+          "title": "INTRO TO WRITING STUDIES",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL GR6998",
+          "title": "Graduate Lecture",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "CLEN": {
+      "courses": [
+        {
+          "code": "CLEN UN2122",
+          "title": "Marxism and Cultural Theory",
+          "credits": 3.0
+        },
+        {
+          "code": "CLEN UN3720",
+          "title": "PLATO THE RHETORICIAN",
+          "credits": 4.0
+        },
+        {
+          "code": "CLEN GU4122",
+          "title": "RENAISSANCE IN EUROPE II",
+          "credits": 3.0
+        },
+        {
+          "code": "CLEN GU4550",
+          "title": "NARRATIVE AND HUMAN RIGHTS",
+          "credits": 3.0
+        },
+        {
+          "code": "CLEN GR6998",
+          "title": "Graduate Lecture",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "POLS": {
+      "courses": [
+        {
+          "code": "POLS BC1210",
+          "title": "INTRO TO AMERICAN POLITICS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC1401",
+          "title": "DEMOCRACY AND DICTATORSHIP IN EUROPE",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC1510",
+          "title": "INTRO TO COMPARATIVE POLITICS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC1605",
+          "title": "GLOBAL POLITICS OF CLIMATE CHANGE",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2101",
+          "title": "Political Theory I",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2111",
+          "title": "Political Theory I Discussion",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN2201",
+          "title": "Introduction to American Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2211",
+          "title": "Introduction to American Politics Discus",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN2601",
+          "title": "International Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2611",
+          "title": "International Politics Discussion",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC2875",
+          "title": "RUSSIA AND THE WEST",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3003",
+          "title": "POLITICAL THEORY AT THE BORDER",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3017",
+          "title": "AMERICAN POLITICAL THOUGHT",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3025",
+          "title": "AMERICAN POLITICAL PARTIES",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3035",
+          "title": "Feminist Political Thought",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3048",
+          "title": "COLL: CAPITALISM AND ITS CRITICS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3128",
+          "title": "Weimar: Theory of a Crisis",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3220",
+          "title": "Logic/Paradox in Social Choice",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3250",
+          "title": "AMERICAN POLITICAL BEHAVIOR",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3255",
+          "title": "RACE AND THE US CARCERAL SYSTEM",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3285",
+          "title": "FREEDOM OF SPEECH & PRESS",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3341",
+          "title": "COLL: GRASSROOTS ACTIVISMS AND SOCIAL CH",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3367",
+          "title": "Colloquium: Transnational Kleptocracy",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3410",
+          "title": "COLLOQUIUM ON HUMAN RIGHTS IN A DIVERSE",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3411",
+          "title": "COLL: BUILDING PEACE",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3438",
+          "title": "INTRODUCTION TO AMERICAN CONSTITUTIONAL",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3500",
+          "title": "COLL:POLIT ECON:CORRPTN/CONTRL",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS BC3513",
+          "title": "POLITICS OF ILLICIT ECONOMIES IN THE AME",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3516",
+          "title": "Comparative Ethnic Politics",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3521",
+          "title": "CIVIL RIGHTS &CIVIL LIBERTIES",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3534",
+          "title": "AUTOCRACY AND DEMOCRACY",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3540",
+          "title": "COLL: CONSTRUCTING AND DECONSTRUCTING ST",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3559",
+          "title": "Contemporary Turkish Politics",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3631",
+          "title": "AMERICAN FOREIGN POLICY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3632",
+          "title": "AMERICAN FOREIGN POLICY-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN3648",
+          "title": "GOVERNING THE GLOBAL ECONOMY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3649",
+          "title": "GOVERNING GLOBAL ECONOMY-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC3695",
+          "title": "Race and Ethnic Politics",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3697",
+          "title": "GLOBAL AUTHORITARIANISM",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3704",
+          "title": "RESEARCH DESIGN: DATA ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3720",
+          "title": "RESEARCH DESIGN: SCOPE AND METHODS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3722",
+          "title": "SCOPE AND METHODS - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC3731",
+          "title": "DATA SCIENCE FOR POLITICS",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3768",
+          "title": "Experimental Research",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3769",
+          "title": "EXPERIMENTAL RESEARCH-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC3799",
+          "title": "INDEPENDENT STUDY",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN3911",
+          "title": "SEMINAR IN POLITCAL THEORY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3921",
+          "title": "AMERICAN POLITICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3951",
+          "title": "COMPARATIVE POLITICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3961",
+          "title": "INTERNATIONAL POLITICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3998",
+          "title": "HONORS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4110",
+          "title": "RECENT CONTINENTAL POL THOUGHT",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4132",
+          "title": "POLIT THOUGHT-CLASSICL AND MEDIEVAL",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS GU4454",
+          "title": "South Asian Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4456",
+          "title": "South Asian Politics Discussion",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4461",
+          "title": "LATIN AMERICAN POLITICS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4466",
+          "title": "LATIN AMER POLITICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4700",
+          "title": "MATH & STATS FOR POLI SCI",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4701",
+          "title": "MATH & STATS FOR POLI SCI-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4710",
+          "title": "PRINC OF QUANT POL RESEARCH 1",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4711",
+          "title": "PRINC OF QUANT POL RESEARCH 1-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4720",
+          "title": "QUANT METH 1 APPL REG CAUS INF",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4721",
+          "title": "QUANTITATIVE METHODS 1 DISCUSSION",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4724",
+          "title": "QUANT METH 3 EXPERIMENTAL METH",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4725",
+          "title": "QUANTITATIVE METHODS 3: DISCUSSION",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4728",
+          "title": "Machine Learning & AI for the Social Sci",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4729",
+          "title": "Machine Learning & AI for Social Science",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4732",
+          "title": "RESEARCH TOPICS IN GAME THEORY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4733",
+          "title": "TOPICS GAME THEORY - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4762",
+          "title": "POLITICS IN THE LAB",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4814",
+          "title": "GLOBAL ENERGY: SECURITY/GEOPOL",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS GU4845",
+          "title": "NAT SECURITY STRAT OF MID EAST",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4865",
+          "title": "INTERNATIONAL POLITICAL ECONOMY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GU4866",
+          "title": "INT'L POLITICAL ECONOMY-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GR5000",
+          "title": "M.A. PROSEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR6101",
+          "title": "ISSUES IN POLITICAL THEORY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR6210",
+          "title": "ISSUES & DEBATES-AMER POLITICS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR6411",
+          "title": "COMPARATIVE POLITICS SURVEY I",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR6801",
+          "title": "THEORIES OF INT'L RELATIONS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8111",
+          "title": "Commercial Society",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8120",
+          "title": "Humans, Animals and Machines",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8210",
+          "title": "COLLOQ ON POLITICAL BEHAVIOR",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8230",
+          "title": "JUDICIAL INSTITUTIONS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8412",
+          "title": "POLIT ECONOMY OF DEVELOPMENT",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8471",
+          "title": "CHINESE POLIT ECON-COMP PERSP",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR8804",
+          "title": "INTERNATIONAL POLITICAL ECONOMY",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS GR9901",
+          "title": "DISSERTATION SEMINAR",
+          "credits": 4.0
+        }
+      ],
+      "error": null
+    },
+    "EESC": {
+      "courses": [
+        {
+          "code": "EESC UN1001",
+          "title": "DINOSAURS AND HISTORY OF LIFE",
+          "credits": 4.0
+        },
+        {
+          "code": "EESC BC1001",
+          "title": "ENVIRONMENTAL SCIENCE I",
+          "credits": 4.5
+        },
+        {
+          "code": "EESC UN1011",
+          "title": "EARTH:ORIG,EVOL,PROC,FUTURE",
+          "credits": 4.0
+        },
+        {
+          "code": "EESC BC1011",
+          "title": "ENVIRONMENTAL SCI LAB",
+          "credits": 0.0
+        },
+        {
+          "code": "EESC UN1030",
+          "title": "OCEANOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN1201",
+          "title": "ENVIRONMENTAL RISKS & DISASTERS",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN1401",
+          "title": "DINOSAUR & HISTORY OF LIFE-LEC",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN1411",
+          "title": "EARTH:ORIG,EVOL,PROC,FUTURE",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN1600",
+          "title": "EARTH RESOURCES & SUSTAIN DEV",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN2100",
+          "title": "EARTH'S ENVIRO SYST: CLIM SYST",
+          "credits": 4.5
+        },
+        {
+          "code": "EESC UN2200",
+          "title": "EARTH'S ENVIRONMENTAL SYSTEMS: THE SOLID",
+          "credits": 4.5
+        },
+        {
+          "code": "EESC UN2330",
+          "title": "SCIENCE FOR SUSTAINABLE DEVPT",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3016",
+          "title": "ENVIRONMENTAL MEASURMENTS",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3017",
+          "title": "ENVIRONMENTAL DATA ANALYSIS",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3028",
+          "title": "Volcanoes and the Environment",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3050",
+          "title": "BIG DATA WITH PYTHON",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN3101",
+          "title": "GEOCHEM FOR A HABITABLE PLANET",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN3225",
+          "title": "ERUPTIONS THAT CHANGED THE WORLD: VOLCAN",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3300",
+          "title": "WORKSHOP SUSTAINABLE DEVEL",
+          "credits": 4.0
+        },
+        {
+          "code": "EESC UN3328",
+          "title": "Glacial Geomorphology",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC BC3800",
+          "title": "ENVIR SCIENCE SENIOR SEMINAR",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN3901",
+          "title": "SENIOR SEMINAR",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4008",
+          "title": "INTRO TO ATMOSPHERIC SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4020",
+          "title": "HUMANS & THE CARBON CYCLE",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4050",
+          "title": "GLOBAL ASSMT-REMOTE SENSING",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4230",
+          "title": "CRUSTAL DEFORMATION",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4524",
+          "title": "Biogeochemistry",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4600",
+          "title": "EARTH RESOURCES & SUSTAIN DEV",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4888",
+          "title": "STABLE ISOTOPE GEOCHEMISTRY",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4923",
+          "title": "BIOLOGICAL OCEANOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4925",
+          "title": "INTRO TO PHYSICAL OCEANOGRAPHY",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GU4949",
+          "title": "INTRODUCTION TO SEISMOLOGY",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GR6001",
+          "title": "EARTH SCIENCE COLLOQUIUM",
+          "credits": 1.0
+        },
+        {
+          "code": "EESC GR6901",
+          "title": "RSRCH COMPUTING EARTH SCI",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC GR6908",
+          "title": "QUANT METHODS OF DATA ANALYSIS",
+          "credits": 4.0
+        },
+        {
+          "code": "EESC GR9001",
+          "title": "RESEARCH IN EARTH & ENVIR SCI",
+          "credits": 0.0
+        },
+        {
+          "code": "EESC GR9526",
+          "title": "SEMINAR IN MARINE BIOGEOCHEMISTRY",
+          "credits": 2.0
+        },
+        {
+          "code": "EESC GR9902",
+          "title": "Research Skills for Earth and Environmen",
+          "credits": 2.0
+        }
+      ],
+      "error": null
+    },
+    "APMA": {
+      "courses": [
+        {
+          "code": "APMA E2000",
+          "title": "MULTV. CALC. FOR ENGI & APP SCI",
+          "credits": 4.0
+        },
+        {
+          "code": "APMA E2101",
+          "title": "INTRO TO APPLIED MATHEMATICS",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E3101",
+          "title": "APPLIED MATH I: LINEAR ALGEBRA",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E4007",
+          "title": "APPLIED LINEAR ALGEBRA",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E4100",
+          "title": "Applied Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E4200",
+          "title": "PARTIAL DIFFERENTIAL EQUATIONS",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E4300",
+          "title": "COMPUT MATH:INTRO-NUMERCL METH",
+          "credits": 3.0
+        },
+        {
+          "code": "APMA E4901",
+          "title": "SEM-PROBLEMS IN APPLIED MATH",
+          "credits": 0.0
+        },
+        {
+          "code": "APMA E4903",
+          "title": "SEM-PROBLEMS IN APPLIED MATH",
+          "credits": 0.0
+        },
+        {
+          "code": "APMA E4990",
+          "title": "SPEC TOPICS IN APPLIED MATH",
+          "credits": 1.0
+        },
+        {
+          "code": "APMA E6100",
+          "title": "RESEARCH SEMINAR",
+          "credits": 0.0
+        },
+        {
+          "code": "APMA E6301",
+          "title": "ANALYTIC METHODS FOR PDE'S",
+          "credits": 3.0
         }
       ],
       "error": null

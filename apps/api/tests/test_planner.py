@@ -241,3 +241,32 @@ def test_summer_terms_excluded_by_default(session, catalog, ms_reqs, ms_student)
     plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
                            strategies=["balanced"])
     assert not any(t.term.startswith("Summer") for t in plans[0].terms)
+
+
+def test_category_credit_programs_get_matching_courses(session, catalog, ms_student):
+    """Programs built on category_credits cards (e.g. MA Philosophy) must pull
+    courses of that category into the plan — not CS pool filler."""
+    from app.models.course import Course
+    from app.models.requirement import Requirement, RequirementType
+    from app.services.planner.generator import generate_plans
+
+    for i in range(1, 13):
+        code = f"PHIL GU4{100 + i}"
+        catalog[code] = Course(
+            code=code, title=f"Grad Philosophy {i}", department="PHIL", credits=3,
+            offered_terms=["Fall", "Spring"], prerequisites=[],
+            categories=["phil_grad"], career_tags=[], workload_level=3)
+    reqs = [
+        Requirement(id=1, program="columbia_ma_philosophy", name="Graduate Philosophy Coursework",
+                    type=RequirementType.CATEGORY_CREDITS, courses=[], category="phil_grad",
+                    credits_required=30, display_order=10),
+        Requirement(id=2, program="columbia_ma_philosophy", name="Total: 30 points",
+                    type=RequirementType.CREDITS, courses=[], credits_required=30,
+                    display_order=90),
+    ]
+    ms_student.programs = ["columbia_ma_philosophy"]
+    plans = generate_plans(ms_student, ["columbia_ma_philosophy"], reqs, catalog,
+                           strategies=["balanced"])
+    sched = [c for t in plans[0].terms for c in t.courses]
+    phil = [c for c in sched if c.startswith("PHIL")]
+    assert len(phil) >= 8, f"expected mostly PHIL courses, got {sched}"

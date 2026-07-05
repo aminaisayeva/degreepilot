@@ -114,7 +114,7 @@ def answer_advisor(
         )
 
     if intent == "ai_ml_picks":
-        grad = any(p.startswith("columbia_ms") for p in student.resolve_programs())
+        grad = any(p.startswith(("columbia_ms", "columbia_ma_")) for p in student.resolve_programs())
         picks = _ml_picks(catalog, grad=grad)
         context["picks"] = picks
         tool_calls.append(

@@ -274,6 +274,20 @@ def _generate_one(
         pool_prefixes, pool_exact = ("ms_track_",), {"grad_elective", "ms_grad_eligible"}
     else:
         pool_prefixes, pool_exact = ("cs_track_",), {"cs_elective"}
+    # CATEGORY_CREDITS cards with a shortfall pull their category's courses
+    # into the pool — this is how list-free programs (MA Philosophy, English
+    # coursework, math electives) get relevant courses planned.
+    creditable_now = set(student.completed_courses or [])
+    cat_needs: set[str] = set()
+    for r in requirements:
+        if r.type == RequirementType.CATEGORY_CREDITS and r.category:
+            earned = sum(
+                catalog[c].credits for c in creditable_now
+                if c in catalog and r.category in catalog[c].categories
+            )
+            if earned < r.credits_required:
+                cat_needs.add(r.category)
+
     elective_pool = [
         c.code
         for c in catalog.values()
@@ -283,7 +297,10 @@ def _generate_one(
         # Research/tutorial/thesis credits are opt-in (constraints.include_research
         # or a requirement card) — never auto-padded as electives.
         and "ms_research" not in c.categories
-        and any(cat.startswith(pool_prefixes) or cat in pool_exact for cat in c.categories)
+        and (
+            any(cat.startswith(pool_prefixes) or cat in pool_exact for cat in c.categories)
+            or any(cat in cat_needs for cat in c.categories)
+        )
     ]
 
     graph = build_prereq_graph(list(catalog.values()))
@@ -362,6 +379,8 @@ def _generate_one(
             if code in pin_term:
                 # Pins outrank everything; term-specific pins outrank floating ones.
                 score += 1000 if pin_term[code] == term else 400
+            if any(cat in cat_needs for cat in course.categories):
+                score += 30  # courses feeding an unmet category-credits card
             candidates.append((score, course, is_target))
 
         candidates.sort(key=lambda x: -x[0])

@@ -1,0 +1,638 @@
+{
+  "source_url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/english-comparative-literature/",
+  "scraped_at": "2026-07-05T20:54:32Z",
+  "courses": [
+    {
+      "code": "ENGL UN2000",
+      "subject": "ENGL",
+      "number": "UN2000",
+      "title": "Approaches to Literary Study",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Why does literature affect us as it does, why might you want to understand its history, strategies, and meaning, and how exactly do you go about that? This course won’t give you the answer, because there is no single answer. It will instead point the way toward the multitude of possible answers, giving you a variety of critical tools for exploring these questions, and deepening your powers as a thinker, reader, and writer. The course consists of weekly lectures by department faculty members (ENGL 2000) and small weekly seminars with advanced doctoral candidates (ENGL 2001). The lectures will introduce you to texts from across literary history and in various genres (poetry, drama, prose narrative, etc.), giving you an opportunity to learn from and get to know our renowned faculty members. The intimate seminar setting will give you an opportunity to delve further into these texts and techniques, debate their meaning with one another and an expert guide, and engage in exercises that advance your critical writing and interpretive skills, putting into practice what you’ve learned. You will encounter the wide variety of critical approaches taken by our faculty, your seminar leader, and the discipline at large, while learning to expand upon these approaches and make them your own. The course is required for English majors and minors (who should take it as early as possible in their Columbia careers), but it is for everyone: advanced students of literature or those new to literary study; committed majors or those still exploring; anyone seeking the excitement and immersion this course offers. (Note: Students who register for ENGL UN2000 must also register for one of the sections of ENGL UN2001 .)",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2001",
+      "subject": "ENGL",
+      "number": "UN2001",
+      "title": "Approaches to Literary Study Seminar",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN1335",
+      "subject": "ENGL",
+      "number": "UN1335",
+      "title": "Shakespeare I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "(Lecture). This course will cover the histories, comedies, tragedies, and poetry of Shakespeare’s early career. We will examine the cultural and historical conditions that informed Shakespeare’s drama and poetry; in the case of drama, we will also consider the formal constraints and opportunities of the early modern English commercial theater. We will attend to Shakespeare’s biography while considering his work in relation to that of his contemporaries. Ultimately, we will aim to situate the production of Shakespeare’s early career within the highly collaborative, competitive, and experimental theatrical and literary cultures of late sixteenth-century England",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2100",
+      "subject": "ENGL",
+      "number": "UN2100",
+      "title": "Drama Before Shakespeare",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This lecture course focuses on the many different forms of drama that emerged in England in the decades before William Shakespeare started writing. The drama of sixteenth-century England found its stages in a bewildering variety of venues: the city streets, boys’ grammar schools, the universities of Oxford and Cambridge, the Inns of Court, the royal court, civic halls, private households, and inns. This course will introduce students to a range of plays in all genres (tragedies, comedy, history), and use these plays to explore aspects of Elizabeth theatre, including the playhouses, companies, repertory, playwriting, and the printing of plays. No knowledge of Shakespeare’s plays is required",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3329",
+      "subject": "ENGL",
+      "number": "UN3329",
+      "title": "What Shakespeare Read",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "In this course we will read a selection of Shakespeare’s plays alongside the sources he used to compose them. We will take a deliberately wide generic perspective when it comes to these sources, reading biographies, histories, prose fiction, and poetry. Our basic aim will be to immerse ourselves in the texts Shakespeare read and responded to as he wrote his plays. Our more ambitious aim will be to gain a more precise understanding of how Shakespeare honed the nature and function of his drama in relation to and against his largely non-dramatic sources of inspiration. Questions we will consider include: What is a source? What is an adaptation? What is a play? What is a play by Shakespeare?",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN UN3720",
+      "subject": "CLEN",
+      "number": "UN3720",
+      "title": "Plato the Rhetorician",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "(Seminar). Although Socrates takes a notoriously dim view of persuasion and the art that produces it, the Platonic dialogues featuring him both theorize and practice a range of rhetorical strategies that become the nuts and bolts of persuasive argumentation. This seminar will read a number of these dialogues, including Apology , Protagoras , Ion , Gorgias , Phaedrus , Menexenus and Republic , followed by Aristole's Rhetoric , the rhetorical manual of Plato's student that provides our earliest full treatment of the art. Application instructions: E-mail Prof. Eden (khe1@columbia.edu) with your name, school, major, year of study, and relevant courses taken, along with a brief statement about why you are interested in taking the course. Admitted students should register for the course; they will automatically be placed on a wait list from which the instructor will in due course admit them as spaces become available.",
+      "prereq_text": "Prerequisites: Instructor's permission"
+    },
+    {
+      "code": "ENGL UN3891",
+      "subject": "ENGL",
+      "number": "UN3891",
+      "title": "Intro to Classical Rhetoric",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN GU4122",
+      "subject": "CLEN",
+      "number": "GU4122",
+      "title": "Renaissance in Europe II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Major texts of the Renaissance both south and north of the Alps, including those of Petrarch, Valla, Machiavelli, Castiglione, Erasmus, Thomas More, and Montaigne, with special emphasis on diverse style of early modern writing and the habits of reading they encouraged",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3327",
+      "subject": "ENGL",
+      "number": "UN3327",
+      "title": "Old New York",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "What was New York City like before the skyscrapers and yellow cabs with which we associate it today? This class explores the long history of New York City and its surroundings through the literatures of the many peoples who have called it home over the centuries. We will read Lenape creation stories, eyewitness accounts of Henry Hudson’s voyage, colonial pamphlets about the earliest slave revolts in North America, and literary fiction and poetry by lifelong New Yorkers including Walt Whitman and Herman Melville. We will follow Dutch explorers and traders in Manahatta, investigate the seedy underworld of blackmail and brothels in the Bowery, survey the financial revolution that turned Wall Street into a center of global capitalism, and get a glimpse of the Gilded Age in the opulent novels of manners that take us from Grand Central to Greenwich Village. To make good use of our city, students will write dispatches from various locations in New York City, from Brooklyn to the Bronx, that look for traces of the past in the present",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4619",
+      "subject": "ENGL",
+      "number": "GU4619",
+      "title": "African-American Literature I",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "(Lecture). This lecture course is intended as the first half of the basic survey in African-American literature. By conducting close readings of selected song lyrics, slave narratives, fiction, poetry, and autobiography, we will focus on major writers in the context of cultural history. In so doing, we will explore the development of the African- American literary tradition. Writers include, but are not limited to, Wheatley, Equiano, Douglass, Jacobs, Harper, Dunbar, Chestnutt, Washington, Du Bois, and Larsen. Course requirements: class attendance, an in-class midterm exam, a five-page paper, and a final exam",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4728",
+      "subject": "ENGL",
+      "number": "GU4728",
+      "title": "American Transcendentalism",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "The class is an intensive reading of the prose and poetry of Emerson, Thoreau, Whitman, Higginson and Emily Dickinson. Through detailed analysis of Emerson’s Essays we will try to understand his philosophy as an effort to radically reformulate traditional concepts of identity, thinking, and everyday living, and investigate the politics that guided his philosophical efforts, especially his stance on slavery and his activism against the Cherokee removals. But we will also be interested in his thinking on dreams, visions and mental transports and in order to ask how those experiences come to model his understanding of personal identity and bodily integrity. In Thoreau, we will look closely into ideas about the art of living and his theory of architecture, as well as quotidian practices of dwelling, eating or cooking, as ways to come to terms with one’s own life. We will pay special attention to Thoreau’s understanding of thinking as walking, as well as the question of space vs. time and we will spend a lot of time figuring his theory of living as mourning. With Whitman we will attend to his new poetics and investigate its relation to forms of American Democracy. We will also want to know how the Civil War affected Whitman’s poetics both in terms of its formal strategies and its content. Finally, we will try to understand how ideas and values of transcendentalist philosophy fashion poetry of Emily Dickinson both in its form and its content. We will thus be looking at Dickinson’s famous fascicles but also into such questions as loss, avian and vegetal life and the experience of the embodied more generally",
+      "prereq_text": ""
+    },
+    {
+      "code": "CPLS GU4227",
+      "subject": "CPLS",
+      "number": "GU4227",
+      "title": "Blood, Guts, and Lancets: Anatomy in Nineteenth-Century Fiction",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This seminar serves as an introduction to the historical rise of anatomy and pathology (the branches of medicine focused on the study of the human form and on the study of the diagnosis of disease, intimately connected with forensic science), by examining how medicine is represented in the prose fiction of the Romantic and Victorian periods. Together, our class will look at how anatomy became the basis of modern Western allopathic medicine, and why laboratory medicine emerged as a crucible for medico-scientific progress during the nineteenth century. As the physician’s practice turned away from concocting tinctures and remedies, medicine would now become grounded in scientific reasoning based on the mechanistic study of the human body—and its key procedure, the postmortem examination. In the nineteenth century, a historical period that saw the first uses of the terms “autopsy” and “scientist,” literary writers were deeply engaged in the rise of anatomy, pathology, and forensics. Novels and short fiction served as a testing-ground for working out ideas about life and death in the complex sociocultural world of the Romantic and Victorian eras. In this course, as we read works by authors like Mary Shelley, Edgar Allan Poe, Sheridan LeFanu, Emile Zola, H.G. Wells, R.L. Stevenson, Bram Stoker, Arthur Conan Doyle, and Agatha Christie, we will consider the strange history of how “genre fiction” (gothic novels and detective stories) became a way of exploring the pathological in literary writing—while also containing its threats. By reading the medical writings of Humphry Davy, Matthew Baillie, Luigi Galvani, Claude Bernard, and Rudolf Virchow alongside these novels, we will see how the tropes we usually associate with literature fundamentally shaped the rise of laboratory and forensic medicine. And as we read the historical lifewriting of Robert Voorhis and Mary Seacole, we will think, too, about how the rise of anatomy in nineteenth-century medicine was tainted by the influence of (what was then called) “race science.” Ultimately, we will consider why anatomy became a dominant motif in nineteenth-century fiction, and why genre fiction is still the “outhouse” (in Amitav Ghosh’s phrase) that keeps the pathological well apart from high realism. Along the way, a pathologist from the New York Medical Examiner’s Office will visit the class to talk about the legacies of the nineteenth century in modern pathology and forensic medicine",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN1520",
+      "subject": "ENGL",
+      "number": "UN1520",
+      "title": "Intro to Asian American Literature",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "As a survey of Asian American literature, this course examines recurring cycles of love and fear in Asian North American relations from the late nineteenth to the twenty-first centuries. The course has four learning objectives. First, by the end of the term, you should be able to recognize and explain key aspects of Asian North American cultural and literary representations across the twentieth century. We will first turn to what became known as “yellow peril,” one effect of exclusion laws that monitored the entrance of Asians into the United States and Canada during the late nineteenth and twentieth centuries, and the corresponding phenomenon of Orientalism, the fascination with a binary of Asia and the West. We’ll examine how Asian North American authors respond to later cycles of love and fear, ranging from the forgetting of Japanese internment in North America and the occupation of the Philippines. The second section turns to how Asian North American authors use innovative creative strategies to resist cycles of love and fear, especially in the wake of war and conflict in Asia and alongside the rise of the model minority. The final section examines intimacy, communities, and crisis in forms of migration, diaspora, and globalization in the twentieth and twenty-first centuries, from the global refugee crisis to more recent developments in the wake of COVID-19. Second, you will interpret literary strategies (what literary scholars call “formal strategies”) and their connection to the text’s argument. A central claim for this course is that cultural productions make debatable claims and arguments, and that one of the ways they do so is through form (such as the brevity of a poetic line and its layout, different narrators or points of view in a novel, or a drama that moves back and forth in time). How do these authors use literature to respond to, critique, or revise cultural representations of Asia and Asians in America? You will learn how to unpack the argument of text, or, more precisely, what you define as the argument of each work. What cultural issue or problem does the text identify? Why? What is its argument regarding this issue? How does the work support this argument? Does it offer any solutions? If so, what are they? If not, why not? To that end, we will consider all of these texts might be responding to, commenting on, and even working against dominant cultural assumptions of their time and in ours. Although we will read the texts in rough chronological order, at times, we will break chronology to examine the texts in comparative, thematic clusters. Third, you will create original and informed analyses of literary works and fine-tune and evaluate your critical reading and writing skills. You’ll have the opportunity to practice analysis in multiple ways. In your assignments and assessments for the course, you will a) formulate your own arguments about the texts, b) support these arguments with evidence and analysis and c) situate your analyses amid relevant historical and cultural contexts. Finally, you will reflect upon a) connections between course material and the contemporary world and b) the potential of humanities studies as a method of community and social engagement. Ideally, you will leave this course with tools and strategies that you will be able to use beyond the boundaries of a course in literary study: thinking critically, analyzing evidence carefully, developing original and creative opinions and arguments, and communicating effectively",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2200",
+      "subject": "ENGL",
+      "number": "UN2200",
+      "title": "Out of the Ordinary: Aesthetics, Power, Bodies",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course examines twentieth-century literature, film, and music in order to explore the many and complex ways that beauty, power, and bodily identity co-articulate experiences that lie beyond the ordinary. Reading novels, essays, and poetry alongside musical interludes, we will think about bodies, power, and beauty together. This class explores the wide beyond, the other side of the everyday, the hum of being that can be discerned only in certain musical performances, the terror and pleasure that course through certain works of fiction, and the fragmented self that fails to cohere in extraordinary acts of memoir. From these pieces and unfinished conversations, we intend to collaboratively develop fresh insights on the nature of beauty and identity under increasingly draconian and profit-driven forms of knowledge and power",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2225",
+      "subject": "ENGL",
+      "number": "UN2225",
+      "title": "Virginia Woolf",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course (essentially identical to the lecture course on Virginia Woolf that I have taught frequently over the past fifteen years) will focus on six novels and one non-fictional book by Virginia Woolf. It will explore multiple questions that are essential to literary study, e.g.: What does it mean to study a single author’s work in chronological sequence, finding both consistency and change? How does an author’s work change over the course of her career in response to larger historical and cultural changes? How does an author decide the course of her career in response to critical responses at the time? In addition, the course will also focus in detail on the inner logic and coherence of each of the books on the syllabus",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3055",
+      "subject": "ENGL",
+      "number": "UN3055",
+      "title": "US Poetry of the 1960s",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Arguably the most consequential decade of the postwar era, the 1960s saw American poetry become a site of radical experiment and political contestation, as longstanding assumptions of white male-dominated culture were placed under unprecedented pressure. This course traces that upheaval across movements—Beat, Black Mountain, Black Arts, New York School, San Francisco Renaissance. Poets to be studied include Allen Ginsberg, Russell Atkins, Gwendolyn Brooks, Amiri Baraka, Frank O'Hara, Jack Spicer, Charles Olson, N.H. Pritchard, Robert Creeley, Larry Eigner, John Ashbery, Diane di Prima, and Jayne Cortez. We will attend to questions of form—breath, the page, sound, performance, and the boundary between poetry and music—within the historical contexts of the Civil Rights, Black Power, feminist, gay liberation, and environmental movements",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3351",
+      "subject": "ENGL",
+      "number": "UN3351",
+      "title": "Family Fictions: Memoir, Film and the Novel",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course will explore cinematic, novelistic and memoirist renderings of “family cultures,” family feeling, the family as narrative configuration, and home as a utopian/dystopian and oneiric space. Explorations of memory, imagination and childhood make-believe will interface with readings in psychoanalysis and in the social history of this polymorphous institution. A central goal of the course is to help each of you toward written work that is distinguished, vital and has urgency for you. Authors will include Gaston Bachelard, Alison Bechdel, Jessica Benjamin, Sarah M. Broom, Lucille Clifton, Vivian Gornick, Lorraine Hansberry, Maggie Nelson and D.W. Winnicott; and films by Sean Baker, Ingmar Bergman, Alfonso Cuaron, Greta Gerwig, Lance Hammer, Barry Jenkins, Elia Kazan, Lucretia Martel, Andrei Zvyagintsev and others",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3805",
+      "subject": "ENGL",
+      "number": "UN3805",
+      "title": "The Political Novel",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Is the political novel a genre? It depends on your understanding both of politics and of the novel. If politics means parties, elections, and governing, then few novels of high quality would qualify. If on the other hand “the personal is the political,” as the slogan of the women’s movement has it, then almost everything the novel deals with is politics, and few novels would not qualify. This seminar will try to navigate between these extremes, focusing on novels that center on the question of how society is and ought to be constituted. Since this question is often posed ambitiously in so-called “genre fiction” like thrillers and sci-fi, which is not always honored as “literature,” it will include some examples of those genres as well as uncontroversial works of the highest literary value like Melville’s “Benito Cereno,” Ellison’s “Invisible Man,” and Camus’s “The Plague.”",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4132",
+      "subject": "ENGL",
+      "number": "GU4132",
+      "title": "Frankenstein and Its Vicissitudes",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Overview: This class will carefully and searchingly read Mary Shelley’s 1818 Frankenstein as well as her 1831 revision, using those two texts as the seeds for a much larger investigation about what the Frankenstein paradigm brought to later American literary and cinematic culture. We’ll look at how Mary Shelley developed the genre of science fiction from nothing, wrote the first recognizable book of horror in the English cannon, pioneering literary philosophical writing in the absence of a clear hero, and used her novel as a mechanism for thinking about reproductive violence, domestic abuse, and the social problem of male loneliness. From there, we’ll examine the Frankenfilms of the 20th and 21st century—many of which are excellent, but many of which are downright offensive—to think about what Shelley’s literary and philosophical paradigm contributed to Anglo-American cinematic discourse about patriarchy, power, sex, class, God, reproduction, fascism, and feminism",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4426",
+      "subject": "ENGL",
+      "number": "GU4426",
+      "title": "The Protest Novel … or Books that Change the World",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course asks a simple question: what kind of action (political, social, instrumental) can a novel take? In the seminar, we will consider the tradition of protest fiction— or what we might call Books that Change the World— taking stock of how the novel has embraced the overt aim of creating change. Our goal as a class will be to set our own terms for what a protest novel is, was, should be, or might be, and to consider both the reach and limitations of this tradition. The terrain is broad, covering works from the beginning of the 20th century to the present, with a center of gravity in the early-mid 20th century, and engaging a range of topics on which novels have sought to make change. The course is organized thematically and chronologically, with works (mostly English language) from the U.S., England, Ireland, Canada, India, Nigeria, and elsewhere. Each week we will read a novel, occasionally paired with other materials, such as visual works, other literary materials, theoretical readings, etc. Themes to which these activist works are geared include: slavery and abolition; working conditions; sexuality, gender and patriarchy; war, peace, and revolution; race and racism; incarceration; and environmental crisis. This is a discussion seminar, and each student is expected to participate in every class meeting",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN GU4550",
+      "subject": "CLEN",
+      "number": "GU4550",
+      "title": "Narrative and Human Rights",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "(Lecture). We cant talk about human rights without talking about the forms in which we talk about human rights. This course will study the convergences of the thematics, philosophies, politics, practices, and formal properties of literature and human rights. In particular, it will examine how literary questions of narrative shape (and are shaped by) human rights concerns; how do the forms of stories enable and respond to forms of thought, forms of commitment, forms of being, forms of justice, and forms of violation? How does narrative help us to imagine an international order based on human dignity, rights, and equality? We will read classic literary texts and contemporary writing (both literary and non-literary) and view a number of films and other multimedia projects to think about the relationships between story forms and human rights problematics and practices. Likely literary authors: Roberto Bolaño, Miguel de Cervantes, Assia Djebar, Ariel Dorfman, Slavenka Drakulic, Nuruddin Farah, Janette Turner Hospital, Franz Kafka, Sahar Kalifeh, Sindiwe Magona, Maniza Naqvi, Michael Ondaatje, Alicia Partnoy, Ousmane Sembène, Mark Twain . . . . We will also read theoretical and historical pieces by authors such as Agamben, An-Naim, Appiah, Arendt, Balibar, Bloch, Chakrabarty, Derrida, Douzinas, Habermas, Harlow, Ignatieff, Laclau and Mouffe, Levinas, Lyotard, Marx, Mutua, Nussbaum, Rorty, Said, Scarry, Soyinka, Spivak, Williams",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4559",
+      "subject": "ENGL",
+      "number": "GU4559",
+      "title": "August Wilson",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "In this seminar we will read the complete published plays of August Wilson along with significant unpublished and obscurely published plays, prose, and poetry. The centerpieces of this course will be what Wilson termed his “century cycle” of plays: each work focusing on the circumstances of Black Americans during a decade of the twentieth century. As we consider these historical framings, we also will explore closely on what Wilson identified as the “four B’s” that influenced his art most emphatically: Bessie Smith (sometimes he called this first B the Blues), Amiri Baraka, Romare Bearden, and Jorge Luis Borges. Accordingly, as we consider theoretical questions of cross-disciplinary conversations in art, we will study songs by Bessie Smith (and broad questions of the music and literary form), plays, prose, and poetry of Baraka (particularly in the context of Wilson’s early Black Arts Movement works), the paintings of Bearden, and the poetry and prose (along with a few lectures and transcribed interviews) of Borges. We will use archival resources (online as well as “hard copy” material, some of it at Columbia) to explore Wilson’s pathways as a writer, particularly as they crisscrossed the tracks of his “four B’s.” Along the way we will examine several drawings and paintings (from his University of Pittsburgh archives) as we delve into the rhythmical shapes, textures, and colors he used on paper and canvas as well as in his plays. Visitors to the class will include Wilson’s musical director Dwight Andrews and at least one of his regular actors",
+      "prereq_text": ""
+    },
+    {
+      "code": "MDES GU4122",
+      "subject": "MDES",
+      "number": "GU4122",
+      "title": "The Novel in Africa",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "The main task of this course will be to read novels by African writers. But the novel in Africa also involves connections between the literary genre of the novel and the historical processes of colonialism, decolonization, and globalization in Africa. One important question we'll consider is how African novels depict those historical experiences in their themes and plots—we'll read novels that are about colonialism, etc. A more complex question is how these historical processes relate to the emergence of the novel as an important genre for African writers. Edward Said went so far as to say that without imperialism, there would be no European novel as we know it. How can we understand the novel in Africa (whether read or written) as a product of the colonial encounter? How did it shape the process of decolonization? What contribution to history, whether literary or political, does the novel in Africa make? We'll undertake a historical survey of African novels from the 1930s to the present, with attention to various subgenres (village novel, war novel, urbanization novel, novel of postcolonial disillusion, Bildungsroman). We'll attend to how African novelists blend literate and oral storytelling traditions, how they address their work to local and global audiences, and how they use scenes of characters reading novels (whether African or European) in order to position their writing within national, continental, and world literary space",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN UN2122",
+      "subject": "CLEN",
+      "number": "UN2122",
+      "title": "Marxism and Cultural Theory",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course will not offer an intensive study of the writings of Karl Marx. It’s a course in the theory of culture which emphasizes what Marxism has and has not contributed to that theory and what a better cultural theory might require. After laying out some basic propositions of Marxist thought and some issues and challenges associated with them when applied to the study of culture, it proposes to develop conceptual coordinates which will enable students to make sense of recent cultural analysis both inside and outside the Marxist orbit, including competing theories of global capitalism and financial crisis. What are the models of the world which are implicitly appealed to by critics interpreting cultural objects and practices and advocating more or less drastic social change? What sorts of cultural interpretation do such models authorize? What are the problematic interfaces between Marxism and other discourses of social justice, like environmentalism, and the models of interpretation to which they appeal?",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3027",
+      "subject": "ENGL",
+      "number": "UN3027",
+      "title": "Staging Pulp",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "When we speak of genre in film and literature, the word summons images of fantasy, science-fiction, westerns, and horror. But, in theatre, genre instead suggests tragedy and comedy, or narrative tropes like the living room drama and the revenge play. Why this disconnect? Why is it, when compared to other mediums, plays with dragons, spaceships, cowboys, and haunted houses seem so few and far between? In this course, we will explore how theatre’s medium-specific mode of staging genre, while perhaps rare, in fact stands as a unique and invaluable tool for laying bare and deconstructing the tropes and politics of genre, complicating expectations in a way often shunned, but essential for understanding the cultural structures underpinning castles, cyborgs, and six-shooters. We will attend to fantasy, science-fiction, westerns, and horror across media, focusing on theatre as a means of disrupting our understanding of both genre and theatre, coming to our own new understanding of each as inextricably twined",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4131",
+      "subject": "ENGL",
+      "number": "GU4131",
+      "title": "Nature, Race, and Indigeneity in the U.S",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "“Nature” is one of the weirdest words in the English language—it can refer to human trait (“it is in her nature”), a nonhuman environment (“we walked in nature”), a divine power (“mother nature”), or a biological process (“nature calls”). Despite—and indeed, because of—these ambiguities, nature has played pivotal roles in the territory that has come to be known as the United States. In various guises, nature has inspired pilgrims, pioneers, and tourists. At the same time, nature has staged struggles between settlers and Natives, whites and racialized peoples, upper classes and working classes. In this seminar, we will learn how nature has brought us together and torn us apart. By engaging with a variety of media—from colonial-era captivity narratives to nineteenth-century abolitionist texts to contemporary Kumeyaay poetry—we will recover conflicting ideas of nature. And by reading in the environmental humanities—including history, anthropology, and literary criticism—we will discover how these ideas have impacted all-too-human identities and more-than-human entities. While our inquiries will take us from prehistory to the present, they will converge on the future: now that we are destroying our ecosystems, extinguishing our fellow species, and altering our atmosphere, is there still such a thing as nature? During the semester, we will navigate this tricky terrain both collectively and individually, with each undergraduate completing a four-to five-page theoretical essay, a fourteen- or fifteen-page research essay, and a natural history mini-exhibit, and with each graduate student preparing a presentation for our end-of-semester conference that they then revise as a seminar paper and/or repurpose by organizing a panel for a national conference",
+      "prereq_text": ""
+    },
+    {
+      "code": "THTR UN3150",
+      "subject": "THTR",
+      "number": "UN3150",
+      "title": "Critical Histories of Drama, Theatre, and Performance I",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course undertakes a dialectical approach to reading and thinking about the history of dramatic theatre, interrogating the ways writing inflects, and is inflected by, the material dynamics of performance. Course undertakes careful study of the practices of performance, and of the sociocultural, economic, political, and aesthetic conditions animating representative performance in “classical” theatres globally; course will also emphasize development of important critical concepts for the analysis of drama, theatre, and performance. Topics include the sociology of theatre, the impact of print on conceptions of performance, representing gender and race, the politics of intercultural performance, and the dynamics of court performance. Writing: 2-3 papers; Reading: 1-2 plays, critical and historical reading per week; final examination. Fulfills one (of two) lecture requirements for Theatre/Drama and Theatre Arts majors",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL CC1010",
+      "subject": "ENGL",
+      "number": "CC1010",
+      "title": "University Writing",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "ENGL CC/GS1010: University Writing, is a one-semester seminar designed to facilitate students’ entry into the intellectual life of the university by teaching them to become more capable and independent academic readers and writers. The course emphasizes habits of mind and skills that foster students’ capacities for critical analysis, argument, revision, collaboration, meta-cognition, and research. Students read and discuss essays from a number of fields, complete regular informal reading and writing exercises, compose several longer essays, and devise a research-based project of their own design. Courses of Instruction ENGL CC1010 University Writing. 3 points. ENGL CC/GS1010: University Writing (3 points) focuses on developing students’ reading, writing, and thinking, drawing from readings on a designated course theme that carry a broad appeal to people with diverse interests. No University Writing class presumes that students arrive with prior knowledge in the theme of the course. We are offering the following themes this year: UW: Contemporary Essays, CC/GS1010.001-.099 UW: Readings in American Studies, CC/GS1010.1xx UW: Readings in Gender and Sexuality, CC/GS1010.2xx UW: Readings in Film and Performing Arts, CC/GS1010.3xx UW: Readings in Urban Studies, CC/GS1010.4xx (will be sharing 400s with Human Rights) UW: Readings in Climate Humanities, CC/GS1010.5xx (will be sharing 500s with Data ＆ Society) UW: Readings in Medical Humanities, CC/GS1010.6xx UW: Readings in Law ＆ Justice, CC/GS1010.7xx UW: Readings in Race and Ethnicity, CC/GS1010.8xx University Writing for International Students, CC/GS1010.9xx For further details about these classes, please visit: http://www.college.columbia.edu/core/uwp",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3795",
+      "subject": "ENGL",
+      "number": "UN3795",
+      "title": "Senior Essay Research Methods",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "The senior essay research methods seminar, offered in several sections in the fall semester, lays out the basic building blocks of literary and cultural studies. What kinds of questions do literary and cultural critics ask, and what kinds of evidence do they invoke to support their arguments? What formal properties characterize pieces of criticism that we find especially interesting and/or successful? How do critics balance the desire to say something fresh vis-a-vis the desire to say something sensible and true? What mix of traditional and innovative tools will best serve you as a critical writer? Voice, narrative, form, language, history, theory and the practice known as “close reading” will be considered in a selection of exemplary critical readings. Readings will also include “how-to” selections from recent guides including Amitava Kumar’s Every Day I Write the Book, Eric Hayot’s The Elements of Academic Style and Aaron Ritzenberg and Sue Mendelsohn’s How Scholars Write. The methods seminar is designed to prepare those students who choose to write a senior essay to complete a substantial independent project in the subsequent semester. Individual assignments will help you discover, define and refine a topic; design and pursue a realistic yet thrilling research program or set of protocols; practice “close reading” an object (not necessarily verbal or textual) of interest; work with critical sources to develop your skills of description and argument; outline your project; build out several sections of the project in more detail; and come up with a timeline for your spring semester work. In keeping with the iterative nature of scholarly research and writing, the emphasis is more on process than on product, but you will end the semester with a clear plan for your essay itself as well as for the tasks you will execute to achieve that vision the following semester. The methods seminar is required of all students who wish to write a senior essay in their final semester. Students who enroll in the methods seminar and decide not to pursue a senior essay in the spring will still receive credit for the fall course",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2000",
+      "subject": "ENGL",
+      "number": "UN2000",
+      "title": "Approaches to Literary Study",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Why does literature affect us as it does, why might you want to understand its history, strategies, and meaning, and how exactly do you go about that? This course won’t give you the answer, because there is no single answer. It will instead point the way toward the multitude of possible answers, giving you a variety of critical tools for exploring these questions, and deepening your powers as a thinker, reader, and writer. The course consists of weekly lectures by department faculty members (ENGL 2000) and small weekly seminars with advanced doctoral candidates (ENGL 2001). The lectures will introduce you to texts from across literary history and in various genres (poetry, drama, prose narrative, etc.), giving you an opportunity to learn from and get to know our renowned faculty members. The intimate seminar setting will give you an opportunity to delve further into these texts and techniques, debate their meaning with one another and an expert guide, and engage in exercises that advance your critical writing and interpretive skills, putting into practice what you’ve learned. You will encounter the wide variety of critical approaches taken by our faculty, your seminar leader, and the discipline at large, while learning to expand upon these approaches and make them your own. The course is required for English majors and minors (who should take it as early as possible in their Columbia careers), but it is for everyone: advanced students of literature or those new to literary study; committed majors or those still exploring; anyone seeking the excitement and immersion this course offers. (Note: Students who register for ENGL UN2000 must also register for one of the sections of ENGL UN2001 .)",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2001",
+      "subject": "ENGL",
+      "number": "UN2001",
+      "title": "Approaches to Literary Study Seminar",
+      "points_min": 0.0,
+      "points_max": 0.0,
+      "description": "",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN1336",
+      "subject": "ENGL",
+      "number": "UN1336",
+      "title": "Shakespeare II",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course covers the second half of William Shakespeare’s career, attending to the major dramatic genres in which he wrote. It will combine careful attention to the plays’ poetic richness with a focus on their theatrical inventiveness, using filmed productions of many of the plays to explore their staging possibilities. At the same time, we will use the plays as thematic springboards to explore the cultural forces – pertaining to, among others things, politics, class, religion, gender, and race – that shaped the moment in which Shakespeare lived and worked",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2228",
+      "subject": "ENGL",
+      "number": "UN2228",
+      "title": "Staging Early Modern London",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This lecture course examines the performances through which early modern London (c. 1558-1642) “staged” itself: at the public and private theaters, on the street in civic and royal rituals, and in popular entertainments. In so doing, we will examine how the capital city’s sense of itself came to be shaped by its various performances – its relationship with the crown, with the country, with strangers and foreigners – and how key sites (the “liberties,” the Royal Exchange, the Guildhall, the Thames, Covent Garden, Hyde Park) came to hold meaning for London audiences. We will be reading texts by dramatists including Thomas Dekker, Ben Jonson, Francis Beaumont, Thomas Middleton, and James Shirley, as well as less studied texts",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2933",
+      "subject": "ENGL",
+      "number": "UN2933",
+      "title": "Spenser",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course centers on the writing of Edmund Spenser (1552–1599), early modern England’s self-styled national poet. We will devote much of our attention to The Faerie Queene, a complex intertwining of romance and epic that is Spenser’s major poetic achievement and the most important understudied work of the English Renaissance. Spenser himself referred to The Faerie Queene as an “endlesse worke” because he couldn’t finish it, but it’s also endless in the sense that it richly rewards deep study. The Faerie Queene envisions a world saturated with meaning, and the poem’s allegory is everywhere engaged with the challenges, dangers, and delights of interpreting it. We will enrich our simultaneous study of Spenser’s poetry and the culture of English early modernity by reading some of his shorter poems, including The Shepheardes Calender, his poetic debut, and the Amoretti, his sonnet sequence. We will supplement this work with a visit to Columbia’s Rare Book and Manuscript Library, which will highlight the literary, political, and cultural traditions on which Spenser’s work draws. We’ll also attend the Metropolitan Museum of Art’s exhibition on Tudor England, which will offer a glimpse of the royal iconography that Spenser’s writing both endorses and critiques. Finally, we will confront Spenser’s colonialist views as expressed in his View of the State of Ireland, a prose tract he wrote after serving as secretary to Arthur Grey, the architect of England’s brutal attempt to colonize Ireland in the 1580s. Taking Spenser’s poetic and political careers together, this course will uncover the deeply contradictory aims of writing in the early modern humanist tradition, which questioned traditional class hierarchies and imagined new ways of fashioning the self at the same time that it helped to sanction England’s burgeoning imperial ambitions",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN UN3125",
+      "subject": "CLEN",
+      "number": "UN3125",
+      "title": "Medieval Encounters",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Though often thought of in mainstream culture as closed, conservative, and backwards, the medieval world was actually a place where the circulation of people and ideas resulted in generative encounters. This course will consider texts that brush up against the unfamiliar. We’ll read travelogues containing Western views of the East and Muslim views of Christian society, plus texts of questionable literary merit and difficult, artful poetry. Via our course readings, you’ll cross borders into strange lands with unaccountable customs, experience the possibilities of the marvelous, and interact with the afterlife and its denizens. Along the way, you’ll be having your own medieval encounter with worldview(s) that require contextual analysis to recuperate",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3343",
+      "subject": "ENGL",
+      "number": "UN3343",
+      "title": "Women in Renaissance Drama Cultre",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Concentrating on the drama of early modern England, this course will investigate a culture of surveillance regarding women’s bodies in the period. We will give special focus to the fear of female infidelity, the theatrical fascination with the woman’s pregnant body, and the cultural desire to confirm and expose women’s chastity. We will read plays in which women are falsely accused of adultery, in various generic contexts (such as William Shakespeare’s Cymbeline and Much Ado About Nothing), along with plays in which women actually commit infidelity (such as the anonymous Arden of Faversham and Thomas Middleton’s A Chaste Maid in Cheapside). Focusing on a different play each week, we will ask: what does it take, ultimately, to believe women about their fidelity? At the same time, what is the effect of being doubted on women themselves? We will also give consideration to the particular resources of dramatic form, paying attention to moments in plays that coerce spectators themselves into mistaken judgments about women. We will supplement our reading of drama with pamphlets, advice literature, poems, church court cases, and ballads, in order to place these plays within a broader and more varied culture of female surveillance in early modern England. Finally, we will work to recover past strategies of liberation from this surveillance in the plays we read, in women’s writing that warns against male betrayal, and in dramatic and historical instances of female cross-dressing",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3444",
+      "subject": "ENGL",
+      "number": "UN3444",
+      "title": "Race, Religion, and Early Modernity",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "“Race and religion are conjoined twins. They are both products of modernity.”—Theodore Vial In this course, we will turn the clock back to early modernity, exploring the entanglement of concepts of racial and religious difference in the texts and cultural products of early modern England. Beginning in sixteenth century England, we will explore how a distinctive English Protestant identity was fashioned in relation to various religious and racial others, most notably the Jew, the Ottoman “Turk”, and the Black African. We will then turn to the literatures of encounter, exploring how the categories of race and religion were articulated in travel narratives, ethnographic accounts, and political polemic. Finally, we will turn to the writings of Afro-descended and Indigenous Christians, exploring how religious self-fashioning was performed by these racialized subjects. Conversations throughout the semester will be attentive to the specificities of the period, whilst also serving to recontextualise and unsettle contemporary categories of racial and religious difference. Seminar readings will primarily consist of primary sources from the period including poetry, prose and drama from England and, in the latter part of the semester, its colonies. These will be supplemented with a variety of textual and non-textual materials, including works of art, historical documents, period-specific scholarship, and contemporary theory. Keywords: race, religion, empire, travel, colonialism, enslavement, conversion",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN UN3725",
+      "subject": "CLEN",
+      "number": "UN3725",
+      "title": "Literary Guides to Living and Dying Well from Plato to Montaigne",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Surrounded by friends on the morning of his state-mandated suicide, Socrates invites them to join him in considering the proposition that philosophizing is learning how to die. In dialogues, essays, and letters from antiquity to early modernity, writers have returned to this proposition from Plato’s Phaedo to consider, in turn, what it means for living and dying well. This course will explore some of the most widely read of these works, including by Cicero, Seneca, Jerome, Augustine, Boethius, Petrarch, and Montaigne, with an eye to the continuities and changes in these meanings and their impact on the literary forms that express them. Application instructions: E-mail Prof. Eden (khe1@columbia.edu) with your name, school, major, year of study, and relevant courses taken, along with a brief statement about why you are interested in taking the course. Admitted students should register for the course; they will automatically be placed on a wait list from which the instructor will in due course admit them as spaces become available",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN GU4414",
+      "subject": "CLEN",
+      "number": "GU4414",
+      "title": "Hist of Literary Criticism:Plato to Kant",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "The principal texts of literary theory from antiquity through the 18th century, including Plato, Aristotle, Horace, Longinus, Augustine, Aquinas, Boccaccio, Sidney, and Kant.",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4462",
+      "subject": "ENGL",
+      "number": "GU4462",
+      "title": "Gender and Resistance in Early Modern Literature",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This class will focus on early modern literature’s fascination with the relationship between women, gender, and political resistance in the early modern period. The works we will read together engage many of the key political analogies of the period, including those between the household and the state, the marital and the social contract, and rape and tyranny. These texts also present multiple forms of resistance to gendered repression and subordination, and reimagine sexual, social, and political relationships in new and creative ways. Readings will include key classical and biblical intertexts, witchcraft and murder pamphlets, domestic conduct books, defenses of women, poetry (by William Shakespeare, Aemilia Lanyer and Lucy Hutchinson), drama (Othello, The Winter’s Tale, and Gallathea), and fiction (by Margaret Cavendish). The class will also include visits to The Morgan Library, Columbia’s Rare Book and Manuscript Library, and The Metropolitan Museum of Art",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4729",
+      "subject": "ENGL",
+      "number": "GU4729",
+      "title": "Canterbury Tales",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "(Lecture). Beginning with an overview of late medieval literary culture in England, this course will cover the entire Canterbury Tales in the original Middle English. We will explore the narrative and organizational logics that underpin the project overall, while also treating each individual tale as a coherent literary offering, positioned deliberately and recognizably on the map of late medieval cultural convention. We will consider the conditions—both historical and aesthetic—that informed Chaucer’s motley composition, and will compare his work with other large-scale fictive works of the period. Our ultimate project will be the assessment of the Tales at once as a self-consciously “medieval” production, keen to explore and exploit the boundaries of literary convention, and as a ground-breaking literary event, which set the stage for renaissance literature",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN GU4750",
+      "subject": "CLEN",
+      "number": "GU4750",
+      "title": "Staging the Middle Ages: Medievalism and the Production of New Opera",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "The Middle Ages have long been a source of inspiration for composers of opera. Since the midnineteenth century, mystery plays, troubadour lyrics, enigmatic tapestries, and Arthurian romances have all been showcased on the operatic stage; the last 30 years, in particular, have seen a spike in interest in reenergizing medieval culture for contemporary audiences. Designed for graduate and advanced undergraduate students interested in medieval literature and/or the history of lyric theater, this course excavates the medievalist turn in opera, from Wagner to the present day. We’ll ask questions about the nature of intermedial adaptation, the effect of staging in constructing or dispelling medieval allusion, the historically contingent politics of musical antiquarianism and revival, and the enduring appeal of the Middle Ages in the late twentieth and early twenty-first centuries. Along the way, we’ll read medieval texts from England, Germany, and Occitania, analyze recorded performances of musical works, visit medieval tapestries at the Cloisters, and take a trip to a much-anticipated new production of Wagner’s Tristan und Isolde at the Metropolitan Opera",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2404",
+      "subject": "ENGL",
+      "number": "UN2404",
+      "title": "Victorian Poetry",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "(Lecture). This course examines the works of the major English poets of the period 1830-1900. We will pay special attention to Alfred Tennyson and Robert Browning, and their great poetic innovation, the dramatic monologue. We will also be concentrating on poems by Elizabeth Barrett Browning, Gerard Manley Hopkins, Christina Rossetti, Matthew Arnold, A. E. Housman, and Thomas Hardy",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3660",
+      "subject": "ENGL",
+      "number": "UN3660",
+      "title": "Early American Horror",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Buried alive. Driven mad with guilt. Dissolved into a vast, anonymous universe. These are some of the terrors that this undergraduate seminar will address as we explore the aesthetic, philosophical, and historical dimensions of early American horror. How did Puritan, Gothic, and other early American horror writers complicate cultural attitudes towards the unthinkable, the cruel, and the perverse in works of supernatural horror? What do Gothic fiction’s enduring tropes—such as haunted houses, doppelgängers, and sentient machines—reveal about the massive social and economic changes of the nineteenth century, including the expansion and intensification of slavery, the expropriation of Indigenous land, and the economic transition to industrial capitalism? And what might early American horror fail to capture about these underlying political realities? Our historical attention to race, labor, and gender will enable us to reconsider canonical American horror literature and illuminate the reliance on early American literary tropes in contemporary horror films for representing the uniquely disturbing experiences of modern life",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN2826",
+      "subject": "ENGL",
+      "number": "UN2826",
+      "title": "American Modernism",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This course approaches modernism as the varied literary responses to the cultural, technological, and political conditions of modernity in the United States. The historical period from the turn of the century to the onset of World War II forms a backdrop for consideration of such authors as Getrude Stein, Willa Cather, Jean Toomer, Zora Neale Hurston, Ernest Hemingway, Ezra Pound, T.S. Eliot, Marianne Moore, F. Scott Fitzgerald, and Djuna Barnes. Assigned readings will cover a range of genres, including novels, poetry, short stories, and contemporary essays",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3042",
+      "subject": "ENGL",
+      "number": "UN3042",
+      "title": "Ulysses",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "The seminar will look at the structure of the novel, its plan, with special attention paid to ‘The Odyssey’, but also to the variations in tone in the book, the parodies and elaborate games becoming more complex as the book proceeds. We will examine a number of Irish texts that are relevant to the making of ‘Ulysses’, including Robert Emmett’s speech from the dock, Yeats’s ‘The Countess Cathleen’ and Lady Gregory translations from Irish folk-tales",
+      "prereq_text": ""
+    },
+    {
+      "code": "MDES UN3121",
+      "subject": "MDES",
+      "number": "UN3121",
+      "title": "Literature and Cultures of Struggle in South Africa",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Generations of resistance have shaped contemporary life in South Africa -- in struggles against colonialism, segregation, the legislated racism known as apartheid, and the entrenched inequalities of the post-apartheid era. Two constants in this history of struggle have been youth as a vanguard of liberation movements and culture as a \"weapon of struggle.\" As new generation of South African youth -- the \"born frees\" -- has now taken to the streets and social media to \"decolonize\" the university and claim their education as a meaningful right, this course traces the ways that generations of writers, artists, and activists have faced censorship, exile, and repression in an ongoing struggle to dismantle apartheid and to free the mind, \"the most powerful weapon in the hands of the oppressor\" according to Black Consciousness activist Steve Biko. This course traces the profoundly important roles that literature and other cultural production (music, photography, film, comics, Twitter hashtags like #rhodesmustfall and #feesmustfall) have played in struggle against apartheid and its lingering afterlife. Although many of our texts were originally written in English, we will also discuss the historical forces, including nineteenth-century Christian missions and Bantu Education, as well as South Africa's post-1994 commitment to being a multilingual democracy, that have shaped the linguistic texture of South African cultural life.",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3726",
+      "subject": "ENGL",
+      "number": "UN3726",
+      "title": "Virginia Woolf",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Six novels and some non-fictional prose: Jacob's Room, Mrs. Dalloway, To the Lighthouse, Orlando, The Waves, Between the Acts; A Room of One's Own, Three Guineas. Applications on paper only (not e-mail) in Professor Mendelson's mailbox in 602 Philosophy, with your name, e-mail address, class (2017, 2018, etc.), a brief list of relevant courses that you've taken, and one sentence suggesting why you want to take the course. Attendance at the first class is absolutely required; no one will be admitted who does not attend the first class.",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3781",
+      "subject": "ENGL",
+      "number": "UN3781",
+      "title": "Lab Lit, Weird Science, and Speculative Fiction",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course will focus on literary fiction and film about science, scientists, and scientific culture. We’ll ask how and why writers have wanted to represent the sciences and how their work is inspired, in turn, by innovations in scientific knowledge of their time. This is not a class on genre fiction. Unlike a science fiction class, we will cover narratives in a variety of genres—some highly speculative, and some in a more realist vein—thinking about how literary form is related to content. We start with Mary Shelley’s Frankenstein, often considered the first work of science fiction, before moving to works from across the twentieth and twenty-first centuries including H.G. Welles’s The Island of Dr. Moreau, George Schulyer’s Black No More, Sinclair Lewis’s Arrowsmith, Carl Sagan’s Contact, Richard Powers’s Overstory, and the short stories of Ted Chiang. We will also watch such films as James Whale’s Frankenstein, Ridley Scott’s Blade Runner, Andrew Niccol’s Gattaca, and Yorgos Lanthemos’s Poor Things. In addition to asking how science and scientists are represented in these narratives, we’ll also discuss the cultural impact of such scientific innovations as the discovery of electricity, cell theory, eugenics and racial science, vaccines and immunology, space travel, new reproductive technologies, gene editing and more. A STEM background is not required, but students will be expected to have curiosity and motivation to learn about science, as well as its narrative representation",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3888",
+      "subject": "ENGL",
+      "number": "UN3888",
+      "title": "The Afro-Feminist Novel",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "What are the affordances of the novel for modern and contemporary feminisms? The rise of the novel is often associated with the eighteenth-century in Britain, as authors broke from the conventions of poetry, theater, and romance to reflect contemporary philosophical, economic and social trends of the European Enlightenment (including the rapid increase in female readership). Across the subsequent centuries, the novel—with its emphasis on social realism, psychological depth, and intricate plotlines—has proven to be a shifting, elusive, and often counterintuitive form, taken up and reinvented by figures around the world. This class asks, first: What makes a novel a novel? We will begin by identifying some of the major aesthetic features that have historically defined this slippery genre, from its 18th century underpinnings, to Victorian realism, to the exuberant experimentation of the modernist and postmodernist eras. But we’ll quickly turn our attention to how those features get interrupted, re-interpreted, and even exploded by Black and feminist writers of the 20th century, many of whom look to different, more global and transhistorical models for achieving their vision. The course will be grounded in five experimental novels written by Black women between the years 1930 and 2000, which emerged to more and less popular success and critical acclaim: Zora Neale Hurston’s Their Eyes Were Watching God (1937); Ann Petry’s The Narrows (1953); Toni Cade Bambara’s The Salt Eaters (1980); Toni Morrison’s Beloved (1987); and Zadie Smith’s White Teeth (2000). We’ll also spend some time with other feminist novel contemporaries, including Kate Chopin’s The Awakening (1899) and Sylvia Plath’s The Bell Jar (1953). A final project will ask students to identify a 21st century Afro-feminist novel—ideally one written in the last decade—that they would nominate as present-day inheritor of this heterogenous and dynamic form, with a critical introduction explaining their choice",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3851",
+      "subject": "ENGL",
+      "number": "UN3851",
+      "title": "Indian Writing in English",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: the instructor's permission."
+    },
+    {
+      "code": "ENTA UN3970",
+      "subject": "ENTA",
+      "number": "UN3970",
+      "title": "Major 20Th Century Playwrights",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: the instructor's permission."
+    },
+    {
+      "code": "ENGL GU4851",
+      "subject": "ENGL",
+      "number": "GU4851",
+      "title": "Brave New World and Its Afterlife",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course is an intensive study of Aldous Huxley’s influential novel, Brave New World (1932). It aims to introduce students both to the context of Huxley’s world and the extensive reflections it spawned on the reimagining of what Anthony Burgess called “the perfectibility of man” conducted as a “scientific programme.” If Brave New World has entered the lexicon as a moniker for totalitarian overreach and mind conditioning, the novel merits closer examination for the unique means by which it achieves its effects, ranging from radical social engineering to the management of desire. Among the many questions the course addresses are the following: What are readers to make of the inversion of norms that identifies the World State with the acme of modernity and the “savage reservation” with a discredited past that includes concepts like the family? Does this inversion obscure the standpoints from which a critique of the World State can be made? How does Huxley unsettle the terms of analysis of the novel’s politics? These questions, among others, are posed as learning tools for approaching the novel, the context in which it was written, and the broader influences it exerted. The syllabus assigns several weeks of reading Brave New World alongside relevant secondary criticism, with a view to encouraging students to probe different critical perspectives and identify evolving paradigms that amplify the novel’s cross-disciplinary engagements. Examples of the questions that students are encouraged to address are: Can the World State’s project of control through pleasure effectively eliminate feeling while requiring sensation? Is the technocratic manipulation of time (through the organization of workers’ bodies and labor) undone by a necessary recourse to the eternity-promising drug soma? How is Brave New World both a futuristic view of a dominant world order, which is carefully produced by social engineering and conditioning, and a depiction of a subversive counterculture, uprooting the norms transmitted across generations? The syllabus includes adjacent works, such as Yevgeny Zamyatin’s We (1924), viewed as a direct predecessor to Brave New World, George Orwell’s Nineteen Eighty-Four (1949), and Anthony Burgess’s A Clockwork Orange (1962). Students will read Nineteen Eighty-Four to determine whether its depiction of totalitarianism resonates with or differs from Brave New World, and examine what the comparison reveals about the uses of pain and pleasure in both novels. Other novels by Huxley included in the course are Brave New World Revisited, in which Huxley reflected on a changed world after the Second World War and the challenges posed by the Cold War. Brave New World Revisited will provide students with an opportunity to engage with Huxley’s thought process as he reviewed his earlier novel’s aims and re-contextualized them in a significantly altered context. Students will also read Huxley’s final novel, Island (1962), to assess the distance he traveled from the dystopianism of Brave New World to the utopian possibilities of Pala, the imaginary island he envisioned in his last novel",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN1075",
+      "subject": "ENGL",
+      "number": "UN1075",
+      "title": "Children’s Literature",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "This is a historical survey of literature (mostly narrative) intended primarily for children, which will explore not only the pleasures of imagination but the varieties of narrative and lyric form, as well as the ways in which story-telling gives shape to individual and cultural identity. Drawing on anonymous folk tale from a range of cultures, as well as a variety of literary works produced from the late 17th century to the present, we’ll attend to the ways in which changing forms of children’s literature reflect changing understandings of children and childhood, while trying not to overlook psychological and formal structures that might persist across this history. Readings of the primary works will be supplemented by a variety of critical approaches—psychoanalytic, materialist, feminist, and structuralist—that scholars have employed to understand the variety and appeal of children’s literature",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3394",
+      "subject": "ENGL",
+      "number": "UN3394",
+      "title": "How Writers Think",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "",
+      "prereq_text": "Prerequisites: Permission of instructor."
+    },
+    {
+      "code": "ENGL UN3477",
+      "subject": "ENGL",
+      "number": "UN3477",
+      "title": "New Suns: Worlding in Black Speculative Fiction",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This course takes Octavia E. Butler’s enigmatic expression, “There’s nothing new under the sun, but there are new suns” as a guide for exploring the politics of Black speculative fiction, science fiction, and fantasy. With literary, sonic, visual, and cinematic examples, including works from Pauline Hopkins, W.E.B. DuBois, Samuel Delany, Wangechi Mutu, Janelle Monae, Sun Ra, Saul Williams, and others, this class considers the contexts of possibility for re/imagining Black pasts, presents and futures. Paying particular attention to how Black speculative fiction creates new worlds, social orders, and entanglements, students will develop readings informed by ecocriticism, science and technology studies, feminist, and queer studies. We will consider the multiple meanings and various uses of speculation and worlding as we encounter and interpret forms of utopian, dystopian, and (post)apocalyptic thinking and practice. No prerequisites",
+      "prereq_text": ""
+    },
+    {
+      "code": "CLEN UN3725",
+      "subject": "CLEN",
+      "number": "UN3725",
+      "title": "Literary Guides to Living and Dying Well from Plato to Montaigne",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Surrounded by friends on the morning of his state-mandated suicide, Socrates invites them to join him in considering the proposition that philosophizing is learning how to die. In dialogues, essays, and letters from antiquity to early modernity, writers have returned to this proposition from Plato’s Phaedo to consider, in turn, what it means for living and dying well. This course will explore some of the most widely read of these works, including by Cicero, Seneca, Jerome, Augustine, Boethius, Petrarch, and Montaigne, with an eye to the continuities and changes in these meanings and their impact on the literary forms that express them. Application instructions: E-mail Prof. Eden (khe1@columbia.edu) with your name, school, major, year of study, and relevant courses taken, along with a brief statement about why you are interested in taking the course. Admitted students should register for the course; they will automatically be placed on a wait list from which the instructor will in due course admit them as spaces become available",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENTA GU4725",
+      "subject": "ENTA",
+      "number": "GU4725",
+      "title": "Technologies of Modern Drama",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "This seminar will consider theatre intermedially, taking up its use of dramatic writing as one, only one, of its determining technologies. In the first half of the semester we will use a series of philosophical questions—tools vs. technologies, techne vs. medium—to consider several dimensions of modern theatricality as technologies: of gender and genre, of space and place, of the body and its performance. After spring break, we will use the terms generated to consider a series of topics specifically inflected by the design and practice of modern theatricality. Students will each write one longer essay, and will have the opportunity to receive feedback on a draft, if desired",
+      "prereq_text": ""
+    },
+    {
+      "code": "CPLS GU4756",
+      "subject": "CPLS",
+      "number": "GU4756",
+      "title": "Rereading Political Texts",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Should we read important classical texts to use from the planetary perspective? We will read six texts to consider answering this question. We will read: Hegel, Phenomenology of the Mind, selections; Marx, 1844 Manuscripts and Primitive Accumulation; Du Bois, Black Flame Trilogy, selections; Ranajit Guha, A Rule of Property for Bengal; Marguerite Duras, The Sea Wall; Alain Robbe-Grillet, Jealousy",
+      "prereq_text": ""
+    },
+    {
+      "code": "CPLS GU4802",
+      "subject": "CPLS",
+      "number": "GU4802",
+      "title": "Contradictions of Care: From Intimacy to Institution",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Care is central to the interpersonal claim that is made by the other. It is a response that recognizes and satisfies a need. Care can be motivated by pain and sorrow, but also by desire and the desire for recognition. But while care is a fundamental aspect of healing, it can also be a demand that extracts obligations and liabilities. Care is an ambiguous concept that always already contains or is determined by its oppositions; we will begin by analyzing the concept of care itself, drawing on resources from the history and philosophy of medicine as well as literary sources. Ideals of care that many of us have for our loved ones are difficult to render at scale, and are often in tension with the for-profit motivations behind the development of medications, the administration of healthcare services, and the distribution of goods. We will consider the sorts of compromises that are made every day through readings in literature, history, political science and philosophy and also through first-person experience in the form of a practicum that that will run parallel to the course",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL GU4975",
+      "subject": "ENGL",
+      "number": "GU4975",
+      "title": "Prison Literature",
+      "points_min": 4.0,
+      "points_max": 4.0,
+      "description": "Prison literature—poems, plays, memoirs, novels, and songs written in prison or about prison—constitute a significant part of American literature. Prisons expose many of the systemic inequalities of American life, above all those based on racism and the enduring legacies of slavery. Using the tools of critical race theory, feminism, and class analysis, this course will explore the forms of cultural expression that have emerged in relationship to the American prison experience. Though the course will touch on the rise of convict leasing, chain gangs, and work farms as part of the penal system under Jim Crow, the main focus will be on developments in the U.S. prison system and in prison literature since the 1960s, roughly from the prison writing of George Jackson, Angela Davis, and Malcolm X to the outpouring of contemporary fiction and poetry about prison life by Jesmyn Ward, Colin Whitehead, Rachel Kushner, and Reginald Betts. This is the era of what Michelle Alexander has called “the new Jim Crow,” the rise of mass incarceration, the partial privatization of the penal system, and the growth of supermax facilities. Among the questions we will explore together are these: What tools and techniques do writers use to construct the prison experience? What are the affordances offered by various genres (drama, autobiography, poetry, the novel) for exploring the prison system and the systems of oppression that converge at that site? Does some literature of incarceration perpetuate damaging discourses about “felons,” or does it revise and complicate stereotypes and narratives about incarcerated individuals? How do narratives involving change, conversion, growing up, or being defeated operate in various genres of prison literature? What role do mourning, witnessing, testifying, and resistance play in such writing? What is the imagined audience of various genres of prison writing, that is, for whom is it written? What ethical and political demands does such writing make on us as readers, citizens, activists?",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL CC1010",
+      "subject": "ENGL",
+      "number": "CC1010",
+      "title": "University Writing",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "ENGL CC/GS1010: University Writing, is a one-semester seminar designed to facilitate students’ entry into the intellectual life of the university by teaching them to become more capable and independent academic readers and writers. The course emphasizes habits of mind and skills that foster students’ capacities for critical analysis, argument, revision, collaboration, meta-cognition, and research. Students read and discuss essays from a number of fields, complete regular informal reading and writing exercises, compose several longer essays, and devise a research-based project of their own design. Courses of Instruction ENGL CC1010 University Writing. 3 points. ENGL CC/GS1010: University Writing (3 points) focuses on developing students’ reading, writing, and thinking, drawing from readings on a designated course theme that carry a broad appeal to people with diverse interests. No University Writing class presumes that students arrive with prior knowledge in the theme of the course. We are offering the following themes this year: UW: Contemporary Essays, CC/GS1010.001-.099 UW: Readings in American Studies, CC/GS1010.1xx UW: Readings in Gender and Sexuality, CC/GS1010.2xx UW: Readings in Film and Performing Arts, CC/GS1010.3xx UW: Readings in Urban Studies, CC/GS1010.4xx (will be sharing 400s with Human Rights) UW: Readings in Climate Humanities, CC/GS1010.5xx (will be sharing 500s with Data ＆ Society) UW: Readings in Medical Humanities, CC/GS1010.6xx UW: Readings in Law ＆ Justice, CC/GS1010.7xx UW: Readings in Race and Ethnicity, CC/GS1010.8xx University Writing for International Students, CC/GS1010.9xx For further details about these classes, please visit: http://www.college.columbia.edu/core/uwp",
+      "prereq_text": ""
+    },
+    {
+      "code": "ENGL UN3999",
+      "subject": "ENGL",
+      "number": "UN3999",
+      "title": "The Senior Essay",
+      "points_min": 3.0,
+      "points_max": 3.0,
+      "description": "Open to those who have applied and been accepted into the department's senior essay program only.",
+      "prereq_text": "Prerequisites: the department's permission."
+    }
+  ],
+  "courselists": [],
+  "error": null
+}

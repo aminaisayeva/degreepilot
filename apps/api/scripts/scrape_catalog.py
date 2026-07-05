@@ -34,6 +34,9 @@ BULLETIN_PAGES: dict[str, str] = {
     "econ": "https://bulletin.columbia.edu/columbia-college/departments-instruction/economics/",
     "math": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
     "stat": "https://bulletin.columbia.edu/columbia-college/departments-instruction/statistics/",
+    "sustdev": "https://bulletin.columbia.edu/columbia-college/departments-instruction/sustainable-development/",
+    "phil": "https://bulletin.columbia.edu/columbia-college/departments-instruction/philosophy/",
+    "english": "https://bulletin.columbia.edu/columbia-college/departments-instruction/english-comparative-literature/",
     # Core hub has no course data — the subpages do (verified 2026-07-04).
     "core_lithum": "https://bulletin.columbia.edu/columbia-college/core-curriculum/literature-humanities/",
     "core_cc": "https://bulletin.columbia.edu/columbia-college/core-curriculum/contemporary-civilization/",
@@ -50,7 +53,7 @@ BULLETIN_PAGES: dict[str, str] = {
 }
 
 DIRECTORY_TERMS = ("Fall2025", "Spring2026", "Summer2026", "Fall2026")
-DIRECTORY_SUBJECTS = ("COMS", "CSEE", "ECON", "MATH", "STAT", "IEOR")
+DIRECTORY_SUBJECTS = ("COMS", "CSEE", "ECON", "MATH", "STAT", "IEOR", "SDEV", "PHIL", "ENGL", "CLEN", "POLS", "EESC", "APMA")
 
 # MS pathway pages on the CS department site (not the bulletin).
 PATHWAY_PAGES: dict[str, str] = {

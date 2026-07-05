@@ -143,9 +143,12 @@ app/seed/expand.py         "_dynamic" requirements (e.g. any COMS 3000+) +
                            hard validation: every requirement course must exist
         │
         ▼
-seed_all()                 ~1,212 courses + 123 requirements across 18 programs
-                           (adds Economics Major, Data Science Major, AI
-                           Minor, CS Concentration)
+seed_all()                 ~1,945 courses + 204 requirements across 37 programs
+                           (CS/Econ/Data Science/Math/Applied Math/Sustainable
+                           Development/Philosophy/English majors, five Econ
+                           joint majors, CS-Math and Math-Stat joints, the ten
+                           MS CS pathways, the MA in Philosophy, and each
+                           department's concentrations/minors)
                            (CC Science A/B/C structure; 10 MS pathway programs
                            scraped from cs.columbia.edu with research-credit
                            policy — max 12 research points, ≤3 of E6901,

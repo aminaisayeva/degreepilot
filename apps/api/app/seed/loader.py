@@ -49,6 +49,16 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
         out.append("econ_elective_3000")
     if department in {"COMS", "CSEE"} and number_int >= 4000:
         out.append("ms_grad_eligible")
+    if department == "MATH" and number_int >= 2000:
+        out.append("math_elective_2000")
+    if department == "PHIL":
+        out.append("phil_ug")
+        if number_int >= 4000:
+            out.append("phil_grad")
+    if department in {"ENGL", "CLEN"}:
+        out.append("english_lit")
+    if department == "POLS":
+        out.append("polisci_ug")
 
     # MS breadth chart (cs.columbia.edu/education/ms/breadthRequirement,
     # verified 2026-07-05): pattern-based groups with explicit exceptions.
@@ -96,6 +106,12 @@ ADOPTED_LISTS: list[tuple[str, str | None, str | None]] = [
     ("core_science", "Science C", "core_science_c"),
     ("core_science", None, "core_science"),
     ("core_globalcore", None, "core_global"),
+    # More-majors expansion (2026-07-05): whole-page adoptions.
+    ("sustdev", None, None),
+    ("phil", None, None),
+    ("math", None, None),
+    ("econ", "Major in", None),
+    ("stat", "Major in Mathematics-Statistics", None),
 ]
 
 

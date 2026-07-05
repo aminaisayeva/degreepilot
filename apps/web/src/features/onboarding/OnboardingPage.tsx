@@ -23,13 +23,31 @@ const MS_PROGRAMS = ["columbia_ms_cs"];
 const UNDERGRAD_MAJORS = [
   { slug: "columbia_cs_major", label: "Computer Science" },
   { slug: "columbia_econ_major", label: "Economics" },
+  { slug: "columbia_econ_financial", label: "Financial Economics" },
+  { slug: "columbia_econ_math", label: "Economics-Mathematics" },
+  { slug: "columbia_econ_polisci", label: "Economics-Political Science" },
+  { slug: "columbia_econ_stat", label: "Economics-Statistics" },
+  { slug: "columbia_econ_philosophy", label: "Economics-Philosophy" },
   { slug: "columbia_data_science_major", label: "Data Science" },
+  { slug: "columbia_math_major", label: "Mathematics" },
+  { slug: "columbia_applied_math_major", label: "Applied Mathematics" },
+  { slug: "columbia_cs_math", label: "Computer Science–Mathematics" },
+  { slug: "columbia_math_stat", label: "Mathematics-Statistics" },
+  { slug: "columbia_sustdev_major", label: "Sustainable Development" },
+  { slug: "columbia_phil_major", label: "Philosophy" },
+  { slug: "columbia_english_major", label: "English" },
 ];
 const UNDERGRAD_MINORS = [
   { slug: "", label: "None" },
   { slug: "columbia_econ_concentration", label: "Economics (concentration)" },
   { slug: "columbia_cs_concentration", label: "Computer Science (concentration)" },
   { slug: "columbia_ai_minor", label: "Artificial Intelligence (minor)" },
+  { slug: "columbia_math_concentration", label: "Mathematics (concentration)" },
+  { slug: "columbia_math_minor", label: "Mathematics (minor)" },
+  { slug: "columbia_math_prob_minor", label: "Mathematical Probability (minor)" },
+  { slug: "columbia_sustdev_concentration", label: "Sustainable Development (concentration)" },
+  { slug: "columbia_phil_concentration", label: "Philosophy (concentration)" },
+  { slug: "columbia_english_concentration", label: "English (concentration)" },
 ];
 const MAJOR_SLUGS = UNDERGRAD_MAJORS.map((m) => m.slug);
 const MINOR_SLUGS = UNDERGRAD_MINORS.map((m) => m.slug).filter(Boolean);
@@ -51,10 +69,11 @@ const MS_PATHWAYS: { slug: string; label: string }[] = [
   { slug: "columbia_ms_cs_vgir", label: "Vision, Graphics, Interaction & Robotics" },
   { slug: "columbia_ms_cs_personalized", label: "MS Personalized (faculty invite only)" },
   { slug: "columbia_ms_cs_thesis", label: "MS Thesis (faculty invite only)" },
+  { slug: "columbia_ma_philosophy", label: "MA in Philosophy" },
 ];
 
 export function degreeOf(programs: string[]): DegreeType {
-  return programs.some((p) => p.startsWith("columbia_ms")) ? "ms" : "undergrad";
+  return programs.some((p) => p.startsWith("columbia_ms") || p.startsWith("columbia_ma_")) ? "ms" : "undergrad";
 }
 
 const DEFAULT: StudentCreate = {
@@ -469,12 +488,12 @@ function BasicsStep({
         )}
         {degree === "ms" && (
           <Field
-            label="Pathway"
+            label="Graduate program / pathway"
             hint="Each pathway has its own fundamental and secondary course requirements."
           >
             <select
               className="input"
-              value={form.programs.find((p) => p.startsWith("columbia_ms")) ?? "columbia_ms_cs"}
+              value={form.programs.find((p) => p.startsWith("columbia_ms") || p.startsWith("columbia_ma_")) ?? "columbia_ms_cs"}
               onChange={(e) => onChange({ ...form, programs: [e.target.value] })}
             >
               {MS_PATHWAYS.map((p) => (

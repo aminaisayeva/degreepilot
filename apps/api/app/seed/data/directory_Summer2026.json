@@ -1,6 +1,6 @@
 {
   "term": "Summer2026",
-  "scraped_at": "2026-07-05T19:59:35Z",
+  "scraped_at": "2026-07-05T20:49:27Z",
   "subjects": {
     "COMS": {
       "courses": [
@@ -433,6 +433,283 @@
         }
       ],
       "error": null
+    },
+    "SDEV": {
+      "courses": [],
+      "error": "Client error '404 Not Found' for url 'https://doc.sis.columbia.edu/subj/SDEV/_Summer2026.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    "PHIL": {
+      "courses": [
+        {
+          "code": "PHIL GR6902",
+          "title": "QUODLIBETAL STUDIES II",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    },
+    "ENGL": {
+      "courses": [
+        {
+          "code": "ENGL PS0004",
+          "title": "ALP INTENSIVE-SUMMER A",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0010",
+          "title": "ENGL FOR ADV LEGAL STUDY",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0014",
+          "title": "ENGL FOR PROF PURPOSE:BUSINESS",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0015",
+          "title": "ENGLISH FOR PROF PURPOSE:SIPA",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0026",
+          "title": "ADVANCED ACAD ENGLISH FOR GRAD STUDENTS",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0045",
+          "title": "ALP SUMMER INTENSIVE C",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL PS0080",
+          "title": "ALP SUMMER INTENSIVE B",
+          "credits": 0.0
+        },
+        {
+          "code": "ENGL UN1000",
+          "title": "Julie's Test Course",
+          "credits": 1.0
+        },
+        {
+          "code": "ENGL S1010",
+          "title": "UNIVERSITY WRITING",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC1022",
+          "title": "BAD LOVE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC1068",
+          "title": "True Crime",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC2336",
+          "title": "WITCHES",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3050",
+          "title": "Law and Literature",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3053",
+          "title": "Reading and Writing Memoir",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3054",
+          "title": "Sex and Gender across Long Time",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL BC3106",
+          "title": "FICTION & PERSONAL NARRATIVE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3153",
+          "title": "How the Ancients Argued: The Global Rhet",
+          "credits": 4.0
+        },
+        {
+          "code": "ENGL S3233",
+          "title": "SHAKESPEARE",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL S3273",
+          "title": "WALT WHITMAN AND NEW YORK",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3699",
+          "title": "Arts Matronage in America",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL S3782",
+          "title": "WHEN AMERICAN TELEVISION BECAME AMERICAN",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL UN3804",
+          "title": "British Women Writers: the Woman Questio",
+          "credits": 3.0
+        },
+        {
+          "code": "ENGL S3915",
+          "title": "THE ART OF THE ESSAY",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "CLEN": {
+      "courses": [],
+      "error": "Client error '404 Not Found' for url 'https://doc.sis.columbia.edu/subj/CLEN/_Summer2026.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    "POLS": {
+      "courses": [
+        {
+          "code": "POLS BC2001",
+          "title": "International Relations in a Changing Wo",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN2101",
+          "title": "Political Theory I",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2111",
+          "title": "Political Theory I Discussion",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN2201",
+          "title": "Introduction to American Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2211",
+          "title": "Introduction to American Politics Discus",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN2501",
+          "title": "Introduction to Comparative Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2511",
+          "title": "Introduction to Comparative Politics Dis",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN2601",
+          "title": "International Politics",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN2611",
+          "title": "International Politics Discussion",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC3011",
+          "title": "Political Violence and Terrorism",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3108",
+          "title": "Democracy: Theory & Practice",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3210",
+          "title": "JUDICIAL POLITICS",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS S3290",
+          "title": "VOTING AND AMERICAN POLITICS",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS BC3349",
+          "title": "LOCAL DEMOCRACY",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3623",
+          "title": "ENDING WAR & BUILDING PEACE",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS S3628",
+          "title": "ADVANCES IN IPE",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS S3629",
+          "title": "ADVANCES IN IPE-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS UN3720",
+          "title": "RESEARCH DESIGN: SCOPE AND METHODS",
+          "credits": 4.0
+        },
+        {
+          "code": "POLS UN3722",
+          "title": "SCOPE AND METHODS - DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS BC3730",
+          "title": "Data Science for Politics",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS UN3902",
+          "title": "INDEPENDENT RESEARCH II",
+          "credits": 0.0
+        },
+        {
+          "code": "POLS GU4814",
+          "title": "GLOBAL ENERGY: SECURITY/GEOPOL",
+          "credits": 3.0
+        },
+        {
+          "code": "POLS S4832",
+          "title": "STRAT INTELLIGNC/POL DEC MAKNG",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "EESC": {
+      "courses": [
+        {
+          "code": "EESC S1004",
+          "title": "Dinosaurs and the History of Life",
+          "credits": 3.0
+        },
+        {
+          "code": "EESC UN3904",
+          "title": "INDEPENDENT RESEARCH IN CLIMATE SYSTEM S",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "APMA": {
+      "courses": [],
+      "error": "Client error '404 Not Found' for url 'https://doc.sis.columbia.edu/subj/APMA/_Summer2026.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     }
   }
 }
