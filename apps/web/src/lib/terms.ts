@@ -34,3 +34,23 @@ export function defaultGradTerm(currentTerm: string, degree: "undergrad" | "ms")
   const n = degree === "ms" ? 4 : 8;
   return termsAfter(currentTerm, n)[n - 1];
 }
+
+export function nextTermWithSummer(term: string): string {
+  const [season, y] = term.split(" ");
+  const year = Number(y);
+  if (season === "Spring") return `Summer ${year}`;
+  if (season === "Summer") return `Fall ${year}`;
+  return `Spring ${year + 1}`;
+}
+
+/** All terms from `from` to `to` inclusive; summers included only on request. */
+export function termsSpan(from: string, to: string, includeSummer: boolean): string[] {
+  const out: string[] = [];
+  let t = from;
+  for (let guard = 0; guard < 24; guard++) {
+    if (includeSummer || !t.startsWith("Summer")) out.push(t);
+    if (t === to) break;
+    t = nextTermWithSummer(t);
+  }
+  return out;
+}

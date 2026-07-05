@@ -214,3 +214,30 @@ def test_research_stays_opt_in_with_production_categories(session, catalog, ms_r
                            strategies=["balanced"])
     scheduled = {c for t in plans[0].terms for c in t.courses}
     assert not scheduled & {"COMS E6900", "COMS E6901", "COMS E6902"}
+
+
+def test_summer_terms_used_when_student_allows_them(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    # Give some catalog courses summer offerings, as a summer-term scrape would.
+    for code in ("COMS E6111", "COMS E6998", "COMS E6893", "COMS W4111"):
+        c = catalog[code]
+        c.offered_terms = [*c.offered_terms, "Summer"]
+
+    ms_student.constraints = {**(ms_student.constraints or {}), "no_summer": False}
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
+                           strategies=["balanced"])
+    terms = [t.term for t in plans[0].terms]
+    assert any(t.startswith("Summer") for t in terms), terms
+    # Summer sessions are short — never a full-load semester.
+    for t in plans[0].terms:
+        if t.term.startswith("Summer"):
+            assert t.total_credits <= 7
+
+
+def test_summer_terms_excluded_by_default(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
+                           strategies=["balanced"])
+    assert not any(t.term.startswith("Summer") for t in plans[0].terms)

@@ -19,7 +19,7 @@ import { Progress } from "@/components/ui/Progress";
 import { Tabs } from "@/components/ui/Tabs";
 import { exportPlanAsJSON, exportPlanAsMarkdown } from "@/features/planner/export";
 import { api } from "@/lib/api";
-import { termsAfter } from "@/lib/terms";
+import { nextTermWithSummer, termsAfter, termsSpan } from "@/lib/terms";
 import { cn, formatPct, workloadLabel } from "@/lib/utils";
 import { useSession } from "@/store/session";
 import type { Course, Plan, PlanWarning } from "@/types/api";
@@ -50,6 +50,45 @@ export function PlannerPage() {
     onSuccess: setPlans,
   });
 
+  const { data: student } = useQuery({
+    queryKey: ["student", studentId],
+    enabled: !!studentId,
+    queryFn: () => api.getStudent(studentId!),
+  });
+
+  const [editing, setEditing] = useState(false);
+
+  const updateActivePlan = (next: Plan) => {
+    setPlans(plans.map((p, i) => (i === activeIdx ? next : p)));
+  };
+
+  const validate = useMutation({
+    mutationFn: async (p: Plan) => {
+      if (!studentId) throw new Error("No student in session.");
+      return api.validatePlan(studentId, p);
+    },
+    onSuccess: (res, p) => {
+      updateActivePlan({ ...p, warnings: res.warnings });
+    },
+  });
+
+  const startManualPlan = () => {
+    if (!student) return;
+    const includeSummer = !(((student.constraints as Record<string, unknown>)?.no_summer as boolean | undefined) ?? true);
+    const terms = termsSpan(student.current_term, student.graduation_term, includeSummer);
+    const manual: Plan = {
+      student_id: student.id,
+      name: "Manual Plan",
+      strategy: "manual",
+      terms: terms.map((t) => ({ term: t, courses: [], total_credits: 0, workload_score: 0 })),
+      warnings: [],
+      summary: { program: student.programs[0] ?? "columbia_cs_major", strategy: "manual" },
+    };
+    setPlans([...plans, manual]);
+    setActiveIdx(plans.length);
+    setEditing(true);
+  };
+
   if (!studentId) {
     return <NoStudent />;
   }
@@ -68,6 +107,9 @@ export function PlannerPage() {
         </div>
         <div className="flex gap-2">
           <Button onClick={() => navigate("/dashboard")}>Back to dashboard</Button>
+          <Button onClick={startManualPlan} disabled={!student}>
+            Manual plan
+          </Button>
           <Button
             variant="primary"
             onClick={() => generate.mutate()}
@@ -121,6 +163,15 @@ export function PlannerPage() {
                 label: <span className="px-1">{p.name}</span>,
               }))}
             />
+            <Button onClick={() => setEditing(!editing)}>
+              {editing ? "Done editing" : "Edit plan"}
+            </Button>
+            <Button
+              onClick={() => validate.mutate(plan)}
+              disabled={validate.isPending}
+            >
+              {validate.isPending ? "Validating…" : "Validate"}
+            </Button>
             <Button onClick={() => navigate("/compare")}>
               Compare <ChevronRight className="h-4 w-4" />
             </Button>
@@ -135,7 +186,16 @@ export function PlannerPage() {
           </div>
 
           <PlanSummary plan={plan} />
-          <PlanTimeline plan={plan} catalog={catalog} />
+          {editing ? (
+            <PlanEditor
+              plan={plan}
+              catalog={catalog}
+              courses={courses ?? []}
+              onChange={updateActivePlan}
+            />
+          ) : (
+            <PlanTimeline plan={plan} catalog={catalog} />
+          )}
           <PlanWarnings warnings={plan.warnings} />
         </>
       )}
@@ -529,5 +589,161 @@ function PlanPreferences({
         </div>
       </div>
     </details>
+  );
+}
+
+function recomputeTerm(term: string, codes: string[], catalog: Map<string, Course>) {
+  const cs = codes.map((c) => catalog.get(c)).filter(Boolean) as Course[];
+  return {
+    term,
+    courses: codes,
+    total_credits: Math.round(cs.reduce((s, c) => s + c.credits, 0) * 100) / 100,
+    // Mirrors the engine: sum of workload_level * credits/3.
+    workload_score:
+      Math.round(cs.reduce((s, c) => s + c.workload_level * (c.credits / 3), 0) * 100) / 100,
+  };
+}
+
+function PlanEditor({
+  plan,
+  catalog,
+  courses,
+  onChange,
+}: {
+  plan: Plan;
+  catalog: Map<string, Course>;
+  courses: Course[];
+  onChange: (p: Plan) => void;
+}) {
+  const [queries, setQueries] = useState<Record<number, string>>({});
+
+  const setTermCourses = (idx: number, codes: string[]) => {
+    const terms = plan.terms.map((t, i) =>
+      i === idx ? recomputeTerm(t.term, codes, catalog) : t,
+    );
+    onChange({ ...plan, terms });
+  };
+
+  const addTerm = () => {
+    const last = plan.terms[plan.terms.length - 1]?.term;
+    const next = last ? nextTermWithSummer(last) : "Fall 2026";
+    onChange({ ...plan, terms: [...plan.terms, recomputeTerm(next, [], catalog)] });
+  };
+
+  const removeTerm = (idx: number) => {
+    onChange({ ...plan, terms: plan.terms.filter((_, i) => i !== idx) });
+  };
+
+  const inPlan = new Set(plan.terms.flatMap((t) => t.courses));
+
+  const matches = (q: string, term: string) => {
+    const query = q.trim().toLowerCase();
+    if (query.length < 2) return [];
+    const season = term.split(" ")[0];
+    return courses
+      .filter(
+        (c) =>
+          !inPlan.has(c.code) &&
+          (c.code.toLowerCase().includes(query) || c.title.toLowerCase().includes(query)),
+      )
+      .sort((a, b) => {
+        // Courses actually offered this season float to the top.
+        const ao = a.offered_terms.includes(season) ? 0 : 1;
+        const bo = b.offered_terms.includes(season) ? 0 : 1;
+        return ao - bo || a.code.localeCompare(b.code);
+      })
+      .slice(0, 6);
+  };
+
+  return (
+    <div className="space-y-2">
+      <div className="rounded-xl border border-accent/40 bg-accent/10 p-3 text-xs">
+        Editing mode — swap courses per semester, then hit{" "}
+        <span className="font-semibold">Validate</span> to check the plan against your
+        degree requirements (prereqs, offerings, credit caps, graduation coverage).
+      </div>
+      <div className="overflow-x-auto">
+        <div className="flex min-w-full gap-3 pb-2">
+          {plan.terms.map((t, i) => {
+            const season = t.term.split(" ")[0];
+            return (
+              <div key={`${t.term}-${i}`} className="card card-pad w-72 shrink-0">
+                <div className="flex items-center justify-between">
+                  <div className="font-semibold">{t.term}</div>
+                  <button
+                    className="text-xs text-muted hover:text-danger"
+                    onClick={() => removeTerm(i)}
+                    title="Remove semester"
+                  >
+                    remove
+                  </button>
+                </div>
+                <div className="mt-1 text-xs text-muted">
+                  {t.total_credits} credits · load {t.workload_score}
+                </div>
+                <div className="mt-3 space-y-1">
+                  {t.courses.map((code) => {
+                    const c = catalog.get(code);
+                    const offered = !c?.offered_terms?.length || c.offered_terms.includes(season);
+                    return (
+                      <div
+                        key={code}
+                        className={cn(
+                          "flex items-center justify-between rounded-lg border px-2 py-1 text-xs",
+                          offered ? "border-border bg-elevated" : "border-warn/50 bg-warn/10",
+                        )}
+                      >
+                        <div>
+                          <span className="font-mono text-accent">{code}</span>
+                          <span className="ml-1 text-muted">{c ? `· ${c.credits}cr` : ""}</span>
+                          {!offered && (
+                            <span className="ml-1 text-warn">not offered in {season}</span>
+                          )}
+                        </div>
+                        <button
+                          className="ml-2 text-muted hover:text-danger"
+                          onClick={() => setTermCourses(i, t.courses.filter((x) => x !== code))}
+                        >
+                          ✕
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
+                <input
+                  className="input mt-2 text-xs"
+                  placeholder="Add course…"
+                  value={queries[i] ?? ""}
+                  onChange={(e) => setQueries({ ...queries, [i]: e.target.value })}
+                />
+                <div className="mt-1 space-y-1">
+                  {matches(queries[i] ?? "", t.term).map((c) => (
+                    <button
+                      key={c.code}
+                      className="block w-full rounded-lg border border-border bg-elevated px-2 py-1 text-left text-xs hover:border-accent/40"
+                      onClick={() => {
+                        setQueries({ ...queries, [i]: "" });
+                        setTermCourses(i, [...t.courses, c.code]);
+                      }}
+                    >
+                      <span className="font-mono text-accent">{c.code}</span> {c.title}
+                      <span className="ml-1 text-muted">
+                        · {c.credits}cr{c.offered_terms.includes(t.term.split(" ")[0]) ? "" : " · not offered this season"}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+          <button
+            className="card card-pad w-40 shrink-0 border-dashed text-sm text-muted hover:border-accent/40 hover:text-ink"
+            onClick={addTerm}
+          >
+            + Add semester
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }

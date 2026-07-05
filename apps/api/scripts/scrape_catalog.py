@@ -49,7 +49,7 @@ BULLETIN_PAGES: dict[str, str] = {
     "ms_cs": "https://bulletin.columbia.edu/columbia-engineering/academic-departments-programs/computer-science/",
 }
 
-DIRECTORY_TERMS = ("Fall2025", "Spring2026", "Fall2026")
+DIRECTORY_TERMS = ("Fall2025", "Spring2026", "Summer2026", "Fall2026")
 DIRECTORY_SUBJECTS = ("COMS", "CSEE", "ECON", "MATH", "STAT", "IEOR")
 
 # MS pathway pages on the CS department site (not the bulletin).

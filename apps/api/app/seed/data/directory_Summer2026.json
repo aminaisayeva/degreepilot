@@ -1,0 +1,438 @@
+{
+  "term": "Summer2026",
+  "scraped_at": "2026-07-05T19:59:35Z",
+  "subjects": {
+    "COMS": {
+      "courses": [
+        {
+          "code": "COMS W1004",
+          "title": "INTRO-COMPUT SCI/PROG IN JAVA",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3107",
+          "title": "Clean Object-Oriented Design",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3134",
+          "title": "DATA STRUCTURES IN JAVA",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3157",
+          "title": "ADVANCED PROGRAMMING",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS W3203",
+          "title": "DISCRETE MATHEMATICS",
+          "credits": 4.0
+        },
+        {
+          "code": "COMS W3261",
+          "title": "COMPUTER SCIENCE THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W3770",
+          "title": "Mathematics for Machine Learning",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4137",
+          "title": "From Algorithmic Thinking to Development",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4701",
+          "title": "ARTIFICIAL INTELLIGENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4705",
+          "title": "NATURAL LANGUAGE PROCESSING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4710",
+          "title": "Ethical and Responsible AI",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4771",
+          "title": "MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "COMS W4995",
+          "title": "TOPICS IN COMPUTER SCIENCE",
+          "credits": 3.0,
+          "topics": [
+            {
+              "section": "001",
+              "title": "OPEN SOURCE DEVELOPMENT",
+              "credits": 3.0,
+              "instructor": "Chris Murphy"
+            }
+          ]
+        },
+        {
+          "code": "COMS E6901",
+          "title": "PROJECTS IN COMPUTER SCIENCE",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    },
+    "CSEE": {
+      "courses": [],
+      "error": "Client error '404 Not Found' for url 'https://doc.sis.columbia.edu/subj/CSEE/_Summer2026.html'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    "ECON": {
+      "courses": [
+        {
+          "code": "ECON PS0101",
+          "title": "Macroeconomics: An Introduction",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON PS0102",
+          "title": "Game Theory: A Course in Mathematical Ec",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON PS0103",
+          "title": "Introduction to Microeconomics",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON S1105",
+          "title": "PRINCIPLES OF ECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN1155",
+          "title": "PRINCIPLES OF ECONOMICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN2105",
+          "title": "THE AMERICAN ECONOMY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON UN2261",
+          "title": "ACCOUNTING & FINANCE FOR ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S3025",
+          "title": "FINANCIAL ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S3213",
+          "title": "INTERMEDIATE MACROECONOMICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN3214",
+          "title": "INTER MACROECONOMICS-DISC",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON UN3265",
+          "title": "MONEY AND BANKING",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S3412",
+          "title": "INTRO TO ECONOMETRICS",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON UN3413",
+          "title": "INTRO TO ECONOMETRICS-DIS",
+          "credits": 0.0
+        },
+        {
+          "code": "ECON S4020",
+          "title": "ECON OF UNCERTAINTY & INFORMTN",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S4400",
+          "title": "LABOR ECONOMICS",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S4415",
+          "title": "GAME THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON S4500",
+          "title": "INTERNATIONAL TRADE",
+          "credits": 3.0
+        },
+        {
+          "code": "ECON GU4913",
+          "title": "MACROECONOMICS SEMINAR",
+          "credits": 4.0
+        },
+        {
+          "code": "ECON GR5110",
+          "title": "Fieldwork Course in Economics",
+          "credits": 1.0
+        }
+      ],
+      "error": null
+    },
+    "MATH": {
+      "courses": [
+        {
+          "code": "MATH PS0101",
+          "title": "A Bridge to Higher Mathematics",
+          "credits": 0.0
+        },
+        {
+          "code": "MATH S1003",
+          "title": "COLLEGE ALGEBRA-ANLYTC GEOMTRY",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S1101",
+          "title": "CALCULUS I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S1102",
+          "title": "CALCULUS II",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S1201",
+          "title": "CALCULUS III",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH BC1301",
+          "title": "Calculus I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH BC1303",
+          "title": "Calculus III",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S2010",
+          "title": "LINEAR ALGEBRA",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN2015",
+          "title": "Linear Algebra and Probability",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH UN2030",
+          "title": "ORDINARY DIFFERENTIAL EQUATIONS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S2100",
+          "title": "Introduction to Mathematical Modeling I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S2500",
+          "title": "ANALYSIS AND OPTIMIZATION",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GU4041",
+          "title": "INTRO MODERN ALGEBRA I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH S4061",
+          "title": "INTRO TO MODERN ANALYSIS I",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5280",
+          "title": "CAPITAL MARKETS & INVESTMENTS",
+          "credits": 3.0
+        },
+        {
+          "code": "MATH GR5510",
+          "title": "MAFN FIELDWORK",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    },
+    "STAT": {
+      "courses": [
+        {
+          "code": "STAT S1101",
+          "title": "INTRODUCTION TO STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S1201",
+          "title": "CALC-BASED INTRO TO STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3104",
+          "title": "Applied Bayesian Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT UN3107",
+          "title": "Undergraduate Mentored Research",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4001",
+          "title": "INTRODUCTION TO PROBABILITY AND STATISTI",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4203",
+          "title": "PROBABILITY THEORY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4204",
+          "title": "STATISTICAL INFERENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4206",
+          "title": "STAT COMP & INTRO DATA SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4221",
+          "title": "Time Series Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GU4224",
+          "title": "BAYESIAN STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4241",
+          "title": "STATISTICAL MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S4261",
+          "title": "STATISTICAL METHODS FOR FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5203",
+          "title": "PROBABILITY",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5204",
+          "title": "STATISTICAL INFERENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S5206",
+          "title": "STAT COMP & INTRO DATA SCIENCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S5221",
+          "title": "Time Series Analysis",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5224",
+          "title": "BAYESIAN STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S5241",
+          "title": "STATISTICAL MACHINE LEARNING",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT S5261",
+          "title": "STATISTICAL METHODS FOR FINANCE",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR5398",
+          "title": "MA Mentored Research",
+          "credits": 0.0
+        },
+        {
+          "code": "STAT GR5399",
+          "title": "Statistical Fieldwork",
+          "credits": 1.0
+        },
+        {
+          "code": "STAT GR8201",
+          "title": "TOPICS IN THEORETICAL STATISTI",
+          "credits": 3.0
+        },
+        {
+          "code": "STAT GR8292",
+          "title": "STATISTICS INTERNSHIP ELECTIVE",
+          "credits": 3.0
+        }
+      ],
+      "error": null
+    },
+    "IEOR": {
+      "courses": [
+        {
+          "code": "IEOR E3900",
+          "title": "UNDERGRAD RESEARCH OR PROJECT",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E3999",
+          "title": "FIELDWORK",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4150",
+          "title": "INTRO-PROBABILITY & STATISTICS",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4737",
+          "title": "AI Applications in Finance",
+          "credits": 3.0
+        },
+        {
+          "code": "IEOR E4900",
+          "title": "MASTERS RESEARCH OR PROJECT",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E4999",
+          "title": "FIELDWORK",
+          "credits": 0.0
+        },
+        {
+          "code": "IEOR E9101",
+          "title": "RESEARCH",
+          "credits": 0.0
+        }
+      ],
+      "error": null
+    }
+  }
+}

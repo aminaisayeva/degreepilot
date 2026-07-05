@@ -225,7 +225,9 @@ def _generate_one(
     assumed = assumed_completed(programs, catalog)
     completed_view = student.satisfied_courses() | assumed
     placed: set[str] = set()
-    terms_horizon = _planning_horizon(student, allow_summer=False)
+    # Summer terms are opt-in: constraints.no_summer defaults to True.
+    allow_summer = not (student.constraints or {}).get("no_summer", True)
+    terms_horizon = _planning_horizon(student, allow_summer=allow_summer)
     career_weighted = strategy in {"career_optimized", "aggressive"}
 
     # Deterministic plan preferences (no LLM, no cost): pinned courses are
@@ -327,6 +329,8 @@ def _generate_one(
         )
         rem_terms = total_terms - idx
         cap = _term_target_credits(student, strategy, idx, total_terms, rem_credits, rem_terms)
+        if season == "Summer":
+            cap = min(cap, 7.0)  # summer sessions are short — light load only
         # Final term: try to schedule capstone if not already placed
         is_final_term = idx == total_terms - 1
 
