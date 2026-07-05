@@ -68,3 +68,15 @@ def test_waived_courses_satisfy_cards_but_earn_no_credits(session, catalog, ms_r
     assert report.total_credits_completed == catalog["COMS W4231"].credits
     assert by_name["Breadth: Systems"].earned_credits == 0.0
     assert by_name["Breadth: Theory"].earned_credits == catalog["COMS W4231"].credits
+
+
+def test_student_read_tolerates_legacy_null_lists():
+    """Rows created before a list column existed have NULL there — reads
+    must not 500."""
+    from app.models.student import Student
+    from app.schemas.student import StudentRead
+
+    legacy = Student(id=42, name="Legacy", waived_courses=None, programs=None)
+    out = StudentRead.model_validate(legacy)
+    assert out.waived_courses == []
+    assert out.programs == []

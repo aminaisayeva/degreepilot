@@ -134,8 +134,14 @@ def validate_plan(
 
         planned_so_far.update(term.courses)
 
-    # Unmet graduation: simulate audit if every planned course were completed
-    simulated = Student(**{**student.model_dump(), "completed_courses": list(seen | planned_so_far)})
+    # Unmet graduation: simulate audit if every planned course were completed.
+    # Only REAL completions + planned courses go into completed_courses —
+    # waived courses ride along in waived_courses (copied by model_dump) so
+    # they satisfy cards but never inflate the credit math.
+    simulated = Student(**{
+        **student.model_dump(),
+        "completed_courses": list(set(student.completed_courses or []) | planned_so_far),
+    })
     audit: AuditReport = audit_student(simulated, plan.summary.get("program", "columbia_cs_major"), requirements, catalog)
     if audit.completed_count < audit.total_count:
         unmet = [r.name for r in audit.requirements if not r.satisfied]
@@ -147,6 +153,23 @@ def validate_plan(
                 + ("…" if len(unmet) > 4 else ""),
             )
         )
+    # Credit shortfalls get an actionable callout: the usual causes are a low
+    # per-term credit cap or too few terms before graduation.
+    for r in audit.requirements:
+        if r.type == "credits" and not r.satisfied and r.needed_credits > 0:
+            horizon = len(plan.terms) or 1
+            warnings.append(
+                PlanWarning(
+                    severity="error",
+                    code="credit_shortfall",
+                    message=(
+                        f"{r.name}: {r.needed_credits:g} point(s) short. With max "
+                        f"{student.max_credits_per_term} credits/term over {horizon} "
+                        f"planned term(s), raise your per-term credit limit or extend "
+                        f"your graduation term. Waived courses earn no credit."
+                    ),
+                )
+            )
 
     has_error = any(w.severity == "error" for w in warnings)
     return ValidationResult(is_valid=not has_error, warnings=warnings)

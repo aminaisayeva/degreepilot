@@ -231,7 +231,10 @@ def _generate_one(
     # level: graduate programs pad with ms_track_*/grad_elective courses,
     # undergraduate programs with cs_track_*/cs_elective.
     if any(p.startswith("columbia_ms") for p in programs):
-        pool_prefixes, pool_exact = ("ms_track_",), {"grad_elective"}
+        # ms_grad_eligible covers the full 4000+ COMS/CSEE catalog — without
+        # it the pool is only the handful of curated 6000-levels, which run
+        # out fast once waivers knock out targets (single-semester plans).
+        pool_prefixes, pool_exact = ("ms_track_",), {"grad_elective", "ms_grad_eligible"}
     else:
         pool_prefixes, pool_exact = ("cs_track_",), {"cs_elective"}
     elective_pool = [
@@ -264,10 +267,25 @@ def _generate_one(
     # Estimate remaining credits across the target_set for spreading
     remaining_required_credits = sum(catalog[c].credits for c in target_set if c in catalog)
 
+    # CREDITS-type requirements (e.g. "Total: 30 points") set a floor the plan
+    # must reach with REAL courses — waived courses satisfy course cards but
+    # earn no credit, so heavy waivers must not shrink the plan.
+    creditable_earned = sum(
+        catalog[c].credits for c in (student.completed_courses or []) if c in catalog
+    )
+    credits_floor = 0.0
+    for r in requirements:
+        if r.type == RequirementType.CREDITS:
+            credits_floor = max(credits_floor, r.credits_required - creditable_earned)
+    planned_credits = 0.0
+
     for idx, term in enumerate(terms_horizon):
         season, _ = parse_term(term)
         unplaced_now = [c for c in target_set if c not in placed and c in catalog]
-        rem_credits = sum(catalog[c].credits for c in unplaced_now)
+        rem_credits = max(
+            sum(catalog[c].credits for c in unplaced_now),
+            credits_floor - planned_credits,
+        )
         rem_terms = total_terms - idx
         cap = _term_target_credits(student, strategy, idx, total_terms, rem_credits, rem_terms)
         # Final term: try to schedule capstone if not already placed
@@ -327,6 +345,7 @@ def _generate_one(
         for code in picked:
             placed.add(code)
             completed_view.add(code)
+        planned_credits += credits_used
 
         unplaced_targets = [c for c in target_set if c not in placed]
 
@@ -342,8 +361,8 @@ def _generate_one(
             )
             semester_plans.append(sp)
 
-        # Stop once all targets are placed
-        if not unplaced_targets:
+        # Stop once all targets are placed AND any credits floor is met
+        if not unplaced_targets and planned_credits >= credits_floor:
             break
 
     # Summary metrics

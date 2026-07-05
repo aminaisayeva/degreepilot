@@ -128,3 +128,35 @@ def test_no_research_by_default(session, catalog, ms_reqs, ms_student):
                            strategies=["balanced"])
     scheduled = {c for t in plans[0].terms for c in t.courses}
     assert "COMS E6901" not in scheduled
+
+
+def test_generator_fills_to_credits_floor_despite_waivers(session, catalog, ms_reqs, ms_student):
+    """Waiving most course cards must not shrink the plan: CREDITS-type
+    requirements (Total: 30 points) still need real courses scheduled."""
+    from app.models.requirement import Requirement, RequirementType
+    from app.services.planner.generator import generate_plans
+
+    reqs = list(ms_reqs) + [Requirement(
+        id=999, program="columbia_ms_cs", name="Total: 30 points",
+        type=RequirementType.CREDITS, courses=[], credits_required=30,
+        display_order=90,
+    )]
+    # Production catalogs carry loader-derived categories (ms_grad_eligible);
+    # mirror that so the padding pool matches reality.
+    from app.seed.loader import _number_int, derive_categories
+    for c in catalog.values():
+        for cat in derive_categories(c.code, c.department,
+                                     _number_int(c.code.split()[-1]), c.credits):
+            if cat not in c.categories:
+                c.categories = [*c.categories, cat]
+    # Waive enough to satisfy nearly every course card.
+    ms_student.waived_courses = [
+        "COMS W4118", "COMS W4231", "COMS W4701",
+        "COMS E6111", "COMS E6118", "COMS E6156", "COMS E6232",
+        "COMS W4156", "COMS W4170", "COMS W4181",
+    ]
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], reqs, catalog,
+                           strategies=["balanced"])
+    total = sum(t.total_credits for t in plans[0].terms)
+    assert total >= 30, f"only {total} credits planned across {len(plans[0].terms)} terms"
+    assert len(plans[0].terms) >= 3

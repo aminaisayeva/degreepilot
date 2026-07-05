@@ -12,6 +12,11 @@ def _normalize_term(v: str | None) -> str | None:
     return format_term(season, year)
 
 
+def _none_to_list(v):
+    """DB rows created before a list column existed carry NULL there."""
+    return [] if v is None else v
+
+
 class StudentBase(BaseModel):
     name: str = "Anonymous Student"
     school: str = "Columbia University"
@@ -29,6 +34,10 @@ class StudentBase(BaseModel):
     programs: list[str] = Field(default_factory=list)
 
     _norm_terms = field_validator("current_term", "graduation_term")(_normalize_term)
+    _norm_lists = field_validator(
+        "completed_courses", "waived_courses", "transfer_credits",
+        "career_goals", "programs", mode="before",
+    )(_none_to_list)
 
     @model_validator(mode="after")
     def _graduation_not_before_start(self):

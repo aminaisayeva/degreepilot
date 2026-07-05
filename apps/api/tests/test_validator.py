@@ -76,3 +76,26 @@ def test_validator_flags_term_offering(fresh_student, cs_reqs, catalog):
     )
     res = validate_plan(plan, fresh_student, catalog, cs_reqs)
     assert any(w.code == "not_offered_in_term" for w in res.warnings)
+
+
+def test_waived_courses_do_not_leak_into_simulated_credit_audit(session, catalog, ms_reqs, ms_student):
+    from app.models.requirement import Requirement, RequirementType
+    from app.schemas.plan import PlanRead, SemesterPlan
+    from app.services.planner.validator import validate_plan
+
+    reqs = list(ms_reqs) + [Requirement(
+        id=999, program="columbia_ms_cs", name="Total: 30 points",
+        type=RequirementType.CREDITS, courses=[], credits_required=30, display_order=90)]
+    ms_student.waived_courses = ["COMS W4118", "COMS W4231", "COMS W4701"]
+    plan = PlanRead(student_id=3, name="P", strategy="balanced", terms=[
+        SemesterPlan(term="Fall 2025", courses=["COMS E6998", "COMS E6261"],
+                     total_credits=6, workload_score=6),
+    ], warnings=[], summary={"program": "columbia_ms_cs"})
+    result = validate_plan(plan, ms_student, catalog, reqs)
+    codes = [w.code for w in result.warnings]
+    # 6 real credits + waived-not-counted => the 30-point card must be unmet
+    assert "unmet_graduation" in codes
+    # and the shortfall is called out with actionable advice
+    assert "credit_shortfall" in codes
+    shortfall = next(w for w in result.warnings if w.code == "credit_shortfall")
+    assert "credits/term" in shortfall.message

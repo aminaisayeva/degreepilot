@@ -35,6 +35,11 @@ def _migrate(eng) -> None:
         if "waived_courses" not in cols:
             with eng.begin() as conn:
                 conn.execute(text("ALTER TABLE student ADD COLUMN waived_courses JSON"))
+        # Backfill NULLs left by additive column migrations — reads 500
+        # otherwise (list fields reject None).
+        with eng.begin() as conn:
+            for col in ("programs", "waived_courses"):
+                conn.execute(text(f"UPDATE student SET {col} = '[]' WHERE {col} IS NULL"))
 
 
 def get_session() -> Iterator[Session]:
