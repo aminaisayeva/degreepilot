@@ -69,7 +69,11 @@ const MS_PATHWAYS: { slug: string; label: string }[] = [
   { slug: "columbia_ms_cs_vgir", label: "Vision, Graphics, Interaction & Robotics" },
   { slug: "columbia_ms_cs_personalized", label: "MS Personalized (faculty invite only)" },
   { slug: "columbia_ms_cs_thesis", label: "MS Thesis (faculty invite only)" },
-  { slug: "columbia_ma_philosophy", label: "MA in Philosophy" },
+];
+
+const GRAD_PROGRAMS = [
+  { slug: "columbia_ms_cs", label: "MS in Computer Science", major: "Computer Science (MS)" },
+  { slug: "columbia_ma_philosophy", label: "MA in Philosophy", major: "Philosophy (MA)" },
 ];
 
 export function degreeOf(programs: string[]): DegreeType {
@@ -486,24 +490,36 @@ function BasicsStep({
             </select>
           </Field>
         ) : (
-          <Field label="Major">
-            <input className="input" value={form.major} disabled />
+          <Field label="Graduate program">
+            <select
+              className="input"
+              value={
+                form.programs.some((p) => p.startsWith("columbia_ma_"))
+                  ? "columbia_ma_philosophy"
+                  : "columbia_ms_cs"
+              }
+              onChange={(e) => {
+                const prog = GRAD_PROGRAMS.find((g) => g.slug === e.target.value)!;
+                onChange({ ...form, major: prog.major, programs: [prog.slug] });
+              }}
+            >
+              {GRAD_PROGRAMS.map((g) => (
+                <option key={g.slug} value={g.slug}>
+                  {g.label}
+                </option>
+              ))}
+            </select>
           </Field>
         )}
-        {degree === "ms" && (
+        {degree === "ms" && form.programs.some((p) => p.startsWith("columbia_ms")) && (
           <Field
-            label="Graduate program / pathway"
+            label="MS pathway"
             hint="Each pathway has its own fundamental and secondary course requirements."
           >
             <select
               className="input"
-              value={form.programs.find((p) => p.startsWith("columbia_ms") || p.startsWith("columbia_ma_")) ?? "columbia_ms_cs"}
-              onChange={(e) => {
-                const slug = e.target.value;
-                const major =
-                  slug === "columbia_ma_philosophy" ? "Philosophy (MA)" : "Computer Science (MS)";
-                onChange({ ...form, major, programs: [slug] });
-              }}
+              value={form.programs.find((p) => p.startsWith("columbia_ms")) ?? "columbia_ms_cs"}
+              onChange={(e) => onChange({ ...form, programs: [e.target.value] })}
             >
               {MS_PATHWAYS.map((p) => (
                 <option key={p.slug} value={p.slug}>
