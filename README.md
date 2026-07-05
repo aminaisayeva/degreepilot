@@ -148,11 +148,8 @@ seed_all()                 ~1,945 courses + 204 requirements across 37 programs
                            Development/Philosophy/English majors, five Econ
                            joint majors, CS-Math and Math-Stat joints, the ten
                            MS CS pathways, the MA in Philosophy, and each
-                           department's concentrations/minors)
-                           (CC Science A/B/C structure; 10 MS pathway programs
-                           scraped from cs.columbia.edu with research-credit
-                           policy — max 12 research points, ≤3 of E6901,
-                           thesis pathway = 9 points of E6902)
+                           department's concentrations/minors; CC Science
+                           A/B/C structure; MS research-credit policy)
 ```
 
 - Refresh the snapshots any time with
