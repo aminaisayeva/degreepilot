@@ -53,7 +53,8 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
         out.append("math_elective_2000")
     if department == "PHIL":
         out.append("phil_ug")
-        if number_int >= 4000:
+        # 4000-8999: MA-eligible graduate coursework; 9xxx = doctoral research.
+        if 4000 <= number_int <= 8999:
             out.append("phil_grad")
     if department in {"ENGL", "CLEN"}:
         out.append("english_lit")

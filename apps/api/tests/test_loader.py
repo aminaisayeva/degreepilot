@@ -258,7 +258,10 @@ def test_new_department_derived_categories():
     assert "math_elective_2000" not in derive_categories("MATH UN1101", "MATH", 1101, 3)
     assert "phil_ug" in derive_categories("PHIL UN2101", "PHIL", 2101, 3)
     assert "phil_grad" in derive_categories("PHIL GU4561", "PHIL", 4561, 3)
+    assert "phil_grad" in derive_categories("PHIL GR6100", "PHIL", 6100, 3)
     assert "phil_grad" not in derive_categories("PHIL UN2101", "PHIL", 2101, 3)
+    # 9000-level = doctoral research, not MA coursework
+    assert "phil_grad" not in derive_categories("PHIL GR9350", "PHIL", 9350, 3)
     assert "english_lit" in derive_categories("ENGL UN3001", "ENGL", 3001, 3)
     assert "english_lit" in derive_categories("CLEN GU4550", "CLEN", 4550, 3)
     assert "polisci_ug" in derive_categories("POLS UN1201", "POLS", 1201, 3)

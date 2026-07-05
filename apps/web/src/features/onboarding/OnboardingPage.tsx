@@ -331,13 +331,17 @@ function detectStanding(form: StudentCreate): string {
 const DEGREE_OPTIONS: { id: DegreeType; label: string; description: string }[] = [
   {
     id: "undergrad",
-    label: "Bachelor's — CS major",
-    description: "Columbia College BA · Core + CS major (+ optional Econ minor)",
+    label: "Bachelor's (Columbia College)",
+    description:
+      "Core Curriculum + your major — CS, Economics (incl. joint majors), Math, " +
+      "Data Science, Sustainable Development, Philosophy, English… pick below.",
   },
   {
     id: "ms",
-    label: "Master's — MS in CS",
-    description: "SEAS graduate · 30 points, breadth + track depth",
+    label: "Graduate (MS / MA)",
+    description:
+      "MS in Computer Science (10 pathways) or MA in Philosophy — pick your " +
+      "program below.",
   },
 ];
 
@@ -494,7 +498,12 @@ function BasicsStep({
             <select
               className="input"
               value={form.programs.find((p) => p.startsWith("columbia_ms") || p.startsWith("columbia_ma_")) ?? "columbia_ms_cs"}
-              onChange={(e) => onChange({ ...form, programs: [e.target.value] })}
+              onChange={(e) => {
+                const slug = e.target.value;
+                const major =
+                  slug === "columbia_ma_philosophy" ? "Philosophy (MA)" : "Computer Science (MS)";
+                onChange({ ...form, major, programs: [slug] });
+              }}
             >
               {MS_PATHWAYS.map((p) => (
                 <option key={p.slug} value={p.slug}>
