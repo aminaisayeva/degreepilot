@@ -37,8 +37,19 @@ def _remaining_target_courses(
     *,
     career_weighted: bool,
     assumed: set[str] | None = None,
+    avoid: set[str] | None = None,
 ) -> list[str]:
-    """Compute a target set of course codes the plan must place (in priority order)."""
+    """Compute a target set of course codes the plan must place (in priority order).
+
+    `avoid` drops alternatives the student doesn't want — but only where an
+    unavoided alternative exists (mandatory all_of courses are always kept).
+    """
+    avoid = avoid or set()
+
+    def drop_avoided(options: list[str]) -> list[str]:
+        kept = [c for c in options if c not in avoid]
+        return kept if kept else options
+
     completed = student.satisfied_courses()
     targets: list[str] = []
     seen: set[str] = set()
@@ -55,7 +66,7 @@ def _remaining_target_courses(
             if already:
                 continue
             # Choose the most accessible / aligned option
-            candidates = [c for c in r.courses if c in catalog]
+            candidates = drop_avoided([c for c in r.courses if c in catalog])
             if career_weighted:
                 candidates = sorted(
                     candidates,
@@ -74,7 +85,9 @@ def _remaining_target_courses(
             need = max(r.count_required - len(already), 0)
             if need <= 0:
                 continue
-            candidates = [c for c in r.courses if c in catalog and c not in completed]
+            candidates = drop_avoided(
+                [c for c in r.courses if c in catalog and c not in completed]
+            )
             if career_weighted:
                 candidates = sorted(
                     candidates,
@@ -89,11 +102,14 @@ def _remaining_target_courses(
                 if code not in seen:
                     targets.append(code)
                     seen.add(code)
-    return _expand_with_prereqs(targets, completed | (assumed or set()), catalog)
+    return _expand_with_prereqs(targets, completed | (assumed or set()), catalog, avoid=avoid)
 
 
 def _expand_with_prereqs(
-    targets: list[str], completed: set[str], catalog: dict[str, Course]
+    targets: list[str],
+    completed: set[str],
+    catalog: dict[str, Course],
+    avoid: set[str] | None = None,
 ) -> list[str]:
     """Insert unmet prerequisite chains before their dependents.
 
@@ -120,7 +136,10 @@ def _expand_with_prereqs(
             options = [p for p in group if p in catalog]
             if not options:
                 continue
-            options.sort(key=lambda c: (c not in target_lookup, catalog[c].workload_level))
+            # Prefer already-targeted, non-avoided, lighter options.
+            options.sort(key=lambda c: (
+                c in (avoid or set()), c not in target_lookup, catalog[c].workload_level,
+            ))
             visit(options[0], stack)
         stack.discard(code)
         seen.add(code)
@@ -209,9 +228,25 @@ def _generate_one(
     terms_horizon = _planning_horizon(student, allow_summer=False)
     career_weighted = strategy in {"career_optimized", "aggressive"}
 
+    # Deterministic plan preferences (no LLM, no cost): pinned courses are
+    # forced into the plan (optionally in a specific term); avoided courses
+    # are skipped wherever an alternative exists.
+    prefs = student.constraints or {}
+    avoid = {c for c in (prefs.get("avoid_courses") or [])}
+    pins = [p for p in (prefs.get("pinned_courses") or [])
+            if isinstance(p, dict) and p.get("code") in catalog]
+    pin_term: dict[str, str | None] = {}
+    for pin in pins:
+        term = pin.get("term")
+        pin_term[pin["code"]] = term if term in terms_horizon else None
+
     target_set = _remaining_target_courses(
-        student, requirements, catalog, career_weighted=career_weighted, assumed=assumed
+        student, requirements, catalog, career_weighted=career_weighted,
+        assumed=assumed, avoid=avoid,
     )
+    target_set = [c for c in pin_term if c not in completed_view] + [
+        c for c in target_set if c not in pin_term
+    ]
     target_set_lookup = set(target_set)
 
     # Optional research project — a student CHOICE, not a requirement (the
@@ -242,6 +277,10 @@ def _generate_one(
         for c in catalog.values()
         if c.code not in completed_view
         and c.code not in target_set_lookup
+        and c.code not in avoid
+        # Research/tutorial/thesis credits are opt-in (constraints.include_research
+        # or a requirement card) — never auto-padded as electives.
+        and "ms_research" not in c.categories
         and any(cat.startswith(pool_prefixes) or cat in pool_exact for cat in c.categories)
     ]
 
@@ -296,6 +335,9 @@ def _generate_one(
         for code in list(target_set) + elective_pool:
             if code in placed or code in completed_view:
                 continue
+            # A course pinned to a specific term is only offered to that term.
+            if pin_term.get(code) and pin_term[code] != term:
+                continue
             course = catalog.get(code)
             if not course:
                 continue
@@ -313,6 +355,9 @@ def _generate_one(
             )
             if is_final_term and "cs_capstone" in course.categories:
                 score += 100  # ensure capstone lands at the end
+            if code in pin_term:
+                # Pins outrank everything; term-specific pins outrank floating ones.
+                score += 1000 if pin_term[code] == term else 400
             candidates.append((score, course, is_target))
 
         candidates.sort(key=lambda x: -x[0])

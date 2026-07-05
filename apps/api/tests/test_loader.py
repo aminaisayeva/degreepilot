@@ -241,3 +241,13 @@ def test_breadth_categories_follow_number_patterns():
     assert "ms_breadth_ai" in derive_categories("COMS W4170", "COMS", 4170, 3)
     assert "ms_breadth_systems" not in derive_categories("COMS W4170", "COMS", 4170, 3)
     assert "ms_breadth_ai" in derive_categories("CBMF W4761", "CBMF", 4761, 3)
+
+
+def test_administrative_codes_are_not_elective_eligible():
+    # Fieldwork / CPT / projects / independent-study codes are not academic
+    # electives and must not be auto-derived as eligible.
+    for num in (3998, 4901, 4910, 6910):
+        code = f"COMS W{num}" if num < 6000 else f"COMS E{num}"
+        assert derive_categories(code, "COMS", num, 3) == [], code
+    # regular courses unaffected
+    assert "ms_grad_eligible" in derive_categories("COMS E6111", "COMS", 6111, 3)

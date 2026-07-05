@@ -127,7 +127,8 @@ def test_no_research_by_default(session, catalog, ms_reqs, ms_student):
     plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
                            strategies=["balanced"])
     scheduled = {c for t in plans[0].terms for c in t.courses}
-    assert "COMS E6901" not in scheduled
+    # No research/tutorial/thesis course may be auto-padded without opt-in.
+    assert not scheduled & {"COMS E6900", "COMS E6901", "COMS E6902"}
 
 
 def test_generator_fills_to_credits_floor_despite_waivers(session, catalog, ms_reqs, ms_student):
@@ -160,3 +161,56 @@ def test_generator_fills_to_credits_floor_despite_waivers(session, catalog, ms_r
     total = sum(t.total_credits for t in plans[0].terms)
     assert total >= 30, f"only {total} credits planned across {len(plans[0].terms)} terms"
     assert len(plans[0].terms) >= 3
+
+
+def _prefs_student(ms_student, **prefs):
+    ms_student.constraints = {**(ms_student.constraints or {}), **prefs}
+    return ms_student
+
+
+def test_pinned_course_lands_in_requested_term(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    s = _prefs_student(ms_student, pinned_courses=[{"code": "COMS E6998", "term": "Spring 2026"}])
+    plans = generate_plans(s, ["columbia_ms_cs"], ms_reqs, catalog, strategies=["balanced"])
+    by_term = {t.term: t.courses for t in plans[0].terms}
+    assert "COMS E6998" in by_term.get("Spring 2026", []), by_term
+
+
+def test_avoided_course_is_not_scheduled(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    # First confirm it would otherwise be picked
+    base = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog, strategies=["balanced"])
+    scheduled = {c for t in base[0].terms for c in t.courses}
+    assert "COMS W4701" in scheduled  # breadth AI pick in the curated fixture
+
+    s = _prefs_student(ms_student, avoid_courses=["COMS W4701"])
+    plans = generate_plans(s, ["columbia_ms_cs"], ms_reqs, catalog, strategies=["balanced"])
+    scheduled = {c for t in plans[0].terms for c in t.courses}
+    assert "COMS W4701" not in scheduled
+    # the requirement is still covered by an alternative
+    assert scheduled & {"COMS W4771", "COMS W4705"}
+
+
+def test_research_stays_opt_in_with_production_categories(session, catalog, ms_reqs, ms_student):
+    from app.models.requirement import Requirement, RequirementType
+    from app.seed.loader import _number_int, derive_categories
+    from app.services.planner.generator import generate_plans
+
+    for c in catalog.values():
+        for cat in derive_categories(c.code, c.department,
+                                     _number_int(c.code.split()[-1]), c.credits):
+            if cat not in c.categories:
+                c.categories = [*c.categories, cat]
+    # Waiver-heavy student + credits floor => the plan is mostly padding,
+    # which is exactly when research courses would leak in.
+    reqs = list(ms_reqs) + [Requirement(
+        id=998, program="columbia_ms_cs", name="Total: 30 points",
+        type=RequirementType.CREDITS, courses=[], credits_required=30, display_order=90)]
+    ms_student.waived_courses = ["COMS W4118", "COMS W4231", "COMS W4701",
+                                 "COMS E6111", "COMS E6118", "COMS E6156", "COMS E6232"]
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], reqs, catalog,
+                           strategies=["balanced"])
+    scheduled = {c for t in plans[0].terms for c in t.courses}
+    assert not scheduled & {"COMS E6900", "COMS E6901", "COMS E6902"}

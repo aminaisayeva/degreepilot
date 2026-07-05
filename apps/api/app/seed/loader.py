@@ -35,6 +35,11 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
     # curation must opt them in explicitly.
     if code.split()[-1].upper().startswith("BC"):
         return []
+    # Administrative COMS codes (projects, CPT, fieldwork, independent
+    # study, research/thesis) are never auto-derived as academic electives.
+    if department == "COMS" and number_int in {3998, 4901, 4902, 4910, 4998,
+                                               6900, 6901, 6902, 6910}:
+        return []
     out: list[str] = []
     if department in {"COMS", "CSEE"} and number_int >= 3000 and credits >= 3:
         out.append("cs_elective_eligible")

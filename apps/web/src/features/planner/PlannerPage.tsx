@@ -1,4 +1,4 @@
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   AlertTriangle,
   CheckCircle2,
@@ -19,6 +19,7 @@ import { Progress } from "@/components/ui/Progress";
 import { Tabs } from "@/components/ui/Tabs";
 import { exportPlanAsJSON, exportPlanAsMarkdown } from "@/features/planner/export";
 import { api } from "@/lib/api";
+import { termsAfter } from "@/lib/terms";
 import { cn, formatPct, workloadLabel } from "@/lib/utils";
 import { useSession } from "@/store/session";
 import type { Course, Plan, PlanWarning } from "@/types/api";
@@ -61,8 +62,8 @@ export function PlannerPage() {
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Plan generator</h1>
           <p className="text-sm text-muted">
-            Two AI-assisted plans with a deterministic safety net. Pick a strategy, inspect
-            the semesters, and read every warning the engine raised.
+            Three deterministic strategies — no LLM in the loop. Pin or avoid courses
+            below, pick a strategy, and read every warning the engine raised.
           </p>
         </div>
         <div className="flex gap-2">
@@ -81,6 +82,12 @@ export function PlannerPage() {
           </Button>
         </div>
       </header>
+
+      <PlanPreferences
+        studentId={studentId}
+        courses={courses ?? []}
+        onSaved={() => generate.mutate()}
+      />
 
       {generate.isError && (
         <div className="rounded-xl border border-danger/40 bg-danger/10 p-3 text-sm text-danger">
@@ -355,5 +362,172 @@ function NoStudent() {
         </Button>
       </CardBody>
     </Card>
+  );
+}
+
+function PlanPreferences({
+  studentId,
+  courses,
+  onSaved,
+}: {
+  studentId: number;
+  courses: Course[];
+  onSaved: () => void;
+}) {
+  const qc = useQueryClient();
+  const { data: student } = useQuery({
+    queryKey: ["student", studentId],
+    queryFn: () => api.getStudent(studentId),
+  });
+
+  const constraints = (student?.constraints ?? {}) as Record<string, unknown>;
+  const pins = (constraints.pinned_courses ?? []) as { code: string; term?: string | null }[];
+  const avoids = (constraints.avoid_courses ?? []) as string[];
+
+  const [pinQuery, setPinQuery] = useState("");
+  const [pinTerm, setPinTerm] = useState<string>("");
+  const [avoidQuery, setAvoidQuery] = useState("");
+
+  const termOptions = useMemo(() => {
+    if (!student) return [];
+    const horizon = [student.current_term, ...termsAfter(student.current_term, 9)];
+    const gradIdx = horizon.indexOf(student.graduation_term);
+    return gradIdx >= 0 ? horizon.slice(0, gradIdx + 1) : horizon;
+  }, [student]);
+
+  const matches = (q: string) => {
+    const query = q.trim().toLowerCase();
+    if (query.length < 2) return [];
+    return courses
+      .filter(
+        (c) =>
+          c.code.toLowerCase().includes(query) || c.title.toLowerCase().includes(query),
+      )
+      .slice(0, 6);
+  };
+
+  const save = useMutation({
+    mutationFn: (next: Record<string, unknown>) =>
+      api.updateStudent(studentId, { constraints: { ...constraints, ...next } } as never),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["student", studentId] });
+      onSaved();
+    },
+  });
+
+  if (!student) return null;
+
+  return (
+    <details className="card">
+      <summary className="card-pad cursor-pointer text-sm font-semibold">
+        Plan preferences{" "}
+        <span className="font-normal text-muted">
+          — {pins.length} pinned · {avoids.length} avoided · deterministic, applied on
+          regenerate
+        </span>
+      </summary>
+      <div className="card-pad grid gap-4 border-t border-border md:grid-cols-2">
+        <div>
+          <div className="text-xs font-semibold uppercase tracking-wide text-muted">
+            Pin courses (must appear in the plan)
+          </div>
+          <div className="mt-2 flex flex-wrap gap-1">
+            {pins.map((p) => (
+              <Badge
+                key={p.code}
+                variant="accent"
+                className="cursor-pointer"
+                onClick={() =>
+                  save.mutate({ pinned_courses: pins.filter((x) => x.code !== p.code) })
+                }
+              >
+                {p.code}
+                {p.term ? ` @ ${p.term}` : ""} ✕
+              </Badge>
+            ))}
+          </div>
+          <div className="mt-2 flex gap-2">
+            <input
+              className="input"
+              placeholder="Search course to pin…"
+              value={pinQuery}
+              onChange={(e) => setPinQuery(e.target.value)}
+            />
+            <select
+              className="input w-40"
+              value={pinTerm}
+              onChange={(e) => setPinTerm(e.target.value)}
+            >
+              <option value="">Any term</option>
+              {termOptions.map((t) => (
+                <option key={t}>{t}</option>
+              ))}
+            </select>
+          </div>
+          <div className="mt-1 space-y-1">
+            {matches(pinQuery).map((c) => (
+              <button
+                key={c.code}
+                className="block w-full rounded-lg border border-border bg-elevated px-2 py-1 text-left text-xs hover:border-accent/40"
+                onClick={() => {
+                  setPinQuery("");
+                  save.mutate({
+                    pinned_courses: [
+                      ...pins.filter((x) => x.code !== c.code),
+                      { code: c.code, term: pinTerm || null },
+                    ],
+                  });
+                }}
+              >
+                <span className="font-mono text-accent">{c.code}</span> {c.title}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <div className="text-xs font-semibold uppercase tracking-wide text-muted">
+            Avoid courses (skipped when alternatives exist)
+          </div>
+          <div className="mt-2 flex flex-wrap gap-1">
+            {avoids.map((code) => (
+              <Badge
+                key={code}
+                className="cursor-pointer"
+                onClick={() =>
+                  save.mutate({ avoid_courses: avoids.filter((x) => x !== code) })
+                }
+              >
+                {code} ✕
+              </Badge>
+            ))}
+          </div>
+          <input
+            className="input mt-2"
+            placeholder="Search course to avoid…"
+            value={avoidQuery}
+            onChange={(e) => setAvoidQuery(e.target.value)}
+          />
+          <div className="mt-1 space-y-1">
+            {matches(avoidQuery).map((c) => (
+              <button
+                key={c.code}
+                className="block w-full rounded-lg border border-border bg-elevated px-2 py-1 text-left text-xs hover:border-accent/40"
+                onClick={() => {
+                  setAvoidQuery("");
+                  save.mutate({ avoid_courses: [...new Set([...avoids, c.code])] });
+                }}
+              >
+                <span className="font-mono text-accent">{c.code}</span> {c.title}
+              </button>
+            ))}
+          </div>
+          <p className="mt-2 text-[11px] text-muted">
+            Mandatory (all-of) requirements can't be avoided — the engine keeps them and
+            says so in the plan warnings.
+          </p>
+        </div>
+      </div>
+    </details>
   );
 }
