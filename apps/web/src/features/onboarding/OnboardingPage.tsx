@@ -305,14 +305,14 @@ const UNDERGRAD_PRESETS: StandingPreset[] = [
 const MS_PRESETS: StandingPreset[] = [
   {
     id: "ms_incoming",
-    label: "Incoming MS student",
+    label: "Incoming grad student",
     description: "0 semesters complete · 4 to go",
     current_term: "Fall 2026",
     graduation_term: "Spring 2028",
   },
   {
     id: "ms_second_year",
-    label: "Second-year MS student",
+    label: "Second-year grad student",
     description: "2 semesters complete · 2 to go",
     current_term: "Fall 2026",
     graduation_term: "Spring 2027",
@@ -723,7 +723,7 @@ function WorkloadStep({
           Avoid summer terms in my plan
         </label>
       </div>
-      {degreeOf(form.programs) === "ms" && (
+      {form.programs.some((p) => p.startsWith("columbia_ms")) && (
         <div className="md:col-span-2 flex items-center gap-2">
           <input
             id="include_research"
