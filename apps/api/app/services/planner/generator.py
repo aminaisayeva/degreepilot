@@ -39,7 +39,7 @@ def _remaining_target_courses(
     assumed: set[str] | None = None,
 ) -> list[str]:
     """Compute a target set of course codes the plan must place (in priority order)."""
-    completed = set(student.completed_courses or [])
+    completed = student.satisfied_courses()
     targets: list[str] = []
     seen: set[str] = set()
 
@@ -204,7 +204,7 @@ def _generate_one(
     name: str,
 ) -> PlanRead:
     assumed = assumed_completed(programs, catalog)
-    completed_view = set(student.completed_courses or []) | assumed
+    completed_view = student.satisfied_courses() | assumed
     placed: set[str] = set()
     terms_horizon = _planning_horizon(student, allow_summer=False)
     career_weighted = strategy in {"career_optimized", "aggressive"}
@@ -213,6 +213,19 @@ def _generate_one(
         student, requirements, catalog, career_weighted=career_weighted, assumed=assumed
     )
     target_set_lookup = set(target_set)
+
+    # Optional research project — a student CHOICE, not a requirement (the
+    # Thesis pathway requires E6902 through its requirement card instead).
+    # Policy: ≤3 research points via COMS E6901 count toward the MS.
+    if (
+        (student.constraints or {}).get("include_research")
+        and any(p.startswith("columbia_ms") for p in programs)
+        and "COMS E6901" in catalog
+        and "COMS E6901" not in completed_view
+        and "COMS E6901" not in target_set_lookup
+    ):
+        target_set.append("COMS E6901")
+        target_set_lookup.add("COMS E6901")
 
     # Available elective pool from the broader catalog, scoped to the student's
     # level: graduate programs pad with ms_track_*/grad_elective courses,

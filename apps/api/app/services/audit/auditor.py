@@ -18,8 +18,16 @@ def _credits_for(codes: list[str], catalog: dict[str, Course]) -> float:
 
 
 def audit_requirement(
-    req: Requirement, completed: set[str], catalog: dict[str, Course]
+    req: Requirement,
+    completed: set[str],
+    catalog: dict[str, Course],
+    creditable: set[str] | None = None,
 ) -> RequirementProgress:
+    """`completed` satisfies course-based cards; `creditable` (defaults to
+    `completed`) is the set whose credits count — waived courses satisfy
+    cards but never earn credit."""
+    if creditable is None:
+        creditable = completed
     completed_in = [c for c in (req.courses or []) if c in completed]
     missing = [c for c in (req.courses or []) if c not in completed]
 
@@ -43,7 +51,7 @@ def audit_requirement(
         missing = [c for c in (req.courses or []) if c not in completed][: max(need - len(completed_in), 0)]
     elif req.type == RequirementType.CATEGORY_CREDITS:
         cat = req.category or ""
-        matched = [c for c in completed if cat in (catalog.get(c).categories if c in catalog else [])]
+        matched = [c for c in creditable if cat in (catalog.get(c).categories if c in catalog else [])]
         earned = _credits_for(matched, catalog)
         satisfied = earned >= req.credits_required
         progress_pct = min(earned / req.credits_required, 1.0) if req.credits_required else 0.0
@@ -60,7 +68,7 @@ def audit_requirement(
             notes=notes,
         )
     elif req.type == RequirementType.CREDITS:
-        earned = _credits_for(list(completed), catalog)
+        earned = _credits_for(list(creditable), catalog)
         satisfied = earned >= req.credits_required
         progress_pct = min(earned / req.credits_required, 1.0) if req.credits_required else 0.0
         return RequirementProgress(
@@ -69,7 +77,7 @@ def audit_requirement(
             type=str(req.type.value),
             satisfied=satisfied,
             progress_pct=round(progress_pct, 3),
-            completed_courses=sorted(completed),
+            completed_courses=sorted(creditable),
             missing_courses=[],
             needed_credits=max(req.credits_required - earned, 0.0),
             earned_credits=earned,
@@ -103,10 +111,11 @@ def audit_student(
     requirements: list[Requirement],
     catalog: dict[str, Course],
 ) -> AuditReport:
-    completed = set(student.completed_courses or [])
-    progresses = [audit_requirement(r, completed, catalog) for r in requirements]
+    satisfying = student.satisfied_courses()
+    creditable = set(student.completed_courses or [])
+    progresses = [audit_requirement(r, satisfying, catalog, creditable) for r in requirements]
 
-    total_credits_completed = _credits_for(list(completed), catalog)
+    total_credits_completed = _credits_for(list(creditable), catalog)
     total_credits_required = sum(r.credits_required for r in requirements) or 0.0
     completed_count = sum(1 for p in progresses if p.satisfied)
     overall = (

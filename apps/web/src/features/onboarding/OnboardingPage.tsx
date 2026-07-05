@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card, CardBody, CardHeader, CardTitle } from "@/components/ui/Card";
 import { api } from "@/lib/api";
+import { defaultGradTerm, gradTermOptions } from "@/lib/terms";
 import { cn } from "@/lib/utils";
 import { useSession } from "@/store/session";
 import type { StudentCreate } from "@/types/api";
@@ -294,10 +295,7 @@ const MS_PRESETS: StandingPreset[] = [
   },
 ];
 
-const GRAD_TERM_OPTIONS: Record<DegreeType, string[]> = {
-  undergrad: ["Spring 2027", "Fall 2027", "Spring 2028", "Spring 2029", "Spring 2030"],
-  ms: ["Fall 2026", "Spring 2027", "Fall 2027", "Spring 2028"],
-};
+const START_TERM_OPTIONS = ["Fall 2025", "Spring 2026", "Fall 2026", "Spring 2027", "Fall 2027"];
 
 function presetsFor(degree: DegreeType): StandingPreset[] {
   return degree === "ms" ? MS_PRESETS : UNDERGRAD_PRESETS;
@@ -515,20 +513,29 @@ function BasicsStep({
           <select
             className="input"
             value={form.current_term}
-            onChange={(e) => onChange({ ...form, current_term: e.target.value })}
+            onChange={(e) => {
+              const start = e.target.value;
+              // Graduation options depend on the start term — snap the
+              // graduation pick when it falls outside the valid window.
+              const valid = gradTermOptions(start, degree);
+              const grad = valid.includes(form.graduation_term)
+                ? form.graduation_term
+                : defaultGradTerm(start, degree);
+              onChange({ ...form, current_term: start, graduation_term: grad });
+            }}
           >
-            {["Fall 2025", "Spring 2026", "Fall 2026", "Spring 2027"].map((t) => (
+            {START_TERM_OPTIONS.map((t) => (
               <option key={t}>{t}</option>
             ))}
           </select>
         </Field>
-        <Field label="Graduation term">
+        <Field label="Graduation term" hint="Must be after your starting term.">
           <select
             className="input"
             value={form.graduation_term}
             onChange={(e) => onChange({ ...form, graduation_term: e.target.value })}
           >
-            {GRAD_TERM_OPTIONS[degree].map((t) => (
+            {gradTermOptions(form.current_term, degree).map((t) => (
               <option key={t}>{t}</option>
             ))}
           </select>

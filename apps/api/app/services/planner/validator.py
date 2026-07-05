@@ -30,7 +30,7 @@ def validate_plan(
     workload_ceiling: float = 16.0,
 ) -> ValidationResult:
     warnings: list[PlanWarning] = []
-    seen: set[str] = set(student.completed_courses or [])
+    seen: set[str] = student.satisfied_courses()
     duplicate_in_plan: set[str] = set()
     planned_so_far: set[str] = set()
 
@@ -81,7 +81,7 @@ def validate_plan(
         # prereq check — completed + previously-planned courses count as satisfied
         # (plus waived undergrad prereqs for graduate students)
         completed_view = (
-            set(student.completed_courses or [])
+            student.satisfied_courses()
             | planned_so_far
             | assumed_completed(student.resolve_programs(), catalog)
         )

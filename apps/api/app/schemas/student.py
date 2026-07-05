@@ -20,6 +20,7 @@ class StudentBase(BaseModel):
     current_term: str = "Fall 2025"
     graduation_term: str = "Spring 2027"
     completed_courses: list[str] = Field(default_factory=list)
+    waived_courses: list[str] = Field(default_factory=list)
     transfer_credits: list[dict] = Field(default_factory=list)
     preferred_workload: int = 3
     max_credits_per_term: int = 17
@@ -54,6 +55,7 @@ class StudentUpdate(BaseModel):
     current_term: str | None = None
     graduation_term: str | None = None
     completed_courses: list[str] | None = None
+    waived_courses: list[str] | None = None
     transfer_credits: list[dict] | None = None
     preferred_workload: int | None = None
     max_credits_per_term: int | None = None

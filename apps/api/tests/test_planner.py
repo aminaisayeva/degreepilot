@@ -96,3 +96,35 @@ def test_ms_plan_total_credits_meet_30_points(ms_student, ms_reqs, catalog):
         ms_student, ["columbia_ms_cs"], ms_reqs, catalog, strategies=["balanced"]
     )
     assert plans[0].summary["total_credits"] >= 30
+
+
+def test_waived_courses_are_never_scheduled(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    ms_student.waived_courses = ["COMS W4118", "COMS W4231"]
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
+                           strategies=["balanced"])
+    scheduled = {c for t in plans[0].terms for c in t.courses}
+    assert "COMS W4118" not in scheduled
+    assert "COMS W4231" not in scheduled
+    # The horizon still gets filled with other courses (waivers earn no credit).
+    assert sum(t.total_credits for t in plans[0].terms) >= 24
+
+
+def test_research_option_schedules_e6901(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    ms_student.constraints = {**(ms_student.constraints or {}), "include_research": True}
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
+                           strategies=["balanced"])
+    scheduled = {c for t in plans[0].terms for c in t.courses}
+    assert "COMS E6901" in scheduled
+
+
+def test_no_research_by_default(session, catalog, ms_reqs, ms_student):
+    from app.services.planner.generator import generate_plans
+
+    plans = generate_plans(ms_student, ["columbia_ms_cs"], ms_reqs, catalog,
+                           strategies=["balanced"])
+    scheduled = {c for t in plans[0].terms for c in t.courses}
+    assert "COMS E6901" not in scheduled

@@ -32,6 +32,9 @@ def _migrate(eng) -> None:
         if "programs" not in cols:
             with eng.begin() as conn:
                 conn.execute(text("ALTER TABLE student ADD COLUMN programs JSON"))
+        if "waived_courses" not in cols:
+            with eng.begin() as conn:
+                conn.execute(text("ALTER TABLE student ADD COLUMN waived_courses JSON"))
 
 
 def get_session() -> Iterator[Session]:

@@ -51,3 +51,18 @@ def test_ms_fresh_student_audit(ms_student, ms_reqs, catalog):
     report = audit_student(ms_student, "columbia_ms_cs", ms_reqs, catalog)
     assert report.total_count == 5
     assert report.completed_count == 0
+
+
+def test_waived_courses_satisfy_cards_but_earn_no_credits(session, catalog, ms_reqs, ms_student):
+    from app.services.audit.auditor import audit_student
+
+    # Waive the systems breadth via a bachelor's course; complete theory for real.
+    ms_student.waived_courses = ["COMS W4118"]
+    ms_student.completed_courses = ["COMS W4231"]
+    report = audit_student(ms_student, "columbia_ms_cs", ms_reqs, catalog)
+    by_name = {r.name: r for r in report.requirements}
+
+    assert by_name["Breadth: Systems"].satisfied is True          # waived counts
+    assert by_name["Breadth: Theory"].satisfied is True           # completed counts
+    # Credit math excludes the waived course entirely.
+    assert report.total_credits_completed == catalog["COMS W4231"].credits
