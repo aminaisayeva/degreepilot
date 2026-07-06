@@ -309,24 +309,6 @@ The frontend type-checks with `npm run lint` and builds with `npm run build`.
 
 ---
 
-## Resume bullets
-
-- Designed and built **DegreePilot**, a full-stack academic planning platform
-  (FastAPI + React + Postgres) that generates and validates 4-year degree
-  plans for Columbia CS + Econ using a deterministic planning engine and a
-  tool-using AI advisor (32 backend tests, ~3.5 k LOC).
-- Implemented a **CNF prerequisite graph**, a multi-strategy plan generator
-  (balanced / career-optimized / early-graduation), and a degree audit engine
-  that supports `all_of`, `one_of`, `n_of`, and category-credit requirements.
-- Built a **tool-using advisor** with a provider-abstracted `LLMProvider`
-  interface so deterministic planning functions remain the source of truth
-  while explanations can be swapped between templated and real-LLM backends.
-- Shipped a polished UI: React Flow prereq graph, semester timeline,
-  side-by-side plan comparison, Markdown/JSON export, and a 4-step
-  onboarding flow.
-
----
-
 ## Disclaimer
 
 **Sample data.** The course catalog, prerequisite chains, and degree
