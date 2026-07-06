@@ -89,8 +89,17 @@ def test_ml_group_a_audit_behavior(session, catalog):
 def test_tracks_have_6000_level_card():
     programs = build_track_programs(MS_CS_REQS)
     for slug in ("columbia_ms_cs_ml", "columbia_ms_cs_security"):
-        card = next(r for r in programs[slug] if "6000-level" in r["name"])
+        card = next(r for r in programs[slug] if r["name"].startswith("6000-level Technical"))
         assert card["category"] == "ms_6000_technical"
         assert card["credits_required"] == 6
     total = next(r for r in programs["columbia_ms_cs_ml"] if r["name"].startswith("Total"))
     assert "PDL" in total["notes"] and "2.7" in total["notes"]
+
+
+def test_secondary_6000_level_floor_cards():
+    programs = build_track_programs(MS_CS_REQS)
+    ml_floor = next(r for r in programs["columbia_ms_cs_ml"] if "6000-level (pick" in r["name"])
+    assert ml_floor["count_required"] == 1
+    assert all(int(c.split()[-1][-4:]) >= 6000 for c in ml_floor["courses"])
+    nw_floor = next(r for r in programs["columbia_ms_cs_networks"] if "6000-level (pick" in r["name"])
+    assert nw_floor["count_required"] == 2

@@ -52,15 +52,16 @@ TRACK_LABELS: dict[str, str] = {
 # scraped page. count=N → n_of N (all single-code rows and count==len(rows) →
 # all_of). Sections not listed (breadth, general electives, defense) are
 # handled structurally.
+# min_6000: "at least N of the section's courses must be 6000-level".
 _SECTION_RULES: dict[str, dict[str, dict]] = {
-    "ml": {"2": {"count": 2}, "3": {"count": 2}},
-    "nlp": {"2": {"count": 3}, "3": {"count": 2}},
-    "security": {"2": {"count": 5}, "3": {"count": 2}},
+    "ml": {"2": {"count": 2}, "3": {"count": 2, "min_6000": 1}},
+    "nlp": {"2": {"count": 3}, "3": {"count": 2, "min_6000": 1}},
+    "security": {"2": {"count": 5}, "3": {"count": 2, "min_6000": 1}},
     "software": {"2": {"count": 3}, "3": {"count": 2}, "4": {"count": 2}},
-    "networks": {"2": {"count": 3}, "3": {"count": 4}},
-    "compbio": {"2": {"count": 2}, "3": {"count": 2}},
-    "foundations": {"2": {"count": 2}, "3": {"count": 1}, "4": {"count": 3}},
-    "vgir": {"2": {"count": 2}, "3": {"count": 2}},
+    "networks": {"2": {"count": 3}, "3": {"count": 4, "min_6000": 2}},
+    "compbio": {"2": {"count": 2}, "3": {"count": 2, "min_6000": 1}},
+    "foundations": {"2": {"count": 2}, "3": {"count": 1}, "4": {"count": 3, "min_6000": 2}},
+    "vgir": {"2": {"count": 2}, "3": {"count": 2, "min_6000": 1}},
 }
 
 _HEADING_NUM_RE = re.compile(r"^(\d+)\.\s*(.+)$")
@@ -146,6 +147,22 @@ def build_track_programs(base_ms_reqs: list[dict]) -> dict[str, list[dict]]:
                 # Grouped choice ("two from A, or one A + one B"): the union
                 # pick-N card alone would accept two Group-B courses, so a
                 # Group-A pick-1 card enforces the "≥1 from A" floor.
+                min6000 = rules[num].get("min_6000", 0)
+                if min6000:
+                    codes_6000 = [c for c in card["courses"]
+                                  if c.split()[-1][-4:].isdigit() and int(c.split()[-1][-4:]) >= 6000]
+                    if codes_6000:
+                        cards.append({
+                            "name": f"{card['name']}: 6000-level (pick {min6000})",
+                            "type": RequirementType.N_OF,
+                            "courses": codes_6000,
+                            "count_required": min6000,
+                            "credits_required": 3 * min6000,
+                            "display_order": order,
+                            "notes": f"At least {min6000} of the secondary courses must be at "
+                                     "the 6000 level.",
+                        })
+                        order += 5
                 groups = {e.get("group") for e in section.get("entries", []) if e.get("group")}
                 if {"A", "B"} <= groups:
                     a_codes: list[str] = []

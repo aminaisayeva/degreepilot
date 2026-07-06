@@ -38,3 +38,25 @@ def test_validate_catalog_names_missing_codes():
 def test_validate_catalog_passes_on_good_data():
     programs = {"p": [{"name": "ok", "type": "all_of", "courses": ["COMS W1004"]}]}
     validate_catalog(CATALOG, programs)  # no raise
+
+
+def test_prefix_variants_added_as_alternatives():
+    """Columbia's directory flip-flops letter prefixes across terms
+    (COMS W6706 in Fall2025 vs COMS E6706 later). Requirement cards must
+    accept either spelling of the same course."""
+    from app.seed.expand import add_prefix_variants
+
+    catalog = [
+        {"code": "COMS E6706", "title": "Advanced Spoken Language Processing", "categories": []},
+        {"code": "COMS W6706", "title": "Advanced Spoken Language Processing", "categories": []},
+        {"code": "COMS W4111", "title": "Introduction to Databases", "categories": []},
+        {"code": "COMS E4111", "title": "Totally Different Course", "categories": []},
+    ]
+    programs = {"p": [{"name": "Secondary", "type": "n_of",
+                       "courses": ["COMS E6706", "COMS W4111"], "count_required": 2}]}
+    out = add_prefix_variants(programs, catalog)
+    courses = out["p"][0]["courses"]
+    assert "COMS W6706" in courses          # same title → alias added
+    assert "COMS E4111" not in courses      # different title → NOT an alias
+    # input untouched
+    assert "COMS W6706" not in programs["p"][0]["courses"]

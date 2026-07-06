@@ -19,7 +19,7 @@ import { Tabs } from "@/components/ui/Tabs";
 import { api } from "@/lib/api";
 import { formatPct, titleCase } from "@/lib/utils";
 import { useSession } from "@/store/session";
-import type { AuditReport, RequirementProgress } from "@/types/api";
+import type { AuditReport, Course, Requirement, RequirementProgress } from "@/types/api";
 
 export function DashboardPage() {
   const navigate = useNavigate();
@@ -108,6 +108,29 @@ export function DashboardPage() {
   const student = studentQ.data!;
   const currentSlug = activeProgram ?? programs[0]?.slug;
   const currentAudit = currentSlug ? auditByProgram.get(currentSlug) : undefined;
+
+  const { data: courseList } = useQuery({
+    queryKey: ["courses"],
+    queryFn: () => api.listCourses(),
+  });
+  const courseCatalog = useMemo(() => {
+    const m = new Map<string, Course>();
+    (courseList ?? []).forEach((c) => m.set(c.code, c));
+    return m;
+  }, [courseList]);
+
+  const reqsQ = useQuery({
+    queryKey: ["requirements", currentSlug],
+    enabled: !!currentSlug,
+    queryFn: () => api.getRequirements(currentSlug!),
+  });
+  const fullReqCourses = useMemo(() => {
+    const m = new Map<number, string[]>();
+    (reqsQ.data ?? []).forEach((r: Requirement) => m.set(r.id, r.courses));
+    return m;
+  }, [reqsQ.data]);
+
+  const [noteCourse, setNoteCourse] = useState<string | null>(null);
 
   // Aggregated metrics across every program for the headline cards.
   // total_credits_completed is the student's global credit count (identical in
@@ -257,11 +280,23 @@ export function DashboardPage() {
               </div>
               <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
                 {currentAudit.requirements.map((r) => (
-                  <RequirementCard key={r.requirement_id} r={r} />
+                  <RequirementCard
+                    key={r.requirement_id}
+                    r={r}
+                    allOptions={fullReqCourses.get(r.requirement_id) ?? []}
+                    onCourseClick={setNoteCourse}
+                  />
                 ))}
               </div>
             </div>
           </>
+        )}
+        {noteCourse && (
+          <CourseNoteCard
+            code={noteCourse}
+            course={courseCatalog.get(noteCourse)}
+            onClose={() => setNoteCourse(null)}
+          />
         )}
       </div>
     </div>
@@ -309,7 +344,91 @@ function Metric({
   );
 }
 
-function RequirementCard({ r }: { r: RequirementProgress }) {
+function CourseChip({
+  code,
+  variant,
+  onClick,
+}: {
+  code: string;
+  variant?: "ok";
+  onClick: (code: string) => void;
+}) {
+  return (
+    <button onClick={() => onClick(code)} title="Course details" className="cursor-pointer">
+      <Badge variant={variant} className="hover:ring-1 hover:ring-accent/60">
+        {code}
+      </Badge>
+    </button>
+  );
+}
+
+function CourseNoteCard({
+  code,
+  course,
+  onClose,
+}: {
+  code: string;
+  course: Course | undefined;
+  onClose: () => void;
+}) {
+  const navigate = useNavigate();
+  return (
+    <div
+      className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4"
+      onClick={onClose}
+    >
+      <div
+        className="card card-pad w-full max-w-md"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-start justify-between gap-3">
+          <div>
+            <div className="font-mono text-xs text-accent">{code}</div>
+            <div className="text-lg font-semibold">{course?.title ?? "Not in catalog"}</div>
+          </div>
+          <button className="text-muted hover:text-ink" onClick={onClose}>✕</button>
+        </div>
+        {course ? (
+          <div className="mt-3 space-y-2 text-sm">
+            <div className="text-xs text-muted">
+              {course.department} · {course.credits} credits ·{" "}
+              {(course.offered_terms ?? []).join(", ") || "terms TBD"} · workload{" "}
+              {course.workload_level}/5
+            </div>
+            {course.description && <p className="text-ink/90">{course.description}</p>}
+            <div>
+              <span className="text-[10px] uppercase tracking-wide text-muted">
+                Prerequisites:{" "}
+              </span>
+              {course.prerequisites.length === 0
+                ? "None"
+                : course.prerequisites.map((g) => `(${g.join(" OR ")})`).join(" AND ")}
+            </div>
+            <Button variant="ghost" onClick={() => navigate("/courses")}>
+              Open in catalog <ChevronRight className="h-4 w-4" />
+            </Button>
+          </div>
+        ) : (
+          <p className="mt-3 text-sm text-muted">
+            This code isn't in the current catalog — it may be a prefix variant or a
+            course from an unscraped department.
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function RequirementCard({
+  r,
+  allOptions,
+  onCourseClick,
+}: {
+  r: RequirementProgress;
+  allOptions: string[];
+  onCourseClick: (code: string) => void;
+}) {
+  const [showAll, setShowAll] = useState(false);
   return (
     <div className="card card-pad">
       <div className="flex items-start justify-between gap-3">
@@ -345,9 +464,7 @@ function RequirementCard({ r }: { r: RequirementProgress }) {
               <div className="text-[10px] uppercase tracking-wide text-muted">Completed</div>
               <div className="mt-1 flex flex-wrap gap-1">
                 {r.completed_courses.map((c) => (
-                  <Badge key={c} variant="ok">
-                    {c}
-                  </Badge>
+                  <CourseChip key={c} code={c} variant="ok" onClick={onCourseClick} />
                 ))}
               </div>
             </div>
@@ -357,12 +474,35 @@ function RequirementCard({ r }: { r: RequirementProgress }) {
               <div className="text-[10px] uppercase tracking-wide text-muted">Missing</div>
               <div className="mt-1 flex flex-wrap gap-1">
                 {r.missing_courses.slice(0, 6).map((c) => (
-                  <Badge key={c}>{c}</Badge>
+                  <CourseChip key={c} code={c} onClick={onCourseClick} />
                 ))}
                 {r.missing_courses.length > 6 && (
                   <Badge>+{r.missing_courses.length - 6}</Badge>
                 )}
               </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {allOptions.length > 0 && (
+        <div className="mt-3">
+          <button
+            className="text-xs text-accent hover:underline"
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll ? "Hide options" : `Show all ${allOptions.length} option${allOptions.length === 1 ? "" : "s"}`}
+          </button>
+          {showAll && (
+            <div className="mt-2 flex max-h-40 flex-wrap gap-1 overflow-y-auto">
+              {allOptions.map((c) => (
+                <CourseChip
+                  key={c}
+                  code={c}
+                  variant={r.completed_courses.includes(c) ? "ok" : undefined}
+                  onClick={onCourseClick}
+                />
+              ))}
             </div>
           )}
         </div>
