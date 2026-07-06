@@ -8,7 +8,7 @@ EXPECTED = [
     "columbia_math_minor", "columbia_math_prob_minor", "columbia_cs_math",
     "columbia_math_stat",
     "columbia_sustdev_major", "columbia_sustdev_concentration",
-    "columbia_phil_major", "columbia_phil_concentration", "columbia_ma_philosophy",
+    "columbia_phil_major", "columbia_phil_concentration",
     "columbia_english_major", "columbia_english_concentration",
 ]
 
@@ -34,8 +34,13 @@ def test_phil_major_structure():
     assert pts["credits_required"] == 30
 
 
-def test_ma_philosophy_is_graduate_and_flagged_curated():
-    reqs = PROGRAMS["columbia_ma_philosophy"]
+def test_ma_philosophy_is_disabled_but_still_modeled():
+    from app.seed.requirements import DISABLED_PROGRAMS
+    from app.seed.requirements_more_majors import MORE_PROGRAMS
+
+    assert "columbia_ma_philosophy" in DISABLED_PROGRAMS
+    assert "columbia_ma_philosophy" not in PROGRAMS
+    reqs = MORE_PROGRAMS["columbia_ma_philosophy"]
     pts = next(r for r in reqs if r["type"] == RequirementType.CATEGORY_CREDITS)
     assert pts["category"] == "phil_grad"
     assert pts["credits_required"] == 30

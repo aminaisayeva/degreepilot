@@ -707,3 +707,10 @@ from app.seed.requirements_more_majors import MORE_LABELS, MORE_PROGRAMS  # noqa
 
 PROGRAMS.update(MORE_PROGRAMS)
 PROGRAM_LABELS.update(MORE_LABELS)
+
+# Temporarily disabled programs (kept modeled for later re-enable — remove a
+# slug from this set to bring it back).
+DISABLED_PROGRAMS = {"columbia_ma_philosophy"}
+for _slug in DISABLED_PROGRAMS:
+    PROGRAMS.pop(_slug, None)
+    PROGRAM_LABELS.pop(_slug, None)

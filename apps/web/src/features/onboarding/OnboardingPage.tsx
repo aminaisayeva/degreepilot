@@ -73,7 +73,9 @@ const MS_PATHWAYS: { slug: string; label: string }[] = [
 
 const GRAD_PROGRAMS = [
   { slug: "columbia_ms_cs", label: "MS in Computer Science", major: "Computer Science (MS)" },
-  { slug: "columbia_ma_philosophy", label: "MA in Philosophy", major: "Philosophy (MA)" },
+  // MA in Philosophy temporarily disabled — re-add here (and remove the slug
+  // from DISABLED_PROGRAMS in the backend) to bring it back:
+  // { slug: "columbia_ma_philosophy", label: "MA in Philosophy", major: "Philosophy (MA)" },
 ];
 
 export function degreeOf(programs: string[]): DegreeType {
@@ -343,9 +345,7 @@ const DEGREE_OPTIONS: { id: DegreeType; label: string; description: string }[] =
   {
     id: "ms",
     label: "Graduate (MS / MA)",
-    description:
-      "MS in Computer Science (10 pathways) or MA in Philosophy — pick your " +
-      "program below.",
+    description: "MS in Computer Science — 30 points, breadth + one of 10 pathways.",
   },
 ];
 

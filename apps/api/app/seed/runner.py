@@ -40,6 +40,12 @@ def seed_all(*, force: bool = False) -> dict:
             session.add(row)
         session.commit()
 
+        # Prune requirements of programs no longer registered (e.g. disabled).
+        for orphan in session.exec(select(Requirement)).all():
+            if orphan.program not in programs:
+                session.delete(orphan)
+        session.commit()
+
         for program, reqs in programs.items():
             for old in session.exec(
                 select(Requirement).where(Requirement.program == program)
