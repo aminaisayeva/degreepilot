@@ -52,3 +52,45 @@ def test_all_referenced_codes_resolve_in_full_catalog():
     catalog, _ = build_catalog()
     programs = build_track_programs(MS_CS_REQS)
     validate_catalog(catalog, programs)  # raises on any missing code
+
+
+def test_ml_fundamentals_enforce_group_a():
+    """'Two courses: both from A, or one A + one B (≥1 from A)' — encoded as
+    the pick-2 union card PLUS a Group-A pick-1 card, so two Group-B courses
+    (e.g. W4705 + W4701) no longer satisfy the fundamentals."""
+    programs = build_track_programs(MS_CS_REQS)
+    ml = programs["columbia_ms_cs_ml"]
+    group_a = next(r for r in ml if "Group A" in r["name"])
+    assert group_a["count_required"] == 1
+    assert "COMS W4252" in group_a["courses"]
+    assert "COMS W4771" in group_a["courses"]
+    # Group-B-only courses must NOT be in the Group A card
+    assert "COMS W4705" not in group_a["courses"]
+    assert "COMS W4701" not in group_a["courses"]
+
+
+def test_ml_group_a_audit_behavior(session, catalog):
+    from app.models.requirement import Requirement
+    from app.models.student import Student
+    from app.services.audit.auditor import audit_student
+
+    programs = build_track_programs(MS_CS_REQS)
+    reqs = [Requirement(id=i, program="columbia_ms_cs_ml", **{k: v for k, v in r.items()})
+            for i, r in enumerate(programs["columbia_ms_cs_ml"], start=1)]
+    student = Student(id=9, name="T", current_term="Fall 2026", graduation_term="Spring 2028",
+                      programs=["columbia_ms_cs_ml"],
+                      waived_courses=["COMS W4705", "COMS W4701"])  # both Group B
+    report = audit_student(student, "columbia_ms_cs_ml", reqs, catalog)
+    by_name = {r.name: r for r in report.requirements}
+    group_a = next(v for k, v in by_name.items() if "Group A" in k)
+    assert group_a.satisfied is False
+
+
+def test_tracks_have_6000_level_card():
+    programs = build_track_programs(MS_CS_REQS)
+    for slug in ("columbia_ms_cs_ml", "columbia_ms_cs_security"):
+        card = next(r for r in programs[slug] if "6000-level" in r["name"])
+        assert card["category"] == "ms_6000_technical"
+        assert card["credits_required"] == 6
+    total = next(r for r in programs["columbia_ms_cs_ml"] if r["name"].startswith("Total"))
+    assert "PDL" in total["notes"] and "2.7" in total["notes"]

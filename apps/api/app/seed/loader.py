@@ -60,6 +60,10 @@ def derive_categories(code: str, department: str, number_int: int, credits: floa
         out.append("english_lit")
     if department == "POLS":
         out.append("polisci_ug")
+    # MS CS summary rule: ≥6 points of technical courses at the 6000 level.
+    if department in {"COMS", "CSEE", "ELEN", "EECS", "IEOR", "CSOR", "APMA",
+                      "CBMF", "ECBM", "MECS", "MEEC", "BINF", "STAT"} and 6000 <= number_int <= 6999:
+        out.append("ms_6000_technical")
 
     # MS breadth chart (cs.columbia.edu/education/ms/breadthRequirement,
     # verified 2026-07-05): pattern-based groups with explicit exceptions.

@@ -28,7 +28,11 @@ RESEARCH_POLICY = (
     "points count toward the 30-point degree; at most 3 of those points may be "
     "COMS E6901 Projects in Computer Science (COMS E6900 Tutorial may "
     "substitute with advisor approval); only the MS Thesis pathway may count "
-    "COMS E6902 (9 points required, 9 max)."
+    "COMS E6902 (9 points required, 9 max). Additional program rules the "
+    "engine cannot check: maintain a 2.7 overall GPA (no more than one D), "
+    "complete the Columbia Engineering PDL (Professional Development & "
+    "Leadership) requirement, and at most 3 points of approved "
+    "Non-CS/Non-pathway coursework."
 )
 
 TRACK_LABELS: dict[str, str] = {
@@ -136,10 +140,42 @@ def build_track_programs(base_ms_reqs: list[dict]) -> dict[str, list[dict]]:
             m = _HEADING_NUM_RE.match(section.get("heading", ""))
             num = m.group(1) if m else ""
             if num in rules and section.get("entries"):
-                cards.append(_table_card(section, rules[num], order))
+                card = _table_card(section, rules[num], order)
+                cards.append(card)
                 order += 5
+                # Grouped choice ("two from A, or one A + one B"): the union
+                # pick-N card alone would accept two Group-B courses, so a
+                # Group-A pick-1 card enforces the "≥1 from A" floor.
+                groups = {e.get("group") for e in section.get("entries", []) if e.get("group")}
+                if {"A", "B"} <= groups:
+                    a_codes: list[str] = []
+                    for e in section["entries"]:
+                        if e.get("group") == "A":
+                            for c in e.get("codes", []):
+                                if c not in a_codes:
+                                    a_codes.append(c)
+                    cards.append({
+                        "name": f"{card['name']}: Group A (pick 1)",
+                        "type": RequirementType.N_OF,
+                        "courses": a_codes,
+                        "count_required": 1,
+                        "credits_required": 3,
+                        "display_order": order,
+                        "notes": "At least one fundamental course must come from Group A.",
+                    })
+                    order += 5
             elif "elective" in section.get("heading", "").lower():
                 general_note = (section.get("rule_text") or "")[:400]
+        cards.append({
+            "name": "6000-level Technical Courses (6 points)",
+            "type": RequirementType.CATEGORY_CREDITS,
+            "courses": [],
+            "category": "ms_6000_technical",
+            "credits_required": 6,
+            "display_order": 80,
+            "notes": "Take at least 6 points of technical courses at the 6000 level "
+                     "(program summary of requirements).",
+        })
         cards.append(_total_card(general_note))
         out[slug] = cards
 
