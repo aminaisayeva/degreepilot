@@ -34,7 +34,15 @@ def validate_plan(
     duplicate_in_plan: set[str] = set()
     planned_so_far: set[str] = set()
 
-    max_credits = max(student.max_credits_per_term, 12)
+    # Part-time students keep their real per-term cap and a 6-credit
+    # full-load floor; full-time floors at 12.
+    part_time = (student.constraints or {}).get("enrollment") == "part_time"
+    full_load_floor = 6 if part_time else 12
+    max_credits = (
+        max(student.max_credits_per_term, 6)
+        if part_time
+        else max(student.max_credits_per_term, 12)
+    )
     last_term_idx = len(plan.terms) - 1
 
     for term_idx, term in enumerate(plan.terms):
@@ -110,12 +118,15 @@ def validate_plan(
                     term=term.term,
                 )
             )
-        if total_credits < 12 and term_courses and term_idx != last_term_idx:
+        if total_credits < full_load_floor and term_courses and term_idx != last_term_idx:
             warnings.append(
                 PlanWarning(
                     severity="info",
                     code="part_time_load",
-                    message=f"{term.term}: only {total_credits:g} credits — below full-time (12).",
+                    message=(
+                        f"{term.term}: only {total_credits:g} credits — below your "
+                        f"{'part-time' if part_time else 'full-time'} load of {full_load_floor}."
+                    ),
                     term=term.term,
                 )
             )

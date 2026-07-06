@@ -73,6 +73,31 @@ export function DashboardPage() {
     return m;
   }, [programs, auditQueries]);
 
+  const currentSlug = activeProgram ?? programs[0]?.slug;
+
+  const { data: courseList } = useQuery({
+    queryKey: ["courses"],
+    queryFn: () => api.listCourses(),
+  });
+  const courseCatalog = useMemo(() => {
+    const m = new Map<string, Course>();
+    (courseList ?? []).forEach((c) => m.set(c.code, c));
+    return m;
+  }, [courseList]);
+
+  const reqsQ = useQuery({
+    queryKey: ["requirements", currentSlug],
+    enabled: !!currentSlug,
+    queryFn: () => api.getRequirements(currentSlug!),
+  });
+  const fullReqCourses = useMemo(() => {
+    const m = new Map<number, string[]>();
+    (reqsQ.data ?? []).forEach((r: Requirement) => m.set(r.id, r.courses));
+    return m;
+  }, [reqsQ.data]);
+
+  const [noteCourse, setNoteCourse] = useState<string | null>(null);
+
   if (!studentId) {
     return <NoStudent />;
   }
@@ -106,31 +131,7 @@ export function DashboardPage() {
   }
 
   const student = studentQ.data!;
-  const currentSlug = activeProgram ?? programs[0]?.slug;
   const currentAudit = currentSlug ? auditByProgram.get(currentSlug) : undefined;
-
-  const { data: courseList } = useQuery({
-    queryKey: ["courses"],
-    queryFn: () => api.listCourses(),
-  });
-  const courseCatalog = useMemo(() => {
-    const m = new Map<string, Course>();
-    (courseList ?? []).forEach((c) => m.set(c.code, c));
-    return m;
-  }, [courseList]);
-
-  const reqsQ = useQuery({
-    queryKey: ["requirements", currentSlug],
-    enabled: !!currentSlug,
-    queryFn: () => api.getRequirements(currentSlug!),
-  });
-  const fullReqCourses = useMemo(() => {
-    const m = new Map<number, string[]>();
-    (reqsQ.data ?? []).forEach((r: Requirement) => m.set(r.id, r.courses));
-    return m;
-  }, [reqsQ.data]);
-
-  const [noteCourse, setNoteCourse] = useState<string | null>(null);
 
   // Aggregated metrics across every program for the headline cards.
   // total_credits_completed is the student's global credit count (identical in

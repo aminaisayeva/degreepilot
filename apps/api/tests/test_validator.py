@@ -99,3 +99,23 @@ def test_waived_courses_do_not_leak_into_simulated_credit_audit(session, catalog
     assert "credit_shortfall" in codes
     shortfall = next(w for w in result.warnings if w.code == "credit_shortfall")
     assert "credits/term" in shortfall.message
+
+
+def test_part_time_enrollment_thresholds(session, catalog, ms_reqs, ms_student):
+    """Part-time students (constraints.enrollment) get a 6-credit floor and
+    their real cap is respected instead of being lifted to 12."""
+    from app.schemas.plan import PlanRead, SemesterPlan
+    from app.services.planner.validator import validate_plan
+
+    ms_student.constraints = {**(ms_student.constraints or {}), "enrollment": "part_time"}
+    ms_student.max_credits_per_term = 8
+    plan = PlanRead(student_id=3, name="P", strategy="balanced", terms=[
+        SemesterPlan(term="Fall 2025", courses=["COMS W4118", "COMS W4111", "COMS W4115"],
+                     total_credits=9, workload_score=9),   # 9 > cap 8 → overload
+        SemesterPlan(term="Spring 2026", courses=["COMS W4231", "COMS W4701"],
+                     total_credits=6, workload_score=6),   # 6 ≥ PT floor → no part_time_load
+    ], warnings=[], summary={"program": "columbia_ms_cs"})
+    result = validate_plan(plan, ms_student, catalog, ms_reqs)
+    codes = [w.code for w in result.warnings]
+    assert "credit_overload" in codes          # real cap of 8 enforced
+    assert "part_time_load" not in codes       # 6 credits is fine part-time

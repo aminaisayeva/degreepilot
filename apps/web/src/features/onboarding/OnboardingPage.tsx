@@ -695,16 +695,52 @@ function WorkloadStep({
         />
         <div className="text-sm text-ink">Level {form.preferred_workload}</div>
       </Field>
+      <Field
+        label="Enrollment"
+        hint="Part-time: 6-12 credits per term. Full-time: 12+ credits per term."
+      >
+        <div className="grid grid-cols-2 gap-2">
+          {(["full_time", "part_time"] as const).map((mode) => {
+            const on = ((form.constraints as any).enrollment ?? "full_time") === mode;
+            return (
+              <button
+                key={mode}
+                type="button"
+                onClick={() => {
+                  const [lo, hi] = mode === "part_time" ? [6, 12] : [12, 22];
+                  onChange({
+                    ...form,
+                    constraints: { ...form.constraints, enrollment: mode },
+                    max_credits_per_term: Math.min(hi, Math.max(lo, form.max_credits_per_term)),
+                  });
+                }}
+                className={
+                  "rounded-xl border p-2 text-sm transition " +
+                  (on
+                    ? "border-accent/60 bg-accent/10"
+                    : "border-border bg-elevated hover:border-accent/40")
+                }
+              >
+                {mode === "part_time" ? "Part-time" : "Full-time"}
+              </button>
+            );
+          })}
+        </div>
+      </Field>
       <Field label="Max credits per term">
         <input
           className="input"
           type="number"
-          min={12}
-          max={22}
+          min={((form.constraints as any).enrollment ?? "full_time") === "part_time" ? 6 : 12}
+          max={((form.constraints as any).enrollment ?? "full_time") === "part_time" ? 12 : 22}
           value={form.max_credits_per_term}
-          onChange={(e) =>
-            onChange({ ...form, max_credits_per_term: parseInt(e.target.value || "17", 10) })
-          }
+          onChange={(e) => {
+            const pt = ((form.constraints as any).enrollment ?? "full_time") === "part_time";
+            const [lo, hi] = pt ? [6, 12] : [12, 22];
+            const raw = parseInt(e.target.value, 10);
+            const next = Number.isNaN(raw) ? lo : Math.min(hi, Math.max(lo, raw));
+            onChange({ ...form, max_credits_per_term: next });
+          }}
         />
       </Field>
       <div className="md:col-span-2 flex items-center gap-2">
